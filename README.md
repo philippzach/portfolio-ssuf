@@ -10,12 +10,12 @@ In order to get it working locally
 6. After running "build" the static files will be in /public folder
 
 ### Key for .env file
-API_KEY=MC5YQWhMUlJBQUFMX0RoYjJK.DO-_vU8IFe-_vSt4He-_vRjvv71rMu-_vU7vv73vv71h77-9Ljnvv71977-9WO-_vQlZMkJ1
+API_KEY=MC5YR0hhWlJFQUFDQUFyY2ZB.fO-_vTbvv70J77-977-9CjLvv71D77-977-977-9Mu-_ve-_vUvvv70RYu-_ve-_ve-_ve-_vTVp77-9W--_ve-_ve-_vQ
 
 Blog Content is managed by Prismic. You can find the hard coded content in "/pages". Each file represents a Page Url.
 
 
-# Swiss Startup Group - Gatsby Starter
+# Swiss Startup Factory - Gatsby Starter
 
 A typography-heavy & light-themed Gatsby Starter which uses the Headless CMS [Prismic](https://prismic.io/).
 
