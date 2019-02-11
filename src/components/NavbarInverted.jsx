@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'gatsby';
 import styled from 'react-emotion';
 import Logo from '../../static/ssug_grey.svg';
-import '../styles/navbar.css';
+import '../styles/navbarinverted.css';
 
 const Header = styled.div`
   display: flex;
@@ -29,13 +29,13 @@ const Navigation = styled.nav`
 `;
 
 const Navbar = () => (
-  <Header>
+  <Header className="invertedBar">
     <Link to="/">
       <img src={Logo} alt="Swiss Startup Group Logo" title="Swiss Startup Group Logo" height="55px" />
     </Link>
     <Navigation>
       <ul className="nav__menu">
-        <li className="nav__menu-item"><Link to="/factory" className="factory_after hovereffect">Factory</Link>
+        <li className="nav__menu-item"><Link to="/factory" className="factory_after inverted">Factory</Link>
           <ul className="nav__submenu factory">
 
             <li className="nav__submenu-item">
@@ -63,10 +63,10 @@ const Navbar = () => (
             </li>
           </ul>
         </li>
-        <li className="nav__menu-item"><Link to="/investmentportfolio"  className="hovereffect">Investment Portfolio</Link></li>
-        <li className="nav__menu-item"><Link to="/growthservices" className="hovereffect">Growth Services</Link></li>
-        <li className="nav__menu-item"><Link to="/investorclub"  className="hovereffect">Investor Club</Link></li>
-        <li className="nav__menu-item"><Link to="/aboutus" className="about_after grey hovereffect">About</Link>
+        <li className="nav__menu-item"><Link to="/investmentportfolio"  className="inverted">Investment Portfolio</Link></li>
+        <li className="nav__menu-item"><Link to="/growthservices" className="inverted">Growth Services</Link></li>
+        <li className="nav__menu-item"><Link to="/investorclub"  className="inverted">Investor Club</Link></li>
+        <li className="nav__menu-item"><Link to="/aboutus" className="about_after grey inverted">About</Link>
           <ul className="nav__submenu about">
             <li className="nav__submenu-item"><a href="https://www.swissstartupjobs.com" target="_blank" className="nav_submenu_linkright">Jobs</a>
             </li>
@@ -88,7 +88,7 @@ const Navbar = () => (
             <li className="mv4"><Link className="ttu" style={{ fontSize: "1.5em", lineHeight: "1.2em"}} to='/growthservices'>Growth Services</Link></li>
             <li className="mv4"><Link className="ttu" style={{ fontSize: "1.5em", lineHeight: "1.2em"}} to='/investorclub'>Investor Club</Link></li>
             <li className="mv4"><Link className="ttu" style={{ fontSize: "1.5em", lineHeight: "1.2em"}} to='/aboutus'>About us</Link></li>
-            <li className="mv4"><div className="button -dark" style={{boxShadow: "none", backgroundColor: "#e6e6ea", margin: "0"}}><Link className="ttu" style={{ fontSize: "1.5em", lineHeight: "1.2em"}} to='/join-the-platform'>Join the Platform</Link></div></li>
+            <li className="mv4"><div className="button -dark" style={{boxShadow: "none", backgroundColor: "#e6e6ea", margin: "0"}}><Link className="ttu" style={{ fontSize: "1.5em", lineHeight: "1.2em"}} to='/aboutus'>Join the Platform</Link></div></li>
         </ul>
         </label>
         </div>
