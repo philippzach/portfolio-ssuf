@@ -5,7 +5,7 @@ import { Layout, Wrapper, Navbar, Title } from 'components';
 import Startup from '../../static/portfoliostartup.jpg';
 import Corporates from '../../static/corporatesportfolio.jpg';
 import '../styles/pages/portfolio.css';
-import Slider from '../components/logosliderportfolio';
+//import Slider from '../components/logosliderportfolio';
 import Seo from '../components/SEO/index';
 import { graphql } from 'gatsby';
 import Img from 'gatsby-image';
@@ -40,7 +40,7 @@ const InvestmentPortfolio = ({ data }) => (
         </p>
       </div>
       <h3 className="tc">Our Portfolio</h3>
-      <Slider />
+    
       <Title>What we offer</Title>
     </Wrapper>
     <div className="flex flex-column flex-row-ns mv4 background pb4">

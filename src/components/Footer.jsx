@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import styled from 'react-emotion';
 import { Link } from 'gatsby';
-import Logo from '../../static/ssug_grey.svg';
+import Logo from '../../static/ss_factory.svg';
 import '../styles/footer.css';
 import Twitter from './twitter.svg';
 import Facebook from './facebook.svg';
@@ -22,7 +22,7 @@ class Footer extends Component {
         </div>
         <div className="flex mobilecta">
           <div className="w-50 mobilebutton1 pa3">
-            Switzerlands #1 <br /> Venture Builder
+            Swiss Startup <br /> Factory
           </div>
           
           <div className="w-50 flex items-center justify-center mobilebutton2"><a style={{color: "white"}} href="mailto:virginia.beljean@ssut.ch">Contact us</a></div>
@@ -34,37 +34,37 @@ class Footer extends Component {
             style={{ listStyle: 'none', textAlign: 'center', margin: '0' }}
           >
               <li className="listitem">
-              <Link to="/factory"><span className="topmenu">Factory</span></Link>
-                <ul className="mobileonly list pl0 ma0 pt3 light-gray">
-                  <li className="sublistitem"><a style={{color: "rgb(211, 211, 211)", }} href="https://www.swissstartupfactory.com/startups/accelerator" target="_blank">Startup</a></li>
-                  <li className="sublistitem"><a style={{color: "rgb(211, 211, 211)", }} href="https://www.swissstartupfactory.com/corporates/corporate-acceleration" target="_blank">Corporate Acceleration</a></li>
-                  <li className="sublistitem"><a style={{color: "rgb(211, 211, 211)", }} href="https://www.swissstartupfactory.com/corporates/company-building" target="_blank">Company Building</a></li>
-                  <li className="sublistitem"><a style={{color: "rgb(211, 211, 211)", }} href="https://ccvs.ch/" target="_blank">Corporate Venturing</a></li>
-                  <li className="sublistitem mb0"><a style={{color: "rgb(211, 211, 211)", }} href="https://www.swissstartupfactory.com/corporates/innovation-consulting" target="_blank">Intra Inovation</a></li>
-                </ul>
-              </li>
-              <li className="listitem">
-              <Link to="/investmentportfolio"><span className="topmenu">Investment Portfolio</span></Link>
-              </li>
-            
-              <li className="listitem">
-              <Link to="/growthservices"><span className="topmenu">Growth Services</span> </Link>
-              </li>
-            
-              <li className="listitem">
-              <Link to="/investorclub"> <span className="topmenu">Investor Club</span></Link>
-              </li>
-              <li className="listitem">
-              <Link to="/blog"> <span className="topmenu">News</span></Link>
-              </li>
-              <li className="listitem">
               <Link to="/aboutus"><span className="topmenu">About Us</span></Link>
                   <ul className="mobileonly list pl0 ma0 pt3 light-gray">
-                    <li className="sublistitem"><a style={{color: "rgb(211, 211, 211)", }} href="https://swissstartupjobs.com">Jobs</a></li>
+                    <li className="sublistitem"><a style={{color: "rgb(211, 211, 211)", }} href="https://swissstartupjobs.com">FAQ</a></li>
                     <li className="sublistitem"><Link style={{color: "rgb(211, 211, 211)", }} to="/blog">News</Link></li>
                   </ul>
               </li>
-            
+              <li className="listitem">
+              <Link to="/factory"><span className="topmenu">Startups</span></Link>
+                <ul className="mobileonly list pl0 ma0 pt3 light-gray">
+                  <li className="sublistitem"><a style={{color: "rgb(211, 211, 211)", }} href="https://www.swissstartupfactory.com/startups/accelerator" target="_blank">Accelerator</a></li>
+                  <li className="sublistitem"><a style={{color: "rgb(211, 211, 211)", }} href="https://www.swissstartupfactory.com/corporates/corporate-acceleration" target="_blank">Pitch Training</a></li>
+                  <li className="sublistitem"><a style={{color: "rgb(211, 211, 211)", }} href="https://www.swissstartupfactory.com/corporates/company-building" target="_blank">Startup Services</a></li>
+                  <li className="sublistitem mb0"><a style={{color: "rgb(211, 211, 211)", }} href="https://ccvs.ch/" target="_blank">Investment</a></li>
+                </ul>
+              </li>
+              <li className="listitem">
+              <Link to="/factory"><span className="topmenu">Corporates</span></Link>
+                <ul className="mobileonly list pl0 ma0 pt3 light-gray">
+                  <li className="sublistitem"><a style={{color: "rgb(211, 211, 211)", }} href="https://www.swissstartupfactory.com/startups/accelerator" target="_blank">Corporate Accelerator</a></li>
+                  <li className="sublistitem"><a style={{color: "rgb(211, 211, 211)", }} href="https://www.swissstartupfactory.com/corporates/corporate-acceleration" target="_blank">Company Building</a></li>
+                  <li className="sublistitem"><a style={{color: "rgb(211, 211, 211)", }} href="https://www.swissstartupfactory.com/corporates/company-building" target="_blank">Corporate Capital Venture</a></li>
+                  <li className="sublistitem mb0"><a style={{color: "rgb(211, 211, 211)", }} href="https://ccvs.ch/" target="_blank">Intra Innovation</a></li>
+                </ul>
+              </li>
+              <li className="listitem">
+              <Link to="/factory"><span className="topmenu">Jobs</span></Link>
+                <ul className="mobileonly list pl0 ma0 pt3 light-gray">
+                  <li className="sublistitem"><a style={{color: "rgb(211, 211, 211)", }} href="https://" target="_blank">Innovators</a></li>
+                  <li className="sublistitem"><a style={{color: "rgb(211, 211, 211)", }} href="https://" target="_blank">EIR Programm</a></li>
+                </ul>
+              </li>
           </ul>
         </div>
         <div className="socialcontainer pa1">
@@ -87,7 +87,7 @@ class Footer extends Component {
         </div>
         <div className="container">
           <p className="copyright">
-            <Link to="/imprint" className="impressum">©2019 Swiss Startup Group</Link>
+            <Link to="/imprint" className="impressum">© {new Date().getFullYear()} Swiss Startup Factory</Link>
           </p>
         </div>
       </StyledFooter>
