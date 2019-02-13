@@ -64,69 +64,22 @@ const AboutUs = ({ data }) => (
           <Img fluid={data.about.childImageSharp.fluid} className="w-100" />
       </Test>
     <Wrapper style={{ paddingTop: '2rem' }}>
-      <Title>Our Team</Title>
+      <Title>Team</Title>
       <div className="containertitleabout">
-        <h2 className="lh-title ttu headingcolorshadow">Values</h2>
+        <h2 className="lh-title">Our Team</h2>
         <p className="lh-copy">
-        Our values are part of our DNA. They guide the way we work with our  partners, within our communities and with each other. Through integrity, passion, humility, simplicity and a focus on 
-          success, we have created a vibrant company culture where ideas can blossom, people can thrive and success can flourish. 
-        </p>
-        <Values />
-      </div>
-      <Title className="mt6">SSUG</Title>
-      <div className="containertitle">
-        <h1 className="lh-title ttu headingcolorshadow">Team</h1>
-        <p className="lh-copy mb5">
-         Our team consists smart experts with a diverse set of experiences and backgrounds. As unique as we are individually, we share a mutual passion for startup ecosstem and doing excellent work for our clients and partners. Get to know our team below. 
+        The team of the Swiss Startup Factory consists smart experts with a diverse set of experiences and backgrounds. As unique as we are individually, we share a mutual passion for startup ecosstem and doing excellent work for our clients and partners. Get to know our team below. 
         </p>
       </div>
       </Wrapper>
       <FounderSlider />
       <div className="fixerclass"></div>
-      <Tabs className="mobiletabs">
-        <TabList className="tablist">
-          <Tab className="tabitem four" selectedClassName="selected">Swiss Startup Group</Tab>
-          <Tab className="tabitem one" selectedClassName="selected">Swiss Startup Factory</Tab>
-          <Tab className="tabitem two" selectedClassName="selected">Swiss Startup Tech</Tab>
-          <Tab className="tabitem three" selectedClassName="selected">Avaneo</Tab>
-        </TabList>
-        <TabPanel className="tabpanel four">
-        <div className="paddingtabs">
-        <div className="tabrow2">
-            <article className="center pa3 pa4-ns">
-            <div className="tc">
-                <img src={Mike} className="br-100 h4 w4 dib pa2" title="" alt="" />
-                <h3 className="f5 mb2">Mike Baur</h3>
-                <h4 className="f6 fw4 gray mt0">CEO</h4>
-              </div>
-              
-            </article>
-            <article className="center pa3 pa4-ns">
-            <div className="tc">
-                <img src={Max} className="br-100 h4 w4 dib pa2" title="" alt="" />
-                <h3 className="f5 mb2">Max Meister</h3>
-                <h4 className="f6 fw4 gray mt0">CSO</h4>
-              </div>
-            </article>
-            <article className="center pa3 pa4-ns">
-            <div className="tc">
-                <img src={Oliver} className="br-100 h4 w4 dib pa2" title="" alt="" />
-                <h3 className="f5 mb2">Oliver Walzer</h3>
-                <h4 className="f6 fw4 gray mt0">COO</h4>
-              </div>
-              
-            </article>
-            <article className="center pa3 pa4-ns">
-            <div className="tc">
-                <img src={Larissa} className="br-100 h4 w4 dib pa2" title="" alt="" />
-                <h3 className="f5 mb2">Larissa Truffer</h3>
-                <h4 className="f6 fw4 gray mt0">Executive Assistant</h4>
-              </div>
-            </article>
-            </div>
-            </div>
-        </TabPanel>
-        <TabPanel className="tabpanel one">
+      <Wrapper>
+      <Title className="mt6">Swiss Startup Factory</Title>
+      </Wrapper>
+      
+        
+        <div className="tabpanel">
         <div className="paddingtabs">
           <div className="tabrow">
             <article className="center pa3 pa4-ns">
@@ -198,82 +151,15 @@ const AboutUs = ({ data }) => (
             </article>
             </div>
             </div>
-        </TabPanel>
-        <TabPanel className="tabpanel two">
-        <div className="paddingtabs">
-        <div className="tabrow2">
-            <article className="center pa3 pa4-ns">
-            <div className="tc">
-                <img src={Oliver} className="br-100 h4 w4 dib pa2" title="" alt="" />
-                <h3 className="f5 mb2">Oliver Walzer</h3>
-                <h4 className="f6 fw4 gray mt0">Co-Founder</h4>
-              </div>
-              
-            </article>
-            <article className="center pa3 pa4-ns">
-            <div className="tc">
-                <img src={Spinu} className="br-100 h4 w4 dib pa2" title="" alt="" />
-                <h3 className="f5 mb2">Alexandru Spinu</h3>
-                <h4 className="f6 fw4 gray mt0">Developer</h4>
-              </div>
-            </article>
-            <article className="center pa3 pa4-ns">
-            <div className="tc">
-                <img src={Ginie} className="br-100 h4 w4 dib pa2" title="" alt="" />
-                <h3 className="f5 mb2">Virginia Beljean</h3>
-                <h4 className="f6 fw4 gray mt0">Head of Communication & Marketing</h4>
-              </div>
-              
-            </article>
-            <article className="center pa3 pa4-ns">
-            <div className="tc">
-                <img src={Fredi} className="br-100 h4 w4 dib pa2" title="" alt="" />
-                <h3 className="f5 mb2">Frederic Nachbauer</h3>
-                <h4 className="f6 fw4 gray mt0">Growth Hacker</h4>
-              </div>
-            </article>
-            </div>
-            </div>
-        </TabPanel>
-        <TabPanel className="tabpanel three">
-        <div className="paddingtabs">
-        <div className="tabrow2">
-            <article className="center pa3 pa4-ns">
-            <div className="tc">
-                <img src={Michael} className="br-100 h4 w4 dib pa2" title="" alt="" />
-                <h3 className="f5 mb2">Michael Brentari</h3>
-                <h4 className="f6 fw4 gray mt0">Accounting Manager</h4>
-              </div>
-              
-            </article>
-            <article className="center pa3 pa4-ns">
-            <div className="tc">
-                <img src={Marlene} className="br-100 h4 w4 dib pa2" title="" alt="" />
-                <h3 className="f5 mb2">Marlene Brentari</h3>
-                <h4 className="f6 fw4 gray mt0">Accountant</h4>
-              </div>
-            </article>
-            <article className="center pa3 pa4-ns">
-            <div className="tc">
-                <img src={Susanne} className="br-100 h4 w4 dib pa2" title="" alt="" />
-                <h3 className="f5 mb2">Susanne Grabner</h3>
-                <h4 className="f6 fw4 gray mt0">Accountant</h4>
-              </div>
-              
-            </article>
-            <article className="center pa3 pa4-ns">
-            <div className="tc">
-                <img src={Laura} className="br-100 h4 w4 dib pa2" title="" alt="" />
-                <h3 className="f5 mb2">Laura Izzo</h3>
-                <h4 className="f6 fw4 gray mt0">Accountant</h4>
-              </div>
-            </article>
-            </div>
-            </div>
-        </TabPanel>
-      </Tabs>
+        </div>
       <Wrapper style={{ paddingTop: "5em", paddingBottom: "3em"}}>
-        <Title>Advisory Board</Title>
+        <Title>Mentors</Title>
+        <div className="containertitleabout">
+        <h2 className="lh-title">Our Forward Thinkers</h2>
+        <p className="lh-copy">
+        Our mentor team consists experts from all fields with diverse backgrounds. Get to know them: 
+        </p>
+      </div>
         </Wrapper>
         <AdvisorSlider />
         <div className="panel" style={{ backgroundColor: "#f7f7f7" }}>

@@ -1,0 +1,122 @@
+import React from 'react';
+import styled from 'react-emotion';
+import { Layout, Wrapper, Navbar, Title } from 'components';
+//import Background from '../../static/investmentportfolio.jpg';
+import '../styles/pages/portfolio.css';
+import Seo from '../components/SEO/index';
+import { graphql } from 'gatsby';
+import Img from 'gatsby-image';
+
+import Startup1 from '../../static/ssuf/innovation-for-sme.svg' /* //'../../static/growth-process.svg'; */
+
+const Test = styled.div`
+    position: relative;
+    overflow: hidden;
+    vertical-align: middle;
+    max-height: 450px;
+`
+
+const InvestmentPortfolio = ({ data }) => (
+  <Layout>
+  <Seo title="SWISS STARTUP GROUP – Investment Portfolio" desc="Exclusive startup investment platform, which contains investor club, advisory board and corporate partners for everything about startup investments" />
+      <Navbar />
+      <Test> 
+          <Img fluid={data.portfolio.childImageSharp.fluid} className="w-100" />
+      </Test>
+    <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
+      <Title>Corporate Acceleration</Title>
+      <div className="containertitle">
+        <h2 className="lh-copy">SMEs are less likely to innovate than large enterprises.</h2>
+        <p className="lh-copy">
+        The high payback period combined with a lack of own resources constitute obstacles to innovation activities for SMEs. Nevertheless, innovations are regarded as an important success factor for small and medium-sized enterprises. Only through their flexibility and innovative strength can they compete against large enterprises.  
+        </p>
+        <p className="lh-copy">The Swiss Startup Factory helps your company to adapt its internal processes to the new technologies that suit it best. We advise you individually in order to enable an innovative and individual transformation.
+        </p>
+        <p className="lh-copy">Among other things, the brand and marketing strategy will be revised in order to optimally prepare them for the current and future market and to optimally reach their target group. Based on our own experience as an SME in the Swiss and foreign markets, we show you what is important and set the right focus.
+        </p>
+      </div>
+    </Wrapper>
+    <div className="flex flex-column flex-row-ns mv4 background" style={{backgroundColor: "#00486C"}}>
+      <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns">
+      <Img fluid={data.innovation1.childImageSharp.fluid} className="w-100" />
+      </div>
+      <div className="w-100 w-60-ns pl3-ns flex items-center measure center">
+        <div className="pa4">
+            <h3 className="lh-copy white">For SMEs we offer customized programs adapted to a standardised process,which we have tested multiple times with clients from all different branches.</h3>
+            <p className="white lh-copy">All collaborations start with a meeting where we will find out more about your organisation and your needs. Based on this, we will suggest a program that fits your needs.</p>
+            <p className="white lh-copy">Through our Growth Services platform, our talented and diverse team and our experience working with various corporates, we can offer a great variety of communication and marketing services. </p>
+            <button className="lh-copy white">
+                Contact us
+                </button><span className="white">for more information</span>
+        </div>
+      </div>
+    </div>
+    <Wrapper>
+    <article className="cf mb6 mt6">
+        <div className="fl w-100 w-50-ns tc flex justify-center">
+            <div className="backgroundgrowth">
+              <img src={Startup1} alt="" title="" />
+            </div>
+         </div>
+        <div className="fl tl w-100 w-50-ns pa3-s pa3-m pl4-l">
+        <h3 className="lh-copy">In order to optimally achieve the set goal, we have developed a process that has already proven itself in other cases.</h3>
+        <p className="lh-copy mt3 b">1. Analyze current situation through analyst team of BV4</p>
+        <p className="lh-copy b">2. Workshop</p>
+        <ul>
+            <li>Purpose (Vision, Mission, Values, Customer)</li>
+            <li>Product (USP, UCP, Services, Focus) </li>
+            <li>Market (Positioning, Competitors)</li>
+            <li>Sales (Funnel Management, Strategy)</li>
+            <li>Marketing & Communications</li>
+            <li>Internal Process (Tools, Apps, Digitisation)</li>
+            <li>KPIs (Company, Team, Team member)</li>
+            <li>Leadership (Team management, middle management)</li>
+        </ul>
+        <p className="lh-copy b">3. Develop strategy document</p>
+        <p className="lh-copy b">4. Implementation with few resources and with focus on tracking</p>
+          </div>
+        </article>
+    
+    </Wrapper>
+    <Wrapper>
+      <div className="containerinvestors">
+        <h3 className="lh-copy center">
+        <b>For any further information <br/>we are happy to help. </b>
+        </h3>
+        <button className="investorparagraph lh-copy">
+        Contact us
+        </button>
+        <p>for a non-binding meeting</p>
+      </div>
+      </Wrapper>
+    
+
+  </Layout>
+);
+
+export default InvestmentPortfolio;
+
+export const query = graphql`
+  query {
+    portfolio: file(relativePath: { eq: "images/innovation-for-sme.jpg" }) {
+        childImageSharp {
+          fluid(
+            maxWidth: 1500
+            traceSVG: { background: "#fff", color: "lightgrey" }
+          ) {
+            ...GatsbyImageSharpFluid_tracedSVG
+          }
+        }
+    }
+    innovation1: file(relativePath: { eq: "images/innovation-for-sme-1.jpg" }) {
+        childImageSharp {
+          fluid(
+            maxWidth: 1500
+            traceSVG: { background: "#fff", color: "lightgrey" }
+          ) {
+            ...GatsbyImageSharpFluid_tracedSVG
+          }
+        }
+    }
+  }`
+

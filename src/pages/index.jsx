@@ -8,6 +8,7 @@ import '../styles/pages/index.css';
 import Logo from '../factory.svg';
 import Seo from '../components/SEO/index';
 import SocialBanner from '../../static/socialsharing.jpg'
+import '../styles/pages/factory.css';
 
 const Test = styled.div`
     position: relative;

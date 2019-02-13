@@ -11,6 +11,13 @@ import Startup1 from '../../static/ssuf/corporate-acc-1.svg' /* //'../../static/
 import Startup2 from '../../static/ssuf/corporate-acc-2.svg'/* //'../../static/growth-market.svg'; */
 import Startup3 from '../../static/ssuf/corporate-acc-3.svg'/* //'../../static/growth-analysis.svg'; */
 
+import Row11 from '../../static/ssuf/corporate-acc-1-1.svg' /* //'../../static/growth-process.svg'; */
+import Row12 from '../../static/ssuf/corporate-acc-1-2.svg'/* //'../../static/growth-market.svg'; */
+import Row13 from '../../static/ssuf/corporate-acc-1-3.svg'/* //'../../static/growth-analysis.svg'; */
+import Row21 from '../../static/ssuf/corporate-acc-2-1.svg' /* //'../../static/growth-process.svg'; */
+import Row22 from '../../static/ssuf/corporate-acc-2-2.svg'/* //'../../static/growth-market.svg'; */
+import Row23 from '../../static/ssuf/corporate-acc-2-3.svg'/* //'../../static/growth-analysis.svg'; */
+
 const Test = styled.div`
     position: relative;
     overflow: hidden;
@@ -132,13 +139,76 @@ const InvestmentPortfolio = ({ data }) => (
         </Title>
     </Wrapper>
     <Wrapper>
+        <div>
+            <h3>After the project you benefit from different things:</h3>
+            <div className="row cf">
+                        <div class="fl w-100 w-third-ns pa2" style={{margin: "auto"}}>
+                            <div class="flex flex-column items-center">
+                                <div className="tc">
+                                <img src={Row11} />
+                                <p className="pt3 mb0 b">Inspiration</p>
+                                <p className="pt3 mb0">Access to the all Swiss Startup Factory Events</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fl w-100 w-third-ns pa2" style={{margin: "auto"}}>
+                            <div class="flex flex-column items-center">
+                                <div className="tc">
+                                <img src={Row12} />
+                                <p className="pt3 mb0 b">Demo Day</p>
+                                <p className="pt3 mb0">Showcase your startup at the yearly Swiss Startup Factory Demo Day</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fl w-100 w-third-ns pa2" style={{margin: "auto"}}>
+                            <div class="flex flex-column items-center">
+                                <div className="tc">
+                                <img src={Row13} />
+                                <p className="pt3 mb0 b">Family</p>
+                                <p className="pt3 mb0">Become a part of the Swiss Startup Factory Family</p>
+                                </div>
+                            </div>
+                        </div>
+          </div>
+          <div className="row cf">
+                        <div class="fl w-100 w-third-ns pa2" style={{margin: "auto"}}>
+                            <div class="flex flex-column items-center">
+                                <div className="tc">
+                                <img src={Row21} />
+                                <p className="pt3 mb0 b">360° Service</p>
+                                <p className="pt3 mb0">Access to our 360° service</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fl w-100 w-third-ns pa2" style={{margin: "auto"}}>
+                            <div class="flex flex-column items-center">
+                                <div className="tc">
+                                <img src={Row22} />
+                                <p className="pt3 mb0 b">Graduate Service</p>
+                                <p className="pt3 mb0">Receive the Swiss Startup Factory Graduate Services & become a long term partner</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fl w-100 w-third-ns pa2" style={{margin: "auto"}}>
+                            <div class="flex flex-column items-center">
+                                <div className="tc">
+                                <img src={Row23} />
+                                <p className="pt3 mb0 b">Expansion</p>
+                                <p className="pt3 mb0">The Swiss Startup Factory opens their global network for your global expansion</p>
+                                </div>
+                            </div>
+                        </div>
+          </div>
+        </div>
+    </Wrapper>
+    <Wrapper>
         <Title>
             Testimonials
         </Title>
     </Wrapper>
     <div className="flex flex-column flex-row-ns mv4 background" style={{backgroundColor: "#00486C"}}>
       <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-      <Img fluid={data.innovation1.childImageSharp.fluid} className="w-100" />
+      <Img fluid={data.innovation2.childImageSharp.fluid} className="w-100" />
       </div>
       <div className="w-100 w-60-ns pl3-ns flex items-center measure center">
         <div className="pa4">
@@ -179,7 +249,17 @@ export const query = graphql`
           }
         }
     }
-    innovation1: file(relativePath: { eq: "images/innovation-1.jpg" }) {
+    innovation1: file(relativePath: { eq: "images/corporate-acceleration-1.jpg" }) {
+        childImageSharp {
+          fluid(
+            maxWidth: 1500
+            traceSVG: { background: "#fff", color: "lightgrey" }
+          ) {
+            ...GatsbyImageSharpFluid_tracedSVG
+          }
+        }
+    }
+    innovation2: file(relativePath: { eq: "images/corporate-acceleration-2.jpg" }) {
         childImageSharp {
           fluid(
             maxWidth: 1500
