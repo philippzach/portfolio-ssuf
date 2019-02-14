@@ -41,7 +41,7 @@ const Startup = ({ data }) => (
             <div class="fl w-100 w-50-ns tl pa3-s pa3-m ph4-l">
             <h3>Switzerland Accelerator</h3>
             <p className="lh-copy mt3 ">Our intense customised accelerator program will prepare you and your team to achieve the maximum potential of your startup.</p>
-                        <Link to="/">
+                        <Link to="/startup-accelerator">
                         <div className="button -dark">Learn More</div>
                         </Link>
               </div>
