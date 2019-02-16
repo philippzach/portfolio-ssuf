@@ -15,6 +15,9 @@ const Test = styled.div`
     vertical-align: middle;
     max-height: 450px;
 `
+const Paragraph = styled.p`
+line-height: 35px;
+`
 
 const InvestmentPortfolio = ({ data }) => (
   <Layout>
@@ -26,14 +29,14 @@ const InvestmentPortfolio = ({ data }) => (
     <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
       <Title>Corporate Acceleration</Title>
       <div className="containertitle">
-        <h2 className="lh-copy">SMEs are less likely to innovate than large enterprises.</h2>
-        <p className="lh-copy">
+        <h2 className="lh-title">SMEs are less likely to innovate than large enterprises.</h2>
+        <Paragraph >
         The high payback period combined with a lack of own resources constitute obstacles to innovation activities for SMEs. Nevertheless, innovations are regarded as an important success factor for small and medium-sized enterprises. Only through their flexibility and innovative strength can they compete against large enterprises.  
-        </p>
-        <p className="lh-copy">The Swiss Startup Factory helps your company to adapt its internal processes to the new technologies that suit it best. We advise you individually in order to enable an innovative and individual transformation.
-        </p>
-        <p className="lh-copy">Among other things, the brand and marketing strategy will be revised in order to optimally prepare them for the current and future market and to optimally reach their target group. Based on our own experience as an SME in the Swiss and foreign markets, we show you what is important and set the right focus.
-        </p>
+        </Paragraph>
+        <Paragraph >The Swiss Startup Factory helps your company to adapt its internal processes to the new technologies that suit it best. We advise you individually in order to enable an innovative and individual transformation.
+        </Paragraph>
+        <Paragraph >Among other things, the brand and marketing strategy will be revised in order to optimally prepare them for the current and future market and to optimally reach their target group. Based on our own experience as an SME in the Swiss and foreign markets, we show you what is important and set the right focus.
+        </Paragraph>
       </div>
     </Wrapper>
     <div className="flex flex-column flex-row-ns mv4 background" style={{backgroundColor: "#00486C"}}>
@@ -42,27 +45,27 @@ const InvestmentPortfolio = ({ data }) => (
       </div>
       <div className="w-100 w-60-ns pl3-ns flex items-center measure center">
         <div className="pa4">
-            <h3 className="lh-copy white">For SMEs we offer customized programs adapted to a standardised process,which we have tested multiple times with clients from all different branches.</h3>
-            <p className="white lh-copy">All collaborations start with a meeting where we will find out more about your organisation and your needs. Based on this, we will suggest a program that fits your needs.</p>
-            <p className="white lh-copy">Through our Growth Services platform, our talented and diverse team and our experience working with various corporates, we can offer a great variety of communication and marketing services. </p>
-            <button className="lh-copy white">
+            <h3 className="lh-tile white">For SMEs we offer customized programs adapted to a standardised process,which we have tested multiple times with clients from all different branches.</h3>
+            <Paragraph className="white ">All collaborations start with a meeting where we will find out more about your organisation and your needs. Based on this, we will suggest a program that fits your needs.</Paragraph>
+            <Paragraph className="white">Through our Growth Services platform, our talented and diverse team and our experience working with various corporates, we can offer a great variety of communication and marketing services. </Paragraph>
+            <button className="button-blue" style={{boxShadow: "none"}}>
                 Contact us
-                </button><span className="white">for more information</span>
+                </button><span className="white fw3">for more information</span>
         </div>
       </div>
     </div>
     <Wrapper>
-    <article className="cf mb6 mt6">
+    <article className="cf mb3 mt6">
         <div className="fl w-100 w-50-ns tc flex justify-center">
             <div className="backgroundgrowth">
               <img src={Startup1} alt="" title="" />
             </div>
          </div>
         <div className="fl tl w-100 w-50-ns pa3-s pa3-m pl4-l">
-        <h3 className="lh-copy">In order to optimally achieve the set goal, we have developed a process that has already proven itself in other cases.</h3>
-        <p className="lh-copy mt3 b">1. Analyze current situation through analyst team of BV4</p>
-        <p className="lh-copy b">2. Workshop</p>
-        <ul>
+        <h3 className="lh-title">In order to optimally achieve the set goal, we have developed a process that has already proven itself in other cases.</h3>
+        <p className="lh-copy mt3 b black">1. Analyze current situation through analyst team of BV4</p>
+        <p className="lh-copy b black">2. Workshop</p>
+        <ul style={{color: "#00486C"}}>
             <li>Purpose (Vision, Mission, Values, Customer)</li>
             <li>Product (USP, UCP, Services, Focus) </li>
             <li>Market (Positioning, Competitors)</li>
@@ -72,21 +75,21 @@ const InvestmentPortfolio = ({ data }) => (
             <li>KPIs (Company, Team, Team member)</li>
             <li>Leadership (Team management, middle management)</li>
         </ul>
-        <p className="lh-copy b">3. Develop strategy document</p>
-        <p className="lh-copy b">4. Implementation with few resources and with focus on tracking</p>
+        <p className="lh-copy b black">3. Develop strategy document</p>
+        <p className="lh-copy b black">4. Implementation with few resources and with focus on tracking</p>
           </div>
         </article>
     
     </Wrapper>
     <Wrapper>
-      <div className="containerinvestors">
-        <h3 className="lh-copy center">
+      <div className="containerinvestors mv5">
+        <h3 className="lh-copy center" style={{fontFamily:"roboto"}}>
         <b>For any further information <br/>we are happy to help. </b>
         </h3>
-        <button className="investorparagraph lh-copy">
+        <button className="button-blue">
         Contact us
         </button>
-        <p>for a non-binding meeting</p>
+        <p className="fw3">for a non-binding meeting</p>
       </div>
       </Wrapper>
     

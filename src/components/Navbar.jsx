@@ -3,11 +3,12 @@ import { Link } from 'gatsby';
 import styled from 'react-emotion';
 import Logo from '../../static/ss_factory.svg';
 import '../styles/navbar.css';
+import '../styles/pages/buttonwhite.css';
 
 const Header = styled.div`
   display: flex;
   justify-content: space-between;
-  padding: 2em 2em;
+  padding: 2em 1.5em;
   width: 100%;
   z-index: 10;
   position: absolute;
@@ -27,6 +28,13 @@ const Header = styled.div`
 const Navigation = styled.nav`
   margin: auto 0;
 `;
+const NavItem = {
+fontFamily: "roboto",
+fontSize: "1em",
+fontWeight: "bold",
+textTransform: "uppercase",
+textShadow: "0 2px 4px #000000",
+}
 
 const Navbar = () => (
   <Header>
@@ -35,9 +43,9 @@ const Navbar = () => (
     </Link>
     <Navigation>
       <ul className="nav__menu">
-        <li className="nav__menu-item"><Link to="/startups" className="hovereffect">Startup</Link></li>
-        <li className="nav__menu-item"><Link to="/corporates"  className="hovereffect">Corporates</Link></li>
-        <li className="nav__menu-item"><Link to="/aboutus" className="hovereffect">About us</Link></li>
+        <li className="nav__menu-item"><Link to="/startups" className="hovereffect" style={NavItem}>Startup</Link></li>
+        <li className="nav__menu-item"><Link to="/corporates"  className="hovereffect" style={NavItem}>Corporates</Link></li>
+        <li className="nav__menu-item"><Link to="/aboutus" className="hovereffect" style={NavItem}>About us</Link></li>
         {/* <li className="nav__menu-item" style={{paddingBottom: 0,}}><div className="button -dark" style={{boxShadow: "none", backgroundColor: "#e6e6ea", margin: "0"}}><Link to="/join-the-platform" style={{color: "black"}}>Join the Platform</Link></div></li> */}
       </ul>
       <div>
@@ -48,14 +56,23 @@ const Navbar = () => (
         </span>
         <ul className="list pl0 ma0" style={{paddingTop: "22em"}}>
             <li className="mv4"><Link className="ttu" style={{ fontSize: "1.5em", lineHeight: "1.2em"}} to='/startups'>Startup</Link></li>
+              <ul>
+                <li>Startup Accelerator</li>
+                <li>Pitch Training</li>
+                <li>Services for Startups</li>
+                <li>Looking for Investment?</li>
+              </ul>
             <li className="mv4"><Link className="ttu" style={{ fontSize: "1.5em", lineHeight: "1.2em"}} to='/corporates'>Corporates</Link></li>
+              <ul>
+                
+              </ul>
             <li className="mv4"><Link className="ttu" style={{ fontSize: "1.5em", lineHeight: "1.2em"}} to='/aboutus'>About us</Link></li>
             <li className="mv4"><div className="button -dark" style={{boxShadow: "none", backgroundColor: "#e6e6ea", margin: "0"}}><Link className="ttu" style={{ fontSize: "1.5em", lineHeight: "1.2em"}} to='/join-the-platform'>Join the Platform</Link></div></li>
         </ul>
         </label>
         </div>
     </Navigation>
-    <div className="button -dark" style={{boxShadow: "none", backgroundColor: "#e6e6ea", margin: "0"}}><Link to="/join-the-platform" style={{color: "black"}}>Join the Platform</Link></div>
+    <div className="cta-navbar button-white"><Link to="/join-the-platform">Join the Platform</Link></div>
   </Header>
 );
 

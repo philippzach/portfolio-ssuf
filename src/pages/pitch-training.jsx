@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'react-emotion';
 import { Layout, Wrapper, Navbar, Title } from 'components';
-//import Background from '../../static/investmentportfolio.jpg';
 import '../styles/pages/portfolio.css';
 import Seo from '../components/SEO/index';
 import { graphql } from 'gatsby';
@@ -23,6 +22,9 @@ const Test = styled.div`
     vertical-align: middle;
     max-height: 450px;
 `
+const Paragraph = styled.p`
+line-height: 35px;
+`
 
 const InvestmentPortfolio = ({ data }) => (
   <Layout>
@@ -34,10 +36,10 @@ const InvestmentPortfolio = ({ data }) => (
     <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
       <Title>Pitch Training</Title>
       <div className="containertitle">
-        <h2 className="lh-copy">Pitching is not just a means to an end – it is how you communicate your story, share your passion and the way in which you constantly continue to better understand your business.</h2>
-        <p className="lh-copy">
+        <h2 className="lh-title">Pitching is not just a means to an end – it is how you communicate your story, share your passion and the way in which you constantly continue to better understand your business.</h2>
+        <Paragraph>
         You sell your product, your company and yourself all the time. The big question is: How aware are you of it and how effective is it? In our pitch training you will learn how to sell your idea and your company on pitch events and networking events in front of investors in an impressive way. 
-        </p>
+        </Paragraph>
       </div>
     </Wrapper>
     <div className="flex flex-column flex-row-ns mv4 background pb4" style={{backgroundColor: "#00486C"}}>
@@ -47,96 +49,96 @@ const InvestmentPortfolio = ({ data }) => (
       <div className="w-100 w-60-ns pl3-ns flex items-center measure center">
         <div className="pa4">
             <h3 className="lh-copy white">We re-work your pitch, in line with our framework in our three stages-  create clarity, communicate the opportunity and demonstrate the validation.</h3>
-          <p className="lh-copy white">
+          <Paragraph className="lh-copy white">
           For each slide, we make sure to explain why the content matters and what different stakeholders need to see. Our one-on-one pitch training is split into three separate workshops. Between each workshop we expect our participants to be re-working different elements of their pitch and their business in preparation for the next session.  
-          </p>
-          <button className="investorparagraph lh-copy">
+          </Paragraph>
+          <button className="button-blue" style={{boxShadow: "none"}}>
         Learn More
         </button>
         </div>
       </div>
     </div>
     <Wrapper>
-      <div className="containerinvestors">
+      <div className="containerinvestors mv5">
         <h3 className="lh-copy center">
-        It depends on what you need. We develop a personal pitch deck that fits your situation. The workshops contain the following topics:
+        It depends on what you need. We develop a personal pitch deck that fits your situation.<br/> The workshops contains the following topics:
         </h3>
       </div>
-      <div>
+      <div className="mv4">
           <div className="row cf">
-                        <div class="fl w-100 w-third-ns pa2" style={{margin: "auto"}}>
-                            <div class="flex flex-column items-center">
+                        <div class="fl w-100 w-third-ns pa3" style={{margin: "auto"}}>
+                            <div class="pitchcard flex flex-column items-center">
                                 <div className="tc">
                                 <img src={Row11} />
-                                <p className="pt3 mb0">Pitch Structure</p>
+                                <p className="pt3 b mb0">Pitch Structure</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="fl w-100 w-third-ns pa2" style={{margin: "auto"}}>
-                            <div class="flex flex-column items-center">
+                        <div class="fl w-100 w-third-ns pa3" style={{margin: "auto"}}>
+                            <div class="pitchcard flex flex-column items-center">
                                 <div className="tc">
                                 <img src={Row12} />
-                                <p className="pt3 mb0">Simplify</p>
+                                <p className="pt3 b mb0">Simplify</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="fl w-100 w-third-ns pa2" style={{margin: "auto"}}>
-                            <div class="flex flex-column items-center">
+                        <div class="fl w-100 w-third-ns pa3" style={{margin: "auto"}}>
+                            <div class="pitchcard flex flex-column items-center">
                                 <div className="tc">
                                 <img src={Row13} />
-                                <p className="pt3 mb0">Presentation Goals</p>
+                                <p className="pt3 b mb0">Presentation Goals</p>
                                 </div>
                             </div>
                         </div>
           </div>
           <div className="row cf">
-          <div class="fl w-100 w-third-ns pa2" style={{margin: "auto"}}>
-                            <div class="flex flex-column items-center">
+          <div class="fl w-100 w-third-ns pa2" style={{mar3in: "auto"}}>
+                            <div class="pitchcard flex flex-column items-center">
                                 <div className="tc">
                                 <img src={Row21} />
-                                <p className="pt3 mb0">Storytelling</p>
+                                <p className="pt3 b mb0">Storytelling</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="fl w-100 w-third-ns pa2" style={{margin: "auto"}}>
-                            <div class="flex flex-column items-center">
+                        <div class="fl w-100 w-third-ns pa3" style={{margin: "auto"}}>
+                            <div class="pitchcard flex flex-column items-center">
                                 <div className="tc">
                                 <img src={Row22} />
-                                <p className="pt3 mb0">Sales Skills</p>
+                                <p className="pt3 b mb0">Sales Skills</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="fl w-100 w-third-ns pa2" style={{margin: "auto"}}>
-                            <div class="flex flex-column items-center">
+                        <div class="fl w-100 w-third-ns pa3" style={{margin: "auto"}}>
+                            <div class="pitchcard flex flex-column items-center">
                                 <div className="tc">
                                 <img src={Row23} />
-                                <p className="pt3 mb0">Effective Communication</p>
+                                <p className="pt3 b mb0">Effective Communication</p>
                                 </div>
                             </div>
                         </div>
           </div>
           <div className="row cf">
-                        <div class="fl w-100 w-third-ns pa2" style={{margin: "auto"}}>
-                            <div class="flex flex-column items-center">
+                        <div class="fl w-100 w-third-ns pa3" style={{margin: "auto"}}>
+                            <div class="pitchcard flex flex-column items-center">
                                 <div className="tc">
                                 <img src={Row31} />
-                                <p className="pt3 mb0">Presentation Skills</p>
+                                <p className="pt3 b mb0">Presentation Skills</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="fl w-100 w-third-ns pa2" style={{margin: "auto"}}>
-                            <div class="flex flex-column items-center">
+                        <div class="fl w-100 w-third-ns pa3" style={{margin: "auto"}}>
+                            <div class="pitchcard flex flex-column items-center">
                                 <div className="tc">
                                 <img src={Row32} />
-                                <p className="pt3 mb0">Feedback</p>
+                                <p className="pt3 b mb0">Feedback</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="fl w-100 w-third-ns pa2" style={{margin: "auto"}}>
-                            <div class="flex flex-column items-center">
+                        <div class="fl w-100 w-third-ns pa3" style={{margin: "auto"}}>
+                            <div class="pitchcard flex flex-column items-center">
                                 <div className="tc">
                                 <img src={Row33} />
-                                <p className="pt3 mb0">Exercise</p>
+                                <p className="pt3 b mb0">Exercise</p>
                                 </div>
                             </div>
                         </div>

@@ -1,4 +1,4 @@
-import React from 'react';
+/* import React from 'react';
 import { Wrapper, Title } from 'components';
 import LogoA from '../../static/logos_supporter/aisec.svg';
 import LogoB from '../../static/logos_supporter/biathlon.svg';
@@ -139,4 +139,4 @@ const Supporters = () => (
     </>
 )
 
-export default Supporters
+export default Supporters */

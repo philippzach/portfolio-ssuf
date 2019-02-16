@@ -9,6 +9,8 @@ import Logo from '../factory.svg';
 import Seo from '../components/SEO/index';
 import SocialBanner from '../../static/socialsharing.jpg'
 import '../styles/pages/factory.css';
+import '../styles/pages/buttonblue.css';
+
 
 const Test = styled.div`
     position: relative;
@@ -22,37 +24,50 @@ const HeroInner = styled.div`
     margin-bottom: 2rem;
     text-transform: uppercase;
     font-size: 3em;
+    white-space: nowrap
   }
-  @media (min-width: 1000px) {
+  @media (min-width: 1375px) {
     position: absolute;
-    ${'' /* top: 150px;
-    left: 50px; */}
     top: 400px;  /* position the top  edge of the element at the middle of the parent */
     left: 50%; /* position the left edge of the element at the middle of the parent */
     text-align: center;
     transform: translate(-50%, -50%);
   }
-  @media (min-width: 700px) and (max-width: 1000px) {
+  @media (min-width: 950px) and (max-width: 1375px){
     position: absolute;
-    top: 133px;
-    left: 50px;
+    top: 350px;
+    left: 50%; 
+    text-align: center;
+    transform: translate(-50%, -50%);
+  }
+  @media (min-width: 700px) and (max-width: 950px) {
+    position: absolute;
+    top: 275px;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
   }
   @media (max-width: 700px) {
     text-align: center;
     h1{
       padding-top: 2rem;
+      white-space: unset;
     }
   }
 `;
 
 const HeroText = styled.div`
-  font-size: 1.3rem;
-  line-height: 1.4;
-  margin-bottom: 2rem;
-  max-width: 100%;
-  @media (max-width: ${props => props.theme.breakpoints.m}) {
+    font-size: 1.4rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+    padding-bottom: 2em;
+    max-width: 100%;
+    color: white;
+    text-shadow: 0 1px 5px rgba(0,0,0,1);
+  @media (max-width: 950px) {
     font-size: 1.4rem;
     max-width: 100%;
+    padding-bottom: 0;
   }
   @media (max-width: ${props => props.theme.breakpoints.s}) {
     font-size: 1.25rem;
@@ -62,12 +77,22 @@ const HeroText = styled.div`
     max-width: 100%;
     margin-bottom: 5em;
     padding: 1em;
+    color: black;
+    text-shadow: none;
+    margin-bottom: 0;
+    padding-bottom: 2em;
   }
 `;
 
-const BulletPoint = styled.img`
- height: 10px;
- padding-right: 0.3em;
+const HeaderSmall = styled.p`
+ color: white;
+ font-size: 1em;
+ text-shadow: 0 0 5px rgba(0,0,0,0.5);
+ margin-bottom: .5em;
+ @media (max-width: 700px) {
+   color: black;
+   text-shadow: none;
+ }
  `
 
 class Index extends Component {
@@ -90,11 +115,13 @@ class Index extends Component {
               Swiss Startup Factory
             </h1>
             <HeroText>
-            We inspire and enable people to build sustainable companies.
+            We inspire and enable people to build<br/> sustainable companies.
             </HeroText>
             <div>
-              <p>Upload your pitch deck now</p>
-              <button>APPLY TO OUR CUSTOMIZED ACCELERATOR PROGRAM</button>
+              <HeaderSmall>Upload your pitch deck now</HeaderSmall>
+              <Link to="/startup-accelerator">
+              <div className="button-blue">APPLY TO OUR CUSTOMIZED ACCELERATOR PROGRAM</div>
+              </Link>
             </div>
           </HeroInner>
         <div className="line" />
@@ -102,8 +129,8 @@ class Index extends Component {
           <div className="logocontainer">
             <img src={Logo} alt="" title="" description="" className="logoheight"/>
           </div>
-          <div className="containertitle">
-            <h2 className="lh-copy" style={{fontFamily: "Roboto", fontSize: "28px", fontWeight: "600", }}>
+          <div className="containertitle" style={{color:"#00486C"}}>
+            <h2 className="lh-copy" style={{fontFamily: "Roboto", fontSize: "28px", fontWeight: "600", color:"#00486C"}}>
             Swiss Startup Factory is a venture studio for corporates and startups to innovate and accelerate in the best new technologies. 
             </h2>
             <p className="lh-copy"><span className="b">Since 2015 we are the number one privately financed accelerator in Switzerland.</span>
@@ -118,7 +145,7 @@ class Index extends Component {
       </div>
       <div className="w-100 w-60-ns flex items-center measure center">
         <div style={{padding: "0 3rem",}}>
-          <h2 className="white">Startups</h2>
+          <h2 className="white" style={{fontFamily: "Roboto", textTransform: "uppercase"}}>Startups</h2>
           <p className="white lh-copy">
           Being close to startups is the core for the Swiss Startup Factory. 
           </p>
@@ -132,57 +159,57 @@ class Index extends Component {
           <Title className="mb4-l mb5">What we offer</Title>
         </Wrapper>
         <div className="startupscontainer">
-        <article className="hover mw5 center br1 pa3 pa4-ns mv3 ba b--black-10 flex flex-column ">
-        <a className="flex flex-column" href="https://www.swissstartupfactory.com/startups/accelerator" target="_blank">
+        <article className="shadow maxwstartups hover mw5 center br4 pa3 pa4-ns mv3 b--black-10 flex flex-column ">
+        <Link to="/startup-accelerator" className="flex flex-column">
           <div className="tc">
-            <h3 className="f4" style={{ color: 'rgb(0, 71, 107)' }}>
+            <h3 className="f4 pt3" style={{ color: 'rgb(0, 71, 107)' }}>
               Acceleration
             </h3>
             <hr className="mw3 bb bw1 b--black-10" />
           </div>
           <div>
-          <p className="lh-copy measure center f6 black-70">
+          <p className="lh-copy measure center f6 black-70 tc" style={{ color: 'rgb(0, 71, 107)' }}>
             Based on more than 3-years of experience we have designed a completely new customised accelerator program
             which will prepare you and your team to live up to your potential
           </p>
           </div>
-          <div className="mv3">
+          <div className="mv3 center">
           <span className="buttonfactory mid-gray ttu b">Learn more</span>
           </div>
-          </a>
+          </Link>
         </article>
-        <article className="hover mw5 center br1 pa3 pa4-ns mv3 ba b--black-10 flex flex-column ">
-        <a className="flex flex-column" href="mailto:chris.bargholz@ssuf.ch">
+        <article className="shadow maxwstartups hover mw5 center br4 pa3 pa4-ns mv3 b--black-10 flex flex-column ">
+        <Link className="flex flex-column" to="/startup-services">
           <div className="tc">
-            <h3 className="f4 lh-copy" style={{ color: 'rgb(0, 71, 107)' }}>
+            <h3 className="f4 lh-copy pt3" style={{ color: 'rgb(0, 71, 107)' }}>
               Startup Support Meeting
             </h3>
             <hr className="mw3 bb bw1 b--black-10" />
           </div>
-          <p className="lh-copy measure center f6 black-70">
+          <p className="lh-copy measure center f6 black-70 tc" style={{ color: 'rgb(0, 71, 107)' }}>
             30 minutes meeting where you can pitch us your idea, tell us about your challenges and ask us for feedback
           </p>
-          <div className="mv3">
+          <div className="mv3 center">
           <span className="buttonfactory mid-gray ttu b">Learn more</span>
           </div>
-          </a>
+          </Link>
         </article>
-        <article className="hover mw5 center br1 pa3 pa4-ns mv3 ba b--black-10 flex flex-column ">
-        <a className="flex flex-column" href="mailto:chris.bargholz@ssuf.ch">
+        <article className="shadow maxwstartups hover mw5 center br4 pa3 pa4-ns mv3 b--black-10 flex flex-column ">
+        <Link className="flex flex-column" to="/pitch-training">
           <div className="tc">
-            <h3 className="f4" style={{ color: 'rgb(0, 71, 107)' }}>
+            <h3 className="f4 pt3" style={{ color: 'rgb(0, 71, 107)' }}>
               Pitch Training
             </h3>
             <hr className="mw3 bb bw1 b--black-10" />
           </div>
-          <p className="lh-copy measure center f6 black-70">
+          <p className="lh-copy measure center f6 black-70 tc " style={{ color: 'rgb(0, 71, 107)' }}>
             We help you to improve your pitch that allows you to understand which areas are important and should be in
             the spotlight to move you company forward
           </p>
-          <div className="mv3">
+          <div className="mv3 center">
           <span className="buttonfactory mid-gray ttu b">Learn more</span>
           </div>
-          </a>
+          </Link>
         </article>
       </div>
       <Wrapper style={{ paddingTop: '5rem', paddingBottom: '1rem' }}>
@@ -193,8 +220,8 @@ class Index extends Component {
       <Img fluid={corporates.childImageSharp.fluid} className="w-100" />
       </div>
       <div className="w-100 w-60-ns flex items-center measure center">
-        <div style={{padding: "0 3rem",}}>
-          <h2 className="">Corporates</h2>
+        <div style={{padding: "0 3rem", color: 'rgb(0, 71, 107)'}}>
+          <h2 style={{fontFamily: "Roboto", textTransform: "uppercase", color: 'rgb(0, 71, 107)'}}>Corporates</h2>
           <p className=" lh-copy">
           Our goal is to understand and evaluate our corporate client’s current strategic innovation roadmap and provide a best advice on it’s execution with our 
           specialized skills. 
@@ -207,16 +234,16 @@ class Index extends Component {
     </div>
     <div className="corporatescontainer">
       <div className="row">
-        <article className="shadow hover items-center center br1 pa3 pa4-ns mv3 ba b--black-10 flex flex-column ">
+        <article className="shadow maxwcorporates hover items-center center br4 pa3 pa4-ns mv3 b--black-10 flex flex-column ">
         <a className="flex flex-column" href="https://www.swissstartupfactory.com/corporates/innovation-consulting" target="_blank">
           <div className="tc">
-            <h3 className="f4" style={{ color: 'rgb(0, 71, 107)' }}>
+            <h3 className="f4 pt3" style={{ color: 'rgb(0, 71, 107)' }}>
               Intra Innovation
             </h3>
             <hr className="mw3 bb bw1 b--black-10" />
           </div>
           <div>
-          <p className="lh-copy measure center f6 black-70 mb4-l">
+          <p className="lh-copy measure center f6 black-70 mb4-l tc" style={{ color: 'rgb(0, 71, 107)' }}>
             We offer customised innovation and digital transformation consulting services.
           </p>
           </div>
@@ -225,16 +252,16 @@ class Index extends Component {
           </div>
           </a>
         </article>
-        <article className="shadow hover items-center center br1 pa3 pa4-ns mv3 ba b--black-10 flex flex-column ">
+        <article className="shadow maxwcorporates hover items-center center br4 pa3 pa4-ns mv3 b--black-10 flex flex-column ">
         <a className="flex flex-column" href="https://www.swissstartupfactory.com/corporates/corporate-acceleration" target="_blank">
           <div className="tc">
-            <h3 className="f4" style={{ color: 'rgb(0, 71, 107)' }}>
+            <h3 className="f4 pt3" style={{ color: 'rgb(0, 71, 107)' }}>
               Corporate Acceleration
             </h3>
             <hr className="mw3 bb bw1 b--black-10" />
           </div>
           <div>
-          <p className="lh-copy measure center f6 black-70">
+          <p className="lh-copy measure center f6 black-70 tc" style={{ color: 'rgb(0, 71, 107)' }}>
             Adjusting our accelerator program to the structure of the corporate, we build up their existing startup
             projects with - or without taking equity.
           </p>
@@ -246,16 +273,16 @@ class Index extends Component {
         </article>
         </div>
         <div className="row">
-        <article className="shadow hover items-center center br1 pa3 pa4-ns mv3 ba b--black-10 flex flex-column">
+        <article className="shadow maxwcorporates hover items-center center br4 pa3 pa4-ns mv3  b--black-10 flex flex-column">
         <a className="flex flex-column" href="https://www.swissstartupfactory.com/corporates/company-building" target="_blank">
           <div className="tc">
-            <h3 className="f4" style={{ color: 'rgb(0, 71, 107)' }}>
+            <h3 className="f4 pt3" style={{ color: 'rgb(0, 71, 107)' }}>
               Company Builder
             </h3>
             <hr className="mw3 bb bw1 b--black-10" />
           </div>
           <div className="mv3-l">
-          <p className="lh-copy measure center f6 black-70">
+          <p className="lh-copy measure center f6 black-70 tc" style={{ color: 'rgb(0, 71, 107)' }}>
             Building up a completely new business model or startup from scratch - outside the existing corporate
             structures
           </p>
@@ -265,16 +292,16 @@ class Index extends Component {
           </div>
           </a>
         </article>
-        <article className="shadow hover items-center center br1 pa3 pa4-ns mv3 ba b--black-10 flex flex-column ">
+        <article className="shadow maxwcorporates hover items-center center br4 pa3 pa4-ns mv3  b--black-10 flex flex-column ">
         <a className="flex flex-column" href="https://ccvs.ch/" target="_blank">
           <div className="tc">
-            <h3 className="f4" style={{ color: 'rgb(0, 71, 107)' }}>
+            <h3 className="f4 pt3" style={{ color: 'rgb(0, 71, 107)' }}>
               Corporate Venturing
             </h3>
             <hr className="mw3 bb bw1 b--black-10" />
           </div>
           <div>
-          <p className="lh-copy measure center f6 black-70">
+          <p className="lh-copy measure center f6 black-70 tc" style={{ color: 'rgb(0, 71, 107)' }}>
           The Center of Corporate Venturing  connects innovation leaders – its members have access to educational events, networking opportunities and a place to exchange ideas.
           </p>
           </div>
@@ -292,9 +319,7 @@ class Index extends Component {
         <div className="ph4-s ph5-m ph6-l mb3"> 
           <Listing posts={posts.edges} />
         </div> 
-        <div className="w100 flex justify-center mb6">
-        <div className="button -dark"><a style={{ fontWeight: "600", lineHeight: "1.3em" }} href="/blog" target="_blank">NEWS</a></div>
-        </div>
+        
       </Layout>
     );
   }
@@ -348,7 +373,7 @@ export const pageQuery = graphql`
       childImageSharp {
         fluid(
           maxWidth: 1500
-          traceSVG: { background: "#fff", color: "lightgrey" }
+          traceSVG: { background: "lightgrey", color: "#00486c" }
         ) {
           ...GatsbyImageSharpFluid_tracedSVG
         }
@@ -358,7 +383,7 @@ export const pageQuery = graphql`
     childImageSharp {
       fluid(
         maxWidth: 1500
-        traceSVG: { background: "#fff", color: "lightgrey" }
+        traceSVG: { background: "lightgrey", color: "#00486c" }
       ) {
         ...GatsbyImageSharpFluid_tracedSVG
       }

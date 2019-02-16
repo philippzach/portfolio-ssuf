@@ -19,7 +19,7 @@
     margin-top: 15vh;
   }
   
-  input {
+  input.timelinebenefits {
     width: 25px;
     height: 25px;
     background-color: rgb(0, 72, 108);
@@ -31,10 +31,10 @@
     appearance: none;
     cursor: pointer;
   }
-  input:focus {
+  input.timelinebenefits:focus {
     outline: none;
   }
-  input::before, input::after {
+  input.timelinebenefits::before, input.timelinebenefits::after {
     content: "";
     display: block;
     position: absolute;
@@ -46,25 +46,25 @@
     height: 5px;
     max-width: 50px;
   }
-  input::before {
+  input.timelinebenefits::before {
     left: calc(-4vw + 12.5px);
   }
-  input::after {
+  input.timelinebenefits::after {
     right: calc(-4vw - .5px);
   }
-  input:checked {
+  input.timelinebenefits:checked {
     background-color: rgb(0, 72, 108);
   }
-  input:checked::before {
+  input.timelinebenefits:checked::before {
     background-color: rgb(0, 72, 108);
   }
-  input:checked::after {
+  input.timelinebenefits:checked::after {
     background-color: #AEB6BF;
   }
-  input:checked ~ input, input:checked ~ input::before, input:checked ~ input::after {
+  input.timelinebenefits:checked ~ input.timelinebenefits, input.timelinebenefits:checked ~ input.timelinebenefits::before, input.timelinebenefits:checked ~ input.timelinebenefits::after {
     background-color: #AEB6BF;
   }
-  input:checked + .dot-info span {
+  input.timelinebenefits:checked + .dot-info span {
     font-size: .9em;
     font-weight: bold;
   }
@@ -108,53 +108,53 @@
     display: none;
   }
   
-  input[data-description="1910"]:checked ~ #timeline-descriptions-wrapper div[data-description="1910"] {
+  input.timelinebenefits[data-description="1910"]:checked ~ #timeline-descriptions-wrapper div[data-description="1910"] {
     display: block;
   }
   
-  input[data-description="1920"]:checked ~ #timeline-descriptions-wrapper div[data-description="1920"] {
+  input.timelinebenefits[data-description="1920"]:checked ~ #timeline-descriptions-wrapper div[data-description="1920"] {
     display: block;
   }
   
-  input[data-description="1930"]:checked ~ #timeline-descriptions-wrapper div[data-description="1930"] {
+  input.timelinebenefits[data-description="1930"]:checked ~ #timeline-descriptions-wrapper div[data-description="1930"] {
     display: block;
   }
   
-  input[data-description="1940"]:checked ~ #timeline-descriptions-wrapper div[data-description="1940"] {
+  input.timelinebenefits[data-description="1940"]:checked ~ #timeline-descriptions-wrapper div[data-description="1940"] {
     display: block;
   }
   
-  input[data-description="1950"]:checked ~ #timeline-descriptions-wrapper div[data-description="1950"] {
+  input.timelinebenefits[data-description="1950"]:checked ~ #timeline-descriptions-wrapper div[data-description="1950"] {
     display: block;
   }
   
-  input[data-description="1960"]:checked ~ #timeline-descriptions-wrapper div[data-description="1960"] {
+  input.timelinebenefits[data-description="1960"]:checked ~ #timeline-descriptions-wrapper div[data-description="1960"] {
     display: block;
   }
   
-  input[data-description="1970"]:checked ~ #timeline-descriptions-wrapper div[data-description="1970"] {
+  input.timelinebenefits[data-description="1970"]:checked ~ #timeline-descriptions-wrapper div[data-description="1970"] {
     display: block;
   }
   
-  input[data-description="1980"]:checked ~ #timeline-descriptions-wrapper div[data-description="1980"] {
+  input.timelinebenefits[data-description="1980"]:checked ~ #timeline-descriptions-wrapper div[data-description="1980"] {
     display: block;
   }
   
-  input[data-description="1990"]:checked ~ #timeline-descriptions-wrapper div[data-description="1990"] {
+  input.timelinebenefits[data-description="1990"]:checked ~ #timeline-descriptions-wrapper div[data-description="1990"] {
     display: block;
   }
   
-  input[data-description="2000"]:checked ~ #timeline-descriptions-wrapper div[data-description="2000"] {
+  input.timelinebenefits[data-description="2000"]:checked ~ #timeline-descriptions-wrapper div[data-description="2000"] {
     display: block;
   }
   
   @media (min-width: 1250px) {
     
   
-    input::before {
+    input.timelinebenefits::before {
       left: -37.5px;
     }
-    input::after {
+    input.timelinebenefits::after {
       right: -51.5px;
     }
   
@@ -177,26 +177,26 @@
       margin-top: 0;
     }
   
-    input, .dot-info {
+    input.timelinebenefits, .dot-info {
       width: 60px;
       height: 60px;
       margin: 0 20px 50px;
     }
   
-    input {
+    input.timelinebenefits {
       background-color: transparent !important;
       z-index: 1;
     }
-    input::before, input::after {
+    input.timelinebenefits::before, input.timelinebenefits::after {
       content: none;
     }
-    input:checked + .dot-info {
+    input.timelinebenefits:checked + .dot-info {
       background-color: rgb(0, 72, 108);
     }
-    input:checked + .dot-info span.year {
+    input.timelinebenefits:checked + .dot-info span.year {
       font-size: 14px;
     }
-    input:checked + .dot-info span.label {
+    input.timelinebenefits:checked + .dot-info span.label {
       font-size: .9em;
     }
   
@@ -217,9 +217,8 @@
     }
   
     #timeline-descriptions-wrapper {
-      margin-top: 30px;
-      margin-left: 0;
-      text-align: center;
+      margin: auto;
+      padding: 1.5em;
     }
   }
   @media (max-width: 480px) {

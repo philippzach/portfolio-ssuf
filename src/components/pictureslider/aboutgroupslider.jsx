@@ -2,10 +2,16 @@
 import React, { Component } from 'react';
 import { Transition, animated } from 'react-spring';
 import '../../styles/pagetransitionabout.css';
-import Mike from '../../../static/teamssug/mike_baur.jpg';
-import Max from '../../../static/max_meister_square.jpg';
-import Oli from '../../../static/teamssug/walzer_oliver.jpg';
-import Larissa from '../../../static/teamssug/larissa.jpg';
+import Mike from '../../../static/teamssuf/mike_baur.jpg';
+import Oli from '../../../static/teamssuf/walzer_oliver.jpg';
+import Max from '../../../static/teamssuf/max_meister.jpg';
+import Chris from '../../../static/teamssuf/chris_bargholz.jpg';
+import Patric from '../../../static/teamssuf/patric_hauser.jpg';
+import Alex from '../../../static/teamssuf/alex_jus.jpg';
+import Jean from '../../../static/teamssuf/vuil.jpg';
+import Paolo from '../../../static/teamssuf/paolo.jpg';
+import Keith from '../../../static/teamssuf/keith.jpg';
+
 import './arrow.css';
 
 const pages = [
@@ -116,12 +122,12 @@ const pages = [
   </animated.div>,
    style => <animated.div style={{ ...style }} className="flex flex-column flex-row-ns">
    <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
-     <img src={Larissa} alt="" style={{ maxHeight: '600px' }} />
+     <img src={Chris} alt="" style={{ maxHeight: '600px' }} />
    </div>
    <div className="w-100 w-60-ns pl3-ns flex items-center justify-center">
      <div className="paddingfoundersabout">
-       <h4 className="mb1 dimgray">Executive Assistant</h4>
-       <h3>Larissa Truffer</h3>
+       <h4 className="mb1 dimgray">COO & Head of Platform</h4>
+       <h3>Chris Bargholz</h3>
        <div className="flex">
           <dl class="lh-title pr1-s pr2-m pr4-l mt0">
               <dt class="f6 b">No-Go</dt>
@@ -147,6 +153,176 @@ const pages = [
           <span className="arrows"></span>
      </div>
    </div>
+</animated.div>,
+style => <animated.div style={{ ...style }} className="flex flex-column flex-row-ns">
+<div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
+  <img src={Patric} alt="" style={{ maxHeight: '600px' }} />
+</div>
+<div className="w-100 w-60-ns pl3-ns flex items-center justify-center">
+  <div className="paddingfoundersabout">
+    <h4 className="mb1 dimgray">Project Manager</h4>
+    <h3>Patric Hauser</h3>
+    <div className="flex">
+       <dl class="lh-title pr1-s pr2-m pr4-l mt0">
+           <dt class="f6 b">No-Go</dt>
+           <dd class="ml0 mb3">Arroganz</dd>
+           <dt class="f6 b mt2">I Like</dt>
+           <dd class="ml0 mb3">Pasta</dd>
+           <dt class="f6 b mt2">Never without</dt>
+           <dd class="ml0 mb3">Mobile phone and handkerchiefs</dd>
+           <dt class="f6 b mt2">My Desktop</dt>
+           <dd class="ml0 mb3">Must be cleaned up every week</dd>
+         </dl>
+         <dl class="lh-title mt0">
+           <dt class="f6 b mt2">Summer Residence</dt>
+           <dd class="ml0 mb3">Lake Zurich</dd>
+           <dt class="f6 b mt2">Winter residence</dt>
+           <dd class="ml0 mb3">Warm Bed</dd>
+           <dt class="f6 b mt2">Unbelievable but true</dt>
+           <dd class="ml0 mb3">I once had red, short hair</dd>
+           <dt class="f6 b mt2">What's easy</dt>
+           <dd class="ml0 mb3">to get up early</dd>
+       </dl>
+       </div>
+       <span className="arrows"></span>
+  </div>
+</div>
+</animated.div>,
+style => <animated.div style={{ ...style }} className="flex flex-column flex-row-ns">
+<div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
+  <img src={Alex} alt="" style={{ maxHeight: '600px' }} />
+</div>
+<div className="w-100 w-60-ns pl3-ns flex items-center justify-center">
+  <div className="paddingfoundersabout">
+    <h4 className="mb1 dimgray">Startup Consultant</h4>
+    <h3>Alex Jus</h3>
+    <div className="flex">
+       <dl class="lh-title pr1-s pr2-m pr4-l mt0">
+           <dt class="f6 b">No-Go</dt>
+           <dd class="ml0 mb3">Arroganz</dd>
+           <dt class="f6 b mt2">I Like</dt>
+           <dd class="ml0 mb3">Pasta</dd>
+           <dt class="f6 b mt2">Never without</dt>
+           <dd class="ml0 mb3">Mobile phone and handkerchiefs</dd>
+           <dt class="f6 b mt2">My Desktop</dt>
+           <dd class="ml0 mb3">Must be cleaned up every week</dd>
+         </dl>
+         <dl class="lh-title mt0">
+           <dt class="f6 b mt2">Summer Residence</dt>
+           <dd class="ml0 mb3">Lake Zurich</dd>
+           <dt class="f6 b mt2">Winter residence</dt>
+           <dd class="ml0 mb3">Warm Bed</dd>
+           <dt class="f6 b mt2">Unbelievable but true</dt>
+           <dd class="ml0 mb3">I once had red, short hair</dd>
+           <dt class="f6 b mt2">What's easy</dt>
+           <dd class="ml0 mb3">to get up early</dd>
+       </dl>
+       </div>
+       <span className="arrows"></span>
+  </div>
+</div>
+</animated.div>,
+style => <animated.div style={{ ...style }} className="flex flex-column flex-row-ns">
+<div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
+  <img src={Jean} alt="" style={{ maxHeight: '600px' }} />
+</div>
+<div className="w-100 w-60-ns pl3-ns flex items-center justify-center">
+  <div className="paddingfoundersabout">
+    <h4 className="mb1 dimgray">Pitch Trainer</h4>
+    <h3>Jean-Pierre Vuileumier</h3>
+    <div className="flex">
+       <dl class="lh-title pr1-s pr2-m pr4-l mt0">
+           <dt class="f6 b">No-Go</dt>
+           <dd class="ml0 mb3">Arroganz</dd>
+           <dt class="f6 b mt2">I Like</dt>
+           <dd class="ml0 mb3">Pasta</dd>
+           <dt class="f6 b mt2">Never without</dt>
+           <dd class="ml0 mb3">Mobile phone and handkerchiefs</dd>
+           <dt class="f6 b mt2">My Desktop</dt>
+           <dd class="ml0 mb3">Must be cleaned up every week</dd>
+         </dl>
+         <dl class="lh-title mt0">
+           <dt class="f6 b mt2">Summer Residence</dt>
+           <dd class="ml0 mb3">Lake Zurich</dd>
+           <dt class="f6 b mt2">Winter residence</dt>
+           <dd class="ml0 mb3">Warm Bed</dd>
+           <dt class="f6 b mt2">Unbelievable but true</dt>
+           <dd class="ml0 mb3">I once had red, short hair</dd>
+           <dt class="f6 b mt2">What's easy</dt>
+           <dd class="ml0 mb3">to get up early</dd>
+       </dl>
+       </div>
+       <span className="arrows"></span>
+  </div>
+</div>
+</animated.div>,
+style => <animated.div style={{ ...style }} className="flex flex-column flex-row-ns">
+<div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
+  <img src={Paolo} alt="" style={{ maxHeight: '600px' }} />
+</div>
+<div className="w-100 w-60-ns pl3-ns flex items-center justify-center">
+  <div className="paddingfoundersabout">
+    <h4 className="mb1 dimgray">Co-Founder</h4>
+    <h3>Paolo Pifaretti</h3>
+    <div className="flex">
+       <dl class="lh-title pr1-s pr2-m pr4-l mt0">
+           <dt class="f6 b">No-Go</dt>
+           <dd class="ml0 mb3">Arroganz</dd>
+           <dt class="f6 b mt2">I Like</dt>
+           <dd class="ml0 mb3">Pasta</dd>
+           <dt class="f6 b mt2">Never without</dt>
+           <dd class="ml0 mb3">Mobile phone and handkerchiefs</dd>
+           <dt class="f6 b mt2">My Desktop</dt>
+           <dd class="ml0 mb3">Must be cleaned up every week</dd>
+         </dl>
+         <dl class="lh-title mt0">
+           <dt class="f6 b mt2">Summer Residence</dt>
+           <dd class="ml0 mb3">Lake Zurich</dd>
+           <dt class="f6 b mt2">Winter residence</dt>
+           <dd class="ml0 mb3">Warm Bed</dd>
+           <dt class="f6 b mt2">Unbelievable but true</dt>
+           <dd class="ml0 mb3">I once had red, short hair</dd>
+           <dt class="f6 b mt2">What's easy</dt>
+           <dd class="ml0 mb3">to get up early</dd>
+       </dl>
+       </div>
+       <span className="arrows"></span>
+  </div>
+</div>
+</animated.div>,
+style => <animated.div style={{ ...style }} className="flex flex-column flex-row-ns">
+<div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
+  <img src={Keith} alt="" style={{ maxHeight: '600px' }} />
+</div>
+<div className="w-100 w-60-ns pl3-ns flex items-center justify-center">
+  <div className="paddingfoundersabout">
+    <h4 className="mb1 dimgray">Startup Coach</h4>
+    <h3>Keith Gunura</h3>
+    <div className="flex">
+       <dl class="lh-title pr1-s pr2-m pr4-l mt0">
+           <dt class="f6 b">No-Go</dt>
+           <dd class="ml0 mb3">Arroganz</dd>
+           <dt class="f6 b mt2">I Like</dt>
+           <dd class="ml0 mb3">Pasta</dd>
+           <dt class="f6 b mt2">Never without</dt>
+           <dd class="ml0 mb3">Mobile phone and handkerchiefs</dd>
+           <dt class="f6 b mt2">My Desktop</dt>
+           <dd class="ml0 mb3">Must be cleaned up every week</dd>
+         </dl>
+         <dl class="lh-title mt0">
+           <dt class="f6 b mt2">Summer Residence</dt>
+           <dd class="ml0 mb3">Lake Zurich</dd>
+           <dt class="f6 b mt2">Winter residence</dt>
+           <dd class="ml0 mb3">Warm Bed</dd>
+           <dt class="f6 b mt2">Unbelievable but true</dt>
+           <dd class="ml0 mb3">I once had red, short hair</dd>
+           <dt class="f6 b mt2">What's easy</dt>
+           <dd class="ml0 mb3">to get up early</dd>
+       </dl>
+       </div>
+       <span className="arrows"></span>
+  </div>
+</div>
 </animated.div>
 ];
 
@@ -155,7 +331,7 @@ export default class PageTransition extends Component {
 
   toggle = e =>
     this.setState(state => ({
-      index: state.index === 3 ? 0 : state.index + 1,
+      index: state.index === 8 ? 0 : state.index + 1,
     }));
 
   render() {

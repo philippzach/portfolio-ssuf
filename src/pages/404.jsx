@@ -2,7 +2,7 @@ import React from 'react';
 import {Link} from 'gatsby';
 import styled from 'react-emotion';
 import { Layout, Wrapper, Title, Navbar } from 'components';
-import '../styles/pages/growth.css';
+//import '../styles/pages/growth.css';
 
 const Hero = styled.header`
  background-repeat:no-repeat;

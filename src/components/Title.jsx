@@ -4,11 +4,12 @@ const Title = styled.p`
   font-family: Poppins;
   font-size: 1.5rem;
   position: relative;
+  color: #00486C;
   &:before {
     content: '';
     width: 3rem;
     height: 1px;
-    background-color: ${props => props.theme.colors.grey};
+    background-color: #00486C;
     display: inline-block;
     position: absolute;
     top: 50%;

@@ -1,7 +1,10 @@
 
-@media (max-width: 1055px) {
+@media (max-width: 840px) {
 ul.nav__menu {
     display: none;
+}
+.cta-navbar {
+  display: none!important;
 }
 label .menu {
     position: absolute;
@@ -85,7 +88,7 @@ label .menu {
   }
 }
 
-@media (min-width: 1055px) {
+@media (min-width: 841px) {
 
 .mobilemenu {
     display: none;
@@ -120,7 +123,7 @@ nav ul {
   .nav__menu-item {
     display: inline-block;
     position: relative;
-    margin: 0 .75em;
+    margin: 0 2.2em;
     cursor: pointer;
   }
   .nav__menu-item:hover a.hovereffect {

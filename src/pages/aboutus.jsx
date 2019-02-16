@@ -4,33 +4,11 @@ import { Layout, Wrapper, Navbar, Title } from 'components';
 import { graphql } from 'gatsby';
 import Img from 'gatsby-image';
 import '../styles/pages/about.css';
-import Values from '../components/Values/index';
-import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import "react-tabs/style/react-tabs.css";
 import FounderSlider from '../components/pictureslider/aboutgroupslider';
 import AdvisorSlider from '../components/pictureslider/aboutadvisorslider';
-import Supporters from '../components/supporters';
 import Seo from '../components/SEO/index';
-
-import Mike from '../../static/teamssug/mike_baur.jpg';
-import Max from '../../static/teamssug/meister_max.png';
-import Larissa from '../../static/teamssug/larissa.jpg';
-import Oliver from '../../static/teamssug/walzer_oliver.jpg';
-import Chris from '../../static/teamssuf/chris_bargholz.jpg';
-import Patric from '../../static/teamssuf/patric_hauser.jpg';
-import Jean from '../../static/teamssuf/vuil.jpg';
-import Alex from '../../static/teamssuf/alex_jus.jpg';
-import Paolo from '../../static/teamssuf/paolo.jpg';
-import Keith from '../../static/teamssuf/keith.jpg';
-//import Placeholder from '../../static/teamavaneo/default.png';
-import Spinu from '../../static/teamssut/alex_spinu.jpg';
-import Ginie from '../../static/teamssut/ginie.jpg';
-import Fredi from '../../static/teamssut/fredi.jpg';
-
-import Michael from '../../static/teamavaneo/michael_brentari.jpg';
-import Laura from '../../static/teamavaneo/laura_izzo.jpg';
-import Marlene from '../../static/teamavaneo/marlene_brentari.jpg';
-import Susanne from '../../static/teamavaneo/susanne_grabner.jpg';
+import Partners from '../components/Partners';
 
 
 import Rico from '../../static/advisors/baldegger_rico_portrait.jpg';
@@ -55,6 +33,10 @@ const Test = styled.div`
     vertical-align: middle;
     max-height: 450px;
 `
+const Profile = {
+  height: "9em",
+  width: "9em"
+}
 
 const AboutUs = ({ data }) => (
   <Layout>
@@ -84,28 +66,28 @@ const AboutUs = ({ data }) => (
           <div className="tabrow">
             <article className="center pa3 pa4-ns">
               <div className="tc">
-                <img src={Mike} className="br-100 h4 w4 dib pa2" title="" alt="" />
+                <Img fluid={data.about1.childImageSharp.fluid} className="br-100 dib " style={Profile} title="" alt="" />
                 <h3 className="f5 mb2">Mike Baur</h3>
                 <h4 className="f6 fw4 gray mt0">Co-Founder</h4>
               </div>
             </article>
             <article className="center pa3 pa4-ns">
               <div className="tc">
-                <img src={Oliver} className="br-100 h4 w4 dib pa2" title="" alt="" />
+                <Img fluid={data.about2.childImageSharp.fluid} className="br-100 dib " style={Profile} title="" alt="" />
                 <h3 className="f5 mb2">Oliver Walzer</h3>
                 <h4 className="f6 fw4 gray mt0">Co-Founder</h4>
               </div>
             </article>
             <article className="center pa3 pa4-ns">
             <div className="tc">
-                <img src={Max} className="br-100 h4 w4 dib pa2" title="" alt="" />
+                <Img fluid={data.about3.childImageSharp.fluid} className="br-100 dib " style={Profile} title="" alt="" />
                 <h3 className="f5 mb2">Max Meister</h3>
                 <h4 className="f6 fw4 gray mt0">Co-Founder</h4>
               </div>
             </article>
             <article className="center pa3 pa4-ns">
               <div className="tc">
-                <img src={Chris} className="br-100 h4 w4 dib pa2" title="" alt="" />
+                <Img fluid={data.about4.childImageSharp.fluid} className="br-100 dib " style={Profile} title="" alt="" />
                 <h3 className="f5 mb2">Chris Bargholz</h3>
                 <h4 className="f6 fw4 gray mt0">COO & Head of Accelerator</h4>
               </div>
@@ -114,28 +96,28 @@ const AboutUs = ({ data }) => (
             <div className="tabrow">
             <article className="center pa3 pa4-ns">
               <div className="tc">
-                <img src={Patric} className="br-100 h4 w4 dib pa2" title="" alt="" />
+                <Img fluid={data.about5.childImageSharp.fluid} className="br-100 dib " style={Profile} title="" alt="" />
                 <h3 className="f5 mb2">Patric Hauser</h3>
                 <h4 className="f6 fw4 gray mt0">Project Manager</h4>
               </div>
             </article>
             <article className="center pa3 pa4-ns">
             <div className="tc">
-                <img src={Alex} className="br-100 h4 w4 dib pa2" title="" alt="" />
+                <Img fluid={data.about6.childImageSharp.fluid} className="br-100 dib " style={Profile} title="" alt="" />
                 <h3 className="f5 mb2">Alex Just</h3>
                 <h4 className="f6 fw4 gray mt0">Startup Consultant</h4>
               </div>
             </article>
             <article className="center pa3 pa4-ns">
             <div className="tc">
-                <img src={Jean} className="br-100 h4 w4 dib pa2" title="" alt="" />
+                <Img fluid={data.about7.childImageSharp.fluid} className="br-100 dib " style={Profile} title="" alt="" />
                 <h3 className="f5 mb2">Jean-Pierre Vuilleumier</h3>
                 <h4 className="f6 fw4 gray mt0">Pitch Trainer</h4>
               </div>
             </article>
             <article className="center pa3 pa4-ns">
               <div className="tc">
-                <img src={Paolo} className="br-100 h4 w4 dib pa2" title="" alt="" />
+                <Img fluid={data.about8.childImageSharp.fluid} className="br-100 dib " style={Profile} title="" alt="" />
                 <h3 className="f5 mb2">Paolo Piffaretti</h3>
                 <h4 className="f6 fw4 gray mt0">Startup Scout France</h4>
               </div>
@@ -144,7 +126,7 @@ const AboutUs = ({ data }) => (
             <div className="tabrow">
             <article className="center pa3 pa4-ns">
               <div className="tc">
-                <img src={Keith} className="br-100 h4 w4 dib pa2" title="" alt="" />
+                <Img fluid={data.about9.childImageSharp.fluid} className="br-100 dib " style={Profile} title="" alt="" />
                 <h3 className="f5 mb2">Keith Gunura</h3>
                 <h4 className="f6 fw4 gray mt0">Startup Coach</h4>
               </div>
@@ -265,7 +247,9 @@ const AboutUs = ({ data }) => (
                   </div>
             </div>
         </div>
-      <Supporters />
+        <Wrapper>
+          <Partners />
+        </Wrapper>
   </Layout>
 );
 
@@ -283,4 +267,95 @@ export const query = graphql`
           }
         }
     }
+    about1: file(relativePath: { eq: "images/mike_baur.jpg" }) {
+      childImageSharp {
+        fluid(
+          maxWidth: 1500
+          traceSVG: { background: "#fff", color: "lightgrey" }
+        ) {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
+      }
+  }
+  about2: file(relativePath: { eq: "images/walzer_oliver.jpg" }) {
+    childImageSharp {
+      fluid(
+        maxWidth: 1500
+        traceSVG: { background: "#fff", color: "lightgrey" }
+      ) {
+        ...GatsbyImageSharpFluid_tracedSVG
+      }
+    }
+}
+about3: file(relativePath: { eq: "images/max_meister.jpg" }) {
+  childImageSharp {
+    fluid(
+      maxWidth: 1500
+      traceSVG: { background: "#fff", color: "lightgrey" }
+    ) {
+      ...GatsbyImageSharpFluid_tracedSVG
+    }
+  }
+}
+about4: file(relativePath: { eq: "images/chris_bargholz.jpg" }) {
+  childImageSharp {
+    fluid(
+      maxWidth: 1500
+      traceSVG: { background: "#fff", color: "lightgrey" }
+    ) {
+      ...GatsbyImageSharpFluid_tracedSVG
+    }
+  }
+}
+about5: file(relativePath: { eq: "images/patric_hauser.jpg" }) {
+  childImageSharp {
+    fluid(
+      maxWidth: 1500
+      traceSVG: { background: "#fff", color: "lightgrey" }
+    ) {
+      ...GatsbyImageSharpFluid_tracedSVG
+    }
+  }
+}
+about6: file(relativePath: { eq: "images/alex_jus.jpg" }) {
+  childImageSharp {
+    fluid(
+      maxWidth: 1500
+      traceSVG: { background: "#fff", color: "lightgrey" }
+    ) {
+      ...GatsbyImageSharpFluid_tracedSVG
+    }
+  }
+}
+about7: file(relativePath: { eq: "images/vuil.jpg" }) {
+  childImageSharp {
+    fluid(
+      maxWidth: 1500
+      traceSVG: { background: "#fff", color: "lightgrey" }
+    ) {
+      ...GatsbyImageSharpFluid_tracedSVG
+    }
+  }
+}
+about8: file(relativePath: { eq: "images/paolo.jpg" }) {
+  childImageSharp {
+    fluid(
+      maxWidth: 1500
+      traceSVG: { background: "#fff", color: "lightgrey" }
+    ) {
+      ...GatsbyImageSharpFluid_tracedSVG
+    }
+  }
+}
+about9: file(relativePath: { eq: "images/keith.jpg" }) {
+  childImageSharp {
+    fluid(
+      maxWidth: 1500
+      traceSVG: { background: "#fff", color: "lightgrey" }
+    ) {
+      ...GatsbyImageSharpFluid_tracedSVG
+    }
+  }
+}
+
   }`

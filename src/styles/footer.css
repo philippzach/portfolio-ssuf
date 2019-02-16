@@ -16,7 +16,7 @@
 } 
 
 p.copyright a { 
-    background:#5a5a5a; 
+    background:#0C7EC3; 
     padding:0 30px; 
     color: lightgrey;
     font-family: Poppins;
@@ -60,14 +60,14 @@ p.copyright a {
     text-transform: uppercase;
     text-align: center;
     background-color: #f3f3f3;
-    color: dimgrey;
+    color: #00486C;
 }
 .mobilebutton2 {
     font-family: Poppins;
     font-weight: 600;
     text-transform: uppercase;
     text-align: center;
-    background-color: #3a3939;
+    background-color: #00486C;
     color: white;
 }
 .topmenu {

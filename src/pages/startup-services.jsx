@@ -17,7 +17,9 @@ const Test = styled.div`
     vertical-align: middle;
     max-height: 450px;
 `
-
+const Paragraph = styled.p`
+line-height: 35px;
+`
 const InvestmentPortfolio = ({ data }) => (
   <Layout>
   <Seo title="SWISS STARTUP GROUP – Investment Portfolio" desc="Exclusive startup investment platform, which contains investor club, advisory board and corporate partners for everything about startup investments" />
@@ -28,10 +30,10 @@ const InvestmentPortfolio = ({ data }) => (
     <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
       <Title>Services for Startups</Title>
       <div className="containertitle">
-        <h2 className="lh-copy">Founding a startup is difficult and you have enough work with winning clients, closing investors and improving your product.</h2>
-        <p className="lh-copy">
+        <h2 className="lh-title">Founding a startup is difficult and you have enough work with winning clients, closing investors and improving your product.</h2>
+        <Paragraph >
         Check our 360 degree startup services from SWISS STARTUP TECH, so you can focus on the topics that matter the most.  
-        </p>
+        </Paragraph>
       </div>
     </Wrapper>
     <div className="flex flex-column flex-row-ns mv4 background" style={{backgroundColor: "#00486C"}}>
@@ -53,21 +55,26 @@ const InvestmentPortfolio = ({ data }) => (
          </div>
         <div className="fl tl w-100 w-50-ns pa3-s pa3-m pl4-l">
         <h3>Product and Application Development</h3>
-        <p className="lh-copy mt3 b">We help startups create modern products. Whether you need a prototype or a complex application we build products that live up to your customers needs, by using latest software development techniques and working with local and remote team setups.</p>
+        <Paragraph className=" mt3">We help startups create modern products. Whether you need a prototype or a complex application we build products that live up to your customers needs, by using latest software development techniques and working with local and remote team setups.
+        </Paragraph>
+        <button className="button-blue">
+                Learn More
+                </button>
           </div>
         </article>
     <article class="mobileview cf mb6 mt3">
             <div class="fl w-100 w-50-ns tl pa3-s pa3-m ph4-l">
             <h3>Accounting</h3>
-            <p className="lh-copy mt3 b">We offer customised solutions for startups in the areas of:</p>
-            <ul>
+            <p className="mt3">We offer customised solutions for startups in the areas of:
+            </p>
+            <ul style={{color: "#00486C"}}>
                 <li>Accounting</li>
                 <li>Tax consulting (Direct and VAT)</li>
                 <li>Payroll Accounting</li>
                 <li>Human resources and controlling </li>
             </ul>
             <p className="lh-copy mt3 b">Due to our years of experience in accounting and our customisation to startups, we are experts in the field of accounting services for young firms.</p>
-                <button className="investorparagraph lh-copy">
+                <button className="button-blue">
                 Learn More
                 </button>
               </div>
@@ -85,16 +92,20 @@ const InvestmentPortfolio = ({ data }) => (
          </div>
         <div className="fl tl w-100 w-50-ns pa3-s pa3-m pl4-l">
         <h3>Communication & Marketing</h3>
-        <p className="lh-copy mt3 b">Another service of SWISS STARTUP TECH is communication and marketing. We advise you on your communication strategy, conceptualize and create content tailored to your target group, growth hack and establish the public relation.</p>
+        <Paragraph className="mt3">Another service of SWISS STARTUP TECH is communication and marketing. We advise you on your communication strategy, conceptualize and create content tailored to your target group, growth hack and establish the public relation.
+        </Paragraph>
+        <button className="button-blue">
+                Learn More
+                </button>
           </div>
         </article>
     </Wrapper>
     <Wrapper>
-      <div className="containerinvestors">
-        <h3 className="lh-copy center">
+      <div className="containerinvestors mb6">
+        <h3 style={{fontFamily: "roboto"}} className=" center">
         <b>Contact us for more information.</b>
         </h3>
-        <button className="investorparagraph lh-copy">
+        <button className="button-blue">
         Contact us
         </button>
       </div>
