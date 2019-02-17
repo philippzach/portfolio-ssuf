@@ -38,6 +38,7 @@ const Profile = {
   width: "9em"
 }
 
+
 const AboutUs = ({ data }) => (
   <Layout>
   <Seo title="SWISS STARTUP GROUP – About us" desc="Get to know our team, advisory board, partners, supporters and sponsors, that offers a perfect network platform in the swiss startup ecosystem" />
@@ -46,10 +47,10 @@ const AboutUs = ({ data }) => (
           <Img fluid={data.about.childImageSharp.fluid} className="w-100" />
       </Test>
     <Wrapper style={{ paddingTop: '2rem' }}>
-      <Title>Team</Title>
-      <div className="containertitleabout">
+      <Title className="mt6">Team</Title>
+      <div className="containertitleabout mb6">
         <h2 className="lh-title">Our Team</h2>
-        <p className="lh-copy">
+        <p style={{lineHeight: "35px"}} className="mv4">
         The team of the Swiss Startup Factory consists smart experts with a diverse set of experiences and backgrounds. As unique as we are individually, we share a mutual passion for startup ecosstem and doing excellent work for our clients and partners. Get to know our team below. 
         </p>
       </div>
@@ -136,7 +137,7 @@ const AboutUs = ({ data }) => (
         </div>
       <Wrapper style={{ paddingTop: "5em", paddingBottom: "3em"}}>
         <Title>Mentors</Title>
-        <div className="containertitleabout">
+        <div className="containertitleabout mv6">
         <h2 className="lh-title">Our Forward Thinkers</h2>
         <p className="lh-copy">
         Our mentor team consists experts from all fields with diverse backgrounds. Get to know them: 

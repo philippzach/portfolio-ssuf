@@ -33,10 +33,15 @@ font-weight: bold;
 `
 const Paragraph = styled.p`
 line-height: 30px;
+max-width: 35em;
+margin: auto;
+text-align: center;
+margin-bottom: 2em;
 `
 const Background = styled.div`
 background-color: #FAFAFA;
 padding: 2em;
+box-shadow: 0 2px 4px rgb(0,0,0,0.05);
 `
 
 
@@ -63,7 +68,7 @@ const Partner = () => (
         </div>
         <div className="tc mv6">
           <Headline>Vertical Partners</Headline>
-          <Paragraph>Vertical partners are forward-thinking companies looking to have access to top Swiss Startups and aiming to drive their industry innovation forward. Together we accelerate selected startups and collaborate on many other innovative projects
+          <Paragraph style={{maxWidth: "45em"}}>Vertical partners are forward-thinking companies looking to have access to top Swiss Startups and aiming to drive their industry innovation forward. Together we accelerate selected startups and collaborate on many other innovative projects
           </Paragraph>
           <Background>
             <div className="row">

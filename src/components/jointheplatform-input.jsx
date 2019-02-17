@@ -24,7 +24,7 @@ class Input extends Component {
         const { opened } = this.state;
         return (
           <div>
-            <div className="box">
+            <div className="box" style={{ margin: "2em auto"}}>
                 <div className="boxUnits">
                 <div className="boxTitle" onClick={this.toggleBox}>
                     <span className="segmentation">I work at a innovative startup.</span>

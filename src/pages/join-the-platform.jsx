@@ -1,18 +1,19 @@
 import React from 'react';
-import { Layout, Wrapper, NavbarInverted } from 'components';
-import styled from 'react-emotion';
-import Input from '../components/jointheplatform-input';
+import { Layout, NavbarInverted } from 'components';
 import '../styles/pages/join-the-platform.css';
 import '../styles/input.css';
+import styled from 'react-emotion';
+import Input from '../components/jointheplatform-input';
 import Cindy from '../../static/cindyspelt.jpg';
 
-const Box = styled.div`
-display: flex;
-justify-content: space-between;
-margin: 2em 0;
-` 
-const Label = styled.label`
-line-height: 1.5em;
+const Headline = styled.h1`
+    margin-bottom: 1.45rem;
+    color: rgb(0, 72, 108);
+    font-family: 'Poppins',-apple-system,'BlinkMacSystemFont','Segoe UI','Roboto','Helvetica','Arial',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';
+    font-weight: 700;
+    text-rendering: optimizeLegibility;
+    font-size: 3.157rem;
+    line-height: 1.1;
 `
 const Half = styled.div`
 width: 100%;
@@ -32,13 +33,13 @@ const Join = () => (
         <NavbarInverted />
         <section className="page-section text_hero">
             <div className="grid-container">
-                <div className="pnp__hero-block pnp__text-hero" style={{backgroundColor: "#f7f7f7"}}>
+                <div className="pnp__hero-block pnp__text-hero" style={{backgroundColor: "rgba(0, 72, 108, 0.05)"}}>
                     <div className="grid-container" style={{padding: "3em"}}>
                         <div className="grid-x align-middle">
                             <div className="cell">
-                                <h1 className=" extraline">
+                                <Headline className=" extraline">
                                 Join Switzerland's number 1 platform.
-                                </h1>
+                                </Headline>
                                 <h3 style={{lineHeight: "1.2em"}}>
                                 Connecting the best technology startups, corporates, investors and talents.
                                 </h3>
@@ -56,7 +57,7 @@ const Join = () => (
         </section>
         
         <Input >
-             <div className="box">
+             <div className="box" style={{ margin: "2em auto"}}>
              <form action="https://formspree.io/your@email.com" method="POST" style={{margin: "auto"}}>
                     {/* <Box>
                     <Label for="Info">Information for Startups</Label>
@@ -73,16 +74,14 @@ const Join = () => (
                 <input type="text" name="company" className="emailinput" placeholder="Company Name" />    
                 <input style={{margin: "1.5em 0"}} className="emailinput" type="email" placeholder="Enter your Email" name="_replyto"/>
                 <textarea name="message" className="textareainput" placeholder="Message ..." />
-                <input className="button -dark" style={{
+                <input className="button-blue" style={{
                     boxShadow: "none",
-                    backgroundColor: "rgb(230, 230, 234)",
                     margin: "1em 0",
-                    color: "rgb(85,85,85)",
                     float: "right"}} type="submit" value="Send"/>
                 </form>
              </div>
          </Input>
-         <div className="box">
+         <div className="box" style={{ margin: "2em auto"}}>
             <Half>
             <img style={{borderRadius: "15rem", zoom: ".4"}} src={Cindy} alt=""/>
             <h3 style={{margin: "1em 0"}}>Cindy Spelt</h3>

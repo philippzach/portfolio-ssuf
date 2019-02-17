@@ -76,7 +76,7 @@ const InvestmentPortfolio = ({ data }) => (
       </div>
     </div>
     <Wrapper>
-        <h3 className="lh-copy measure-narrow center mt6 mb4 tc">Our accelerator framework is split in 3 phases with 3 milestones:</h3>
+        <h3 className="lh-copy measure-narrow center mv6 tc">Our accelerator framework is split in 3 phases with 3 milestones:</h3>
     </Wrapper>
     <Wrapper>
     <article class="mobileview cf mb6 mt3">

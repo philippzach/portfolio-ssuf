@@ -92,7 +92,7 @@ const InvestmentPortfolio = ({ data }) => (
                         </div>
           </div>
           <div className="row cf">
-          <div class="fl w-100 w-third-ns pa2" style={{mar3in: "auto"}}>
+                    <div class="fl w-100 w-third-ns pa3" style={{mar3in: "auto"}}>
                             <div class="pitchcard flex flex-column items-center">
                                 <div className="tc">
                                 <img src={Row21} />
