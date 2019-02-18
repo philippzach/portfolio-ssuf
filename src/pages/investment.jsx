@@ -39,7 +39,7 @@ const InvestmentPortfolio = ({ data }) => (
       </div>
       <div className="w-100 w-60-ns pl3-ns flex items-center measure center">
         <div className="pa4">
-            <h3 className="white">We look for scalable startups with a disruptive idea, an amazing complementary team</h3>
+            <h3 className="lh-title white">We look for scalable startups with a disruptive idea, an amazing complementary team</h3>
           <Paragraph className="white">
           With us you do not only get funding, you will win the Swiss Startup Factory and our entire ecosystem as a valuable partner for the future.  
           </Paragraph>

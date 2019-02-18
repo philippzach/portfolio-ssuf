@@ -57,7 +57,7 @@ const Join = () => (
         </section>
         
         <Input >
-             <div className="box" style={{ margin: "2em auto"}}>
+             <div className="box" style={{ background: "rgba(0, 72, 108, 0.05)", margin: "2em auto"}}>
              <form action="https://formspree.io/your@email.com" method="POST" style={{margin: "auto"}}>
                     {/* <Box>
                     <Label for="Info">Information for Startups</Label>
@@ -81,7 +81,7 @@ const Join = () => (
                 </form>
              </div>
          </Input>
-         <div className="box" style={{ margin: "2em auto"}}>
+         <div className="box" style={{ background: "rgba(0, 72, 108, 0.05)", margin: "2em auto"}}>
             <Half>
             <img style={{borderRadius: "15rem", zoom: ".4"}} src={Cindy} alt=""/>
             <h3 style={{margin: "1em 0"}}>Cindy Spelt</h3>

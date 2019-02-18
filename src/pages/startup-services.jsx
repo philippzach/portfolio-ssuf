@@ -54,7 +54,7 @@ const InvestmentPortfolio = ({ data }) => (
             </div>
          </div>
         <div className="fl tl w-100 w-50-ns pa3-s pa3-m pl4-l">
-        <h3>Product and Application Development</h3>
+        <h3 className="lh-title">Product and Application Development</h3>
         <Paragraph className=" mt3">We help startups create modern products. Whether you need a prototype or a complex application we build products that live up to your customers needs, by using latest software development techniques and working with local and remote team setups.
         </Paragraph>
         <button className="button-blue">
@@ -91,7 +91,7 @@ const InvestmentPortfolio = ({ data }) => (
             </div>
          </div>
         <div className="fl tl w-100 w-50-ns pa3-s pa3-m pl4-l">
-        <h3>Communication & Marketing</h3>
+        <h3 className="lh-title">Communication & Marketing</h3>
         <Paragraph className="mt3">Another service of SWISS STARTUP TECH is communication and marketing. We advise you on your communication strategy, conceptualize and create content tailored to your target group, growth hack and establish the public relation.
         </Paragraph>
         <button className="button-blue">

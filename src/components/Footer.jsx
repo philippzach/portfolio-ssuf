@@ -37,33 +37,33 @@ class Footer extends Component {
               <li className="listitem">
               <Link to="/aboutus"><span className="topmenu">About Us</span></Link>
                   <ul className="list pl0 ma0 pt3 light-gray">
-                    <li className="sublistitem"><a style={{color: "rgb(211, 211, 211)", }} href="https://swissstartupjobs.com">FAQ</a></li>
-                    <li className="sublistitem"><Link style={{color: "rgb(211, 211, 211)", }} to="/blog">News</Link></li>
+                    <li ><a className="sublistitem" href="https://swissstartupjobs.com">FAQ</a></li>
+                    <li ><Link className="sublistitem" to="/blog">News</Link></li>
                   </ul>
               </li>
               <li className="listitem">
               <Link to="/factory"><span className="topmenu">Startups</span></Link>
                 <ul className="list pl0 ma0 pt3 light-gray">
-                  <li className="sublistitem"><a style={{color: "rgb(211, 211, 211)", }} href="https://www.swissstartupfactory.com/startups/accelerator" target="_blank">Accelerator</a></li>
-                  <li className="sublistitem"><a style={{color: "rgb(211, 211, 211)", }} href="https://www.swissstartupfactory.com/corporates/corporate-acceleration" target="_blank">Pitch Training</a></li>
-                  <li className="sublistitem"><a style={{color: "rgb(211, 211, 211)", }} href="https://www.swissstartupfactory.com/corporates/company-building" target="_blank">Startup Services</a></li>
-                  <li className="sublistitem mb0"><a style={{color: "rgb(211, 211, 211)", }} href="https://ccvs.ch/" target="_blank">Investment</a></li>
+                  <li ><a className="sublistitem" href="https://www.swissstartupfactory.com/startups/accelerator" target="_blank">Accelerator</a></li>
+                  <li ><a className="sublistitem" href="https://www.swissstartupfactory.com/corporates/corporate-acceleration" target="_blank">Pitch Training</a></li>
+                  <li ><a className="sublistitem" href="https://www.swissstartupfactory.com/corporates/company-building" target="_blank">Startup Services</a></li>
+                  <li className=" mb0"><a className="sublistitem" href="https://ccvs.ch/" target="_blank">Investment</a></li>
                 </ul>
               </li>
               <li className="listitem">
               <Link to="/factory"><span className="topmenu">Corporates</span></Link>
                 <ul className="list pl0 ma0 pt3 light-gray">
-                  <li className="sublistitem"><a style={{color: "rgb(211, 211, 211)", }} href="https://www.swissstartupfactory.com/startups/accelerator" target="_blank">Corporate Accelerator</a></li>
-                  <li className="sublistitem"><a style={{color: "rgb(211, 211, 211)", }} href="https://www.swissstartupfactory.com/corporates/corporate-acceleration" target="_blank">Company Building</a></li>
-                  <li className="sublistitem"><a style={{color: "rgb(211, 211, 211)", }} href="https://www.swissstartupfactory.com/corporates/company-building" target="_blank">Corporate Capital Venture</a></li>
-                  <li className="sublistitem mb0"><a style={{color: "rgb(211, 211, 211)", }} href="https://ccvs.ch/" target="_blank">Intra Innovation</a></li>
+                  <li ><a className="sublistitem" href="https://www.swissstartupfactory.com/startups/accelerator" target="_blank">Corporate Accelerator</a></li>
+                  <li ><a className="sublistitem" href="https://www.swissstartupfactory.com/corporates/corporate-acceleration" target="_blank">Company Building</a></li>
+                  <li ><a className="sublistitem" href="https://www.swissstartupfactory.com/corporates/company-building" target="_blank">Corporate Capital Venture</a></li>
+                  <li className=" mb0"><a className="sublistitem" href="https://ccvs.ch/" target="_blank">Intra Innovation</a></li>
                 </ul>
               </li>
               <li className="listitem">
               <Link to="/factory"><span className="topmenu">Jobs</span></Link>
                 <ul className="list pl0 ma0 pt3 light-gray">
-                  <li className="sublistitem"><a style={{color: "rgb(211, 211, 211)", }} href="https://" target="_blank">Innovators</a></li>
-                  <li className="sublistitem"><a style={{color: "rgb(211, 211, 211)", }} href="https://" target="_blank">EIR Programm</a></li>
+                  <li ><a className="sublistitem" href="https://" target="_blank">Innovators</a></li>
+                  <li ><a className="sublistitem" href="https://" target="_blank">EIR Programm</a></li>
                 </ul>
               </li>
           </ul>
