@@ -42,7 +42,7 @@ const InvestmentPortfolio = ({ data }) => (
       </div>
       <div className="w-100 w-60-ns pl3-ns flex items-center measure center">
         <div className="pa4">
-            <h3 className="lh-copy white">We work transparently, which requires quality, empathy and fair prices.   </h3>
+            <h3 className="lh-copy white" style={{fontWeight: "300"}}>We work transparently, which requires quality, empathy and fair prices.   </h3>
         </div>
       </div>
     </div>

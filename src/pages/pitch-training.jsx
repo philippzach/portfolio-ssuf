@@ -48,7 +48,7 @@ const InvestmentPortfolio = ({ data }) => (
       </div>
       <div className="w-100 w-60-ns pl3-ns flex items-center measure center">
         <div className="pa4">
-            <h3 className="lh-copy white">We re-work your pitch, in line with our framework in our three stages-  create clarity, communicate the opportunity and demonstrate the validation.</h3>
+            <Paragraph className="lh-copy white">We re-work your pitch, in line with our framework in our three stages-  create clarity, communicate the opportunity and demonstrate the validation.</Paragraph>
           <Paragraph className="lh-copy white">
           For each slide, we make sure to explain why the content matters and what different stakeholders need to see. Our one-on-one pitch training is split into three separate workshops. Between each workshop we expect our participants to be re-working different elements of their pitch and their business in preparation for the next session.  
           </Paragraph>

@@ -26,14 +26,14 @@ const HeroInner = styled.div`
     font-size: 3em;
     white-space: nowrap
   }
-  @media (min-width: 1375px) {
+  @media (min-width: 1200px) {
     position: absolute;
-    top: 400px;  /* position the top  edge of the element at the middle of the parent */
+    top: 450px;  /* position the top  edge of the element at the middle of the parent */
     left: 50%; /* position the left edge of the element at the middle of the parent */
     text-align: center;
     transform: translate(-50%, -50%);
   }
-  @media (min-width: 950px) and (max-width: 1375px){
+  @media (min-width: 950px) and (max-width: 1200px){
     position: absolute;
     top: 350px;
     left: 50%; 
@@ -133,7 +133,7 @@ class Index extends Component {
             <h2 className="lh-copy" style={{fontFamily: "Roboto", fontSize: "28px", fontWeight: "600", color:"#00486C"}}>
             Swiss Startup Factory is a venture studio for corporates and startups to innovate and accelerate in the best new technologies. 
             </h2>
-            <p className="lh-copy"><span className="b">Since 2015 we are the number one privately financed accelerator in Switzerland.</span>
+            <p className="lh-copy">Since 2015 we are the number one privately financed accelerator in Switzerland.
             The Swiss Startup Factory provides a professional execution platform to corporates and startups through a dedicated business driven process that brings their innovation to market fast and lean.
             </p>
             <p className="lh-copy"><b className="lh-copy">At Swiss Startup Factory innovation meets execution – we unleash your entrepreneurial potential! </b></p>
@@ -235,7 +235,7 @@ class Index extends Component {
     <div className="corporatescontainer">
       <div className="row">
         <article className="shadow maxwcorporates hover items-center center br4 pa3 pa4-ns mv3 b--black-10 flex flex-column ">
-        <a className="flex flex-column" href="https://www.swissstartupfactory.com/corporates/innovation-consulting" target="_blank">
+        <Link className="flex flex-column" to="/intra-innovation">
           <div className="tc">
             <h3 className="f4 pt3" style={{ color: 'rgb(0, 71, 107)' }}>
               Intra Innovation
@@ -250,10 +250,10 @@ class Index extends Component {
           <div className="mt4-l mv3 tc">
           <span className="buttonfactory mid-gray ttu b">Learn more</span>
           </div>
-          </a>
+          </Link>
         </article>
         <article className="shadow maxwcorporates hover items-center center br4 pa3 pa4-ns mv3 b--black-10 flex flex-column ">
-        <a className="flex flex-column" href="https://www.swissstartupfactory.com/corporates/corporate-acceleration" target="_blank">
+        <Link className="flex flex-column" to="/corporate-acceleration" target="_blank">
           <div className="tc">
             <h3 className="f4 pt3" style={{ color: 'rgb(0, 71, 107)' }}>
               Corporate Acceleration
@@ -269,12 +269,12 @@ class Index extends Component {
           <div className="mv3 tc">
           <span className="buttonfactory mid-gray ttu b">Learn more</span>
           </div>
-          </a>
+          </Link>
         </article>
         </div>
         <div className="row">
         <article className="shadow maxwcorporates hover items-center center br4 pa3 pa4-ns mv3  b--black-10 flex flex-column">
-        <a className="flex flex-column" href="https://www.swissstartupfactory.com/corporates/company-building" target="_blank">
+        <Link className="flex flex-column" to="/company-building" target="_blank">
           <div className="tc">
             <h3 className="f4 pt3" style={{ color: 'rgb(0, 71, 107)' }}>
               Company Builder
@@ -290,7 +290,7 @@ class Index extends Component {
           <div className="mv3 tc">
           <span className="buttonfactory mid-gray ttu b">Learn more</span>
           </div>
-          </a>
+          </Link>
         </article>
         <article className="shadow maxwcorporates hover items-center center br4 pa3 pa4-ns mv3  b--black-10 flex flex-column ">
         <a className="flex flex-column" href="https://ccvs.ch/" target="_blank">

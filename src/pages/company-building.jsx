@@ -49,7 +49,7 @@ const InvestmentPortfolio = ({ data }) => (
       </div>
       <div className="w-100 w-60-ns pl3-ns flex items-center measure center">
         <div className="pa4">
-            <h3 className="white lh-title">We create an agile and quick experimental playground for six months, where ideas can grow and are protected from corporate structures and processes. </h3>
+            <Paragraph className="white">We create an agile and quick experimental playground for six months, where ideas can grow and are protected from corporate structures and processes. </Paragraph>
           <Paragraph className=" white">
           The goal is to build a ready-to-market startup in this time period. With our Swiss Startup Factory company-building framework, which we have developed over the last three years, and our experience of building up over 50 startups, we can efficiently build-up any company in any industry.  
           </Paragraph>

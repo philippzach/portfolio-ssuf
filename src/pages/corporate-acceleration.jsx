@@ -59,7 +59,7 @@ const InvestmentPortfolio = ({ data }) => (
       </div>
       <div className="w-100 w-60-ns pl3-ns flex items-center measure center">
         <div className="pa4">
-            <h3 className="lh-title white">We accept all of your internal early-stage startups in our accelerator program</h3>
+            <Paragraph className="lh-title white">We accept all of your internal early-stage startups in our accelerator program</Paragraph>
           <Paragraph className="white">
           Every startup and corporate is different and that is why we customise the accelerator program to your specific needs. 
           </Paragraph>

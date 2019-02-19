@@ -6,8 +6,8 @@ import '../styles/pages/buttonblue.css';
 import Seo from '../components/SEO/index';
 import { graphql, Link } from 'gatsby';
 import Img from 'gatsby-image';
-import Timeline from '../components/Timeline';
-import TimelineOnBackground from '../components/TimelineBackground';
+import TimelineNoBackground from '../components/TimelineNoBackground';
+import TimelineBackground from '../components/TimelineBackground';
 import Slider from '../components/pictureslider/startupstories';
 import Background from '../images/startup-accelerator-background-sm.jpg';
 import Form from '../components/form-accelerator';
@@ -23,8 +23,7 @@ const Test = styled.div`
     max-height: 575px;
 `
 const Head = styled.h1`
-color: #00486C;
-margin: 2em 0 1em;
+color: white;
 `
 const Paragraph = styled.p`
 line-height: 35px;
@@ -67,11 +66,13 @@ const InvestmentPortfolio = ({ data }) => (
       <Test> 
           <Img fluid={data.portfolio.childImageSharp.fluid} className="w-100" />
       </Test>
-    <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
-      <div className="tc">
-      <Head>Swiss Startup Factory Startup Accelerator</Head>
-      <Link to=""><div className="button-blue">Apply now</div></Link>
+      <div style={{backgroundColor: "#00486C", padding:"3em 0", maring: "3em 0"}}>
+          <div className="tc">
+          <Head>Swiss Startup Factory Startup Accelerator</Head>
+          <a href="https://ssuf.typeform.com/to/BPDGQ9"><div className="button-blue" style={{boxShadow: "none"}}>Apply now</div></a>
+          </div>
       </div>
+    <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
       <div className="containertitle mt5">
         <SubHead>Make your product happen!</SubHead>
         <Paragraph>
@@ -87,7 +88,7 @@ const InvestmentPortfolio = ({ data }) => (
       </div>
       <div className="w-100 w-60-ns pl3-ns flex items-center measure center">
         <div className="pt4 pb5 ph4">
-            <Paragraph className="white "><span className="white b f3">The program is divided in five different phases, </span>where the length of each stage depends on the need of your startup and is defined at the beginning of the program. During the accelerator, you will follow our Swiss Startup Factory Company Building Playbook and work in numerous one-on-one sessions with our experienced team, excellent mentors and industry partners to validate all your hypotheses.</Paragraph>
+            <Paragraph className="white ">The program is divided in five different phases, where the length of each stage depends on the need of your startup and is defined at the beginning of the program. During the accelerator, you will follow our Swiss Startup Factory Company Building Playbook and work in numerous one-on-one sessions with our experienced team, excellent mentors and industry partners to validate all your hypotheses.</Paragraph>
             <Paragraph className="white ">In 3 milestones, you need to convince an internal and external jury about the potential of your business, in order to continue the program. </Paragraph>
             <Paragraph className="white b">Applications for the program are accepted on a rolling basis.</Paragraph>
             <div className="button-blue pb4" style={{boxShadow: "none"}}>
@@ -103,7 +104,7 @@ const InvestmentPortfolio = ({ data }) => (
     <div className="mb4 mb0-ns w-100 w-40-ns">
     <Img fluid={data.innovation2.childImageSharp.fluid} className="w-100" />
       </div>
-      <div className="w-100 w-60-ns pl3-ns flex items-center justify-center">
+      <div className="w-100 w-60-ns pl3-ns flex justify-center">
         <div className="pa4">
           <h3>Location: Zurich, Switzerland</h3>
           <ul>
@@ -155,13 +156,15 @@ const InvestmentPortfolio = ({ data }) => (
     <Wrapper>
       <Title>Benefits</Title>
     </Wrapper>
-    <Timeline />
+    <BackgroundTimeline> 
+      <TimelineBackground />
+    </BackgroundTimeline>
     <Wrapper>
       <Title>The Program</Title>
     </Wrapper>
-    <BackgroundTimeline> 
-      <TimelineOnBackground />
-    </BackgroundTimeline>
+    
+      <TimelineNoBackground />
+   
    
     <Wrapper>
       <Title>Startup Stories</Title>
@@ -194,7 +197,7 @@ const InvestmentPortfolio = ({ data }) => (
         <Form />
       <div className="containerinvestors mv6">
         <Contact>Specific Questions?</Contact>
-        <Contact>
+        <Contact style={{fontWeight: "300"}}>
         Do you have specific questions, which is not answered on this website? Then write us an email :)
         </Contact>
         <a href="mailto:"><div className="button-blue">

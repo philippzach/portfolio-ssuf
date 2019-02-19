@@ -27,7 +27,7 @@ const InvestmentPortfolio = ({ data }) => (
     <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
       <Title>Investment</Title>
       <div className="containertitle">
-        <h2 className="lh-title">Swiss Startup Factory has created its own Investors Club with some of the most renown Ultra High Net Worth Individuals in Europe</h2>
+        <h2 className="lh-title">We created our own investor club with some of the most renown Ultra High Net Worth Individuals in Europe</h2>
         <Paragraph>
         With our Investors Club, we assure a straight forward and efficient funding process for Startups for seed rounds to A- and B- rounds. In addition, if you receive funding from us, you will have access to a powerful worldwide network to support you like smart money investor. No matter if you need money for your first prototype, for further product development or international expansion, we are the right partner for you. 
         </Paragraph>
@@ -39,7 +39,7 @@ const InvestmentPortfolio = ({ data }) => (
       </div>
       <div className="w-100 w-60-ns pl3-ns flex items-center measure center">
         <div className="pa4">
-            <h3 className="lh-title white">We look for scalable startups with a disruptive idea, an amazing complementary team</h3>
+            <h3 className="lh-title white">We look for scalable startup with a disruptive idea and an amazing complementary team</h3>
           <Paragraph className="white">
           With us you do not only get funding, you will win the Swiss Startup Factory and our entire ecosystem as a valuable partner for the future.  
           </Paragraph>

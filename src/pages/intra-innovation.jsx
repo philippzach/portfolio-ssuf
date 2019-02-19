@@ -50,9 +50,9 @@ const InvestmentPortfolio = ({ data }) => (
         <h3 className="center" style={{lineHeight: "40px", fontFamily: "roboto", fontWeight: "400"}}>
         Through our own startup platform, our talented and diverse team and our experience working with various corporates, we can offer a great variety of innovation services. 
         </h3>
-        <Paragraph className="investorparagraph lh-copy fw3">
+        {/* <Paragraph className="investorparagraph lh-copy fw3">
         Those services include are not limited to the following:
-        </Paragraph>
+        </Paragraph> */}
       </div>
       
     </Wrapper>
