@@ -9,6 +9,12 @@ import 'typeface-poppins';
 import { Footer, SEO } from 'components';
 import { theme, reset } from 'styles';
 
+import '../styles/pages/buttonblue.css';
+import '../styles/pages/buttonwhite.css';
+import '../styles/pages/growth.css';
+import '../styles/pages/index.css';
+import '../styles/pages/portfolio.css';
+
 injectGlobal`
   ${reset}
     h3, h2, p {
