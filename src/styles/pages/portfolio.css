@@ -69,4 +69,36 @@
     z-index: 2;
     background: inherit;
   }
- 
+  @media only screen and (min-width: 950px) {
+    .containertitleabout {
+        margin-left: 30%;
+    }
+    .tabrow {
+        display: flex;
+}
+    .tabrow2 {
+        display: flex;
+    }
+}
+@media only screen and (max-width: 950px) {
+    .containertitleabout {
+        margin-left: 0%;
+}
+    .tabrow {
+        display: flex;
+        flex-direction: column;
+}
+}
+@media only screen and (max-width: 550px) {
+    .containertitle {
+        padding-bottom: 3em;
+    }
+    .fixerclass {
+        padding: 7em 0;
+    }
+}
+@media only screen and (min-width:550px) {
+    .fixerclass {
+        padding: 4em 0;
+    }
+}

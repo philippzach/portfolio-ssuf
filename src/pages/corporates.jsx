@@ -80,15 +80,29 @@ const GrowthServices = ({ data }) => (
             <div class="fl w-100 w-50-ns tl pa3-s pa3-m ph4-l">
             <h3>Venture Capital</h3>
             <p className=" mt3">Your company wants to identify and build new business models that will disrupt your industry. We identify and execute new business models in your industry with our in-house team specialised in business development.</p>
-                  <Link to="/innovation-for-sme">
+                  <a href="https://ccvs.ch">
                 <div className="button-blue">Learn More</div>
-                </Link>
+                </a>
               </div>
             <div class="mobilepadding fl w-100 w-50-ns tc flex justify-center">
             <div className="backgroundgrowth">
                 <img src={Acount} alt="" title="" />
                 </div>
             </div>
+        </article>
+        <article class="cf mv6">
+            <div class="mobilepadding fl w-100 w-50-ns tc flex justify-center">
+            <div className="backgroundgrowth">
+                <img src={Marketing} alt="" title="" />
+                </div>
+            </div>
+            <div class="fl tl w-100 w-50-ns pa4-s pa3-m pl4-l">
+            <h3>SME's</h3>
+            <p className=" mt3">All collaborations start with a meeting where we will find out more about your organisation and your needs. Based on this, we will suggest a program that fits your needs.</p>
+            <Link to="/innovation-for-sme" >
+            <div className="button-blue">Learn More</div>
+            </Link>
+              </div>
         </article>
         
         </Wrapper>

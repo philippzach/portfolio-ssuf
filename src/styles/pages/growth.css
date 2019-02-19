@@ -9,12 +9,6 @@
         flex-direction: column-reverse;
     }
 }
-h3, h2, p {
-    color: #00486C;
-}
-p {
-    line-height: 30px;
-}
 .backgroundgrowth {
     background-color: #f7f7f7;
     padding: 4em 4em;

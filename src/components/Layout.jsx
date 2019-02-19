@@ -1,8 +1,7 @@
 /* eslint no-unused-expressions: 0 */
-
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import Tachyons from 'tachyons/css/tachyons.min.css';
+import 'tachyons';
 import { injectGlobal } from 'emotion';
 import { ThemeProvider } from 'emotion-theming';
 import 'typeface-roboto';
@@ -12,8 +11,11 @@ import { theme, reset } from 'styles';
 
 injectGlobal`
   ${reset}
-  h1, h2, h3, h4, h5, h6 {
-    color: ${theme.colors.black};
+    h3, h2, p {
+      color: #00486C;
+  }
+  p {
+      line-height: 30px;
   }
   html {
     -webkit-font-smoothing: antialiased;

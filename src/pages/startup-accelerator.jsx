@@ -24,6 +24,7 @@ const Test = styled.div`
 `
 const Head = styled.h1`
 color: white;
+font-size: 2em;
 `
 const Paragraph = styled.p`
 line-height: 35px;
