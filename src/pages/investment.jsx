@@ -43,9 +43,10 @@ const InvestmentPortfolio = ({ data }) => (
           <Paragraph className="white">
           With us you do not only get funding, you will win the Swiss Startup Factory and our entire ecosystem as a valuable partner for the future.  
           </Paragraph>
-          <button className="button-blue" style={{boxShadow: "none"}}>
+          <a href="https://www.swissstartupgroup.com/investorclub"><button className="button-blue" style={{boxShadow: "none"}}>
         Join Investor Club
         </button>
+        </a>
         </div>
       </div>
     </div>
@@ -54,9 +55,10 @@ const InvestmentPortfolio = ({ data }) => (
         <h3 className="lh-copy center">
         Just upload your pitch deck so our business analysts will analyse the potential of your company.
         </h3>
-        <button className="button-blue">
+        <a href="https://ssuf.typeform.com/to/BPDGQ9"><button className="button-blue">
         Upload Pitch Deck
         </button>
+        </a>
       </div>
       </Wrapper>
     

@@ -44,7 +44,7 @@ const GrowthServices = ({ data }) => (
         <h3>Corporate Acceleration</h3>
          <p className=" mt3">Your company wants to be close to latest industry trends, launch new products or to establish a funnel for corporate venture capital investments. Your internal startups have the chance to participate in our 10-week accelerator program.</p>
             <Link to="/corporate-acceleration">
-            <div className="button-blue">Learn More</div>
+            <div className="button-blue">Your Chance</div>
             </Link>
           </div>
         </article>
@@ -53,7 +53,7 @@ const GrowthServices = ({ data }) => (
             <h3>Company Building</h3>
             <p className=" mt3 ">Your company wants to identify and build new business models that will disrupt your industry. We identify and execute new business models in your industry with our in-house team specialised in business development.</p>
                         <Link to="/company-building">
-                        <div className="button-blue">Learn More</div>
+                        <div className="button-blue">Let's Rock</div>
                         </Link>
               </div>
             <div class="mobilepadding fl w-100 w-50-ns tc flex justify-center">
@@ -81,7 +81,7 @@ const GrowthServices = ({ data }) => (
             <h3>Venture Capital</h3>
             <p className=" mt3">Your company wants to identify and build new business models that will disrupt your industry. We identify and execute new business models in your industry with our in-house team specialised in business development.</p>
                   <a href="https://ccvs.ch">
-                <div className="button-blue">Learn More</div>
+                <div className="button-blue">Become Part</div>
                 </a>
               </div>
             <div class="mobilepadding fl w-100 w-50-ns tc flex justify-center">
@@ -100,7 +100,7 @@ const GrowthServices = ({ data }) => (
             <h3>SME's</h3>
             <p className=" mt3">All collaborations start with a meeting where we will find out more about your organisation and your needs. Based on this, we will suggest a program that fits your needs.</p>
             <Link to="/innovation-for-sme" >
-            <div className="button-blue">Learn More</div>
+            <div className="button-blue">Get in touch</div>
             </Link>
               </div>
         </article>

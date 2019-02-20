@@ -43,7 +43,7 @@ const Startup = ({ data }) => (
             <h3>Switzerland Accelerator</h3>
             <p className=" mt3 ">Our intense customised accelerator program will prepare you and your team to achieve the maximum potential of your startup.</p>
                         <Link to="/startup-accelerator">
-                        <div className="button-blue">Learn More</div>
+                        <div className="button-blue">Make your product happen</div>
                         </Link>
               </div>
             <div class="mobilepadding fl w-100 w-50-ns tc flex justify-center">
@@ -62,7 +62,7 @@ const Startup = ({ data }) => (
         <h3>Pitch Training</h3>
          <p className=" mt3">We do more than just help you improve your pitch. Our objective is to help you do this in a way that allows you to understand which areas of your business are important, and should be put in the spotlight to help you move your company forward as fast as possible.</p>
             <Link to="/pitch-training">
-            <div className="button-blue">Learn More</div>
+            <div className="button-blue">work hard, pitch harder</div>
             </Link>
           </div>
         </article>
@@ -71,7 +71,7 @@ const Startup = ({ data }) => (
             <h3>Startup Services</h3>
             <p className=" mt3 ">Founding a startup is difficult and you have enough work with winning clients, closing investors and improving your product. Check our 360 degree startup services, so you can focus on the topics that matter the most.</p>
                         <Link to="/startup-services">
-                        <div className="button-blue">Learn More</div>
+                        <div className="button-blue">more insights</div>
                         </Link>
               </div>
             <div class="mobilepadding fl w-100 w-50-ns tc flex justify-center">
@@ -90,7 +90,7 @@ const Startup = ({ data }) => (
             <h3>Investment</h3>
             <p className=" mt3">No matter if you need money for your first prototype, for further product development or international expansion, we can support you. We look for scalable startups with a disruptive idea – just upload your pitch deck so our business analysts will analyse the potential of your company.</p>
             <Link to="/investment" target="_blank">
-            <div className="button-blue">Learn More</div>
+            <div className="button-blue">Find out more</div>
             </Link>
               </div>
         </article>

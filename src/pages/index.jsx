@@ -174,7 +174,7 @@ class Index extends Component {
           </p>
           </div>
           <div className="mv3 center">
-          <span className="buttonfactory mid-gray ttu b">Learn more</span>
+          <span className="buttonfactory mid-gray ttu b">Apply now</span>
           </div>
           </Link>
         </article>
@@ -190,7 +190,7 @@ class Index extends Component {
             30 minutes meeting where you can pitch us your idea, tell us about your challenges and ask us for feedback
           </p>
           <div className="mv3 center">
-          <span className="buttonfactory mid-gray ttu b">Learn more</span>
+          <span className="buttonfactory mid-gray ttu b">Get in touch</span>
           </div>
           </Link>
         </article>
@@ -207,7 +207,7 @@ class Index extends Component {
             the spotlight to move you company forward
           </p>
           <div className="mv3 center">
-          <span className="buttonfactory mid-gray ttu b">Learn more</span>
+          <span className="buttonfactory mid-gray ttu b">Start now</span>
           </div>
           </Link>
         </article>
@@ -248,7 +248,7 @@ class Index extends Component {
           </p>
           </div>
           <div className="mt4-l mv3 tc">
-          <span className="buttonfactory mid-gray ttu b">Learn more</span>
+          <span className="buttonfactory mid-gray ttu b">Just do it</span>
           </div>
           </Link>
         </article>
@@ -267,7 +267,7 @@ class Index extends Component {
           </p>
           </div>
           <div className="mv3 tc">
-          <span className="buttonfactory mid-gray ttu b">Learn more</span>
+          <span className="buttonfactory mid-gray ttu b">Build Startups</span>
           </div>
           </Link>
         </article>
@@ -281,7 +281,7 @@ class Index extends Component {
             </h3>
             <hr className="mw3 bb bw1 b--black-10" />
           </div>
-          <div className="mv3-l">
+          <div className="mt4-l mb4-l">
           <p className="lh-copy measure center f6 black-70 tc" style={{ color: 'rgb(0, 71, 107)' }}>
             Building up a completely new business model or startup from scratch - outside the existing corporate
             structures
@@ -295,8 +295,8 @@ class Index extends Component {
         <article className="shadow maxwcorporates hover items-center center br4 pa3 pa4-ns mv3  b--black-10 flex flex-column ">
         <a className="flex flex-column" href="https://ccvs.ch/" target="_blank">
           <div className="tc">
-            <h3 className="f4 pt3" style={{ color: 'rgb(0, 71, 107)' }}>
-              Corporate Venturing
+            <h3 className="f4 pt3" style={{ color: 'rgb(0, 71, 107)', lineHeight: "25px" }}>
+              Center for Corporate Venturing
             </h3>
             <hr className="mw3 bb bw1 b--black-10" />
           </div>
@@ -306,7 +306,7 @@ class Index extends Component {
           </p>
           </div>
           <div className="mv3 tc">
-          <span className="buttonfactory mid-gray ttu b">Learn more</span>
+          <span className="buttonfactory mid-gray ttu b">More Information</span>
           </div>
           </a>
         </article>
@@ -319,6 +319,13 @@ class Index extends Component {
         <div className="ph4-s ph5-m ph6-l mb3"> 
           <Listing posts={posts.edges} />
         </div> 
+        <div className="w100 flex justify-center mb6">
+        <Link to="/blog">
+          <button className="button-blue">
+            News
+          </button>
+        </Link>
+        </div>
         
       </Layout>
     );

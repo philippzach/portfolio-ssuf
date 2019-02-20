@@ -6,6 +6,7 @@ import '../styles/pages/portfolio.css';
 import Seo from '../components/SEO/index';
 import { graphql } from 'gatsby';
 import Img from 'gatsby-image';
+import Slider from '../components/pictureslider/companyslider';
 
 import Startup1 from '../../static/ssuf/corporate-acc-1.svg' /* //'../../static/growth-process.svg'; */
 import Startup2 from '../../static/ssuf/corporate-acc-2.svg'/* //'../../static/growth-market.svg'; */
@@ -216,20 +217,7 @@ const InvestmentPortfolio = ({ data }) => (
             Testimonials
         </Title>
     </Wrapper>
-    <div className="flex flex-column flex-row-ns mv4 background" style={{backgroundColor: "#00486C"}}>
-      <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-      <Img fluid={data.innovation2.childImageSharp.fluid} className="w-100" />
-      </div>
-      <div className="w-100 w-60-ns pl3-ns flex items-center measure center">
-        <div className="pa4">
-            <h3 className="white">Philipp Wetzel</h3>
-            <h5 className="white">Managing Director, AMAG Innovation & Venture LAB</h5>
-          <p className="lh-copy white">
-          “The cooperation with Swiss Start Up Factory is the ideal complement to AMAG’s own innovation process, which is accelerated as a result of this partnership. This gives AMAG a very good starting position for the search, selection and management of its own mobility initiatives on the one hand and the development and support of possible start-ups in the mobility sector on the other hand. ” 
-          </p>
-        </div>
-      </div>
-    </div>
+    <Slider />
     <Wrapper>
       <div className="containerinvestors mv5">
         <h3 className="lh-copy measure-narrow center" style={{fontFamily: "roboto"}}>
@@ -240,7 +228,7 @@ const InvestmentPortfolio = ({ data }) => (
         </button>
       </div>
       </Wrapper>
-    
+     
 
   </Layout>
 );
@@ -269,15 +257,19 @@ export const query = graphql`
           }
         }
     }
-    innovation2: file(relativePath: { eq: "images/corporate-acceleration-2.jpg" }) {
-        childImageSharp {
-          fluid(
-            maxWidth: 1500
-            traceSVG: { background: "#fff", color: "lightgrey" }
-          ) {
-            ...GatsbyImageSharpFluid_tracedSVG
-          }
-        }
-    }
   }`
 
+{/* <div className="flex flex-column flex-row-ns mv4 background" style={{backgroundColor: "#00486C"}}>
+      <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns">
+      <Img fluid={data.innovation2.childImageSharp.fluid} className="w-100" />
+      </div>
+      <div className="w-100 w-60-ns pl3-ns flex items-center measure center">
+        <div className="pa4">
+            <h3 className="white">Philipp Wetzel</h3>
+            <h5 className="white">Managing Director, AMAG Innovation & Venture LAB</h5>
+          <p className="lh-copy white">
+          “The cooperation with Swiss Start Up Factory is the ideal complement to AMAG’s own innovation process, which is accelerated as a result of this partnership. This gives AMAG a very good starting position for the search, selection and management of its own mobility initiatives on the one hand and the development and support of possible start-ups in the mobility sector on the other hand. ” 
+          </p>
+        </div>
+      </div>
+    </div> */}

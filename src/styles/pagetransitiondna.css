@@ -2,34 +2,37 @@
     cursor: pointer;
     position: absolute;
     width: 100%;
-    max-height: 600px;
+    max-height: 800px;
     will-change: transform, opacity;
-    
-}  
-@media only screen and (min-width: 550px) {
-    .dnamain > div {
-        background-color: #E6E6EA;
-    }
+    background-color: #00486C;
 }
+
 @media only screen and  (max-width: 480px){
     .paddingdna {
-        padding: 7em 2em 0em;
+        padding: 0em 1em 0em;
+    }
+}
+@media only screen and (min-width: 550px) {
+    .paddingdna {
+        padding: 1em 1em 0em;
     }
 }
 
 @media only screen and  (max-width: 30em) {
     .dna{
         height: 650px;
+        margin-bottom: 7em;
     }
+    
 }
 @media only screen and  (min-width: 30em) and (max-width: 45em) {
     .dna {
-        height: 300px
+        height: 350px
     }
 }
 @media only screen and  (min-width: 45em) and (max-width: 60em) {
     .dna {
-        height: 350px
+        height: 400px
     }
 }
 @media only screen and  (min-width: 60em) and (max-width: 75em) {
@@ -39,24 +42,6 @@
 }
 @media only screen and  (min-width: 75em) {
     .dna {
-        height: 500px
+        height: 600px
     }
 }
-
-/*
-@media (max-width: 480px) {
-    .main {
-        margin-bottom: 35rem;
-    }
-}
-@media (min-width: 1100px) {
-    .main {
-        margin-bottom: 31rem;
-    }
-}
-@media (min-width: 768px) {
-    .main {
-        margin-bottom: 20rem;
-    }
-}
-*/
