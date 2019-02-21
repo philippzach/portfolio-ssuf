@@ -119,9 +119,9 @@ class Index extends Component {
             </HeroText>
             <div>
               <HeaderSmall>Upload your pitch deck now</HeaderSmall>
-              <Link to="/startup-accelerator">
-              <div className="button-blue">APPLY TO OUR CUSTOMIZED ACCELERATOR PROGRAM</div>
-              </Link>
+              
+              <a href="https://ssuf.typeform.com/to/BPDGQ9"><div className="button-blue">APPLY TO OUR CUSTOMIZED ACCELERATOR PROGRAM</div></a>
+              
             </div>
           </HeroInner>
         <div className="line" />
@@ -169,7 +169,7 @@ class Index extends Component {
           </div>
           <div>
           <p className="lh-copy measure center f6 black-70 tc" style={{ color: 'rgb(0, 71, 107)' }}>
-            Based on more than 3-years of experience we have designed a completely new customised accelerator program
+            Based on more than 3 years of experience we have designed a completely new customised accelerator program
             which will prepare you and your team to live up to your potential
           </p>
           </div>
@@ -204,7 +204,7 @@ class Index extends Component {
           </div>
           <p className="lh-copy measure center f6 black-70 tc " style={{ color: 'rgb(0, 71, 107)' }}>
             We help you to improve your pitch that allows you to understand which areas are important and should be in
-            the spotlight to move you company forward
+            the spotlight to move your company forward
           </p>
           <div className="mv3 center">
           <span className="buttonfactory mid-gray ttu b">Start now</span>
@@ -263,7 +263,7 @@ class Index extends Component {
           <div>
           <p className="lh-copy measure center f6 black-70 tc" style={{ color: 'rgb(0, 71, 107)' }}>
             Adjusting our accelerator program to the structure of the corporate, we build up their existing startup
-            projects with - or without taking equity.
+            projects with or without taking equity.
           </p>
           </div>
           <div className="mv3 tc">
@@ -284,7 +284,7 @@ class Index extends Component {
           <div className="mt4-l mb4-l">
           <p className="lh-copy measure center f6 black-70 tc" style={{ color: 'rgb(0, 71, 107)' }}>
             Building up a completely new business model or startup from scratch - outside the existing corporate
-            structures
+            structures.
           </p>
           </div>
           <div className="mv3 tc">
@@ -302,7 +302,7 @@ class Index extends Component {
           </div>
           <div>
           <p className="lh-copy measure center f6 black-70 tc" style={{ color: 'rgb(0, 71, 107)' }}>
-          The Center of Corporate Venturing  connects innovation leaders – its members have access to educational events, networking opportunities and a place to exchange ideas.
+          The Center for Corporate Venturing connects innovation leaders – its members have access to educational events, networking opportunities and a place to exchange ideas.
           </p>
           </div>
           <div className="mv3 tc">

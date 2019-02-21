@@ -73,7 +73,7 @@ const InvestmentPortfolio = ({ data }) => (
                 <li>Payroll Accounting</li>
                 <li>Human resources and controlling </li>
             </ul>
-            <p className="lh-copy mt3 b">Due to our years of experience in accounting and our customisation to startups, we are experts in the field of accounting services for young firms.</p>
+            <p className="lh-copy mt3">Due to our years of experience in accounting and our customisation to startups, we are experts in the field of accounting services for young firms.</p>
                 <button className="button-blue">
                 Learn More
                 </button>

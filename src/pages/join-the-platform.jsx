@@ -1,4 +1,6 @@
 import React from 'react';
+import { graphql } from 'gatsby';
+import Img from 'gatsby-image';
 import { Layout, NavbarInverted } from 'components';
 import '../styles/pages/join-the-platform.css';
 import '../styles/input.css';
@@ -27,13 +29,23 @@ const Cta = styled.a`
 color: black;
 font-weight: 600;
 `
+const Test = styled.div`
+    position: relative;
+    overflow: hidden;
+    vertical-align: middle;
+    max-height: 450px;
+`
 
-const Join = () => (
+const Join = ({data}) => (
     <Layout>
         <NavbarInverted />
+        <Test> 
+          <Img fluid={data.join.childImageSharp.fluid} className="w-100" />
+        </Test>
         <section className="page-section text_hero">
             <div className="grid-container">
-                <div className="pnp__hero-block pnp__text-hero" style={{backgroundColor: "rgba(0, 72, 108, 0.05)"}}>
+          
+                <div className="pnp__hero-block pnp__text-hero" style={{background: "#f4f4f4"}} >
                     <div className="grid-container" style={{padding: "3em"}}>
                         <div className="grid-x align-middle">
                             <div className="cell">
@@ -57,7 +69,7 @@ const Join = () => (
         </section>
         
         <Input >
-             <div className="box" style={{ background: "rgba(0, 72, 108, 0.05)", margin: "2em auto"}}>
+             <div className="box" style={{ margin: "2em auto"}}>
              <form action="https://formspree.io/your@email.com" method="POST" style={{margin: "auto"}}>
                     {/* <Box>
                     <Label for="Info">Information for Startups</Label>
@@ -81,7 +93,7 @@ const Join = () => (
                 </form>
              </div>
          </Input>
-         <div className="box" style={{ background: "rgba(0, 72, 108, 0.05)", margin: "2em auto"}}>
+         <div className="box" style={{ margin: "2em auto"}}>
             <Half>
             <img style={{borderRadius: "15rem", zoom: ".4"}} src={Cindy} alt=""/>
             <h3 style={{margin: "1em 0"}}>Cindy Spelt</h3>
@@ -94,10 +106,23 @@ const Join = () => (
             <p>
             <svg style={{paddingRight: "10px"}} height="25px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m16.484 11.976 6.151-5.344v10.627zm-7.926.905 2.16 1.875c.339.288.781.462 1.264.462h.017-.001.014c.484 0 .926-.175 1.269-.465l-.003.002 2.16-1.875 6.566 5.639h-20.009zm-6.572-7.516h20.03l-9.621 8.356c-.104.082-.236.132-.38.132-.005 0-.009 0-.014 0h.001c-.004 0-.009 0-.014 0-.144 0-.277-.05-.381-.133l.001.001zm-.621 1.266 6.15 5.344-6.15 5.28zm21.6-2.441c-.24-.12-.522-.19-.821-.19h-20.285c-.3.001-.584.071-.835.197l.011-.005c-.618.309-1.035.937-1.035 1.663v.004 12.168c.001 1.026.833 1.857 1.858 1.858h20.283c1.026-.001 1.857-.833 1.858-1.858v-12.168c0-.001 0-.002 0-.004 0-.727-.419-1.357-1.029-1.66l-.011-.005z"/></svg>
             <Cta href="mailto:cindy.spelt@ssuf.ch">cindy.spelt@ssuf.ch</Cta></p>
-            <p>Or book directly an introduction call via <Cta href="https://">Calendly</Cta></p>
             </Half>
          </div>
     </Layout>
 )
 
 export default Join
+
+export const query = graphql`
+  query {
+    join: file(relativePath: { eq: "images/join-the-platform.jpg" }) {
+        childImageSharp {
+          fluid(
+            maxWidth: 1500
+            traceSVG: { background: "#fff", color: "lightgrey" }
+          ) {
+            ...GatsbyImageSharpFluid_tracedSVG
+          }
+        }
+    }
+  }`

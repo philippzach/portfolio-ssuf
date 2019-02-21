@@ -71,7 +71,7 @@ const GrowthServices = ({ data }) => (
             <div class="fl tl w-100 w-50-ns pa4-s pa3-m pl4-l">
             <h3>Innovation Consulting</h3>
             <p className=" mt3">Our consulting unit helps you in identifying your transformation potential and support you in generating a transformation roadmap and realising it with different services.</p>
-            <Link to="/intra-innovation" >
+            <Link to="/corporate-innovation-service" >
             <div className="button-blue">Learn More</div>
             </Link>
               </div>
@@ -99,7 +99,7 @@ const GrowthServices = ({ data }) => (
             <div class="fl tl w-100 w-50-ns pa4-s pa3-m pl4-l">
             <h3>SME's</h3>
             <p className=" mt3">All collaborations start with a meeting where we will find out more about your organisation and your needs. Based on this, we will suggest a program that fits your needs.</p>
-            <Link to="/innovation-for-sme" >
+            <Link to="/innovation-for-sme-and-kmu" >
             <div className="button-blue">Get in touch</div>
             </Link>
               </div>

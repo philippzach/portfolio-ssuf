@@ -92,9 +92,11 @@ const InvestmentPortfolio = ({ data }) => (
             <Paragraph className="white ">The program is divided in five different phases, where the length of each stage depends on the need of your startup and is defined at the beginning of the program. During the accelerator, you will follow our Swiss Startup Factory Company Building Playbook and work in numerous one-on-one sessions with our experienced team, excellent mentors and industry partners to validate all your hypotheses.</Paragraph>
             <Paragraph className="white ">In 3 milestones, you need to convince an internal and external jury about the potential of your business, in order to continue the program. </Paragraph>
             <Paragraph className="white b">Applications for the program are accepted on a rolling basis.</Paragraph>
-            <div className="button-blue pb4" style={{boxShadow: "none"}}>
+            <Link to="/accelerator-faq">
+            <div className="button-blue" style={{boxShadow: "none"}}>
                 Accelerator FAQ's
                 </div>
+              </Link>
         </div>
       </div>
     </div>

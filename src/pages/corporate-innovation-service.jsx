@@ -135,7 +135,7 @@ const InvestmentPortfolio = ({ data }) => (
       <div className="w-100 w-60-ns pl3-ns flex items-center justify-center">
         <div className="pa4">
           <Paragraph className="measure">
-          <span className="b f3">For each of the services described above,</span> we have developed standardised programs, which we have tested multiple times with large clients. All collaborations start with a meeting where we will find out more about your organisation and your needs. Based on this, we will suggest the right services from our toolbox that fits 100% to your needs. 
+          For each of the services described above, we have developed standardised programs, which we have tested multiple times with large clients. All collaborations start with a meeting where we will find out more about your organisation and your needs. Based on this, we will suggest the right services from our toolbox that fits 100% to your needs. 
           </Paragraph>
         </div>
       </div>

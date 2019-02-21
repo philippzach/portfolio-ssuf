@@ -196,7 +196,7 @@ const InvestmentPortfolio = ({ data }) => (
                                 <div className="tc">
                                 <div class="hexagon"><span><img src={Row22} /></span></div>
                                 <p className="pt3 mb0 b">Graduate Service</p>
-                                <p className="pt3 mb0 fw3">Receive the Swiss Startup Factory Graduate Services & become a long term partner</p>
+                                <p className="pt3 mb0 fw3">Receive the Swiss Startup Factory Graduate Services and become a long term partner</p>
                                 </div>
                             </div>
                         </div>

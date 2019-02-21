@@ -5,6 +5,7 @@ import Logo from '../../static/ss_factory.svg';
 import '../styles/navbarinverted.css';
 import '../styles/navbar.css';
 import '../styles/pages/buttonwhite.css';
+import '../styles/hovermenu.css';
 
 const Header = styled.div`
   display: flex;
@@ -45,11 +46,62 @@ const Navbar = () => (
     </Link>
     <Navigation>
       <ul className="nav__menu">
-        <li className="nav__menu-item"><Link to="/startups" className="hovereffect" style={NavItem}>Startup</Link></li>
-        <li className="nav__menu-item"><Link to="/corporates"  className="hovereffect" style={NavItem}>Corporates</Link></li>
-        <li className="nav__menu-item"><Link to="/aboutus" className="hovereffect" style={NavItem}>About us</Link></li>
-        {/* <li className="nav__menu-item" style={{paddingBottom: 0,}}><div className="button -dark" style={{boxShadow: "none", backgroundColor: "#e6e6ea", margin: "0"}}><Link to="/join-the-platform" style={{color: "black"}}>Join the Platform</Link></div></li> */}
+        <li className="nav__menu-item">
+          
+          <div class="sl-nav">
+            <ul>
+              <li>
+              <Link to="/startups" className="hovereffect" style={NavItem}>Startups </Link>
+                    <i class="fa fa-angle-down" aria-hidden="true"></i>
+                    <div class="triangle" style={{right: "5%"}}/>
+                        <ul style={{right: "-73px"}}>
+                          <li><Link className="hoversubmenu" to="/startup-accelerator">Accelerator</Link> </li>
+                          <li><Link className="hoversubmenu" to="/pitch-training/">Pitch Training</Link></li>
+                          <li><Link className="hoversubmenu" to="/startup-services/">Startup Services</Link></li>
+                          <li><Link className="hoversubmenu" to="/investment/">Investment</Link></li>
+                        </ul>
+                </li>
+              </ul>
+          </div>
+         
+          </li>
+        <li className="nav__menu-item">
+        <div class="sl-nav">
+            <ul>
+              <li>
+              <Link to="/corporates"  className="hovereffect" style={NavItem}>Corporates</Link>
+                    <i class="fa fa-angle-down" aria-hidden="true"></i>
+                    <div class="triangle" style={{right: "15%"}}/>
+                        <ul style={{right: "-82px"}}>
+                          <li><Link className="hoversubmenu" to="/corporate-acceleration">Accelerator</Link> </li>
+                          <li><Link className="hoversubmenu" to="/company-building/">Company Building</Link></li>
+                          <li><Link className="hoversubmenu" to="/corporate-innovation-service/">Innovation Consulting</Link></li>
+                          <li><a className="hoversubmenu" to="https://ccvs.ch">Venture Capital</a></li>
+                          <li><Link className="hoversubmenu" to="/innovation-for-sme-and-kmu/">Innovation for SME</Link></li>
+                        </ul>
+                </li>
+              </ul>
+          </div>
+        
+        </li>
+        <li className="nav__menu-item">
+        <div class="sl-nav">
+            <ul>
+              <li>
+              <Link to="/aboutus" className="hovereffect" style={NavItem}>About us</Link>
+                    <i class="fa fa-angle-down" aria-hidden="true"></i>
+                    <div class="triangle" style={{right: "5%"}}/>
+                        <ul style={{right: "-34px"}}>
+                          <li><a className="hoversubmenu" href="https://swissstartupjobs.com">Jobs</a> </li>
+                          <li><Link className="hoversubmenu" to="/blog/">News</Link></li>
+                        </ul>
+                </li>
+              </ul>
+          </div>
+        
+        </li>
       </ul>
+
       <div>
       <label className="mobilemenu">
         <input type='checkbox'/>
