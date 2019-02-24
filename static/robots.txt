@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-sitemap: https://swissstartupgroup.com/sitemap.xml
+sitemap: https://swissstartupfactory.com/sitemap.xml

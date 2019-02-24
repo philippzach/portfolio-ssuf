@@ -45,44 +45,44 @@ const Navbar = () => (
       <img src={Logo} alt="Swiss Startup Group Logo" title="Swiss Startup Group Logo" height="55px" />
     </Link>
     <Navigation>
-      <ul className="nav__menu">
+    <ul className="nav__menu">
         <li className="nav__menu-item">
           
           <div class="sl-nav">
             <ul>
               <li>
-              <Link to="/startups" className="hovereffect" style={NavItem}>Startups </Link>
+              <Link to="/startups" className="hovereffect" style={NavItem}>Startups</Link>
                     <i class="fa fa-angle-down" aria-hidden="true"></i>
                     <div class="triangle" style={{right: "5%"}}/>
                         <ul style={{right: "-73px"}}>
-                          <li><Link className="hoversubmenu" to="/startup-accelerator">Accelerator</Link> </li>
-                          <li><Link className="hoversubmenu" to="/pitch-training/">Pitch Training</Link></li>
-                          <li><Link className="hoversubmenu" to="/startup-services/">Startup Services</Link></li>
-                          <li><Link className="hoversubmenu" to="/investment/">Investment</Link></li>
+                        <Link className="hoversubmenu" to="/startup-accelerator"><li>Accelerator </li></Link>
+                        <Link className="hoversubmenu" to="/pitch-training/"><li>Pitch Training</li></Link>
+                        <Link className="hoversubmenu" to="/startup-services/"><li>Startup Services</li></Link>
+                        <Link className="hoversubmenu" to="/investment/"><li style={{ paddingBottom: "10px"}}>Investment</li></Link>
                         </ul>
                 </li>
               </ul>
           </div>
-         
+          
           </li>
         <li className="nav__menu-item">
         <div class="sl-nav">
             <ul>
               <li>
-              <Link to="/corporates"  className="hovereffect" style={NavItem}>Corporates</Link>
+              <Link to="/corporates"  className="hovereffect" style={NavItem}>Corporates </Link>
                     <i class="fa fa-angle-down" aria-hidden="true"></i>
                     <div class="triangle" style={{right: "15%"}}/>
                         <ul style={{right: "-82px"}}>
-                          <li><Link className="hoversubmenu" to="/corporate-acceleration">Accelerator</Link> </li>
-                          <li><Link className="hoversubmenu" to="/company-building/">Company Building</Link></li>
-                          <li><Link className="hoversubmenu" to="/corporate-innovation-service/">Innovation Consulting</Link></li>
-                          <li><a className="hoversubmenu" to="https://ccvs.ch">Venture Capital</a></li>
-                          <li><Link className="hoversubmenu" to="/innovation-for-sme-and-kmu/">Innovation for SME</Link></li>
+                        <Link className="hoversubmenu" to="/corporate-acceleration"><li>Accelerator</li></Link> 
+                        <Link className="hoversubmenu" to="/company-building/"><li>Company Building</li></Link>
+                        <Link className="hoversubmenu" to="/corporate-innovation-service/"><li>Innovation Consulting</li></Link>
+                        <a className="hoversubmenu" href="https://ccvs.ch"><li>Venture Capital</li></a>
+                        <Link className="hoversubmenu" to="/innovation-for-sme-and-kmu/"><li style={{ paddingBottom: "10px"}}>Innovation for SME</li></Link>
                         </ul>
                 </li>
               </ul>
           </div>
-        
+       
         </li>
         <li className="nav__menu-item">
         <div class="sl-nav">
@@ -92,8 +92,8 @@ const Navbar = () => (
                     <i class="fa fa-angle-down" aria-hidden="true"></i>
                     <div class="triangle" style={{right: "5%"}}/>
                         <ul style={{right: "-34px"}}>
-                          <li><a className="hoversubmenu" href="https://swissstartupjobs.com">Jobs</a> </li>
-                          <li><Link className="hoversubmenu" to="/blog/">News</Link></li>
+                        <a className="hoversubmenu" href="https://swissstartupjobs.com"><li>Jobs</li></a> 
+                        <Link className="hoversubmenu" to="/blog/"><li style={{ paddingBottom: "10px"}}>News</li></Link>
                         </ul>
                 </li>
               </ul>

@@ -17,7 +17,7 @@ const Join = () => (
             <Half>
             <img style={{borderRadius: "1rem", zoom: ".6"}} src={Chris} alt=""/>
             <h3 style={{margin: "1em 0"}}>Chris Bargholz</h3>
-            <h4 style={{margin: "1em 0"}}>COO & Head of Accelerator</h4>
+            <h4 style={{margin: "1em 0"}}>COO & Head of Acceleration</h4>
             </Half>
             <Half>
                     <div className="box">

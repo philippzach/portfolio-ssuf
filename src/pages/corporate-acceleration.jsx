@@ -59,7 +59,7 @@ const InvestmentPortfolio = ({ data }) => (
       <Img fluid={data.innovation1.childImageSharp.fluid} className="w-100" />
       </div>
       <div className="w-100 w-60-ns pl3-ns flex items-center measure center">
-        <div className="pa4">
+        <div className="pt4">
             <Paragraph className="lh-title white">We accept all of your internal early-stage startups in our accelerator program</Paragraph>
           <Paragraph className="white">
           Every startup and corporate is different and that is why we customise the accelerator program to your specific needs. 

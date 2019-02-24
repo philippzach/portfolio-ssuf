@@ -17,7 +17,6 @@
   .sl-nav li:hover ul {
     display: flex;
     flex-direction: column;
-    padding: 0 3em;
     position: absolute;
     top: 43px;
     display: block;
@@ -49,14 +48,11 @@
     position: relative;
     text-align: center;
     background: transparent;
-    padding: .25em 0;
     margin-bottom: 0;
     padding-bottom: 0;
     z-index: 2;
     text-shadow: none;
-  }
-  .sl-nav li ul li:last-of-type {
-    padding-bottom: 15px;
+    padding: 0 3em;
   }
   .sl-nav li ul li span:hover, .sl-nav li ul li span.active {
     color: rgb(0,72,108);

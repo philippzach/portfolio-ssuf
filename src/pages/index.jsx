@@ -389,7 +389,7 @@ export const pageQuery = graphql`
   startups: file(relativePath: { eq: "images/startups.jpg" }) {
     childImageSharp {
       fluid(
-        maxWidth: 1500
+        maxHeight: 1500
         traceSVG: { background: "lightgrey", color: "#00486c" }
       ) {
         ...GatsbyImageSharpFluid_tracedSVG
@@ -399,7 +399,7 @@ export const pageQuery = graphql`
   corporates: file(relativePath: { eq: "images/corporates.jpg" }) {
     childImageSharp {
       fluid(
-        maxWidth: 1500
+        maxHeight: 1500
         traceSVG: { background: "#fff", color: "lightgrey" }
       ) {
         ...GatsbyImageSharpFluid_tracedSVG

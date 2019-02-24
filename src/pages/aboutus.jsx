@@ -90,7 +90,7 @@ const AboutUs = ({ data }) => (
               <div className="tc">
                 <Img fluid={data.about4.childImageSharp.fluid} className="br-100 dib " style={Profile} title="" alt="" />
                 <h3 className="f5 mb2">Chris Bargholz</h3>
-                <h4 className="f6 fw4 gray mt0">COO & Head of Accelerator</h4>
+                <h4 className="f6 fw4 gray mt0">COO & Head of Acceleration</h4>
               </div>
             </article>
             </div>

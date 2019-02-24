@@ -30,7 +30,7 @@ const InvestmentPortfolio = ({ data }) => (
     <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
       <Title>Services for Startups</Title>
       <div className="containertitle">
-        <h2 className="lh-title">Founding a startup is difficult and you have enough work with winning clients, closing investors and improving your product.</h2>
+        <h2 className="lh-title">Founding a startup is difficult and you have enough work with winning clients, securing funding and improving your product.</h2>
         <Paragraph >
         Check our 360 degree startup services from SWISS STARTUP TECH, so you can focus on the topics that matter the most.  
         </Paragraph>

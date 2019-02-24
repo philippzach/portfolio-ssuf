@@ -44,7 +44,7 @@ const InvestmentPortfolio = ({ data }) => (
       <Img fluid={data.innovation1.childImageSharp.fluid} className="w-100" />
       </div>
       <div className="w-100 w-60-ns pl3-ns flex items-center measure center">
-        <div className="pa4">
+        <div className="pv4">
             <h3 className="lh-tile white">For SMEs we offer customized programs adapted to a standardised process,which we have tested multiple times with clients from all different branches.</h3>
             <Paragraph className="white ">All collaborations start with a meeting where we will find out more about your organisation and your needs. Based on this, we will suggest a program that fits your needs.</Paragraph>
             <Paragraph className="white">Through our Growth Services platform, our talented and diverse team and our experience working with various corporates, we can offer a great variety of communication and marketing services. </Paragraph>
