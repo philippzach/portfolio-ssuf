@@ -19,7 +19,7 @@ const Test = styled.div`
 
 const GrowthServices = ({ data }) => (
   <Layout>
-  <Seo title="SWISS STARTUP GROUP – Growth Services" desc="Dedicated growth services for corporate clients, startups and investors to grow faster. Accounting, Marketing, Finance, Communication and more." />
+  <Seo title="Swiss Startup Factory - Corporate" desc="The Swiss Startup Factory is the interface to innovation for corporates." />
       <Navbar />
       <Test> 
           <Img fluid={data.growth.childImageSharp.fluid} className="w-100" />

@@ -7,6 +7,7 @@ import '../styles/input.css';
 import styled from 'react-emotion';
 import Input from '../components/jointheplatform-input';
 import Cindy from '../../static/cindyspelt.jpg';
+import Seo from '../components/SEO/index';
 
 const Headline = styled.h1`
     margin-bottom: 1.45rem;
@@ -38,6 +39,7 @@ const Test = styled.div`
 
 const Join = ({data}) => (
     <Layout>
+    <Seo title="Swiss Startup Factory - Join the Platform" desc="Join the biggest swiss startup platform for innovation – we are the right place for you!" />
         <NavbarInverted />
         <Test> 
           <Img fluid={data.join.childImageSharp.fluid} className="w-100" />

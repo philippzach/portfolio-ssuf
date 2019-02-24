@@ -3,7 +3,8 @@ import styled from 'react-emotion';
 import { Link } from 'gatsby';
 import Logo from '../../static/ss_factory.svg';
 import '../styles/footer.css';
-import ContactCTA from './contactus';
+//import ContactCTA from './contactus';
+import Mailchimp from '../components/form-footer';
 
 const StyledFooter = styled.footer`
   max-width: 100%;
@@ -14,7 +15,7 @@ class Footer extends Component {
   render() {
     return (
       <>
-      <ContactCTA />
+      <Mailchimp />
       <StyledFooter>
         <div className="footerlogo">
           <Link to="/">

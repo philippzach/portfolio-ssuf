@@ -41,7 +41,7 @@ const Profile = {
 
 const AboutUs = ({ data }) => (
   <Layout>
-  <Seo title="SWISS STARTUP GROUP – About us" desc="Get to know our team, advisory board, partners, supporters and sponsors, that offers a perfect network platform in the swiss startup ecosystem" />
+  <Seo title="Swiss Startup Factory - About us" desc="The team of the Swiss Startup Factory consists smart experts with a diverse set of experiences and passion for the startup ecosystem." />
       <Navbar />
       <Test> 
           <Img fluid={data.about.childImageSharp.fluid} className="w-100" />
