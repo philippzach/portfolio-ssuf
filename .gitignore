@@ -1,4 +1,7 @@
 ### Node ###
+##Store
+.DS_Store
+
 # Logs
 logs
 *.log
