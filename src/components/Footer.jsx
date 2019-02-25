@@ -64,7 +64,7 @@ class Footer extends Component {
               <Link to="/factory"><span className="topmenu">Jobs</span></Link>
                 <ul className="list pl0 ma0 pt3 light-gray">
                   <li ><a className="sublistitem" href="https://swissstartupjobs.com" target="_blank">Innovators</a></li>
-                  <li ><a className="sublistitem" href="https://swissstartupjobs.com" target="_blank">EIR Programm</a></li>
+                  <li ><a className="sublistitem" href="https://swissstartupjobs.com" target="_blank">EIR Program</a></li>
                 </ul>
               </li>
           </ul>

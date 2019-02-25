@@ -34,7 +34,7 @@ fontFamily: "roboto",
 fontSize: "1em",
 fontWeight: "bold",
 textTransform: "uppercase",
-textShadow: "0 2px 4px #000000",
+textShadow: "0 2px 4px rgba(1,1,1,0.5)",
 }
 
 const Navbar = () => (
@@ -56,7 +56,7 @@ const Navbar = () => (
                         <Link className="hoversubmenu" to="/startup-accelerator"><li>Accelerator </li></Link>
                         <Link className="hoversubmenu" to="/pitch-training/"><li>Pitch Training</li></Link>
                         <Link className="hoversubmenu" to="/startup-services/"><li>Startup Services</li></Link>
-                        <Link className="hoversubmenu" to="/investment/"><li style={{ paddingBottom: "10px"}}>Investment</li></Link>
+                        <Link className="hoversubmenu" to="/investment/"><li style={{ paddingBottom: "5px"}}>Investment</li></Link>
                         </ul>
                 </li>
               </ul>
@@ -75,7 +75,7 @@ const Navbar = () => (
                         <Link className="hoversubmenu" to="/company-building/"><li>Company Building</li></Link>
                         <Link className="hoversubmenu" to="/corporate-innovation-service/"><li>Innovation Consulting</li></Link>
                         <a className="hoversubmenu" href="https://ccvs.ch"><li>Venture Capital</li></a>
-                        <Link className="hoversubmenu" to="/innovation-for-sme-and-kmu/"><li style={{ paddingBottom: "10px"}}>Innovation for SME</li></Link>
+                        <Link className="hoversubmenu" to="/innovation-for-sme-and-kmu/"><li style={{ paddingBottom: "5px"}}>Innovation for SME</li></Link>
                         </ul>
                 </li>
               </ul>
@@ -91,7 +91,7 @@ const Navbar = () => (
                     <div class="triangle" style={{right: "5%"}}/>
                         <ul style={{right: "-34px"}}>
                         <a className="hoversubmenu" href="https://swissstartupjobs.com"><li>Jobs</li></a> 
-                        <Link className="hoversubmenu" to="/blog/"><li style={{ paddingBottom: "10px"}}>News</li></Link>
+                        <Link className="hoversubmenu" to="/blog/"><li style={{ paddingBottom: "5px"}}>News</li></Link>
                         </ul>
                 </li>
               </ul>
@@ -118,7 +118,7 @@ const Navbar = () => (
                 
               </ul>
             <li className="mv4"><Link className="ttu" style={{ fontSize: "1.5em", lineHeight: "1.2em"}} to='/aboutus'>About us</Link></li>
-            <li className="mv4"><div className="button -dark" style={{boxShadow: "none", backgroundColor: "#e6e6ea", margin: "0"}}><Link className="ttu" style={{ fontSize: "1.5em", lineHeight: "1.2em"}} to='/join-the-platform'>Join the Platform</Link></div></li>
+            <li className="mv4"><div className="button-white" style={{boxShadow: "none", backgroundColor: "#e6e6ea", margin: "0"}}><Link className="ttu" style={{ fontSize: "1.5em", lineHeight: "1.2em"}} to='/join-the-platform'>Join the Platform</Link></div></li>
         </ul>
         </label>
         </div>

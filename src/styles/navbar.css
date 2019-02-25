@@ -1,3 +1,7 @@
+.sl-nav li ul li:hover {
+background-color: #e7e7e799;
+}
+
 
 @media (max-width: 840px) {
 ul.nav__menu {
