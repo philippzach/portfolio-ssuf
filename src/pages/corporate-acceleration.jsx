@@ -221,10 +221,10 @@ const InvestmentPortfolio = ({ data }) => (
     <Wrapper>
       <div className="containerinvestors mv5">
         <h3 className="lh-copy measure-narrow center" style={{fontFamily: "roboto"}}>
-        Do you want to bring your internal startups to the next level?
+        Questions?
         </h3>
         <button className="button-blue">
-        Learn More
+        Contact us
         </button>
       </div>
       </Wrapper>

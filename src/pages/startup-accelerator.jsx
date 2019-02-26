@@ -200,11 +200,8 @@ const InvestmentPortfolio = ({ data }) => (
         <Form />
       <div className="containerinvestors mv6">
         <Contact>Specific Questions?</Contact>
-        <Contact style={{fontWeight: "300"}}>
-        Do you have specific questions, which is not answered on this website? Then write us an email :)
-        </Contact>
         <a href="mailto:"><div className="button-blue">
-        Contact us
+        Contact us!
         </div>
         </a>
       </div>

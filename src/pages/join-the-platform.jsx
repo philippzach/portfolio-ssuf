@@ -85,6 +85,7 @@ const Join = ({data}) => (
                     <Label for="Info">Information about our Portfolio<br/> and Investment possibilities</Label>
                     <input className="option-input" type="checkbox" name="InfoInvest" value="Investor"/>
                     </Box> */}
+                <input style={{marginBottom: "1.5em"}} type="text" name="Full Name" className="emailinput" placeholder="Full Name" />    
                 <input type="text" name="company" className="emailinput" placeholder="Company Name" />    
                 <input style={{margin: "1.5em 0"}} className="emailinput" type="email" placeholder="Enter your Email" name="_replyto"/>
                 <textarea name="message" className="textareainput" placeholder="Message ..." />

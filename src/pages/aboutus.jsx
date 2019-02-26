@@ -51,7 +51,7 @@ const AboutUs = ({ data }) => (
       <div className="containertitleabout mb6">
         <h2 className="lh-title">Our Team</h2>
         <p style={{lineHeight: "35px"}} className="mv4">
-        The team of the Swiss Startup Factory consists smart experts with a diverse set of experiences and backgrounds. As unique as we are individually, we share a mutual passion for startup ecosstem and doing excellent work for our clients and partners. Get to know our team below. 
+        We are a team of startup enthusiasts, product & technology people and top management consultants. We help our clients to execute on digital growth – from the first discussion in the board to the execution of M&A, corporate ventures or building a digital business unit as well as a startup. 
         </p>
       </div>
       </Wrapper>

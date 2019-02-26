@@ -115,7 +115,7 @@ class Index extends Component {
               Swiss Startup Factory
             </h1>
             <HeroText>
-            We inspire and enable people to build<br/> sustainable companies.
+            We inspire and enable people to build<br/> sustainable companies and unleash entrepreneurial potential.
             </HeroText>
             <div>
               <HeaderSmall>Upload your pitch deck now</HeaderSmall>
@@ -131,7 +131,7 @@ class Index extends Component {
           </div>
           <div className="containertitle" style={{color:"#00486C"}}>
             <h2 className="lh-copy" style={{fontFamily: "Roboto", fontSize: "28px", fontWeight: "600", color:"#00486C"}}>
-            Swiss Startup Factory is a venture studio for corporates and startups to innovate and accelerate in the best new technologies. 
+            Swiss Startup Factory is a venture studio for corporates and startups to innovate and accelerate the best new technologies. 
             </h2>
             <p className="lh-copy">Since 2015 we are the number one privately financed accelerator in Switzerland.
             The Swiss Startup Factory provides a professional execution platform to corporates and startups through a dedicated business driven process that brings their innovation to market fast and lean.
@@ -170,7 +170,7 @@ class Index extends Component {
           <div>
           <p className="lh-copy measure center f6 black-70 tc" style={{ color: 'rgb(0, 71, 107)' }}>
             Based on more than 3 years of experience we have designed a completely new customised accelerator program
-            which will prepare you and your team to live up to your potential
+            which will prepare you and your team to live up to your potential.
           </p>
           </div>
           <div className="mv3 center">
@@ -187,7 +187,7 @@ class Index extends Component {
             <hr className="mw3 bb bw1 b--black-10" />
           </div>
           <p className="lh-copy measure center f6 black-70 tc" style={{ color: 'rgb(0, 71, 107)' }}>
-            30 minutes meeting where you can pitch us your idea, tell us about your challenges and ask us for feedback
+            30 minutes meeting where you can pitch us your idea, tell us about your challenges and ask us for feedback.
           </p>
           <div className="mv3 center">
           <span className="buttonfactory mid-gray ttu b">Get in touch</span>
@@ -204,7 +204,7 @@ class Index extends Component {
           </div>
           <p className="lh-copy measure center f6 black-70 tc " style={{ color: 'rgb(0, 71, 107)' }}>
             We help you to improve your pitch that allows you to understand which areas are important and should be in
-            the spotlight to move your company forward
+            the spotlight to move your company forward.
           </p>
           <div className="mv3 center">
           <span className="buttonfactory mid-gray ttu b">Start now</span>

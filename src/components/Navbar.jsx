@@ -74,7 +74,7 @@ const Navbar = () => (
                         <Link className="hoversubmenu" to="/corporate-acceleration"><li>Accelerator</li></Link> 
                         <Link className="hoversubmenu" to="/company-building/"><li>Company Building</li></Link>
                         <Link className="hoversubmenu" to="/corporate-innovation-service/"><li>Innovation Consulting</li></Link>
-                        <a className="hoversubmenu" href="https://ccvs.ch"><li>Venture Capital</li></a>
+                        <a className="hoversubmenu" href="https://ccvs.ch" target="_blank" rel="noopener noreferrer"><li>Venture Capital</li></a>
                         <Link className="hoversubmenu" to="/innovation-for-sme-and-kmu/"><li style={{ paddingBottom: "5px"}}>Innovation for SME</li></Link>
                         </ul>
                 </li>

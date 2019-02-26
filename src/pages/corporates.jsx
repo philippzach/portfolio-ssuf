@@ -29,8 +29,10 @@ const GrowthServices = ({ data }) => (
       <div className="containertitle">
         <h2 className="lh-title">For corporates we are the interface to innovation </h2>
         <p className="">
-        Our goal is to understand and evaluate our corporate client’s current strategic innovation roadmap and provide a best advice on it’s execution with our specialized skills. 
+        We know the corporate world from the inside and we don’t want to be part of it. We actually want to change it. That’s why we work like a startup, why we work with clients in a startup-way and why we work a lot with startups, including our own.
         </p>
+        <p>We understand the challenges your company is facing, we know how to structure the strategic discussion on your board and we know digital business from the inside. Bring all of it together and we realize digital growth with you.</p>
+        <p>Our goal is to understand and evaluate our corporate client’s current strategic innovation roadmap and provide a best advice on it’s execution with our specialized skills.</p>
       </div>
       </Wrapper>
       <Wrapper>
@@ -80,7 +82,7 @@ const GrowthServices = ({ data }) => (
             <div class="fl w-100 w-50-ns tl pa3-s pa3-m ph4-l">
             <h3>Venture Capital</h3>
             <p className=" mt3">Your company wants to identify and build new business models that will disrupt your industry. We identify and execute new business models in your industry with our in-house team specialised in business development.</p>
-                  <a href="https://ccvs.ch">
+                  <a href="https://ccvs.ch" target="_blank" rel="noopener noreferrer">
                 <div className="button-blue">Become Part</div>
                 </a>
               </div>

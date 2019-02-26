@@ -107,7 +107,7 @@ const InvestmentPortfolio = ({ data }) => (
     <Wrapper>
       <div className="containerinvestors mb6">
         <h3 className="lh-copy center measure" style={{fontFamily: "roboto"}}>
-        <b>So now you need to ask yourself:</b> Do you want to be the organisation disrupting the industry or do you want to be disrupted by others?
+        Do you want to be the organisation disrupting the industry or do you want to be disrupted by others?
         </h3>
         <button className="button-blue">
         Learn More
