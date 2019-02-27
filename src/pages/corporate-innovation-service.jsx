@@ -78,7 +78,7 @@ const InvestmentPortfolio = ({ data }) => (
         <div className="pa4">
           <h3 className="lh-title"> Innovation Consulting</h3>
           <Paragraph className=" measure">
-          In today’s world, businesses that are successful are constantly evolving and have the courage to rethink its own business model every day. In today’s world, change is not an option, it is unstoppable. 
+          Your biggest advantage lies in being innovative and fast. Together we show you the way while supporting you along the execution. Change is not an option, it is unstoppable. 
           </Paragraph>
           <Paragraph className=" measure">
           Organizations that are willing to benefit from the opportunities at hand need to be courageous and act.​ Fail fast, fail forward. In today’s world, your biggest advantage lies in being innovative and fast. Together we show you the way while supporting you along the execution.

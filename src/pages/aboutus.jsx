@@ -4,28 +4,13 @@ import { Layout, Wrapper, Navbar, Title } from 'components';
 import { graphql } from 'gatsby';
 import Img from 'gatsby-image';
 import '../styles/pages/about.css';
-import "react-tabs/style/react-tabs.css";
 import FounderSlider from '../components/pictureslider/aboutgroupslider';
 import AdvisorSlider from '../components/pictureslider/aboutadvisorslider';
 import Seo from '../components/SEO/index';
 import Partners from '../components/Partners';
+import FlipCards from '../components/Values/index';
+import Mentors from '../components/mentors';
 
-
-import Rico from '../../static/advisors/baldegger_rico_portrait.jpg';
-import Robert from '../../static/advisors/bider_robert_portrait.jpg';
-import Biver from '../../static/advisors/biver_jeanclaude_portrait.jpg';
-import Claudia from '../../static/advisors/coninx_claudia_portrait.jpg';
-import Beat from '../../static/advisors/curti_beat_portrait.jpg';
-import David from '../../static/advisors/david_allemann_portrait.jpg';
-import Friedli from '../../static/advisors/friedli_portrait.jpg';
-import Andreas from '../../static/advisors/gall_andreas_portrait.jpg';
-import Dietmar from '../../static/advisors/grichnik_dietmar_portrait.jpg';
-import Daniel from '../../static/advisors/gutenberg_daniel_portrait.jpg';
-import MichaelHartweg from '../../static/advisors/hartweg_michael_portrait.jpg';
-import Patrick from '../../static/advisors/patrick_aebischer_portrait.jpg';
-import Sauter from '../../static/advisors/sauter_claudia_portrait.jpg';
-import Stan from '../../static/advisors/wawrinka_stan_portrait.jpg';
-import Urs from '../../static/advisors/wietlisbach_urs_portrait.jpg';
 
 const Test = styled.div`
     position: relative;
@@ -53,6 +38,7 @@ const AboutUs = ({ data }) => (
         <p style={{lineHeight: "35px"}} className="mv4">
         We are a team of startup enthusiasts, product & technology people and top management consultants. We help our clients to execute on digital growth – from the first discussion in the board to the execution of M&A, corporate ventures or building a digital business unit as well as a startup. 
         </p>
+        <FlipCards />
       </div>
       </Wrapper>
       <FounderSlider />
@@ -116,22 +102,6 @@ const AboutUs = ({ data }) => (
                 <h4 className="f6 fw4 gray mt0">Head of Platform</h4>
               </div>
             </article>
-           {/*  <article className="center pa3 pa4-ns">
-              <div className="tc">
-                <Img fluid={data.about8.childImageSharp.fluid} className="br-100 dib " style={Profile} title="" alt="" />
-                <h3 className="f5 mb2">Paolo Piffaretti</h3>
-                <h4 className="f6 fw4 gray mt0">Startup Scout France</h4>
-              </div>
-            </article>
-            </div>
-            <div className="tabrow">
-            <article className="center pa3 pa4-ns">
-              <div className="tc">
-                <Img fluid={data.about9.childImageSharp.fluid} className="br-100 dib " style={Profile} title="" alt="" />
-                <h3 className="f5 mb2">Keith </h3>
-                <h4 className="f6 fw4 gray mt0">Startup Coach</h4>
-              </div>
-            </article> */}
             </div>
             </div>
         </div>
@@ -145,109 +115,7 @@ const AboutUs = ({ data }) => (
       </div>
         </Wrapper>
         <AdvisorSlider />
-        <div className="panel" style={{ backgroundColor: "#f7f7f7" }}>
-        <div className="paddingtabs">
-          <div className="tabrow">
-                    <article className="center pa3 pa4-ns">
-                      <div className="tc">
-                        <img src={Rico} className="br-100 h4 w4 dib pa2" title="" alt="" />
-                        <h3 className="f5 mb2">Rico J. Baldegger</h3>
-                      </div>
-                    </article>
-                    <article className="center pa3 pa4-ns">
-                      <div className="tc">
-                        <img src={Robert} className="br-100 h4 w4 dib pa2" title="" alt="" />
-                        <h3 className="f5 mb2">Robert Bider</h3>
-                        
-                      </div>
-                    </article>
-                    <article className="center pa3 pa4-ns">
-                    <div className="tc">
-                        <img src={Biver} className="br-100 h4 w4 dib pa2" title="" alt="" />
-                        <h3 className="f5 mb2">Jean Claude Biver</h3>
-                      </div>
-                    </article>
-                    <article className="center pa3 pa4-ns">
-                      <div className="tc">
-                        <img src={Claudia} className="br-100 h4 w4 dib pa2" title="" alt="" />
-                        <h3 className="f5 mb2">Claudia Coninx</h3>
-                      </div>
-                    </article>
-            </div>
-            <div className="tabrow">
-                    <article className="center pa3 pa4-ns">
-                      <div className="tc">
-                        <img src={Beat} className="br-100 h4 w4 dib pa2" title="" alt="" />
-                        <h3 className="f5 mb2">Beat Curti</h3>
-                      </div>
-                    </article>
-                    <article className="center pa3 pa4-ns">
-                    <div className="tc">
-                        <img src={David} className="br-100 h4 w4 dib pa2" title="" alt="" />
-                        <h3 className="f5 mb2">David Allemann</h3>
-                      </div>
-                    </article>
-                    <article className="center pa3 pa4-ns">
-                    <div className="tc">
-                        <img src={Friedli} className="br-100 h4 w4 dib pa2" title="" alt="" />
-                        <h3 className="f5 mb2">Peter Friedli</h3>
-                      </div>
-                    </article>
-                    <article className="center pa3 pa4-ns">
-                      <div className="tc">
-                        <img src={Andreas} className="br-100 h4 w4 dib pa2" title="" alt="" />
-                        <h3 className="f5 mb2">Andreas Gall</h3>
-                      </div>
-                    </article>
-                    </div>
-            <div className="tabrow">
-                    <article className="center pa3 pa4-ns">
-                      <div className="tc">
-                        <img src={Dietmar} className="br-100 h4 w4 dib pa2" title="" alt="" />
-                        <h3 className="f5 mb2">Dietmar Grichnik</h3>
-                      </div>
-                    </article>
-                    <article className="center pa3 pa4-ns">
-                    <div className="tc">
-                        <img src={Daniel} className="br-100 h4 w4 dib pa2" title="" alt="" />
-                        <h3 className="f5 mb2">Daniel Gutenberg</h3>
-                      </div>
-                    </article>
-                    <article className="center pa3 pa4-ns">
-                    <div className="tc">
-                        <img src={MichaelHartweg} className="br-100 h4 w4 dib pa2" title="" alt="" />
-                        <h3 className="f5 mb2">Michael Hartweg</h3>
-                      </div>
-                    </article>
-                    <article className="center pa3 pa4-ns">
-                      <div className="tc">
-                        <img src={Patrick} className="br-100 h4 w4 dib pa2" title="" alt="" />
-                        <h3 className="f5 mb2">Patrick Aebischer</h3>
-                      </div>
-                    </article>
-                  </div>
-                  <div className="tabrow">
-                  <article className="center pa3 pa4-ns">
-                      <div className="tc">
-                        <img src={Sauter} className="br-100 h4 w4 dib pa2" title="" alt="" />
-                        <h3 className="f5 mb2">Claudia Sauter</h3>
-                      </div>
-                    </article>
-                    <article className="center pa3 pa4-ns">
-                      <div className="tc">
-                        <img src={Stan} className="br-100 h4 w4 dib pa2" title="" alt="" />
-                        <h3 className="f5 mb2">Stan Wawrinka</h3>
-                      </div>
-                    </article>
-                    <article className="center pa3 pa4-ns">
-                      <div className="tc">
-                        <img src={Urs} className="br-100 h4 w4 dib pa2" title="" alt="" />
-                        <h3 className="f5 mb2">Urs Wietlisbach</h3>
-                      </div>
-                    </article>
-                  </div>
-            </div>
-        </div>
+        <Mentors data={data}/>
         <Wrapper>
           <Partners />
         </Wrapper>
@@ -329,6 +197,546 @@ about6: file(relativePath: { eq: "images/keith.jpg" }) {
   }
 }
 about7: file(relativePath: { eq: "images/cindyspelt.jpg" }) {
+  childImageSharp {
+    fluid(
+      maxWidth: 1500
+      traceSVG: { background: "#fff", color: "lightgrey" }
+    ) {
+      ...GatsbyImageSharpFluid_tracedSVG
+    }
+  }
+}
+mentor1: file(relativePath: { eq: "images/mentors-sm/mentor-sm-1.jpg" }) {
+  childImageSharp {
+    fluid(
+      maxWidth: 1500
+      traceSVG: { background: "#fff", color: "lightgrey" }
+    ) {
+      ...GatsbyImageSharpFluid_tracedSVG
+    }
+  }
+}
+mentor2: file(relativePath: { eq: "images/mentors-sm/mentor-sm-2.jpg" }) {
+  childImageSharp {
+    fluid(
+      maxWidth: 1500
+      traceSVG: { background: "#fff", color: "lightgrey" }
+    ) {
+      ...GatsbyImageSharpFluid_tracedSVG
+    }
+  }
+}
+mentor3: file(relativePath: { eq: "images/mentors-sm/mentor-sm-3.jpg" }) {
+  childImageSharp {
+    fluid(
+      maxWidth: 1500
+      traceSVG: { background: "#fff", color: "lightgrey" }
+    ) {
+      ...GatsbyImageSharpFluid_tracedSVG
+    }
+  }
+}
+mentor4: file(relativePath: { eq: "images/mentors-sm/mentor-sm-4.jpg" }) {
+  childImageSharp {
+    fluid(
+      maxWidth: 1500
+      traceSVG: { background: "#fff", color: "lightgrey" }
+    ) {
+      ...GatsbyImageSharpFluid_tracedSVG
+    }
+  }
+}
+mentor5: file(relativePath: { eq: "images/mentors-sm/mentor-sm-5.jpg" }) {
+  childImageSharp {
+    fluid(
+      maxWidth: 1500
+      traceSVG: { background: "#fff", color: "lightgrey" }
+    ) {
+      ...GatsbyImageSharpFluid_tracedSVG
+    }
+  }
+}
+mentor6: file(relativePath: { eq: "images/mentors-sm/mentor-sm-6.jpg" }) {
+  childImageSharp {
+    fluid(
+      maxWidth: 1500
+      traceSVG: { background: "#fff", color: "lightgrey" }
+    ) {
+      ...GatsbyImageSharpFluid_tracedSVG
+    }
+  }
+}
+mentor7: file(relativePath: { eq: "images/mentors-sm/mentor-sm-7.jpg" }) {
+  childImageSharp {
+    fluid(
+      maxWidth: 1500
+      traceSVG: { background: "#fff", color: "lightgrey" }
+    ) {
+      ...GatsbyImageSharpFluid_tracedSVG
+    }
+  }
+}
+mentor8: file(relativePath: { eq: "images/mentors-sm/mentor-sm-8.jpg" }) {
+  childImageSharp {
+    fluid(
+      maxWidth: 1500
+      traceSVG: { background: "#fff", color: "lightgrey" }
+    ) {
+      ...GatsbyImageSharpFluid_tracedSVG
+    }
+  }
+}
+mentor9: file(relativePath: { eq: "images/mentors-sm/mentor-sm-9.jpg" }) {
+  childImageSharp {
+    fluid(
+      maxWidth: 1500
+      traceSVG: { background: "#fff", color: "lightgrey" }
+    ) {
+      ...GatsbyImageSharpFluid_tracedSVG
+    }
+  }
+}
+mentor10: file(relativePath: { eq: "images/mentors-sm/mentor-sm-10.jpg" }) {
+  childImageSharp {
+    fluid(
+      maxWidth: 1500
+      traceSVG: { background: "#fff", color: "lightgrey" }
+    ) {
+      ...GatsbyImageSharpFluid_tracedSVG
+    }
+  }
+}
+mentor11: file(relativePath: { eq: "images/mentors-sm/mentor-sm-11.jpg" }) {
+  childImageSharp {
+    fluid(
+      maxWidth: 1500
+      traceSVG: { background: "#fff", color: "lightgrey" }
+    ) {
+      ...GatsbyImageSharpFluid_tracedSVG
+    }
+  }
+}
+mentor12: file(relativePath: { eq: "images/mentors-sm/mentor-sm-12.jpg" }) {
+  childImageSharp {
+    fluid(
+      maxWidth: 1500
+      traceSVG: { background: "#fff", color: "lightgrey" }
+    ) {
+      ...GatsbyImageSharpFluid_tracedSVG
+    }
+  }
+}
+mentor13: file(relativePath: { eq: "images/mentors-sm/mentor-sm-13.jpg" }) {
+  childImageSharp {
+    fluid(
+      maxWidth: 1500
+      traceSVG: { background: "#fff", color: "lightgrey" }
+    ) {
+      ...GatsbyImageSharpFluid_tracedSVG
+    }
+  }
+}
+mentor14: file(relativePath: { eq: "images/mentors-sm/mentor-sm-14.jpg" }) {
+  childImageSharp {
+    fluid(
+      maxWidth: 1500
+      traceSVG: { background: "#fff", color: "lightgrey" }
+    ) {
+      ...GatsbyImageSharpFluid_tracedSVG
+    }
+  }
+}
+mentor15: file(relativePath: { eq: "images/mentors-sm/mentor-sm-15.jpg" }) {
+  childImageSharp {
+    fluid(
+      maxWidth: 1500
+      traceSVG: { background: "#fff", color: "lightgrey" }
+    ) {
+      ...GatsbyImageSharpFluid_tracedSVG
+    }
+  }
+}
+mentor16: file(relativePath: { eq: "images/mentors-sm/mentor-sm-16.jpg" }) {
+  childImageSharp {
+    fluid(
+      maxWidth: 1500
+      traceSVG: { background: "#fff", color: "lightgrey" }
+    ) {
+      ...GatsbyImageSharpFluid_tracedSVG
+    }
+  }
+}
+mentor18: file(relativePath: { eq: "images/mentors-sm/mentor-sm-18.jpg" }) {
+  childImageSharp {
+    fluid(
+      maxWidth: 1500
+      traceSVG: { background: "#fff", color: "lightgrey" }
+    ) {
+      ...GatsbyImageSharpFluid_tracedSVG
+    }
+  }
+}
+mentor19: file(relativePath: { eq: "images/mentors-sm/mentor-sm-19.jpg" }) {
+  childImageSharp {
+    fluid(
+      maxWidth: 1500
+      traceSVG: { background: "#fff", color: "lightgrey" }
+    ) {
+      ...GatsbyImageSharpFluid_tracedSVG
+    }
+  }
+}
+mentor20: file(relativePath: { eq: "images/mentors-sm/mentor-sm-20.jpg" }) {
+  childImageSharp {
+    fluid(
+      maxWidth: 1500
+      traceSVG: { background: "#fff", color: "lightgrey" }
+    ) {
+      ...GatsbyImageSharpFluid_tracedSVG
+    }
+  }
+}
+mentor21: file(relativePath: { eq: "images/mentors-sm/mentor-sm-21.jpg" }) {
+  childImageSharp {
+    fluid(
+      maxWidth: 1500
+      traceSVG: { background: "#fff", color: "lightgrey" }
+    ) {
+      ...GatsbyImageSharpFluid_tracedSVG
+    }
+  }
+}
+mentor24: file(relativePath: { eq: "images/mentors-sm/mentor-sm-24.jpg" }) {
+  childImageSharp {
+    fluid(
+      maxWidth: 1500
+      traceSVG: { background: "#fff", color: "lightgrey" }
+    ) {
+      ...GatsbyImageSharpFluid_tracedSVG
+    }
+  }
+}
+mentor25: file(relativePath: { eq: "images/mentors-sm/mentor-sm-25.jpg" }) {
+  childImageSharp {
+    fluid(
+      maxWidth: 1500
+      traceSVG: { background: "#fff", color: "lightgrey" }
+    ) {
+      ...GatsbyImageSharpFluid_tracedSVG
+    }
+  }
+}
+mentor27: file(relativePath: { eq: "images/mentors-sm/mentor-sm-27.jpg" }) {
+  childImageSharp {
+    fluid(
+      maxWidth: 1500
+      traceSVG: { background: "#fff", color: "lightgrey" }
+    ) {
+      ...GatsbyImageSharpFluid_tracedSVG
+    }
+  }
+}
+mentor28: file(relativePath: { eq: "images/mentors-sm/mentor-sm-28.jpg" }) {
+  childImageSharp {
+    fluid(
+      maxWidth: 1500
+      traceSVG: { background: "#fff", color: "lightgrey" }
+    ) {
+      ...GatsbyImageSharpFluid_tracedSVG
+    }
+  }
+}
+mentor29: file(relativePath: { eq: "images/mentors-sm/mentor-sm-29.jpg" }) {
+  childImageSharp {
+    fluid(
+      maxWidth: 1500
+      traceSVG: { background: "#fff", color: "lightgrey" }
+    ) {
+      ...GatsbyImageSharpFluid_tracedSVG
+    }
+  }
+}
+mentor30: file(relativePath: { eq: "images/mentors-sm/mentor-sm-30.jpg" }) {
+  childImageSharp {
+    fluid(
+      maxWidth: 1500
+      traceSVG: { background: "#fff", color: "lightgrey" }
+    ) {
+      ...GatsbyImageSharpFluid_tracedSVG
+    }
+  }
+}
+mentor32: file(relativePath: { eq: "images/mentors-sm/mentor-sm-32.jpg" }) {
+  childImageSharp {
+    fluid(
+      maxWidth: 1500
+      traceSVG: { background: "#fff", color: "lightgrey" }
+    ) {
+      ...GatsbyImageSharpFluid_tracedSVG
+    }
+  }
+}
+mentor33: file(relativePath: { eq: "images/mentors-sm/mentor-sm-33.jpg" }) {
+  childImageSharp {
+    fluid(
+      maxWidth: 1500
+      traceSVG: { background: "#fff", color: "lightgrey" }
+    ) {
+      ...GatsbyImageSharpFluid_tracedSVG
+    }
+  }
+}
+mentor34: file(relativePath: { eq: "images/mentors-sm/mentor-sm-34.jpg" }) {
+  childImageSharp {
+    fluid(
+      maxWidth: 1500
+      traceSVG: { background: "#fff", color: "lightgrey" }
+    ) {
+      ...GatsbyImageSharpFluid_tracedSVG
+    }
+  }
+}
+mentor35: file(relativePath: { eq: "images/mentors-sm/mentor-sm-35.jpg" }) {
+  childImageSharp {
+    fluid(
+      maxWidth: 1500
+      traceSVG: { background: "#fff", color: "lightgrey" }
+    ) {
+      ...GatsbyImageSharpFluid_tracedSVG
+    }
+  }
+}
+mentor36: file(relativePath: { eq: "images/mentors-sm/mentor-sm-36.jpg" }) {
+  childImageSharp {
+    fluid(
+      maxWidth: 1500
+      traceSVG: { background: "#fff", color: "lightgrey" }
+    ) {
+      ...GatsbyImageSharpFluid_tracedSVG
+    }
+  }
+}
+mentor37: file(relativePath: { eq: "images/mentors-sm/mentor-sm-37.jpg" }) {
+  childImageSharp {
+    fluid(
+      maxWidth: 1500
+      traceSVG: { background: "#fff", color: "lightgrey" }
+    ) {
+      ...GatsbyImageSharpFluid_tracedSVG
+    }
+  }
+}
+mentor38: file(relativePath: { eq: "images/mentors-sm/mentor-sm-38.jpg" }) {
+  childImageSharp {
+    fluid(
+      maxWidth: 1500
+      traceSVG: { background: "#fff", color: "lightgrey" }
+    ) {
+      ...GatsbyImageSharpFluid_tracedSVG
+    }
+  }
+}
+mentor39: file(relativePath: { eq: "images/mentors-sm/mentor-sm-39.jpg" }) {
+  childImageSharp {
+    fluid(
+      maxWidth: 1500
+      traceSVG: { background: "#fff", color: "lightgrey" }
+    ) {
+      ...GatsbyImageSharpFluid_tracedSVG
+    }
+  }
+}
+mentor40: file(relativePath: { eq: "images/mentors-sm/mentor-sm-40.jpg" }) {
+  childImageSharp {
+    fluid(
+      maxWidth: 1500
+      traceSVG: { background: "#fff", color: "lightgrey" }
+    ) {
+      ...GatsbyImageSharpFluid_tracedSVG
+    }
+  }
+}
+mentor41: file(relativePath: { eq: "images/mentors-sm/mentor-sm-41.jpg" }) {
+  childImageSharp {
+    fluid(
+      maxWidth: 1500
+      traceSVG: { background: "#fff", color: "lightgrey" }
+    ) {
+      ...GatsbyImageSharpFluid_tracedSVG
+    }
+  }
+}
+mentor42: file(relativePath: { eq: "images/mentors-sm/mentor-sm-42.jpg" }) {
+  childImageSharp {
+    fluid(
+      maxWidth: 1500
+      traceSVG: { background: "#fff", color: "lightgrey" }
+    ) {
+      ...GatsbyImageSharpFluid_tracedSVG
+    }
+  }
+}
+mentor43: file(relativePath: { eq: "images/mentors-sm/mentor-sm-43.jpg" }) {
+  childImageSharp {
+    fluid(
+      maxWidth: 1500
+      traceSVG: { background: "#fff", color: "lightgrey" }
+    ) {
+      ...GatsbyImageSharpFluid_tracedSVG
+    }
+  }
+}
+mentor44: file(relativePath: { eq: "images/mentors-sm/mentor-sm-44.jpg" }) {
+  childImageSharp {
+    fluid(
+      maxWidth: 1500
+      traceSVG: { background: "#fff", color: "lightgrey" }
+    ) {
+      ...GatsbyImageSharpFluid_tracedSVG
+    }
+  }
+}
+mentor45: file(relativePath: { eq: "images/mentors-sm/mentor-sm-45.jpg" }) {
+  childImageSharp {
+    fluid(
+      maxWidth: 1500
+      traceSVG: { background: "#fff", color: "lightgrey" }
+    ) {
+      ...GatsbyImageSharpFluid_tracedSVG
+    }
+  }
+}
+mentor46: file(relativePath: { eq: "images/mentors-sm/mentor-sm-46.jpg" }) {
+  childImageSharp {
+    fluid(
+      maxWidth: 1500
+      traceSVG: { background: "#fff", color: "lightgrey" }
+    ) {
+      ...GatsbyImageSharpFluid_tracedSVG
+    }
+  }
+}
+mentor47: file(relativePath: { eq: "images/mentors-sm/mentor-sm-47.jpg" }) {
+  childImageSharp {
+    fluid(
+      maxWidth: 1500
+      traceSVG: { background: "#fff", color: "lightgrey" }
+    ) {
+      ...GatsbyImageSharpFluid_tracedSVG
+    }
+  }
+}
+mentor48: file(relativePath: { eq: "images/mentors-sm/mentor-sm-48.jpg" }) {
+  childImageSharp {
+    fluid(
+      maxWidth: 1500
+      traceSVG: { background: "#fff", color: "lightgrey" }
+    ) {
+      ...GatsbyImageSharpFluid_tracedSVG
+    }
+  }
+}
+mentor50: file(relativePath: { eq: "images/mentors-sm/mentor-sm-50.jpg" }) {
+  childImageSharp {
+    fluid(
+      maxWidth: 1500
+      traceSVG: { background: "#fff", color: "lightgrey" }
+    ) {
+      ...GatsbyImageSharpFluid_tracedSVG
+    }
+  }
+}
+mentor51: file(relativePath: { eq: "images/mentors-sm/mentor-sm-51.jpg" }) {
+  childImageSharp {
+    fluid(
+      maxWidth: 1500
+      traceSVG: { background: "#fff", color: "lightgrey" }
+    ) {
+      ...GatsbyImageSharpFluid_tracedSVG
+    }
+  }
+}
+mentor52: file(relativePath: { eq: "images/mentors-sm/mentor-sm-52.jpg" }) {
+  childImageSharp {
+    fluid(
+      maxWidth: 1500
+      traceSVG: { background: "#fff", color: "lightgrey" }
+    ) {
+      ...GatsbyImageSharpFluid_tracedSVG
+    }
+  }
+}
+mentor53: file(relativePath: { eq: "images/mentors-sm/mentor-sm-53.jpg" }) {
+  childImageSharp {
+    fluid(
+      maxWidth: 1500
+      traceSVG: { background: "#fff", color: "lightgrey" }
+    ) {
+      ...GatsbyImageSharpFluid_tracedSVG
+    }
+  }
+}
+mentor54: file(relativePath: { eq: "images/mentors-sm/mentor-sm-54.jpg" }) {
+  childImageSharp {
+    fluid(
+      maxWidth: 1500
+      traceSVG: { background: "#fff", color: "lightgrey" }
+    ) {
+      ...GatsbyImageSharpFluid_tracedSVG
+    }
+  }
+}
+mentor55: file(relativePath: { eq: "images/mentors-sm/mentor-sm-55.jpg" }) {
+  childImageSharp {
+    fluid(
+      maxWidth: 1500
+      traceSVG: { background: "#fff", color: "lightgrey" }
+    ) {
+      ...GatsbyImageSharpFluid_tracedSVG
+    }
+  }
+}
+mentor56: file(relativePath: { eq: "images/mentors-sm/mentor-sm-56.jpg" }) {
+  childImageSharp {
+    fluid(
+      maxWidth: 1500
+      traceSVG: { background: "#fff", color: "lightgrey" }
+    ) {
+      ...GatsbyImageSharpFluid_tracedSVG
+    }
+  }
+}
+mentor57: file(relativePath: { eq: "images/mentors-sm/mentor-sm-57.jpg" }) {
+  childImageSharp {
+    fluid(
+      maxWidth: 1500
+      traceSVG: { background: "#fff", color: "lightgrey" }
+    ) {
+      ...GatsbyImageSharpFluid_tracedSVG
+    }
+  }
+}
+mentor59: file(relativePath: { eq: "images/mentors-sm/mentor-sm-59.jpg" }) {
+  childImageSharp {
+    fluid(
+      maxWidth: 1500
+      traceSVG: { background: "#fff", color: "lightgrey" }
+    ) {
+      ...GatsbyImageSharpFluid_tracedSVG
+    }
+  }
+}
+mentor60: file(relativePath: { eq: "images/mentors-sm/mentor-sm-60.jpg" }) {
+  childImageSharp {
+    fluid(
+      maxWidth: 1500
+      traceSVG: { background: "#fff", color: "lightgrey" }
+    ) {
+      ...GatsbyImageSharpFluid_tracedSVG
+    }
+  }
+}
+mentor61: file(relativePath: { eq: "images/mentors-sm/mentor-sm-61.jpg" }) {
   childImageSharp {
     fluid(
       maxWidth: 1500

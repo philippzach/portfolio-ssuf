@@ -115,7 +115,7 @@ class Index extends Component {
               Swiss Startup Factory
             </h1>
             <HeroText>
-            We inspire and enable people to build<br/> sustainable companies and unleash entrepreneurial potential.
+            We inspire and enable people to build<br/> sustainable companies and unleash their entrepreneurial potential.
             </HeroText>
             <div>
               <HeaderSmall>Upload your pitch deck now</HeaderSmall>
@@ -150,7 +150,7 @@ class Index extends Component {
           Being close to startups is the core for the Swiss Startup Factory. 
           </p>
           <p className="white lh-copy">
-          We constantly develop our frameworks and apply them for building up successful startups. 
+          We constantly develop our frameworks and apply them for building up successful and sustainable startups. 
           </p>
         </div>
       </div>
@@ -182,7 +182,7 @@ class Index extends Component {
         <Link className="flex flex-column" to="/startup-services">
           <div className="tc">
             <h3 className="f4 lh-copy pt3" style={{ color: 'rgb(0, 71, 107)' }}>
-              Startup Support Meeting
+              Support Meeting
             </h3>
             <hr className="mw3 bb bw1 b--black-10" />
           </div>

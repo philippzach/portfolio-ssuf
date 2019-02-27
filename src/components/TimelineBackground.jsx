@@ -62,7 +62,7 @@ const TimelineOnBackground = () => (
         <div class="timelinebg-icon">
         </div>
         <div class="timelinebg-content right">
-        <Paragraph>Free Co-working at Zurich newest cowering space WestHive. </Paragraph>      
+        <Paragraph>Free Co-working at Zurich newest location WestHive.</Paragraph>      
         </div>
       </div>
 
@@ -112,7 +112,7 @@ const TimelineOnBackground = () => (
         
         </div>
         <div class="timelinebg-content">
-          <Paragraph>Get CHF 15 000
+          <Paragraph>Get CHF 15 000 Funding
           </Paragraph>
         </div>
       </div>
