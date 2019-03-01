@@ -1,3 +1,9 @@
+.paneltrue {
+    display: block;
+}
+.panelfalse {
+    display: none;
+}
 @media only screen and (min-width: 950px) {
     .containertitleabout {
         margin-left: 30%;

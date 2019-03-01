@@ -2,9 +2,29 @@ import React from 'react';
 import Img from 'gatsby-image'
 
 class Mentors extends React.Component {
+    constructor(props) {
+    super(props);
+    this.state = {
+        showMentors : false,
+    };
+    this.handleMouseDown =this.handleMouseDown.bind(this);
+    this.toggleMenu = this.toggleMenu.bind(this);
+    }
+    handleMouseDown(e) {
+        this.toggleMenu();
+        console.log("clicked");
+      }
+      toggleMenu() {
+        this.setState({ showMentors: !this.state.sidebarOpen });
+      }
+
 render() {
     return (
-        <div className="panel" style={{ backgroundColor: "#f7f7f7" }}>
+        <div>
+            <div className="tc pv5">
+        <div className="button-white" onClick={() => this.handleMouseDown()}>Show All Mentors</div>
+        </div>
+        <div className={"panel" + this.state.showMentors} style={{ backgroundColor: "#f7f7f7" }}>
         <div className="paddingtabs">
         {console.log(this.props.data)}
           <div className="tabrow">
@@ -360,6 +380,7 @@ render() {
                     </article>
                   </div>
             </div>
+        </div>
         </div>
     )
 }
