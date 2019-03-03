@@ -1,32 +1,35 @@
-import React from 'react';
+import React, { Component } from 'react';
 import Img from 'gatsby-image'
 
-class Mentors extends React.Component {
-    constructor(props) {
-    super(props);
+class Mentors extends Component {
+    constructor(props, context) {
+    super(props, context);
     this.state = {
-        showMentors : false,
+        showMentors : false
     };
-    this.handleMouseDown =this.handleMouseDown.bind(this);
+    this.handleMouseDown = this.handleMouseDown.bind(this);
     this.toggleMenu = this.toggleMenu.bind(this);
     }
     handleMouseDown(e) {
-        this.toggleMenu();
+      this.toggleMenu();
         console.log("clicked");
+        
       }
       toggleMenu() {
-        this.setState({ showMentors: !this.state.sidebarOpen });
+        this.setState({ showMentors: !this.state.showMentors });
       }
 
+      
 render() {
     return (
         <div>
             <div className="tc pv5">
-        <div className="button-white" onClick={() => this.handleMouseDown()}>Show All Mentors</div>
+        <div className={["buttonShow" + this.state.showMentors, "button-white"].join(' ')} onClick={() => this.handleMouseDown()}>Browse All Mentors</div>
+        <div className={["buttonHide" + this.state.showMentors, "button-white"].join(' ')} onClick={() => this.handleMouseDown()}>Hide All Mentors</div>
         </div>
+        {console.log(this.state.showMentors)}
         <div className={"panel" + this.state.showMentors} style={{ backgroundColor: "#f7f7f7" }}>
         <div className="paddingtabs">
-        {console.log(this.props.data)}
           <div className="tabrow">
                     <article className="center pa3 pa4-ns">
                       <div className="tc">

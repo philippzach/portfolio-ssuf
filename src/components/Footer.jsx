@@ -17,11 +17,11 @@ class Footer extends Component {
       <>
       <Mailchimp />
       <StyledFooter>
-        <div className="footerlogo">
+        {/* <div className="footerlogo">
           <Link to="/">
             <img className="logofoot" src={Logo} alt="" title="" description="" />
           </Link>
-        </div>
+        </div> */}
         <div className="flex mobilecta">
           <div className="w-50 mobilebutton1 pa3">
             Swiss Startup <br /> Factory
@@ -43,28 +43,29 @@ class Footer extends Component {
                   </ul>
               </li>
               <li className="listitem">
-              <Link to="/factory"><span className="topmenu">Startups</span></Link>
+              <Link to="/startups"><span className="topmenu">Startups</span></Link>
                 <ul className="list pl0 ma0 pt3 light-gray">
-                  <li ><a className="sublistitem" href="https://www.swissstartupfactory.com/startups/accelerator" target="_blank">Accelerator</a></li>
-                  <li ><a className="sublistitem" href="https://www.swissstartupfactory.com/corporates/corporate-acceleration" target="_blank">Pitch Training</a></li>
-                  <li ><a className="sublistitem" href="https://www.swissstartupfactory.com/corporates/company-building" target="_blank">Startup Services</a></li>
-                  <li className=" mb0"><a className="sublistitem" href="https://ccvs.ch/" target="_blank">Investment</a></li>
+                  <li ><Link className="sublistitem" to="/startup-accelerator" >Accelerator</Link></li>
+                  <li ><Link className="sublistitem" to="/pitch-training" >Pitch Training</Link></li>
+                  <li ><Link className="sublistitem" to="/startup-services" >Startup Services</Link></li>
+                  <li className=" mb0"><Link className="sublistitem" to="/investment" >Investment</Link></li>
                 </ul>
               </li>
               <li className="listitem">
-              <Link to="/factory"><span className="topmenu">Corporates</span></Link>
+              <Link to="/corporates"><span className="topmenu">Corporates</span></Link>
                 <ul className="list pl0 ma0 pt3 light-gray">
-                  <li ><a className="sublistitem" href="https://www.swissstartupfactory.com/startups/accelerator" target="_blank">Corporate Accelerator</a></li>
-                  <li ><a className="sublistitem" href="https://www.swissstartupfactory.com/corporates/corporate-acceleration" target="_blank">Company Building</a></li>
-                  <li ><a className="sublistitem" href="https://www.swissstartupfactory.com/corporates/company-building" target="_blank">Corporate Capital Venture</a></li>
-                  <li className=" mb0"><a className="sublistitem" href="https://ccvs.ch/" target="_blank">Intra Innovation</a></li>
+                  <li ><Link className="sublistitem" to="/corporate-acceleration" >Corporate Accelerator</Link></li>
+                  <li ><Link className="sublistitem" to="/company-building" >Company Building</Link></li>
+                  <li ><Link className="sublistitem" to="/corporate-innovation-service" >Innovation Service</Link></li>
+                  <li ><Link className="sublistitem" to="/innovation-for-sme-and-kmu" >Innovation for SME</Link></li>
+                  <li className=" mb0"><a className="sublistitem" href="https://ccvs.ch/" target="_blank" rel="noreferrer noopener">Corporate Capital Venture</a></li>
                 </ul>
               </li>
               <li className="listitem">
-              <Link to="/factory"><span className="topmenu">Jobs</span></Link>
+              <a href="https://swissstartupjobs.com" target="_blank" rel="noreferrer noopener"><span className="topmenu">Jobs</span></a>
                 <ul className="list pl0 ma0 pt3 light-gray">
-                  <li ><a className="sublistitem" href="https://swissstartupjobs.com" target="_blank">Innovators</a></li>
-                  <li ><a className="sublistitem" href="https://swissstartupjobs.com" target="_blank">EIR Program</a></li>
+                  <li ><Link className="sublistitem" to="/innovator-program" >Innovators</Link></li>
+                  <li ><Link className="sublistitem" to="/eir-program" >EIR Program</Link></li>
                 </ul>
               </li>
           </ul>

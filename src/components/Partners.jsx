@@ -18,14 +18,24 @@ import Academic8 from '../../static/ssuf/academic-2-4.svg';
 
 const Row = styled.div`
 display: flex;
+@media (max-width: 600px) {
+    flex-direction: column;
+    align-items: center;
+}
 `
 const Svg = styled.img`
     padding: 1em;
     max-width: 25%;
+    @media (max-width: 600px) {
+    max-width: 75%;
+}
 `
 const Svg2 = styled.img`
     padding: 2em;
     max-width: 25%;
+    @media (max-width: 600px) {
+    max-width: 75%;
+}
 `
 const Headline = styled.h3`
 font-family: roboto;

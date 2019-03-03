@@ -69,13 +69,13 @@ const InvestmentPortfolio = ({ data }) => (
       </Test>
       <div style={{backgroundColor: "#00486C", padding:"3em 0", maring: "3em 0"}}>
           <div className="tc">
-          <Head>Swiss Startup Factory Startup Accelerator</Head>
+          <Head className="pa1">Swiss Startup Factory Startup Accelerator</Head>
           <a href="https://ssuf.typeform.com/to/BPDGQ9"><div className="button-blue" style={{boxShadow: "none"}}>Apply now</div></a>
           </div>
       </div>
     <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
       <div className="containertitle mt5">
-        <SubHead>Make your product happen!</SubHead>
+        <SubHead >Make your product happen!</SubHead>
         <Paragraph>
         After three years of experience, we have designed a completely new customised accelerator program, based on our Swiss Startup Factory Company Building Playbook. We have shifted from incubation of ideas to acceleration of startups, which have already validated their business model and are ready for fast growth.   
         </Paragraph>
@@ -88,7 +88,7 @@ const InvestmentPortfolio = ({ data }) => (
       <Img fluid={data.innovation1.childImageSharp.fluid} className="w-100" />
       </div>
       <div className="w-100 w-60-ns pl3-ns flex items-center measure center">
-        <div className="pt4 pb5">
+        <div className="pt4 pb5 ph3 ph0-ns">
             <Paragraph className="white ">The program is divided in five different phases, where the length of each stage depends on the need of your startup and is defined at the beginning of the program. During the accelerator, you will follow our Swiss Startup Factory Company Building Playbook and work in numerous one-on-one sessions with our experienced team, excellent mentors and industry partners to validate all your hypotheses.</Paragraph>
             <Paragraph className="white ">In 3 milestones, you need to convince an internal and external jury about the potential of your business, in order to continue the program. </Paragraph>
             <Paragraph className="white b">Applications for the program are accepted on a rolling basis.</Paragraph>

@@ -67,8 +67,8 @@ const pages = [
           <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
             <img src={Mentor1} alt="" style={{ maxHeight: '550px' }}/>
           </div>
-          <div className="w-100 w-60-ns pl3-ns flex items-center ">
-            <div className="paddingfounders measure">
+          <div className="mentorslider w-100 w-60-ns pl3-ns flex items-center ">
+            <div className="paddingmentors measure">
               <h3>Jeremy Tai Abbett</h3>
               <span className="arrows"></span>
               <p className="lh-copy">
@@ -86,8 +86,8 @@ const pages = [
                 <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
             <img src={Mentor2} alt="" style={{ maxHeight: '550px' }}/>
             </div>
-            <div className="w-100 w-60-ns pl3-ns flex items-center ">
-            <div className="paddingfounders measure">
+            <div className="mentorslider w-100 w-60-ns pl3-ns flex items-center ">
+            <div className="paddingmentors measure">
                 <h3>Cem	Aydogan</h3>
                 <span className="arrows"></span>
                 <p className="lh-copy">
@@ -106,8 +106,8 @@ const pages = [
                 <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
             <img src={Mentor3} alt="" style={{ maxHeight: '550px' }}/>
             </div>
-            <div className="w-100 w-60-ns pl3-ns flex items-center ">
-            <div className="paddingfounders measure">
+            <div className="mentorslider w-100 w-60-ns pl3-ns flex items-center ">
+            <div className="paddingmentors measure">
                 <h3>Roger Baur</h3>
                 <span className="arrows"></span>
                 <p className="lh-copy">
@@ -126,8 +126,8 @@ const pages = [
                 <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
             <img src={Mentor4} alt="" style={{ maxHeight: '550px' }}/>
             </div>
-            <div className="w-100 w-60-ns pl3-ns flex items-center ">
-            <div className="paddingfounders measure">
+            <div className="mentorslider w-100 w-60-ns pl3-ns flex items-center ">
+            <div className="paddingmentors measure">
                 <h3>Daniel Biene</h3>
                 <span className="arrows"></span>
                 <p className="lh-copy">
@@ -146,8 +146,8 @@ const pages = [
                 <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
             <img src={Mentor5} alt="" style={{ maxHeight: '550px' }}/>
             </div>
-            <div className="w-100 w-60-ns pl3-ns flex items-center ">
-            <div className="paddingfounders measure">
+            <div className="mentorslider w-100 w-60-ns pl3-ns flex items-center ">
+            <div className="paddingmentors measure">
                 <h3>Raphael	Bienz</h3>
                 <span className="arrows"></span>
                 <p className="lh-copy">
@@ -166,8 +166,8 @@ const pages = [
                 <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
             <img src={Mentor6} alt="" style={{ maxHeight: '550px' }}/>
             </div>
-            <div className="w-100 w-60-ns pl3-ns flex items-center ">
-            <div className="paddingfounders measure">
+            <div className="mentorslider w-100 w-60-ns pl3-ns flex items-center ">
+            <div className="paddingmentors measure">
                 <h3>Adrian Bieri</h3>
                 <span className="arrows"></span>
                 <p className="lh-copy">
@@ -186,8 +186,8 @@ const pages = [
                 <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
             <img src={Mentor7} alt="" style={{ maxHeight: '550px' }}/>
             </div>
-            <div className="w-100 w-60-ns pl3-ns flex items-center ">
-            <div className="paddingfounders measure">
+            <div className="mentorslider w-100 w-60-ns pl3-ns flex items-center ">
+            <div className="paddingmentors measure">
                 <h3>Otto Bitterli</h3>
                 <span className="arrows"></span>
                 <p className="lh-copy">
@@ -206,8 +206,8 @@ const pages = [
                 <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
             <img src={Mentor8} alt="" style={{ maxHeight: '550px' }}/>
             </div>
-            <div className="w-100 w-60-ns pl3-ns flex items-center ">
-            <div className="paddingfounders measure">
+            <div className="mentorslider w-100 w-60-ns pl3-ns flex items-center ">
+            <div className="paddingmentors measure">
                 <h3>Noel Blessing</h3>
                 <span className="arrows"></span>
                 <p className="lh-copy">
@@ -226,8 +226,8 @@ const pages = [
                 <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
             <img src={Mentor9} alt="" style={{ maxHeight: '550px' }}/>
             </div>
-            <div className="w-100 w-60-ns pl3-ns flex items-center ">
-            <div className="paddingfounders measure">
+            <div className="mentorslider w-100 w-60-ns pl3-ns flex items-center ">
+            <div className="paddingmentors measure">
                 <h3>Christian	Brand</h3>
                 <span className="arrows"></span>
                 <p className="lh-copy">
@@ -246,8 +246,8 @@ const pages = [
                 <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
             <img src={Mentor10} alt="" style={{ maxHeight: '550px' }}/>
             </div>
-            <div className="w-100 w-60-ns pl3-ns flex items-center ">
-            <div className="paddingfounders measure">
+            <div className="mentorslider w-100 w-60-ns pl3-ns flex items-center ">
+            <div className="paddingmentors measure">
                 <h3>Nicolas	Bürer</h3>
                 <span className="arrows"></span>
                 <p className="lh-copy">
@@ -266,8 +266,8 @@ const pages = [
                 <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
             <img src={Mentor11}  alt="" style={{ maxHeight: '550px' }}/>
             </div>
-            <div className="w-100 w-60-ns pl3-ns flex items-center ">
-            <div className="paddingfounders measure">
+            <div className="mentorslider w-100 w-60-ns pl3-ns flex items-center ">
+            <div className="paddingmentors measure">
                 <h3>Alex Curiger</h3>
                 <span className="arrows"></span>
                 <p className="lh-copy">
@@ -286,8 +286,8 @@ const pages = [
                 <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
             <img src={Mentor12}  alt="" style={{ maxHeight: '550px' }}/>
             </div>
-            <div className="w-100 w-60-ns pl3-ns flex items-center ">
-            <div className="paddingfounders measure">
+            <div className="mentorslider w-100 w-60-ns pl3-ns flex items-center ">
+            <div className="paddingmentors measure">
                 <h3>Mohammad Dastmaltchi</h3>
                 <span className="arrows"></span>
                 <p className="lh-copy">
@@ -306,8 +306,8 @@ const pages = [
                 <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
             <img src={Mentor13}  alt="" style={{ maxHeight: '550px' }}/>
             </div>
-            <div className="w-100 w-60-ns pl3-ns flex items-center ">
-            <div className="paddingfounders measure">
+            <div className="mentorslider w-100 w-60-ns pl3-ns flex items-center ">
+            <div className="paddingmentors measure">
                 <h3>Guillaume	Dubray</h3>
                 <span className="arrows"></span>
                 <p className="lh-copy">
@@ -326,8 +326,8 @@ const pages = [
                 <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
             <img src={Mentor14}  alt="" style={{ maxHeight: '550px' }}/>
             </div>
-            <div className="w-100 w-60-ns pl3-ns flex items-center ">
-            <div className="paddingfounders measure">
+            <div className="mentorslider w-100 w-60-ns pl3-ns flex items-center ">
+            <div className="paddingmentors measure">
                 <h3>Oliver Durrer</h3>
                 <span className="arrows"></span>
                 <p className="lh-copy">
@@ -346,8 +346,8 @@ const pages = [
                 <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
             <img src={Mentor15}  alt="" style={{ maxHeight: '550px' }}/>
             </div>
-            <div className="w-100 w-60-ns pl3-ns flex items-center ">
-            <div className="paddingfounders measure">
+            <div className="mentorslider w-100 w-60-ns pl3-ns flex items-center ">
+            <div className="paddingmentors measure">
                 <h3>Frank	Edelkraut</h3>
                 <span className="arrows"></span>
                 <p className="lh-copy">
@@ -366,8 +366,8 @@ const pages = [
                 <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
             <img src={Mentor16}  alt="" style={{ maxHeight: '550px' }}/>
             </div>
-            <div className="w-100 w-60-ns pl3-ns flex items-center ">
-            <div className="paddingfounders measure">
+            <div className="mentorslider w-100 w-60-ns pl3-ns flex items-center ">
+            <div className="paddingmentors measure">
                 <h3>Kerstin Elsholz</h3>
                 <span className="arrows"></span>
                 <p className="lh-copy">
@@ -386,8 +386,8 @@ const pages = [
                 <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
             <img src={Mentor18}  alt="" style={{ maxHeight: '550px' }}/>
             </div>
-            <div className="w-100 w-60-ns pl3-ns flex items-center ">
-            <div className="paddingfounders measure">
+            <div className="mentorslider w-100 w-60-ns pl3-ns flex items-center ">
+            <div className="paddingmentors measure">
                 <h3>Samuel Fricker</h3>
                 <span className="arrows"></span>
                 <p className="lh-copy">
@@ -406,8 +406,8 @@ const pages = [
                 <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
             <img src={Mentor19}  alt="" style={{ maxHeight: '550px' }}/>
             </div>
-            <div className="w-100 w-60-ns pl3-ns flex items-center ">
-            <div className="paddingfounders measure">
+            <div className="mentorslider w-100 w-60-ns pl3-ns flex items-center ">
+            <div className="paddingmentors measure">
                 <h3>Sacha D. Gerber</h3>
                 <span className="arrows"></span>
                 <p className="lh-copy">
@@ -426,8 +426,8 @@ const pages = [
                 <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
             <img src={Mentor20}  alt="" style={{ maxHeight: '550px' }}/>
             </div>
-            <div className="w-100 w-60-ns pl3-ns flex items-center ">
-            <div className="paddingfounders measure">
+            <div className="mentorslider w-100 w-60-ns pl3-ns flex items-center ">
+            <div className="paddingmentors measure">
                 <h3>Alex Grechanowski</h3>
                 <span className="arrows"></span>
                 <p className="lh-copy">
@@ -446,8 +446,8 @@ const pages = [
                 <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
             <img src={Mentor21}  alt="" style={{ maxHeight: '550px' }}/>
             </div>
-            <div className="w-100 w-60-ns pl3-ns flex items-center ">
-            <div className="paddingfounders measure">
+            <div className="mentorslider w-100 w-60-ns pl3-ns flex items-center ">
+            <div className="paddingmentors measure">
                 <h3>Pascal Gurtner</h3>
                 <span className="arrows"></span>
                 <p className="lh-copy">
@@ -466,8 +466,8 @@ const pages = [
                 <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
             <img src={Mentor24}  alt="" style={{ maxHeight: '550px' }}/>
             </div>
-            <div className="w-100 w-60-ns pl3-ns flex items-center ">
-            <div className="paddingfounders measure">
+            <div className="mentorslider w-100 w-60-ns pl3-ns flex items-center ">
+            <div className="paddingmentors measure">
                 <h3>Milko	Hensel</h3>
                 <span className="arrows"></span>
                 <p className="lh-copy">
@@ -486,8 +486,8 @@ const pages = [
                 <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
             <img src={Mentor25}  alt="" style={{ maxHeight: '550px' }}/>
             </div>
-            <div className="w-100 w-60-ns pl3-ns flex items-center ">
-            <div className="paddingfounders measure">
+            <div className="mentorslider w-100 w-60-ns pl3-ns flex items-center ">
+            <div className="paddingmentors measure">
                 <h3>Markus	Herzberg</h3>
                 <span className="arrows"></span>
                 <p className="lh-copy">
@@ -506,8 +506,8 @@ const pages = [
                 <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
             <img src={Mentor27}  alt="" style={{ maxHeight: '550px' }}/>
             </div>
-            <div className="w-100 w-60-ns pl3-ns flex items-center ">
-            <div className="paddingfounders measure">
+            <div className="mentorslider w-100 w-60-ns pl3-ns flex items-center ">
+            <div className="paddingmentors measure">
                 <h3>Karim-Alexandre	Koubaa-Olesen</h3>
                 <span className="arrows"></span>
                 <p className="lh-copy">
@@ -526,8 +526,8 @@ const pages = [
                 <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
             <img src={Mentor28}  alt="" style={{ maxHeight: '550px' }}/>
             </div>
-            <div className="w-100 w-60-ns pl3-ns flex items-center ">
-            <div className="paddingfounders measure">
+            <div className="mentorslider w-100 w-60-ns pl3-ns flex items-center ">
+            <div className="paddingmentors measure">
                 <h3>David D. Laux</h3>
                 <span className="arrows"></span>
                 <p className="lh-copy">
@@ -546,8 +546,8 @@ const pages = [
                 <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
             <img src={Mentor29}  alt="" style={{ maxHeight: '550px' }}/>
             </div>
-            <div className="w-100 w-60-ns pl3-ns flex items-center ">
-            <div className="paddingfounders measure">
+            <div className="mentorslider w-100 w-60-ns pl3-ns flex items-center ">
+            <div className="paddingmentors measure">
                 <h3>Thomas Liebe</h3>
                 <span className="arrows"></span>
                 <p className="lh-copy">
@@ -566,8 +566,8 @@ const pages = [
                 <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
             <img src={Mentor30}  alt="" style={{ maxHeight: '550px' }}/>
             </div>
-            <div className="w-100 w-60-ns pl3-ns flex items-center ">
-            <div className="paddingfounders measure">
+            <div className="mentorslider w-100 w-60-ns pl3-ns flex items-center ">
+            <div className="paddingmentors measure">
                 <h3>Daniela	Maag</h3>
                 <span className="arrows"></span>
                 <p className="lh-copy">
@@ -586,8 +586,8 @@ const pages = [
                 <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
             <img src={Mentor32}  alt="" style={{ maxHeight: '550px' }}/>
             </div>
-            <div className="w-100 w-60-ns pl3-ns flex items-center ">
-            <div className="paddingfounders measure">
+            <div className="mentorslider w-100 w-60-ns pl3-ns flex items-center ">
+            <div className="paddingmentors measure">
                 <h3>Daniela	Marino</h3>
                 <span className="arrows"></span>
                 <p className="lh-copy">
@@ -606,8 +606,8 @@ const pages = [
                 <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
             <img src={Mentor33}  alt="" style={{ maxHeight: '550px' }}/>
             </div>
-            <div className="w-100 w-60-ns pl3-ns flex items-center ">
-            <div className="paddingfounders measure">
+            <div className="mentorslider w-100 w-60-ns pl3-ns flex items-center ">
+            <div className="paddingmentors measure">
                 <h3>Olivia Menzi</h3>
                 <span className="arrows"></span>
                 <p className="lh-copy">
@@ -626,8 +626,8 @@ const pages = [
                 <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
             <img src={Mentor34}  alt="" style={{ maxHeight: '550px' }}/>
             </div>
-            <div className="w-100 w-60-ns pl3-ns flex items-center ">
-            <div className="paddingfounders measure">
+            <div className="mentorslider w-100 w-60-ns pl3-ns flex items-center ">
+            <div className="paddingmentors measure">
                 <h3>Tom	Morf</h3>
                 <span className="arrows"></span>
                 <p className="lh-copy">
@@ -646,8 +646,8 @@ const pages = [
                 <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
             <img src={Mentor35}  alt="" style={{ maxHeight: '550px' }}/>
             </div>
-            <div className="w-100 w-60-ns pl3-ns flex items-center ">
-            <div className="paddingfounders measure">
+            <div className="mentorslider w-100 w-60-ns pl3-ns flex items-center ">
+            <div className="paddingmentors measure">
                 <h3>Cornel Müller</h3>
                 <span className="arrows"></span>
                 <p className="lh-copy">
@@ -666,8 +666,8 @@ const pages = [
                 <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
             <img src={Mentor36}  alt="" style={{ maxHeight: '550px' }}/>
             </div>
-            <div className="w-100 w-60-ns pl3-ns flex items-center ">
-            <div className="paddingfounders measure">
+            <div className="mentorslider w-100 w-60-ns pl3-ns flex items-center ">
+            <div className="paddingmentors measure">
                 <h3>Matthias Müller</h3>
                 <span className="arrows"></span>
                 <p className="lh-copy">
@@ -686,8 +686,8 @@ const pages = [
                 <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
             <img src={Mentor37}  alt="" style={{ maxHeight: '550px' }}/>
             </div>
-            <div className="w-100 w-60-ns pl3-ns flex items-center ">
-            <div className="paddingfounders measure">
+            <div className="mentorslider w-100 w-60-ns pl3-ns flex items-center ">
+            <div className="paddingmentors measure">
                 <h3>Manuel Nappo</h3>
                 <span className="arrows"></span>
                 <p className="lh-copy">
@@ -706,8 +706,8 @@ const pages = [
                 <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
             <img src={Mentor38}  alt="" style={{ maxHeight: '550px' }}/>
             </div>
-            <div className="w-100 w-60-ns pl3-ns flex items-center ">
-            <div className="paddingfounders measure">
+            <div className="mentorslider w-100 w-60-ns pl3-ns flex items-center ">
+            <div className="paddingmentors measure">
                 <h3>Claudio	Nessi</h3>
                 <span className="arrows"></span>
                 <p className="lh-copy">
@@ -726,8 +726,8 @@ const pages = [
                 <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
             <img src={Mentor39}  alt="" style={{ maxHeight: '550px' }}/>
             </div>
-            <div className="w-100 w-60-ns pl3-ns flex items-center ">
-            <div className="paddingfounders measure">
+            <div className="mentorslider w-100 w-60-ns pl3-ns flex items-center ">
+            <div className="paddingmentors measure">
                 <h3>Stewart	Noakes</h3>
                 <span className="arrows"></span>
                 <p className="lh-copy">
@@ -746,8 +746,8 @@ const pages = [
                 <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
             <img src={Mentor40}  alt="" style={{ maxHeight: '550px' }}/>
             </div>
-            <div className="w-100 w-60-ns pl3-ns flex items-center ">
-            <div className="paddingfounders measure">
+            <div className="mentorslider w-100 w-60-ns pl3-ns flex items-center ">
+            <div className="paddingmentors measure">
                 <h3>Silas	Obrist</h3>
                 <span className="arrows"></span>
                 <p className="lh-copy">
@@ -766,8 +766,8 @@ const pages = [
                 <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
             <img src={Mentor41}  alt="" style={{ maxHeight: '550px' }}/>
             </div>
-            <div className="w-100 w-60-ns pl3-ns flex items-center ">
-            <div className="paddingfounders measure">
+            <div className="mentorslider w-100 w-60-ns pl3-ns flex items-center ">
+            <div className="paddingmentors measure">
                 <h3>Corinne	Pellerin</h3>
                 <span className="arrows"></span>
                 <p className="lh-copy">
@@ -786,8 +786,8 @@ const pages = [
                 <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
             <img src={Mentor42}  alt="" style={{ maxHeight: '550px' }}/>
             </div>
-            <div className="w-100 w-60-ns pl3-ns flex items-center ">
-            <div className="paddingfounders measure">
+            <div className="mentorslider w-100 w-60-ns pl3-ns flex items-center ">
+            <div className="paddingmentors measure">
                 <h3>Paolo	Petrolini</h3>
                 <span className="arrows"></span>
                 <p className="lh-copy">
@@ -806,8 +806,8 @@ const pages = [
                 <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
             <img src={Mentor43}  alt="" style={{ maxHeight: '550px' }}/>
             </div>
-            <div className="w-100 w-60-ns pl3-ns flex items-center ">
-            <div className="paddingfounders measure">
+            <div className="mentorslider w-100 w-60-ns pl3-ns flex items-center ">
+            <div className="paddingmentors measure">
                 <h3>Lax Poojary</h3>
                 <span className="arrows"></span>
                 <p className="lh-copy">
@@ -826,8 +826,8 @@ const pages = [
                 <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
             <img src={Mentor44}  alt="" style={{ maxHeight: '550px' }}/>
             </div>
-            <div className="w-100 w-60-ns pl3-ns flex items-center ">
-            <div className="paddingfounders measure">
+            <div className="mentorslider w-100 w-60-ns pl3-ns flex items-center ">
+            <div className="paddingmentors measure">
                 <h3>Myriam	Reinle</h3>
                 <span className="arrows"></span>
                 <p className="lh-copy">
@@ -846,8 +846,8 @@ const pages = [
                 <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
             <img src={Mentor45}  alt="" style={{ maxHeight: '550px' }}/>
             </div>
-            <div className="w-100 w-60-ns pl3-ns flex items-center ">
-            <div className="paddingfounders measure">
+            <div className="mentorslider w-100 w-60-ns pl3-ns flex items-center ">
+            <div className="paddingmentors measure">
                 <h3>Ruud Rikhof</h3>
                 <span className="arrows"></span>
                 <p className="lh-copy">
@@ -866,8 +866,8 @@ const pages = [
                 <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
             <img src={Mentor46}  alt="" style={{ maxHeight: '550px' }}/>
             </div>
-            <div className="w-100 w-60-ns pl3-ns flex items-center ">
-            <div className="paddingfounders measure">
+            <div className="mentorslider w-100 w-60-ns pl3-ns flex items-center ">
+            <div className="paddingmentors measure">
                 <h3>Miguel Rodriguez</h3>
                 <span className="arrows"></span>
                 <p className="lh-copy">
@@ -886,8 +886,8 @@ const pages = [
                 <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
             <img src={Mentor47}  alt="" style={{ maxHeight: '550px' }}/>
             </div>
-            <div className="w-100 w-60-ns pl3-ns flex items-center ">
-            <div className="paddingfounders measure">
+            <div className="mentorslider w-100 w-60-ns pl3-ns flex items-center ">
+            <div className="paddingmentors measure">
                 <h3>Andrea Rutishauser</h3>
                 <span className="arrows"></span>
                 <p className="lh-copy">
@@ -906,8 +906,8 @@ const pages = [
                 <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
             <img src={Mentor48}  alt="" style={{ maxHeight: '550px' }}/>
             </div>
-            <div className="w-100 w-60-ns pl3-ns flex items-center ">
-            <div className="paddingfounders measure">
+            <div className="mentorslider w-100 w-60-ns pl3-ns flex items-center ">
+            <div className="paddingmentors measure">
                 <h3>Yusuf	Savmaz</h3>
                 <span className="arrows"></span>
                 <p className="lh-copy">
@@ -926,8 +926,8 @@ const pages = [
                 <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
             <img src={Mentor50}  alt="" style={{ maxHeight: '550px' }}/>
             </div>
-            <div className="w-100 w-60-ns pl3-ns flex items-center ">
-            <div className="paddingfounders measure">
+            <div className="mentorslider w-100 w-60-ns pl3-ns flex items-center ">
+            <div className="paddingmentors measure">
                 <h3>Marie-Christine Schindler</h3>
                 <span className="arrows"></span>
                 <p className="lh-copy">
@@ -946,8 +946,8 @@ const pages = [
                 <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
             <img src={Mentor51}  alt="" style={{ maxHeight: '550px' }}/>
             </div>
-            <div className="w-100 w-60-ns pl3-ns flex items-center ">
-            <div className="paddingfounders measure">
+            <div className="mentorslider w-100 w-60-ns pl3-ns flex items-center ">
+            <div className="paddingmentors measure">
                 <h3>Andreas	Schlenker</h3>
                 <span className="arrows"></span>
                 <p className="lh-copy">
@@ -966,8 +966,8 @@ const pages = [
                 <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
             <img src={Mentor52}  alt="" style={{ maxHeight: '550px' }}/>
             </div>
-            <div className="w-100 w-60-ns pl3-ns flex items-center ">
-            <div className="paddingfounders measure">
+            <div className="mentorslider w-100 w-60-ns pl3-ns flex items-center ">
+            <div className="paddingmentors measure">
                 <h3>Michael	Schmid</h3>
                 <span className="arrows"></span>
                 <p className="lh-copy">
@@ -986,8 +986,8 @@ const pages = [
                 <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
             <img src={Mentor53}  alt="" style={{ maxHeight: '550px' }}/>
             </div>
-            <div className="w-100 w-60-ns pl3-ns flex items-center ">
-            <div className="paddingfounders measure">
+            <div className="mentorslider w-100 w-60-ns pl3-ns flex items-center ">
+            <div className="paddingmentors measure">
                 <h3>Reto Senn</h3>
                 <span className="arrows"></span>
                 <p className="lh-copy">
@@ -1006,8 +1006,8 @@ const pages = [
                 <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
             <img src={Mentor54}  alt="" style={{ maxHeight: '550px' }}/>
             </div>
-            <div className="w-100 w-60-ns pl3-ns flex items-center ">
-            <div className="paddingfounders measure">
+            <div className="mentorslider w-100 w-60-ns pl3-ns flex items-center ">
+            <div className="paddingmentors measure">
                 <h3>Domonique	Specht</h3>
                 <span className="arrows"></span>
                 <p className="lh-copy">
@@ -1026,8 +1026,8 @@ const pages = [
                 <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
             <img src={Mentor55}  alt="" style={{ maxHeight: '550px' }}/>
             </div>
-            <div className="w-100 w-60-ns pl3-ns flex items-center ">
-            <div className="paddingfounders measure">
+            <div className="mentorslider w-100 w-60-ns pl3-ns flex items-center ">
+            <div className="paddingmentors measure">
                 <h3>Isa	Steiner</h3>
                 <span className="arrows"></span>
                 <p className="lh-copy">
@@ -1046,8 +1046,8 @@ const pages = [
                 <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
             <img src={Mentor56}  alt="" style={{ maxHeight: '550px' }}/>
             </div>
-            <div className="w-100 w-60-ns pl3-ns flex items-center ">
-            <div className="paddingfounders measure">
+            <div className="mentorslider w-100 w-60-ns pl3-ns flex items-center ">
+            <div className="paddingmentors measure">
                 <h3>Rolf Styger</h3>
                 <span className="arrows"></span>
                 <p className="lh-copy">
@@ -1064,8 +1064,8 @@ const pages = [
                 <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
             <img src={Mentor57}  alt="" style={{ maxHeight: '550px' }}/>
             </div>
-            <div className="w-100 w-60-ns pl3-ns flex items-center ">
-            <div className="paddingfounders measure">
+            <div className="mentorslider w-100 w-60-ns pl3-ns flex items-center ">
+            <div className="paddingmentors measure">
                 <h3>Marc Sutterlüti</h3>
                 <span className="arrows"></span>
                 <p className="lh-copy">
@@ -1084,8 +1084,8 @@ const pages = [
                 <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
             <img src={Mentor59}  alt="" style={{ maxHeight: '550px' }}/>
             </div>
-            <div className="w-100 w-60-ns pl3-ns flex items-center ">
-            <div className="paddingfounders measure">
+            <div className="mentorslider w-100 w-60-ns pl3-ns flex items-center ">
+            <div className="paddingmentors measure">
                 <h3>Alexander	Von Schirmeister</h3>
                 <span className="arrows"></span>
                 <p className="lh-copy">
@@ -1104,8 +1104,8 @@ const pages = [
                 <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
             <img src={Mentor60}  alt="" style={{ maxHeight: '550px' }}/>
             </div>
-            <div className="w-100 w-60-ns pl3-ns flex items-center ">
-            <div className="paddingfounders measure">
+            <div className="mentorslider w-100 w-60-ns pl3-ns flex items-center ">
+            <div className="paddingmentors measure">
                 <h3>Roger Weber</h3>
                 <span className="arrows"></span>
                 <p className="lh-copy">
@@ -1124,8 +1124,8 @@ const pages = [
                 <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
             <img src={Mentor61}  alt="" style={{ maxHeight: '550px' }}/>
             </div>
-            <div className="w-100 w-60-ns pl3-ns flex items-center ">
-            <div className="paddingfounders measure">
+            <div className="mentorslider w-100 w-60-ns pl3-ns flex items-center ">
+            <div className="paddingmentors measure">
                 <h3>Dimitri	Wittwer</h3>
                 <span className="arrows"></span>
                 <p className="lh-copy">

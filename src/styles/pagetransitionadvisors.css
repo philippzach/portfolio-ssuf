@@ -1,3 +1,10 @@
+.mentorslider {
+    padding: 4em 0;
+}
+.paddingmentors {
+    padding: 0 2em 0em;
+}
+
 .advisorsmain > div {
     cursor: pointer;
     position: absolute;
