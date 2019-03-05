@@ -39,7 +39,7 @@ const Test = styled.div`
 
 const Join = ({data}) => (
     <Layout>
-    <Seo title="Swiss Startup Factory - Join the Platform" desc="Join the biggest swiss startup platform for innovation – we are the right place for you!" />
+    <Seo title="SWISS STARTUP FACTORY - Join the Platform" desc="Join the biggest swiss startup platform for innovation – we are the right place for you!" />
         <NavbarInverted />
         <Test> 
           <Img fluid={data.join.childImageSharp.fluid} className="w-100" />

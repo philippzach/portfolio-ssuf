@@ -37,7 +37,7 @@ padding: 4em 2em;
 
 const InvestmentPortfolio = ({ data }) => (
   <Layout>
-  <Seo title="Swiss Startup Factory - Corporate Acceleration" desc="For corporates, an accelerator is a valuable innovation and business-building tool. Swiss Startup Factory can support you." />
+  <Seo title="SWISS STARTUP FACTORY - Corporate Acceleration" desc="For corporates, an accelerator is a valuable innovation and business-building tool. Swiss Startup Factory can support you." />
       <Navbar />
       <Test> 
           <Img fluid={data.portfolio.childImageSharp.fluid} className="w-100" />

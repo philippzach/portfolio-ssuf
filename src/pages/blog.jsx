@@ -25,7 +25,7 @@ class Blog extends Component {
     } = this.props;
     return (
       <Layout>
-      <Seo title="SWISS STARTUP GROUP – News" desc="What's going on at the Swiss Startup Group and ecosystem?  News and background information on investments, startups and VC" />
+      <Seo title="SWISS STARTUP FACTORY – News" desc="What's going on at the Swiss Startup Factory and ecosystem? News and background information on investments, startups and VC" />
         <Navbar />
           <Test> 
               <Img fluid={factory.childImageSharp.fluid} className="w-100" />

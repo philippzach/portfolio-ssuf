@@ -26,7 +26,7 @@ const Profile = {
 
 const AboutUs = ({ data }) => (
   <Layout>
-  <Seo title="Swiss Startup Factory - About us" desc="The team of the Swiss Startup Factory consists smart experts with a diverse set of experiences and passion for the startup ecosystem." />
+  <Seo title="SWISS STARTUP FACTORY - About us" desc="The team of the Swiss Startup Factory consists smart experts with a diverse set of experiences and passion for the startup ecosystem." />
       <Navbar />
       <Test> 
           <Img fluid={data.about.childImageSharp.fluid} className="w-100" />
@@ -82,10 +82,10 @@ const AboutUs = ({ data }) => (
             </div>
             <div className="tabrow">
             <article className="center pa3 pa4-ns">
-              <div className="tc">
-                <Img fluid={data.about5.childImageSharp.fluid} className="br-100 dib " style={Profile} title="" alt="" />
-                <h3 className="f5 mb2">Virginia Beljean</h3>
-                <h4 className="f6 fw4 gray mt0">Head of <br/>Communications & Marketing</h4>
+            <div className="tc">
+                <Img fluid={data.about9.childImageSharp.fluid} className="br-100 dib " style={Profile} title="" alt="" />
+                <h3 className="f5 mb2">Jana Stucki</h3>
+                <h4 className="f6 fw4 gray mt0">Project Manager</h4>
               </div>
             </article>
             <article className="center pa3 pa4-ns">
@@ -100,6 +100,22 @@ const AboutUs = ({ data }) => (
                 <Img fluid={data.about7.childImageSharp.fluid} className="br-100 dib " style={Profile} title="" alt="" />
                 <h3 className="f5 mb2">Cindy Spelt</h3>
                 <h4 className="f6 fw4 gray mt0">Head of Platform</h4>
+              </div>
+            </article>
+            <article className="center pa3 pa4-ns">
+            <div className="tc">
+                <Img fluid={data.about8.childImageSharp.fluid} className="br-100 dib " style={Profile} title="" alt="" />
+                <h3 className="f5 mb2">Daniel Perschy</h3>
+                <h4 className="f6 fw4 gray mt0">Innovation Consultant</h4>
+              </div>
+            </article>
+            </div>
+            <div className="tabrow">
+            <article className="center pa3 pa4-ns">
+              <div className="tc">
+                <Img fluid={data.about5.childImageSharp.fluid} className="br-100 dib " style={Profile} title="" alt="" />
+                <h3 className="f5 mb2">Virginia Beljean</h3>
+                <h4 className="f6 fw4 gray mt0">Head of <br/>Communications & Marketing</h4>
               </div>
             </article>
             </div>
@@ -197,6 +213,26 @@ about6: file(relativePath: { eq: "images/keith.jpg" }) {
   }
 }
 about7: file(relativePath: { eq: "images/cindyspelt.jpg" }) {
+  childImageSharp {
+    fluid(
+      maxWidth: 1500
+      traceSVG: { background: "#fff", color: "lightgrey" }
+    ) {
+      ...GatsbyImageSharpFluid_tracedSVG
+    }
+  }
+}
+about8: file(relativePath: { eq: "images/daniel.jpg" }) {
+  childImageSharp {
+    fluid(
+      maxWidth: 1500
+      traceSVG: { background: "#fff", color: "lightgrey" }
+    ) {
+      ...GatsbyImageSharpFluid_tracedSVG
+    }
+  }
+}
+about9: file(relativePath: { eq: "images/jana.jpg" }) {
   childImageSharp {
     fluid(
       maxWidth: 1500

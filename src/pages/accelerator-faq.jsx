@@ -6,7 +6,7 @@ import Seo from '../components/SEO/index';
 
 const Faq = () => (
     <Layout>
-  <Seo title="SWISS STARTUP GROUP – About us" desc="Get to know our team, advisory board, partners, supporters and sponsors, that offers a perfect network platform in the swiss startup ecosystem" />
+  <Seo title="SWISS STARTUP FACTORY – Startup Accelerator FAQ" desc="FAQ for our Startup Accelerator Program" />
       <NavbarInverted />
     <Wrapper style={{paddingTop: "10em"}}>
     <h2 className="tc">Frequently Asked Questions</h2>

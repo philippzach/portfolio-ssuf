@@ -44,8 +44,23 @@ const Navbar = () => (
     </Link>
     <Navigation>
     <ul className="nav__menu">
+    <li className="nav__menu-item">
+        <div class="sl-nav">
+            <ul>
+              <li>
+              <Link to="/aboutus" className="hovereffect" style={NavItem}>About us</Link>
+                    {/* <i class="fa fa-angle-down" aria-hidden="true"></i>
+                    <div class="triangle" style={{right: "5%"}}/>
+                        <ul style={{right: "-34px"}}>
+                        <a className="hoversubmenu" href="https://swissstartupjobs.com"><li>Jobs</li></a> 
+                        <Link className="hoversubmenu" to="/blog/"><li style={{ paddingBottom: "5px"}}>News</li></Link>
+                        </ul> */}
+                </li>
+              </ul>
+          </div>
+        
+        </li>
         <li className="nav__menu-item">
-          
           <div class="sl-nav">
             <ul>
               <li>
@@ -61,20 +76,19 @@ const Navbar = () => (
                 </li>
               </ul>
           </div>
-          
           </li>
         <li className="nav__menu-item">
         <div class="sl-nav">
             <ul>
               <li>
-              <Link to="/corporates"  className="hovereffect" style={NavItem}>Corporates </Link>
+              <Link to="/corporates"  className="hovereffect" style={NavItem}>Corporates</Link>
                     <i class="fa fa-angle-down" aria-hidden="true"></i>
                     <div class="triangle" style={{right: "15%"}}/>
-                        <ul style={{right: "-82px"}}>
-                        <Link className="hoversubmenu" to="/corporate-acceleration"><li>Accelerator</li></Link> 
+                        <ul style={{right: "-100px"}}>
+                        <Link className="hoversubmenu" to="/corporate-acceleration"><li>Corporate Accelerator</li></Link> 
                         <Link className="hoversubmenu" to="/company-building/"><li>Company Building</li></Link>
                         <Link className="hoversubmenu" to="/corporate-innovation-service/"><li>Innovation Consulting</li></Link>
-                        <a className="hoversubmenu" href="https://ccvs.ch" target="_blank" rel="noopener noreferrer"><li>Venture Capital</li></a>
+                        <a className="hoversubmenu" href="https://ccvs.ch" target="_blank" rel="noopener noreferrer"><li>Corporate Venture Capital</li></a>
                         <Link className="hoversubmenu" to="/innovation-for-sme-and-kmu/"><li style={{ paddingBottom: "5px"}}>Innovation for SME</li></Link>
                         </ul>
                 </li>
@@ -86,13 +100,7 @@ const Navbar = () => (
         <div class="sl-nav">
             <ul>
               <li>
-              <Link to="/aboutus" className="hovereffect" style={NavItem}>About us</Link>
-                    <i class="fa fa-angle-down" aria-hidden="true"></i>
-                    <div class="triangle" style={{right: "5%"}}/>
-                        <ul style={{right: "-34px"}}>
-                        <a className="hoversubmenu" href="https://swissstartupjobs.com"><li>Jobs</li></a> 
-                        <Link className="hoversubmenu" to="/blog/"><li style={{ paddingBottom: "5px"}}>News</li></Link>
-                        </ul>
+              <Link to="/blog" className="hovereffect" style={NavItem}>News</Link>
                 </li>
               </ul>
           </div>
@@ -107,17 +115,18 @@ const Navbar = () => (
         </span>
         <ul className="list pl0 ma0" style={{paddingTop: "22em"}}>
             <li className="mv4"><Link className="ttu" style={{ fontSize: "1.5em", lineHeight: "1.2em"}} to='/startups'>Startup</Link></li>
-              <ul>
+              {/* <ul>
                 <li>Startup Accelerator</li>
                 <li>Pitch Training</li>
                 <li>Services for Startups</li>
                 <li>Looking for Investment?</li>
-              </ul>
+              </ul> */}
             <li className="mv4"><Link className="ttu" style={{ fontSize: "1.5em", lineHeight: "1.2em"}} to='/corporates'>Corporates</Link></li>
-              <ul>
+              {/* <ul>
                 
-              </ul>
+              </ul> */}
             <li className="mv4"><Link className="ttu" style={{ fontSize: "1.5em", lineHeight: "1.2em"}} to='/aboutus'>About us</Link></li>
+            <li className="mv4"><Link className="ttu" style={{ fontSize: "1.5em", lineHeight: "1.2em"}} to='/blog'>News</Link></li>
             <li className="mv4"><div className="button-white" style={{boxShadow: "none", backgroundColor: "#e6e6ea", margin: "0"}}><Link className="ttu" style={{ fontSize: "1.5em", lineHeight: "1.2em"}} to='/join-the-platform'>Join the Platform</Link></div></li>
         </ul>
         </label>

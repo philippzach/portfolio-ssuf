@@ -13,14 +13,14 @@ header:after, #timeline .timeline-item:after, header:before, #timeline .timeline
     display: flex;
     justify-content: center;
     background: #F8F8F8;
-    padding: 3em;
+    padding: 1.5em;
     box-shadow: 0 4px 5px rgba(0,0,0,0.09);
   }
   .iconright{
     display: flex;
     justify-content: center;
     background: #F8F8F8;
-    padding: 3em;
+    padding: 1.5em;
     box-shadow: 0 4px 5px rgba(0,0,0,0.09);
   }
   #timeline {

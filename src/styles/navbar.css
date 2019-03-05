@@ -3,7 +3,7 @@ background-color: #e7e7e799;
 }
 
 
-@media (max-width: 840px) {
+@media (max-width: 850px) {
 ul.nav__menu {
     display: none;
 }
@@ -91,8 +91,12 @@ label .menu {
     text-decoration: none;
   }
 }
-
-@media (min-width: 841px) {
+@media (min-width: 950px) {
+  .nav__menu-item {
+    margin: 0 1.5em;
+  }
+}
+@media (min-width: 851px) {
 
 .mobilemenu {
     display: none;
@@ -127,7 +131,7 @@ nav ul {
   .nav__menu-item {
     display: inline-block;
     position: relative;
-    margin: 0 2.2em;
+    margin: 0 1.2em;
     cursor: pointer;
   }
   .nav__menu-item:hover a.hovereffect {

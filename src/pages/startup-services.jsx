@@ -22,7 +22,7 @@ line-height: 35px;
 `
 const InvestmentPortfolio = ({ data }) => (
   <Layout>
-  <Seo title="Swiss Startup Factory - Startup Services" desc="Founding a Startup is enough work – check our 360 degree startup services, so you can focus on your core business." />
+  <Seo title="SWISS STARTUP FACTORY- Startup Services" desc="Founding a Startup is enough work – check our 360 degree startup services, so you can focus on your core business." />
       <Navbar />
       <Test> 
           <Img fluid={data.portfolio.childImageSharp.fluid} className="w-100" />

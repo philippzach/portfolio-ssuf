@@ -26,7 +26,7 @@ const List = styled.div`
   @media (max-width: 1000px) {
     grid-template-columns: repeat(2, 1fr);
   }
-  @media (max-width: 550px) {
+  @media (max-width: 805px) {
     grid-template-columns: repeat(1, 1fr);
   }
 `;

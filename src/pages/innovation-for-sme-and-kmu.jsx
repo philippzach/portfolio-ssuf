@@ -21,13 +21,13 @@ line-height: 35px;
 
 const InvestmentPortfolio = ({ data }) => (
   <Layout>
-  <Seo title="Swiss Startup Factory - Innovation for SME / KMU" desc="Swiss Startup Factory innovation consulting include idea generation, change of internal culture, corporate venturing and strategy development for innovation departments." />
+  <Seo title="SWISS STARTUP FACTORY - Innovation for SME / KMU" desc="Swiss Startup Factory innovation consulting include idea generation, change of internal culture, corporate venturing and strategy development for innovation departments." />
       <Navbar />
       <Test> 
           <Img fluid={data.portfolio.childImageSharp.fluid} className="w-100" />
       </Test>
     <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
-      <Title>Corporate Acceleration</Title>
+      <Title>Innovation for SME / KMU</Title>
       <div className="containertitle">
         <h2 className="lh-title">SMEs are less likely to innovate than large enterprises.</h2>
         <Paragraph >
@@ -63,7 +63,7 @@ const InvestmentPortfolio = ({ data }) => (
          </div>
         <div className="fl tl w-100 w-50-ns pa3-s pa3-m pl4-l">
         <h3 className="lh-title">In order to optimally achieve the set goal, we have developed a process that has already proven itself in other cases.</h3>
-        <p className="lh-copy mt3 b black">1. Analyze current situation through analyst team of BV4</p>
+        <p className="lh-copy mt3 b black">1. Analyze current situation through our analyst team</p>
         <p className="lh-copy b black">2. Workshop</p>
         <ul style={{color: "#00486C"}}>
             <li>Purpose (Vision, Mission, Values, Customer)</li>

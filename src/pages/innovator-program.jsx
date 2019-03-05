@@ -60,7 +60,7 @@ const BenefitsInside = styled.div`
 
 const Innovators = ({data}) => (
     <Layout>
-  <Seo title="Swiss Startup Factory - Entrepreneur in Residence Program" desc="Join our Entrepreneur in Residence Program and work with the most prosmising Startups in Switzerland" />
+  <Seo title="SWISS STARTUP FACTORY - Swiss Innovator Program" desc="Join our Swiss Innovator Program and work with the most prosmising Startups in Switzerland" />
       <Navbar />
       <Test> 
           <Img fluid={data.innovators.childImageSharp.fluid} className="w-100" />

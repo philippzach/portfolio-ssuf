@@ -8,3 +8,19 @@
 /* li *:last-child {
     margin-bottom: 2em;
 } */
+
+@media (min-width: 1200px) {
+    .blogpost {
+        padding: 3em;
+    }
+}
+@media (min-width: 480px) and (max-width: 804px) {
+    .blogpost {
+        padding: 3em;
+    }
+}
+@media (max-width: 479px) {
+    .blogpost {
+        padding: 1.5em;
+    }
+}

@@ -19,13 +19,13 @@ line-height: 35px;
 
 const InvestmentPortfolio = ({ data }) => (
   <Layout>
-  <Seo title="Swiss Startup Factory - Innovation Consulting" desc="Swiss Startup Factory innovation consulting include idea generation, change of internal culture, corporate venturing and strategy development for innovation departments." />
+  <Seo title="SWISS STARTUP FACTORY - Innovation Consulting" desc="Swiss Startup Factory innovation consulting include idea generation, change of internal culture, corporate venturing and strategy development for innovation departments." />
       <Navbar />
       <Test> 
           <Img fluid={data.portfolio.childImageSharp.fluid} className="w-100" />
       </Test>
     <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
-      <Title>Intra Innovation</Title>
+      <Title>Innovation Consulting</Title>
       <div className="containertitle">
         <h2 className="lh-title">As a corporate the digital transformation is a large topic with many different ways of how to approach it.</h2>
         <Paragraph className="lh-copy">

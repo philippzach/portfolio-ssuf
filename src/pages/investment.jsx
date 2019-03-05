@@ -19,7 +19,7 @@ line-height: 35px;
 
 const InvestmentPortfolio = ({ data }) => (
   <Layout>
-  <Seo title="Swiss Startup Factory - Startup Investment" desc="With the Swiss Startup Factory Funding and the Investor club funding, you will win our entire ecosystem as a valuable partner for the future." />
+  <Seo title="SWISS STARTUP FACTORY - Startup Investment" desc="With the Swiss Startup Factory Funding and the Investor club funding, you will win our entire ecosystem as a valuable partner for the future." />
       <Navbar />
       <Test> 
           <Img fluid={data.portfolio.childImageSharp.fluid} className="w-100" />
@@ -50,7 +50,7 @@ const InvestmentPortfolio = ({ data }) => (
         </div>
       </div>
     </div>
-    <Wrapper>
+   {/*  <Wrapper>
       <div className="containerinvestors mv6">
         <h3 className="lh-copy center">
         Just upload your pitch deck so our business analysts will analyse the potential of your company.
@@ -60,9 +60,7 @@ const InvestmentPortfolio = ({ data }) => (
         </button>
         </a>
       </div>
-      </Wrapper>
-    
-
+      </Wrapper> */}
   </Layout>
 );
 

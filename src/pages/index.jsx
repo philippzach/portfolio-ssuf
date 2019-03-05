@@ -105,7 +105,7 @@ class Index extends Component {
     } = this.props;
     return (
       <Layout>
-        <Seo title="Swiss Startup Factory" desc="Swiss Startup Factory. We inspire & enable people to build sustainable companies and unleash entrepreneurial potential. " banner={SocialBanner} />
+        <Seo title="SWISS STARTUP FACTORY" desc="Swiss Startup Factory. We inspire & enable people to build sustainable companies and unleash entrepreneurial potential. " banner={SocialBanner} />
           <Navbar />
           <Test> 
             <Img fluid={index.childImageSharp.fluid} className="w-100" />
@@ -169,7 +169,7 @@ class Index extends Component {
           </div>
           <div>
           <p className="lh-copy measure center f6 black-70 tc" style={{ color: 'rgb(0, 71, 107)' }}>
-            Based on more than 3 years of experience we have designed a completely new customised accelerator program
+            Based on more than 4 years of experience we have designed a completely new customised accelerator program
             which will prepare you and your team to live up to your potential.
           </p>
           </div>
@@ -181,12 +181,12 @@ class Index extends Component {
         <article className="shadow maxwstartups hover mw5 center br4 pa3 pa4-ns mv3 b--black-10 flex flex-column ">
         <Link className="flex flex-column" to="/startup-services">
           <div className="tc">
-            <h3 className="f4 lh-copy pt3" style={{ color: 'rgb(0, 71, 107)' }}>
+            <h3 className="f4 pt3" style={{ color: 'rgb(0, 71, 107)' }}>
               Support Meeting
             </h3>
             <hr className="mw3 bb bw1 b--black-10" />
           </div>
-          <p className="lh-copy measure center f6 black-70 tc" style={{ color: 'rgb(0, 71, 107)' }}>
+          <p className="lh-copy measure center f6 black-70 tc mb5-ns" style={{ color: 'rgb(0, 71, 107)' }}>
             30 minutes meeting where you can pitch us your idea, tell us about your challenges and ask us for feedback.
           </p>
           <div className="mv3 center">

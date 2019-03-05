@@ -9,6 +9,9 @@ import Chris from '../../../static/teamssuf/chris_bargholz.jpg';
 import Ginie from '../../images/ginie.jpg';
 import Cindy from '../../images/cindyspelt.jpg';
 import Keith from '../../../static/teamssuf/keith.jpg';
+import Daniel from '../../../static/teamssuf/daniel.jpg';
+import Jana from '../../../static/teamssuf/jana.jpg';
+
 
 import './arrow.css';
 
@@ -232,7 +235,7 @@ style => <animated.div style={{ ...style }} className="flex flex-column flex-row
        <dl class="lh-title pr1-s pr2-m pr4-l mt0">
            <dt class="f6 b">Always goes</dt>
            <dd class="ml0 mb3">Always believe in yourself</dd>
-           <dt class="f6 b mt2">Never without:</dt>
+           <dt class="f6 b mt2">Never without</dt>
            <dd class="ml0 mb3">My high heels</dd>
            <dt class="f6 b mt2">As a child, I wanted to be:</dt>
            <dd class="ml0 mb3">A jet fighter pilot</dd>
@@ -240,14 +243,82 @@ style => <animated.div style={{ ...style }} className="flex flex-column flex-row
            <dd class="ml0 mb3">How to pack your suitcase in 2 minutes</dd>
          </dl>
          <dl class="lh-title mt0">
-           <dt class="f6 b mt2">I can do best:</dt>
+           <dt class="f6 b mt2">I can do best</dt>
            <dd class="ml0 mb3">Listening</dd>
-           <dt class="f6 b mt2">I'm not good at:</dt>
+           <dt class="f6 b mt2">I'm not good at</dt>
            <dd class="ml0 mb3">Following a recipe, I always have to give it a twist.</dd>
            <dt class="f6 b mt2">Unbelievable but true</dt>
            <dd class="ml0 mb3">Playing the drums</dd>
            <dt class="f6 b mt2">I like</dt>
            <dd class="ml0 mb3">Drinking a cup of coffee on a terrace in Paris</dd>
+       </dl>
+       </div>
+       <span className="arrows"></span>
+  </div>
+</div>
+</animated.div>,
+style => <animated.div style={{ ...style }} className="flex flex-column flex-row-ns">
+<div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
+  <img src={Daniel} alt="" style={{ maxHeight: '600px' }} />
+</div>
+<div className="w-100 w-60-ns pl3-ns flex items-center justify-center">
+  <div className="paddingfoundersabout">
+    <h4 className="mb1 dimgray">Innovation Consultant</h4>
+    <h3>Daniel Perschy</h3>
+    <div className="flex">
+       <dl class="lh-title pr1-s pr2-m pr4-l mt0">
+           <dt class="f6 b">I do best</dt>
+           <dd class="ml0 mb3">While standing or walking around</dd>
+           <dt class="f6 b mt2">Never without</dt>
+           <dd class="ml0 mb3">My water bottle</dd>
+           <dt class="f6 b mt2">First thing in the morning</dt>
+           <dd class="ml0 mb3">Getting a cold shower</dd>
+           <dt class="f6 b mt2">Last thing in the evening</dt>
+           <dd class="ml0 mb3">Counting the hours of sleep ahead</dd>
+         </dl>
+         <dl class="lh-title mt0">
+           <dt class="f6 b mt2">I like</dt>
+           <dd class="ml0 mb3">Speciality coffee</dd>
+           <dt class="f6 b mt2">I always wanted to</dt>
+           <dd class="ml0 mb3">Explore Madagascar</dd>
+           <dt class="f6 b mt2">Secret Tip</dt>
+           <dd class="ml0 mb3">Port Sa’id in Tel Aviv</dd>
+           <dt class="f6 b mt2">A must for reading</dt>
+           <dd class="ml0 mb3">Exploration and Exploitation in Organizational Learning</dd>
+       </dl>
+       </div>
+       <span className="arrows"></span>
+  </div>
+</div>
+</animated.div>,
+style => <animated.div style={{ ...style }} className="flex flex-column flex-row-ns">
+<div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
+  <img src={Jana} alt="" style={{ maxHeight: '600px' }} />
+</div>
+<div className="w-100 w-60-ns pl3-ns flex items-center justify-center">
+  <div className="paddingfoundersabout">
+    <h4 className="mb1 dimgray">Project Manager</h4>
+    <h3>Jana Stucki</h3>
+    <div className="flex">
+       <dl class="lh-title pr1-s pr2-m pr4-l mt0">
+           <dt class="f6 b">Place of residence</dt>
+           <dd class="ml0 mb3">Muri b. Bern</dd>
+           <dt class="f6 b mt2">Favourite book</dt>
+           <dd class="ml0 mb3">Machen, Machen, Machen</dd>
+           <dt class="f6 b mt2">Still on the bucket list</dt>
+           <dd class="ml0 mb3">Visit a Yoga Ashram in India</dd>
+           <dt class="f6 b mt2">Rituals</dt>
+           <dd class="ml0 mb3">My daily morning coffee</dd>
+         </dl>
+         <dl class="lh-title mt0">
+           <dt class="f6 b mt2">My charisma</dt>
+           <dd class="ml0 mb3">Positivity</dd>
+           <dt class="f6 b mt2">My teen idol</dt>
+           <dd class="ml0 mb3">David Beckham</dd>
+           <dt class="f6 b mt2">No-Go</dt>
+           <dd class="ml0 mb3">Mobbing</dd>
+           <dt class="f6 b mt2">Unbelievable but true</dt>
+           <dd class="ml0 mb3">On my Canada trip as a child, I’ve been eye to eye with a bear</dd>
        </dl>
        </div>
        <span className="arrows"></span>
@@ -261,7 +332,7 @@ export default class PageTransition extends Component {
 
   toggle = e =>
     this.setState(state => ({
-      index: state.index === 6 ? 0 : state.index + 1,
+      index: state.index === 8 ? 0 : state.index + 1,
     }));
 
   render() {

@@ -56,7 +56,7 @@ padding: 4em;
 
 const Eir = ({data}) => (
     <Layout>
-  <Seo title="Swiss Startup Factory - Entrepreneur in Residence Program" desc="Join our Entrepreneur in Residence Program and work with the most prosmising Startups in Switzerland" />
+  <Seo title="SWISS STARTUP FACTORY - Entrepreneur in Residence Program" desc="Join our Entrepreneur in Residence Program and work with the most prosmising Startups in Switzerland" />
       <Navbar />
       <Test> 
           <Img fluid={data.eir.childImageSharp.fluid} className="w-100" />
