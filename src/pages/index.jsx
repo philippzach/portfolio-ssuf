@@ -120,7 +120,7 @@ class Index extends Component {
             <div>
               <HeaderSmall>Upload your pitch deck now</HeaderSmall>
               
-              <a href="https://ssuf.typeform.com/to/BPDGQ9"><div className="button-blue">APPLY TO OUR CUSTOMIZED ACCELERATOR PROGRAM</div></a>
+              <Link to="/startup-accelerator"><div className="button-blue">APPLY TO OUR CUSTOMIZED ACCELERATOR PROGRAM</div></Link>
               
             </div>
           </HeroInner>

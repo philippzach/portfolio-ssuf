@@ -17,11 +17,11 @@ class Footer extends Component {
       <>
       <Mailchimp />
       <StyledFooter>
-        {/* <div className="footerlogo">
+        <div className="mobileonly footerlogo">
           <Link to="/">
             <img className="logofoot" src={Logo} alt="" title="" description="" />
           </Link>
-        </div> */}
+        </div>
         <div className="flex mobilecta">
           <div className="w-50 mobilebutton1 pa3">
             Swiss Startup <br /> Factory

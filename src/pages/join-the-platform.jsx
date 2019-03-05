@@ -72,7 +72,7 @@ const Join = ({data}) => (
         
         <Input >
              <div className="box" style={{ margin: "2em auto"}}>
-             <form action="https://formspree.io/your@email.com" method="POST" style={{margin: "auto"}}>
+             <form action="https://formspree.io/cindy.spelt@ssuf.ch" method="POST" style={{margin: "auto"}}>
                     {/* <Box>
                     <Label for="Info">Information for Startups</Label>
                     <input className="option-input" type="checkbox" name="InfoStartup" value="Startup"/>

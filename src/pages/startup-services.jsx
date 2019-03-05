@@ -57,9 +57,9 @@ const InvestmentPortfolio = ({ data }) => (
         <h3 className="lh-title">Product and Application Development</h3>
         <Paragraph className=" mt3">We help startups create modern products. Whether you need a prototype or a complex application we build products that live up to your customers needs, by using latest software development techniques and working with local and remote team setups.
         </Paragraph>
-        <button className="button-blue">
-                Learn More
-                </button>
+        <a href="mailto:peach.zwyssig@ssut.ch" className="button-blue">
+                Start now
+                </a>
           </div>
         </article>
     <article class="mobileview cf mb6 mt3">
@@ -74,9 +74,9 @@ const InvestmentPortfolio = ({ data }) => (
                 <li>Human resources and controlling </li>
             </ul>
             <p className="lh-copy mt3">Due to our years of experience in accounting and our customisation to startups, we are experts in the field of accounting services for young firms.</p>
-                <button className="button-blue">
-                Learn More
-                </button>
+                <a href="https://www.avaneo.ch" className="button-blue">
+                We support you
+                </a>
               </div>
             <div class=" fl w-100 w-50-ns tc flex justify-center">
             <div className="backgroundgrowth">
@@ -94,9 +94,9 @@ const InvestmentPortfolio = ({ data }) => (
         <h3 className="lh-title">Communication & Marketing</h3>
         <Paragraph className="mt3">Another service of SWISS STARTUP TECH is communication and marketing. We advise you on your communication strategy, conceptualize and create content tailored to your target group, growth hack and establish the public relation.
         </Paragraph>
-        <button className="button-blue">
-                Learn More
-                </button>
+        <a href="mailto:virginia.beljean@ssut.ch" className="button-blue">
+                Let's get started
+                </a>
           </div>
         </article>
     </Wrapper>
@@ -105,9 +105,9 @@ const InvestmentPortfolio = ({ data }) => (
         <h3 style={{fontFamily: "roboto"}} className=" center">
         <b>Contact us for more information.</b>
         </h3>
-        <button className="button-blue">
-        Contact us
-        </button>
+        <a href="mailto:info@ssuf.ch" className="button-blue">
+        We're looking forward
+        </a>
       </div>
       </Wrapper>
     

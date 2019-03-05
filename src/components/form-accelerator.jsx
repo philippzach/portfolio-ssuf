@@ -21,7 +21,7 @@ const Join = () => (
             </Half>
             <Half>
                     <div className="box">
-                    <form action="https://formspree.io/your@email.com" method="POST" style={{margin: "auto"}}>
+                    <form action="https://formspree.io/chris.bargholz@ssuf.ch" method="POST" style={{margin: "auto"}}>
                         <input type="text" name="company" className="emailinput" placeholder="Company Name" />    
                         <input style={{margin: "1.5em 0"}} className="emailinput" type="email" placeholder="Enter your Email" name="_replyto"/>
                         <textarea name="message" className="textareainput" placeholder="Message ..." />

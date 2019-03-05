@@ -109,9 +109,9 @@ const InvestmentPortfolio = ({ data }) => (
         <h3 className="lh-copy center measure" style={{fontFamily: "roboto"}}>
         Do you want to be the organisation disrupting the industry or do you want to be disrupted by others?
         </h3>
-        <button className="button-blue">
-        Learn More
-        </button>
+        <a href="mailto:chris.bargholz@ssuf.ch" className="button-blue">
+        Start disrupting
+        </a>
       </div>
       </Wrapper>
     

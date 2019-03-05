@@ -200,7 +200,7 @@ const InvestmentPortfolio = ({ data }) => (
         <Form />
       <div className="containerinvestors mv6">
         <Contact>Specific Questions?</Contact>
-        <a href="mailto:"><div className="button-blue">
+        <a href="mailto:chris.bargholz@ssuf.ch"><div className="button-blue">
         Contact us!
         </div>
         </a>

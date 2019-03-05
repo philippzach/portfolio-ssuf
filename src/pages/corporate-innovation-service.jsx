@@ -145,9 +145,9 @@ const InvestmentPortfolio = ({ data }) => (
         <h3 className="lh-copy center" style={{fontFamily:"roboto"}}>
         Are you interested in finding out more on how your company can prepare itself for the digital transformation? 
         </h3>
-        <button className="button-blue">
-        Learn More
-        </button>
+        <a href="mailto:chris.bargholz@ssuf.ch" className="button-blue">
+        Get Insights
+        </a>
       </div>
       </Wrapper>
   </Layout>

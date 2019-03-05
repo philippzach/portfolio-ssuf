@@ -223,9 +223,9 @@ const InvestmentPortfolio = ({ data }) => (
         <h3 className="lh-copy measure-narrow center" style={{fontFamily: "roboto"}}>
         Questions?
         </h3>
-        <button className="button-blue">
-        Contact us
-        </button>
+        <a href="mailto:chris.bargholz@ssuf.ch" className="button-blue">
+        Take the step
+        </a>
       </div>
       </Wrapper>
      
