@@ -46,22 +46,6 @@ const Navbar = () => (
     </Link>
     <Navigation>
     <ul className="nav__menu">
-    <li className="nav__menu-item">
-        <div class="sl-nav">
-            <ul>
-              <li>
-              <Link to="/aboutus" className="hovereffect" style={NavItem}>About us</Link>
-                    {/* <i class="fa fa-angle-down" aria-hidden="true"></i>
-                    <div class="triangle" style={{right: "5%"}}/>
-                        <ul style={{right: "-34px"}}>
-                        <a className="hoversubmenu" href="https://swissstartupjobs.com"><li>Jobs</li></a> 
-                        <Link className="hoversubmenu" to="/blog/"><li style={{ paddingBottom: "10px"}}>News</li></Link>
-                        </ul> */}
-                </li>
-              </ul>
-          </div>
-        
-        </li>
         <li className="nav__menu-item">
           
           <div class="sl-nav">
@@ -99,6 +83,22 @@ const Navbar = () => (
               </ul>
           </div>
        
+        </li>
+        <li className="nav__menu-item">
+        <div class="sl-nav">
+            <ul>
+              <li>
+              <Link to="/aboutus" className="hovereffect" style={NavItem}>About us</Link>
+                    {/* <i class="fa fa-angle-down" aria-hidden="true"></i>
+                    <div class="triangle" style={{right: "5%"}}/>
+                        <ul style={{right: "-34px"}}>
+                        <a className="hoversubmenu" href="https://swissstartupjobs.com"><li>Jobs</li></a> 
+                        <Link className="hoversubmenu" to="/blog/"><li style={{ paddingBottom: "10px"}}>News</li></Link>
+                        </ul> */}
+                </li>
+              </ul>
+          </div>
+        
         </li>
         <li className="nav__menu-item">
         <div class="sl-nav">
