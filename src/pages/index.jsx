@@ -235,7 +235,7 @@ class Index extends Component {
     <div className="corporatescontainer">
       <div className="row">
         <article className="shadow maxwcorporates hover items-center center br4 pa3 pa4-ns mv3 b--black-10 flex flex-column ">
-        <Link className="flex flex-column" to="/intra-innovation">
+        <Link className="flex flex-column" to="/corporate-innovation-service">
           <div className="tc">
             <h3 className="f4 pt3" style={{ color: 'rgb(0, 71, 107)' }}>
               Intra Innovation

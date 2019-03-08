@@ -23,11 +23,15 @@
     box-shadow: 0px 0.5rem 0.5rem #e6e6e6;
     transition: box-shadow 0.2s ease-in;
 }
+.boxTitle:visited{
+    background: rgb(0, 72, 108);
+    box-shadow: 0 0.2rem 0.2rem #e6e6e6;
+}
 .boxTitle:hover {
     background: rgb(0, 72, 108);
     box-shadow: 0 0.2rem 0.2rem #e6e6e6;
 }
-.boxTitle:hover .segmentation {
+.boxTitle:hover .segmentation, .boxTitle:active .segmentation {
     color: white
 }
 

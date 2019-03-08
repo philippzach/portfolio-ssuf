@@ -123,9 +123,9 @@ const Eir = ({data}) => (
         <h3 className="lh-copy center measure" style={{fontFamily: "roboto"}}>
         Do you want to be part of our Team?
         </h3>
-        <button className="button-blue">
+        <a href="mailto:hr@ssuf.ch" className="button-blue">
         Apply now
-        </button>
+        </a>
       </div>
     </Layout>
 )

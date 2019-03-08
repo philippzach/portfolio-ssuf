@@ -112,9 +112,9 @@ const Innovators = ({data}) => (
         <h3 className="lh-copy center measure" style={{fontFamily: "roboto"}}>
         Do you have what it takes to become a future shaper of Switzerland?
         </h3>
-        <button className="button-blue">
+        <a href="mailto:hr@ssuf.ch" className="button-blue">
         Apply now
-        </button>
+        </a>
       </div>
     </Layout>
 )
