@@ -105,14 +105,14 @@ class Index extends Component {
     } = this.props;
     return (
       <Layout>
-        <Seo title="SWISS STARTUP FACTORY" desc="Swiss Startup Factory. We inspire & enable people to build sustainable companies and unleash entrepreneurial potential. " banner={SocialBanner} />
+        <Seo title="SWISS STARTUP FACTORY" desc="Schnitzel. We inspire & enable people to build sustainable companies and unleash entrepreneurial potential. " banner={SocialBanner} />
           <Navbar />
           <Test> 
             <Img fluid={index.childImageSharp.fluid} className="w-100" />
           </Test>
           <HeroInner>
             <h1 className="headingcolorshadow">
-              Swiss Startup Factory
+              Swiss Startup Test Cache
             </h1>
             <HeroText>
             We inspire and enable people to build<br/> sustainable companies and unleash their entrepreneurial potential.
