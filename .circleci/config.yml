@@ -36,10 +36,10 @@ jobs:
       - run: yarn build
 
       # run build
-      - run: sudo apt install rsync && echo yes
+      - run: sudo apt install rsync
 
 
       # run deploy
       - run:
           name: Deploy Over SSH
-          command: rsync -av --delete -e "ssh -p $SSH_PORT" ~/project/public/ $SSH_USER@$SSH_HOST:~/beta/
+          command: rsync -av --delete -e "ssh -o "StrictHostKeyChecking no" -p $SSH_PORT" ~/project/public/ $SSH_USER@$SSH_HOST:~/beta/
