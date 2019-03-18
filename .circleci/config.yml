@@ -36,7 +36,7 @@ jobs:
       - run: yarn build
 
       # run build
-      - run: sudo apt install rsync
+      - run: sudo apt install rsync && echo yes
 
 
       # run deploy
