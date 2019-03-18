@@ -4,7 +4,7 @@
 #
 version: 2
 jobs:
-  build:
+  build-and-deploy:
     docker:
       # specify the version you desire here
       - image: circleci/node:10.9
@@ -30,35 +30,9 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
       # run build
       - run: yarn build
-      # Special step used to persist a temporary file to be used by another job in the workflow.
-      - persist_to_workspace:
-          root: ~/project
-          paths:
-            - public
-
-  deploy:
-    machine:
-      enabled: true
-    working_directory: ~/project
-    steps:
-      # Special step used to attach the workflow’s workspace to the current container.
-      - attach_workspace:
-          at: ~/project
       # install rsync
       - run: sudo apt install rsync
       # run deploy
       - run:
           name: deploy over SSH
           command: rsync -av --delete -e "ssh -o \"StrictHostKeyChecking no\" -p $SSH_PORT" ~/project/public/ $SSH_USER@$SSH_HOST:~/beta/
-
-workflows:
-  version: 2
-  build-and-deploy:
-    jobs:
-      - build
-      - deploy:
-          requires:
-            - build
-          filters:
-            branches:
-              only: master
