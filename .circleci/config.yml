@@ -35,3 +35,23 @@ jobs:
 
       # run build
       - run: yarn build
+
+  deploy:
+    machine:
+      enabled: true
+    steps:
+      - run:
+          name: Deploy Over SSH
+          command: rsync -av --delete -e "ssh -p $SSH_PORT" ~/repo/public/ $SSH_USER@$SSH_HOST:~/beta/
+
+workflows:
+  version: 2
+  build-and-deploy:
+    jobs:
+      - build
+      - deploy:
+          requires:
+            - build
+          filters:
+            branches:
+              only: master
