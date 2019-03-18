@@ -108,8 +108,8 @@ class Index extends Component {
         <Seo title="SWISS STARTUP FACTORY" desc="Swiss Startup Factory. We inspire & enable people to build sustainable companies and unleash entrepreneurial potential. " banner={SocialBanner} />
           <Navbar />
           <Test> 
-            <Img fluid={corporates.childImageSharp.fluid} className="w-100" />
-          </Test>x
+            <Img fluid={index.childImageSharp.fluid} className="w-100" />
+          </Test>
           <HeroInner>
             <h1 className="headingcolorshadow">
               Swiss Startup Factory
