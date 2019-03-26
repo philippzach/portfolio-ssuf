@@ -223,7 +223,7 @@ style => <animated.div style={{ ...style }} className="flex flex-column flex-row
   </div>
 </div>
 </animated.div>,
-style => <animated.div style={{ ...style }} className="flex flex-column flex-row-ns">
+/* style => <animated.div style={{ ...style }} className="flex flex-column flex-row-ns">
 <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
   <img src={Cindy} alt="" style={{ maxHeight: '600px' }} />
 </div>
@@ -256,7 +256,7 @@ style => <animated.div style={{ ...style }} className="flex flex-column flex-row
        <span className="arrows"></span>
   </div>
 </div>
-</animated.div>,
+</animated.div>, */
 style => <animated.div style={{ ...style }} className="flex flex-column flex-row-ns">
 <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
   <img src={Daniel} alt="" style={{ maxHeight: '600px' }} />
@@ -332,7 +332,7 @@ export default class PageTransition extends Component {
 
   toggle = e =>
     this.setState(state => ({
-      index: state.index === 8 ? 0 : state.index + 1,
+      index: state.index === 7 ? 0 : state.index + 1,
     }));
 
   render() {

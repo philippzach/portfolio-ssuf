@@ -52,7 +52,7 @@ const InvestmentPortfolio = ({ data }) => (
           <Paragraph className="lh-copy white">
           For each slide, we make sure to explain why the content matters and what different stakeholders need to see. Our one-on-one pitch training is split into three separate workshops. Between each workshop we expect our participants to be re-working different elements of their pitch and their business in preparation for the next session.  
           </Paragraph>
-          <a href="mailto:chris.bargholz@ssuf.ch" className="button-blue" style={{boxShadow: "none"}}>
+          <a href="mailto:pitchtraining@ssuf.ch" className="button-blue" style={{boxShadow: "none"}}>
         Learn More
         </a>
         </div>

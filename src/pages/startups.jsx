@@ -32,7 +32,7 @@ const Startup = ({ data }) => (
       <div className="containertitle">
         <h2 className="lh-title">Being close to startups is the core for the Swiss Startup Factory</h2>
         <p >
-        We constantly develop our frameworks and apply them for building up successful startups.  
+        We constantly develop our frameworks and apply them to craft unique and successful startups.  
         </p>
       </div>
       </Wrapper>

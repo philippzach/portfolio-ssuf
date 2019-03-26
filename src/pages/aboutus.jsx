@@ -95,13 +95,13 @@ const AboutUs = ({ data }) => (
                 <h4 className="f6 fw4 gray mt0">Startup Coach</h4>
               </div>
             </article>
-            <article className="center pa3 pa4-ns">
+            {/* <article className="center pa3 pa4-ns">
             <div className="tc">
                 <Img fluid={data.about7.childImageSharp.fluid} className="br-100 dib " style={Profile} title="" alt="" />
-                <h3 className="f5 mb2">Cindy Spelt</h3>
-                <h4 className="f6 fw4 gray mt0">Head of Platform</h4>
+                <h3 className="f5 mb2">Peter "Peach" Zwyssig</h3>
+                <h4 className="f6 fw4 gray mt0">CEO</h4>
               </div>
-            </article>
+            </article> */}
             <article className="center pa3 pa4-ns">
             <div className="tc">
                 <Img fluid={data.about8.childImageSharp.fluid} className="br-100 dib " style={Profile} title="" alt="" />

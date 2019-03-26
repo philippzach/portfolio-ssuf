@@ -77,7 +77,7 @@ const InvestmentPortfolio = ({ data }) => (
       <div className="containertitle mt5">
         <SubHead >Make your product happen!</SubHead>
         <Paragraph>
-        After three years of experience, we have designed a completely new customised accelerator program, based on our Swiss Startup Factory Company Building Playbook. We have shifted from incubation of ideas to acceleration of startups, which have already validated their business model and are ready for fast growth.   
+        After three years of experience, we have designed a completely new customized accelerator program, based on our Swiss Startup Factory Company Building Playbook. We accelerate startups, which have already validated their business model and are ready for fast growth.   
         </Paragraph>
         <Paragraph>Our intense customised accelerator focuses on business execution of three to four startups per year. 
         </Paragraph>
@@ -127,7 +127,7 @@ const InvestmentPortfolio = ({ data }) => (
     <Wrapper>
     <article className="cf mb6 mt6 flex-ns items-center">
         <div className="fl tl w-100 w-50-ns pa3-s pa3-m pl4-l">
-          <Check className="lh-copy">Your team must be complementary with a mix of business and technical expertise and previous startup experience is a plus.</Check>
+          <Check className="lh-copy">Your team must be complementary with a mix of business and technical expertise and previous startup experience is a plus</Check>
         </div>
         <div className="fl w-100 w-50-ns tc flex justify-center">
             <div className="backgroundgrowth">

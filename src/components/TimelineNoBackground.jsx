@@ -57,7 +57,7 @@ const TimelineOnBackground = () => (
         </div>
           <p className="b mb0" style={{marginTop: "1.5em"}}>Milestone 1</p>
           <p>
-          Product-Market-Fit
+          Problem-Solution-Fit Validation
           </p>
         </div>
       </div>
@@ -120,7 +120,7 @@ const TimelineOnBackground = () => (
         </div>
           <p className="b mb0" style={{marginTop: "1.5em"}}>Phase 5</p>
           <p>
-            Product Market Fit
+            Product-Market-Fit
           </p>
         </div>
       </div>

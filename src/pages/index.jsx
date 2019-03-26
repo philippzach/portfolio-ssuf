@@ -160,7 +160,7 @@ class Index extends Component {
         </Wrapper>
         <div className="startupscontainer">
         <article className="shadow maxwstartups hover mw5 center br4 pa3 pa4-ns mv3 b--black-10 flex flex-column ">
-        <Link to="/startup-accelerator" className="flex flex-column">
+        <a href="mailto:acceleration@ssuf.ch" className="flex flex-column">
           <div className="tc">
             <h3 className="f4 pt3" style={{ color: 'rgb(0, 71, 107)' }}>
               Acceleration
@@ -176,10 +176,10 @@ class Index extends Component {
           <div className="mv3 center">
           <span className="buttonfactory mid-gray ttu b">Apply now</span>
           </div>
-          </Link>
+          </a>
         </article>
         <article className="shadow maxwstartups hover mw5 center br4 pa3 pa4-ns mv3 b--black-10 flex flex-column ">
-        <Link className="flex flex-column" to="/startup-services">
+        <a className="flex flex-column" href="mailto:meetus@ssuf.ch">
           <div className="tc">
             <h3 className="f4 pt3" style={{ color: 'rgb(0, 71, 107)' }}>
               Support Meeting
@@ -192,7 +192,7 @@ class Index extends Component {
           <div className="mv3 center">
           <span className="buttonfactory mid-gray ttu b">Get in touch</span>
           </div>
-          </Link>
+          </a>
         </article>
         <article className="shadow maxwstartups hover mw5 center br4 pa3 pa4-ns mv3 b--black-10 flex flex-column ">
         <Link className="flex flex-column" to="/pitch-training">

@@ -29,7 +29,7 @@ import Mentor25 from '../../../static/ssuf/mentors/mentor-big-25.jpg';
 import Mentor27 from '../../../static/ssuf/mentors/mentor-big-27.jpg';
 import Mentor28 from '../../../static/ssuf/mentors/mentor-big-28.jpg';
 import Mentor29 from '../../../static/ssuf/mentors/mentor-big-29.jpg';
-import Mentor30 from '../../../static/ssuf/mentors/mentor-big-30.jpg';
+//import Mentor30 from '../../../static/ssuf/mentors/mentor-big-30.jpg';
 import Mentor32 from '../../../static/ssuf/mentors/mentor-big-32.jpg';
 import Mentor33 from '../../../static/ssuf/mentors/mentor-big-33.jpg';
 import Mentor34 from '../../../static/ssuf/mentors/mentor-big-34.jpg';
@@ -561,7 +561,7 @@ const pages = [
             </div>
         </animated.div>
       ),
-      style => (
+      /* style => (
         <animated.div style={{ ...style }} className="flex flex-column flex-row-ns">
                 <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
             <img src={Mentor30}  alt="" style={{ maxHeight: '550px' }}/>
@@ -580,7 +580,7 @@ const pages = [
             </div>
             </div>
         </animated.div>
-      ),
+      ), */
       style => (
         <animated.div style={{ ...style }} className="flex flex-column flex-row-ns">
                 <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
@@ -1146,7 +1146,7 @@ export default class Founders extends Component {
 
   toggle = e =>
     this.setState(state => ({
-      index: state.index === 52 ? 0 : state.index + 1,
+      index: state.index === 51 ? 0 : state.index + 1,
     }));
 
   render() {

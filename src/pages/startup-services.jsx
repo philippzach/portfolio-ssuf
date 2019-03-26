@@ -32,7 +32,7 @@ const InvestmentPortfolio = ({ data }) => (
       <div className="containertitle">
         <h2 className="lh-title">Founding a startup is difficult and you have enough work with winning clients, securing funding and improving your product.</h2>
         <Paragraph >
-        Check our 360 degree startup services from SWISS STARTUP TECH, so you can focus on the topics that matter the most.  
+        Check our 360 degree startup services from our service platform, so you can focus on the topics that matter the most.  
         </Paragraph>
       </div>
     </Wrapper>
@@ -57,7 +57,7 @@ const InvestmentPortfolio = ({ data }) => (
         <h3 className="lh-title">Product and Application Development</h3>
         <Paragraph className=" mt3">We help startups create modern products. Whether you need a prototype or a complex application we build products that live up to your customers needs, by using latest software development techniques and working with local and remote team setups.
         </Paragraph>
-        <a href="mailto:peach.zwyssig@ssut.ch" className="button-blue">
+        <a href="mailto:createyourproduct@ssuf.ch" className="button-blue">
                 Start now
                 </a>
           </div>
@@ -92,9 +92,9 @@ const InvestmentPortfolio = ({ data }) => (
          </div>
         <div className="fl tl w-100 w-50-ns pa3-s pa3-m pl4-l">
         <h3 className="lh-title">Communication & Marketing</h3>
-        <Paragraph className="mt3">Another service of SWISS STARTUP TECH is communication and marketing. We advise you on your communication strategy, conceptualize and create content tailored to your target group, growth hack and establish the public relation.
+        <Paragraph className="mt3">We advise you on your communication strategy, conceptualize and create content tailored to your target group, growth hack and establish the public relation.
         </Paragraph>
-        <a href="mailto:virginia.beljean@ssut.ch" className="button-blue">
+        <a href="mailto:marcom@ssuf.ch" className="button-blue">
                 Let's get started
                 </a>
           </div>

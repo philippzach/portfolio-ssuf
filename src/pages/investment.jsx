@@ -33,7 +33,7 @@ const InvestmentPortfolio = ({ data }) => (
         </Paragraph>
       </div>
     </Wrapper>
-    <div className="flex flex-column flex-row-ns mv4 background" style={{backgroundColor: "#00486C"}}>
+    <div className="flex flex-column flex-row-ns mt4 background" style={{backgroundColor: "#00486C"}}>
       <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns">
       <Img fluid={data.innovation1.childImageSharp.fluid} className="w-100" />
       </div>
@@ -44,7 +44,7 @@ const InvestmentPortfolio = ({ data }) => (
           With us you do not only get funding, you will win the Swiss Startup Factory and our entire ecosystem as a valuable partner for the future.  
           </Paragraph>
           <a href="https://www.swissstartupgroup.com/investorclub"><button className="button-blue" style={{boxShadow: "none"}}>
-        Join Investor Club
+        More Information
         </button>
         </a>
         </div>

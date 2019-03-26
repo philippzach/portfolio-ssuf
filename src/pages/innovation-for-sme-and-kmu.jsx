@@ -45,12 +45,12 @@ const InvestmentPortfolio = ({ data }) => (
       </div>
       <div className="w-100 w-60-ns pl3-ns flex items-center measure center">
         <div className="pv4">
-            <h3 className="lh-tile white">For SMEs we offer customized programs adapted to a standardised process,which we have tested multiple times with clients from all different branches.</h3>
+            <h3 className="lh-tile white">For SMEs we offer customized programs adapted to a standardized process, which we have tested multiple times with clients from all different branches.</h3>
             <Paragraph className="white ">All collaborations start with a meeting where we will find out more about your organisation and your needs. Based on this, we will suggest a program that fits your needs.</Paragraph>
             <Paragraph className="white">Through our Growth Services platform, our talented and diverse team and our experience working with various corporates, we can offer a great variety of communication and marketing services. </Paragraph>
             <a href="mailto:chris.bargholz@ssuf.ch" className="button-blue" style={{boxShadow: "none"}}>
                 Contact us
-                </a><span className="white fw3">for more information</span>
+                </a>{/* <span className="white fw3">for more information</span> */}
         </div>
       </div>
     </div>
@@ -89,7 +89,7 @@ const InvestmentPortfolio = ({ data }) => (
         <a href="mailto:chris.bargholz@ssuf.ch" className="button-blue">
         Get in touch
         </a>
-        <p className="fw3">for a non-binding meeting</p>
+        {/* <p className="fw3">for a non-binding meeting</p> */}
       </div>
       </Wrapper>
     
