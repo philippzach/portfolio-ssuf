@@ -10,14 +10,9 @@ class Input extends Component {
         this.toggleBox = this.toggleBox.bind(this);
     }
     toggleBox() {
-        //const { opened } = this.state;
         this.setState({
           opened: true,
         });
-        /* const { opened } = this.state;
-        this.setState({
-          opened: !opened,
-        }); */
       }
       render() {
         const { children } = this.props;

@@ -10,6 +10,7 @@ import Seo from '../components/SEO/index';
 import SocialBanner from '../../static/socialsharing.jpg'
 import '../styles/pages/factory.css';
 import '../styles/pages/buttonblue.css';
+import '../styles/buttons/cta-button-lp.css';
 
 
 const Test = styled.div`
@@ -33,7 +34,7 @@ const HeroInner = styled.div`
     text-align: center;
     transform: translate(-50%, -50%);
   }
-  @media (min-width: 950px) and (max-width: 1200px){
+  @media (min-width: 951px) and (max-width: 1199px){
     position: absolute;
     top: 350px;
     left: 50%; 
@@ -120,7 +121,7 @@ class Index extends Component {
             <div>
               <HeaderSmall>Upload your pitch deck now</HeaderSmall>
               
-              <Link to="/startup-accelerator"><div className="button-blue">APPLY TO OUR CUSTOMIZED ACCELERATOR PROGRAM</div></Link>
+              <Link to="/startup-accelerator"><div className="cta-button-lp">APPLY TO OUR CUSTOMIZED ACCELERATOR PROGRAM</div></Link>
               
             </div>
           </HeroInner>

@@ -83,7 +83,7 @@ const GrowthServices = ({ data }) => (
             <h3>Venture Capital</h3>
             <p className=" mt3">Your company wants to identify and build new business models that will disrupt your industry. We identify and execute new business models in your industry with our in-house team specialised in business development.</p>
                   <a href="https://ccvs.ch" target="_blank" rel="noopener noreferrer">
-                <div className="button-blue">Become Part</div>
+                <div className="button-blue">Become A Part</div>
                 </a>
               </div>
             <div class="mobilepadding fl w-100 w-50-ns tc flex justify-center">
