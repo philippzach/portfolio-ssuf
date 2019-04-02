@@ -36,14 +36,13 @@ const Imprint = () => (
     <p>Mike Baur</p>
     <p>Max Meister</p>
     <p>Oliver Walzer</p>
-    <p>Michael Widmer</p>
      
     <Title><b>Commercial register entry</b></Title> 
-    <p>Registered company name: Swiss Startup Factory</p>
+    <p>Registered company name: Swiss Start-up Factory AG</p>
     <p>Commercial Register No: CHE-477.778.935</p>
     
     <Title><b>VAT number</b></Title>
-    <p>CHE-477.778.935</p>
+    <p>CHE-477.778.935 MWST</p>
      
 
     <Title><b >Disclaimer</b></Title>
