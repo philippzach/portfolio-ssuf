@@ -26,9 +26,9 @@ const Imprint = () => (
     <Title>
     <h2>Imprint and Contact Information</h2>
     </Title>
-    <p>Swiss Startup Group</p>
-    <p>Kantonsstrasse 25</p>
-    <p>8807 Freienbach</p>
+    <p>Swiss Startup Factory</p>
+    <p>Hardturmstrasse 161</p>
+    <p>8005 Zürich</p>
     <p>Switzerland</p>
     <a href="mailto:media@ssuf.ch">media@ssuf.ch</a>
      
@@ -39,11 +39,11 @@ const Imprint = () => (
     <p>Michael Widmer</p>
      
     <Title><b>Commercial register entry</b></Title> 
-    <p>Registered company name: Swiss Startup Group</p>
-    <p>Commercial Register No: CHE-407.344.141</p>
+    <p>Registered company name: Swiss Startup Factory</p>
+    <p>Commercial Register No: CHE-477.778.935</p>
     
     <Title><b>VAT number</b></Title>
-    <p>CHE-407.344.141 MWST</p>
+    <p>CHE-477.778.935</p>
      
 
     <Title><b >Disclaimer</b></Title>

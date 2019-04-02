@@ -29,7 +29,7 @@ const HeroInner = styled.div`
   }
   @media (min-width: 1200px) {
     position: absolute;
-    top: 450px;  /* position the top  edge of the element at the middle of the parent */
+    top: 350px;  /* position the top  edge of the element at the middle of the parent */
     left: 50%; /* position the left edge of the element at the middle of the parent */
     text-align: center;
     transform: translate(-50%, -50%);

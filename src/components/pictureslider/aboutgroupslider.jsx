@@ -7,7 +7,7 @@ import Oli from '../../../static/teamssuf/walzer_oliver.jpg';
 import Max from '../../../static/teamssuf/max_meister.jpg';
 import Chris from '../../../static/teamssuf/chris_bargholz.jpg';
 import Ginie from '../../images/ginie.jpg';
-import Cindy from '../../images/cindyspelt.jpg';
+import Larissa from '../../images/larissa.jpg';
 import Keith from '../../../static/teamssuf/keith.jpg';
 import Daniel from '../../../static/teamssuf/daniel.jpg';
 import Jana from '../../../static/teamssuf/jana.jpg';
@@ -223,40 +223,40 @@ style => <animated.div style={{ ...style }} className="flex flex-column flex-row
   </div>
 </div>
 </animated.div>,
-/* style => <animated.div style={{ ...style }} className="flex flex-column flex-row-ns">
-<div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
-  <img src={Cindy} alt="" style={{ maxHeight: '600px' }} />
-</div>
-<div className="w-100 w-60-ns pl3-ns flex items-center justify-center">
-  <div className="paddingfoundersabout">
-    <h4 className="mb1 dimgray">Head of Platform</h4>
-    <h3>Cindy Spelt</h3>
-    <div className="flex">
-       <dl class="lh-title pr1-s pr2-m pr4-l mt0">
-           <dt class="f6 b">Always goes</dt>
-           <dd class="ml0 mb3">Always believe in yourself</dd>
-           <dt class="f6 b mt2">Never without</dt>
-           <dd class="ml0 mb3">My high heels</dd>
-           <dt class="f6 b mt2">As a child, I wanted to be:</dt>
-           <dd class="ml0 mb3">A jet fighter pilot</dd>
-           <dt class="f6 b mt2">Secret Tip:</dt>
-           <dd class="ml0 mb3">How to pack your suitcase in 2 minutes</dd>
-         </dl>
-         <dl class="lh-title mt0">
-           <dt class="f6 b mt2">I can do best</dt>
-           <dd class="ml0 mb3">Listening</dd>
-           <dt class="f6 b mt2">I'm not good at</dt>
-           <dd class="ml0 mb3">Following a recipe, I always have to give it a twist.</dd>
-           <dt class="f6 b mt2">Unbelievable but true</dt>
-           <dd class="ml0 mb3">Playing the drums</dd>
-           <dt class="f6 b mt2">I like</dt>
-           <dd class="ml0 mb3">Drinking a cup of coffee on a terrace in Paris</dd>
-       </dl>
-       </div>
-       <span className="arrows"></span>
-  </div>
-</div>
-</animated.div>, */
+   style => <animated.div style={{ ...style }} className="flex flex-column flex-row-ns">
+   <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
+     <img src={Larissa} alt="" style={{ maxHeight: '600px' }} />
+   </div>
+   <div className="w-100 w-60-ns pl3-ns flex items-center justify-center">
+     <div className="paddingfoundersabout">
+       <h4 className="mb1 dimgray">Executive Assistant</h4>
+       <h3>Larissa Truffer</h3>
+       <div className="flex">
+          <dl class="lh-title pr1-s pr2-m pr4-l mt0">
+              <dt class="f6 b">No-Go</dt>
+              <dd class="ml0 mb3">Arroganz</dd>
+              <dt class="f6 b mt2">I Like</dt>
+              <dd class="ml0 mb3">Pasta</dd>
+              <dt class="f6 b mt2">Never without</dt>
+              <dd class="ml0 mb3">Mobile phone and handkerchiefs</dd>
+              <dt class="f6 b mt2">My Desktop</dt>
+              <dd class="ml0 mb3">Must be cleaned up every week</dd>
+            </dl>
+            <dl class="lh-title mt0">
+              <dt class="f6 b mt2">Summer Residence</dt>
+              <dd class="ml0 mb3">Lake Zurich</dd>
+              <dt class="f6 b mt2">Winter residence</dt>
+              <dd class="ml0 mb3">Warm Bed</dd>
+              <dt class="f6 b mt2">Unbelievable but true</dt>
+              <dd class="ml0 mb3">I once had red, short hair</dd>
+              <dt class="f6 b mt2">What's easy</dt>
+              <dd class="ml0 mb3">to get up early</dd>
+          </dl>
+          </div>
+          <span className="arrows"></span>
+     </div>
+   </div>
+</animated.div>,
 style => <animated.div style={{ ...style }} className="flex flex-column flex-row-ns">
 <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
   <img src={Daniel} alt="" style={{ maxHeight: '600px' }} />
@@ -332,7 +332,7 @@ export default class PageTransition extends Component {
 
   toggle = e =>
     this.setState(state => ({
-      index: state.index === 7 ? 0 : state.index + 1,
+      index: state.index === 8 ? 0 : state.index + 1,
     }));
 
   render() {
