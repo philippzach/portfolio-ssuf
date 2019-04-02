@@ -35,4 +35,4 @@ jobs:
       # run deploy
       - run:
           name: deploy over SSH
-          command: rsync -av --delete -e "ssh -o \"StrictHostKeyChecking no\" -p $SSH_PORT" ~/project/public/ $SSH_USER@$SSH_HOST:~/beta/
+          command: rsync -av --delete -e "ssh -o \"StrictHostKeyChecking no\" -p $SSH_PORT" ~/project/public/ $SSH_USER@$SSH_HOST:~/httpdocs/
