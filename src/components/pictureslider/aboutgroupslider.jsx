@@ -229,7 +229,7 @@ style => <animated.div style={{ ...style }} className="flex flex-column flex-row
    </div>
    <div className="w-100 w-60-ns pl3-ns flex items-center justify-center">
      <div className="paddingfoundersabout">
-       <h4 className="mb1 dimgray">Executive Assistant</h4>
+       <h4 className="mb1 dimgray">Marketing & Communication Manager</h4>
        <h3>Larissa Truffer</h3>
        <div className="flex">
           <dl class="lh-title pr1-s pr2-m pr4-l mt0">
