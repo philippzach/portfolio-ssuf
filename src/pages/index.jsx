@@ -134,10 +134,9 @@ class Index extends Component {
             <h2 className="lh-copy" style={{fontFamily: "Roboto", fontSize: "28px", fontWeight: "600", color:"#00486C"}}>
             Swiss Startup Factory is a venture studio for corporates and startups to innovate and accelerate the best new technologies. 
             </h2>
-            <p className="lh-copy">Since 2015 we are the number one privately financed accelerator in Switzerland.
-            The Swiss Startup Factory provides a professional execution platform to corporates and startups through a dedicated business driven process that brings their innovation to market fast and lean.
+            <p className="lh-copy">We are the number one privately financed accelerator in Switzerland, operating since 2015. The Swiss Startup Factory provides a professional execution platform for corporates and startups and offers a dedicated business-driven process that brings innovation to market in a fast, lean and straightforward way.
             </p>
-            <p className="lh-copy"><b className="lh-copy">At Swiss Startup Factory innovation meets execution – we unleash your entrepreneurial potential! </b></p>
+            <p className="lh-copy"><b className="lh-copy">At Swiss Startup Factory innovation meets execution – we unleash your entrepreneurial potential!</b></p>
           </div>
         </Wrapper>
         <div className="flex flex-column flex-row-ns mv4 background" style={{backgroundColor: "#00486C"}}>
@@ -151,7 +150,7 @@ class Index extends Component {
           Being close to startups is the core for the Swiss Startup Factory. 
           </p>
           <p className="white lh-copy">
-          We constantly develop our frameworks and apply them for building up successful and sustainable startups. 
+            We constantly adapt our frameworks and apply them to building up successful and sustainable startups.
           </p>
         </div>
       </div>
@@ -170,8 +169,7 @@ class Index extends Component {
           </div>
           <div>
           <p className="lh-copy measure center f6 black-70 tc" style={{ color: 'rgb(0, 71, 107)' }}>
-            Based on more than 4 years of experience we have designed a completely new customised accelerator program
-            which will prepare you and your team to live up to your potential.
+          Based on more than 4 years of experience we have designed a completely new customized accelerator program that will enable you and your team to live up to your potential.
           </p>
           </div>
           <div className="mv3 center">
@@ -188,7 +186,7 @@ class Index extends Component {
             <hr className="mw3 bb bw1 b--black-10" />
           </div>
           <p className="lh-copy measure center f6 black-70 tc mb5-ns" style={{ color: 'rgb(0, 71, 107)' }}>
-            30 minutes meeting where you can pitch us your idea, tell us about your challenges and ask us for feedback.
+            30-minute meeting where you can pitch your idea, tell us about your challenges and ask for our feedback.
           </p>
           <div className="mv3 center">
           <span className="buttonfactory mid-gray ttu b">Get in touch</span>
@@ -204,8 +202,7 @@ class Index extends Component {
             <hr className="mw3 bb bw1 b--black-10" />
           </div>
           <p className="lh-copy measure center f6 black-70 tc " style={{ color: 'rgb(0, 71, 107)' }}>
-            We help you to improve your pitch that allows you to understand which areas are important and should be in
-            the spotlight to move your company forward.
+          We help you improve your pitch and highlight which areas are important and should be in the spotlight in order to move your company forward.
           </p>
           <div className="mv3 center">
           <span className="buttonfactory mid-gray ttu b">Start now</span>
@@ -224,8 +221,7 @@ class Index extends Component {
         <div style={{padding: "0 3rem", color: 'rgb(0, 71, 107)'}}>
           <h2 style={{fontFamily: "Roboto", textTransform: "uppercase", color: 'rgb(0, 71, 107)'}}>Corporates</h2>
           <p className=" lh-copy">
-          Our goal is to understand and evaluate our corporate client’s current strategic innovation roadmap and provide a best advice on it’s execution with our 
-          specialized skills. 
+          Our goal is to understand and evaluate our corporate client’s current strategic innovation roadmap and, based on our specialized skills, provide best advice on its execution. For corporates, we are the interface to innovation. 
           </p>
           <p className="lh-copy">
           For corporates we are the interface to innovation. 
@@ -245,7 +241,7 @@ class Index extends Component {
           </div>
           <div>
           <p className="lh-copy measure center f6 black-70 mb4-l tc" style={{ color: 'rgb(0, 71, 107)' }}>
-            We offer customised innovation and digital transformation consulting services.
+          We offer customized innovation and digital transformation consulting services.
           </p>
           </div>
           <div className="mt4-l mv3 tc">
@@ -263,8 +259,7 @@ class Index extends Component {
           </div>
           <div>
           <p className="lh-copy measure center f6 black-70 tc" style={{ color: 'rgb(0, 71, 107)' }}>
-            Adjusting our accelerator program to the structure of the corporate, we build up their existing startup
-            projects with or without taking equity.
+          Adjusting our accelerator program to the structure of the corporate, we build up existing startup projects with or without taking equity.
           </p>
           </div>
           <div className="mv3 tc">
@@ -284,8 +279,7 @@ class Index extends Component {
           </div>
           <div className="mt4-l mb4-l">
           <p className="lh-copy measure center f6 black-70 tc" style={{ color: 'rgb(0, 71, 107)' }}>
-            Building up a completely new business model or startup from scratch - outside the existing corporate
-            structures.
+          Building up a completely new business model or startup from scratch - outside the existing corporate structures.
           </p>
           </div>
           <div className="mv3 tc">

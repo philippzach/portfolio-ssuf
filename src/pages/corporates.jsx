@@ -29,10 +29,10 @@ const GrowthServices = ({ data }) => (
       <div className="containertitle">
         <h2 className="lh-title">For corporates we are the interface to innovation </h2>
         <p className="">
-        We know the corporate world from the inside and we don’t want to be part of it. We actually want to change it. That’s why we work like a startup, why we work with clients in a startup-way and why we work a lot with startups, including our own.
+        We know the corporate world from the inside and we don’t want to be part of it. We actually want to change it. That’s why we work like a startup, why we work with clients in a startup-way and why we work with startups, including our own.
         </p>
-        <p>We understand the challenges your company is facing, we know how to structure the strategic discussion on your board and we know digital business from the inside. Bring all of it together and we realize digital growth with you.</p>
-        <p>Our goal is to understand and evaluate our corporate client’s current strategic innovation roadmap and provide a best advice on it’s execution with our specialized skills.</p>
+        <p>We understand the challenges your company is facing, we know how to structure strategic board discussions and we know digital business from the inside. Bring all of it together and we realize digital growth with you.</p>
+        <p>Our goal is to understand and evaluate our corporate clients’ current strategic innovation roadmaps and provide the best possible advice on its execution based on our specialized skills.</p>
       </div>
       </Wrapper>
       <Wrapper>
@@ -44,7 +44,7 @@ const GrowthServices = ({ data }) => (
          </div>
         <div className="fl tl w-100 w-50-ns pa3-s pa3-m pl4-l">
         <h3>Corporate Acceleration</h3>
-         <p className=" mt3">Your company wants to be close to latest industry trends, launch new products or to establish a funnel for corporate venture capital investments. Your internal startups have the chance to participate in our 10-week accelerator program.</p>
+         <p className=" mt3">Your company wants to be close to the latest industry trends, launch new products or establish a funnel for corporate venture capital investments? Your internal startups have the chance to participate in our 10-week accelerator program.</p>
             <Link to="/corporate-acceleration">
             <div className="button-blue">Your Chance</div>
             </Link>
@@ -53,7 +53,7 @@ const GrowthServices = ({ data }) => (
         <article class="mobileview cf mv6">
             <div class="fl w-100 w-50-ns tl pa3-s pa3-m ph4-l">
             <h3>Company Building</h3>
-            <p className=" mt3 ">Your company wants to identify and build new business models that will disrupt your industry. We identify and execute new business models in your industry with our in-house team specialised in business development.</p>
+            <p className=" mt3 ">Your company wants to identify and build new business models that will disrupt your industry? We identify and implement new business models in your industry with our in-house team specialized in business development.</p>
                         <Link to="/company-building">
                         <div className="button-blue">Let's Rock</div>
                         </Link>
@@ -72,7 +72,7 @@ const GrowthServices = ({ data }) => (
             </div>
             <div class="fl tl w-100 w-50-ns pa4-s pa3-m pl4-l">
             <h3>Innovation Consulting</h3>
-            <p className=" mt3">Our consulting unit helps you in identifying your transformation potential and support you in generating a transformation roadmap and realising it with different services.</p>
+            <p className=" mt3">Our consulting unit helps you identify your transformation potential and supports you in drawing up a transformation roadmap as well as implementing it with different services.</p>
             <Link to="/corporate-innovation-service" >
             <div className="button-blue">Learn More</div>
             </Link>
@@ -81,7 +81,7 @@ const GrowthServices = ({ data }) => (
         <article class="mobileview cf mv6">
             <div class="fl w-100 w-50-ns tl pa3-s pa3-m ph4-l">
             <h3>Venture Capital</h3>
-            <p className=" mt3">Your company wants to identify and build new business models that will disrupt your industry. We identify and execute new business models in your industry with our in-house team specialised in business development.</p>
+            <p className=" mt3">Your company wants to identify and build new business models that will disrupt your industry? We identify and implement new business models in your industry with our in-house team specialized in business development.</p>
                   <a href="https://ccvs.ch" target="_blank" rel="noopener noreferrer">
                 <div className="button-blue">Become A Part</div>
                 </a>
@@ -100,7 +100,7 @@ const GrowthServices = ({ data }) => (
             </div>
             <div class="fl tl w-100 w-50-ns pa4-s pa3-m pl4-l">
             <h3>SME's</h3>
-            <p className=" mt3">All collaborations start with a meeting where we will find out more about your organisation and your needs. Based on this, we will suggest a program that fits your needs.</p>
+            <p className=" mt3">All collaborations start with a meeting where we will find out more about your organization and your needs. Based on this, we will suggest a program that fits your needs.</p>
             <Link to="/innovation-for-sme-and-kmu" >
             <div className="button-blue">Get in touch</div>
             </Link>

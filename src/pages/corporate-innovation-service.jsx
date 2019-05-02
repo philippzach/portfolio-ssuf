@@ -27,9 +27,9 @@ const InvestmentPortfolio = ({ data }) => (
     <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
       <Title>Innovation Consulting</Title>
       <div className="containertitle">
-        <h2 className="lh-title">As a corporate the digital transformation is a large topic with many different ways of how to approach it.</h2>
+        <h2 className="lh-title">For corporates, the digital transformation is a big topic with many different ways of how to approach it.</h2>
         <Paragraph className="lh-copy">
-        Our SSUF innovation consulting services include idea generation for new business models/products, change of internal culture towards innovation, corporate venturing setup support, as well as strategy development for innovation departments. 
+        Our SSUF innovation consulting services include idea generation for new business models/products, change of internal culture towards innovation, corporate venturing setup support, as well as strategy development for innovation departments.
         </Paragraph>
       </div>
     </Wrapper>
@@ -40,7 +40,7 @@ const InvestmentPortfolio = ({ data }) => (
       <div className="w-100 w-60-ns pl3-ns flex items-center measure center">
         <div className="pa2">
           <Paragraph className="lh-copy white">
-          With us as a partner, you can benefit from our startup expertise in combination with our experience working on various innovation projects with large corporations. Unlike other consulting firms, we do not observe innovation from a bird's eye perspective. Through our startup platform, we are at the core of innovation and we can pass on this DNA to your corporation. 
+          With us as a partner, you can benefit from our startup expertise and our experience in working on various innovation projects with large corporations. Unlike other consulting firms, we do not observe innovation from a bird's-eye view. With our startup platform, we are at the core of innovation and we can pass on the knowledge that is part of our DNA to your corporation.
           </Paragraph>
         </div>
       </div>
@@ -48,7 +48,7 @@ const InvestmentPortfolio = ({ data }) => (
     <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
       <div className="containerinvestors mv5">
         <h3 className="center" style={{lineHeight: "40px", fontFamily: "roboto", fontWeight: "400"}}>
-        Through our own startup platform, our talented and diverse team and our experience working with various corporates, we can offer a great variety of innovation services. 
+        With our own startup platform, our talented and diverse team, and our experience in working with various corporates, we can offer a great variety of innovation services.
         </h3>
         {/* <Paragraph className="investorparagraph lh-copy fw3">
         Those services include are not limited to the following:
@@ -64,10 +64,10 @@ const InvestmentPortfolio = ({ data }) => (
         <div className="pa4">
           <h3 className="lh-title">Innovation Screening & Research</h3>
           <Paragraph className=" measure">
-          All great accomplishments start with a thought, an idea, a seed from which actions and execution unfold to make a vision real. 
+          All great accomplishments start with a thought, an idea, a seed from which actions and implementation unfold to make a vision become reality.
           </Paragraph>
           <Paragraph className=" measure">
-          Together with our team of highly skilled analysts, we identify current trends and startups in your industry from all over the world. Being aware of the latest ideas, gives you a competitive edge to make the best strategic decisions going forward. 
+          Together with our team of highly skilled analysts, we identify current trends and startups in your industry from all over the world. Being aware of the latest ideas gives you a competitive advantage and allows you to make the best strategic decisions going forward.
           </Paragraph>
         </div>
       </div>
@@ -78,10 +78,10 @@ const InvestmentPortfolio = ({ data }) => (
         <div className="pa4">
           <h3 className="lh-title"> Innovation Consulting</h3>
           <Paragraph className=" measure">
-          Your biggest advantage lies in being innovative and fast. Together we show you the way while supporting you along the execution. Change is not an option, it is unstoppable. 
+          Your biggest advantage lies in being innovative and fast. Going forward together, we show you the way while supporting you throughout the implementation process. Change is not an option, it is unstoppable. 
           </Paragraph>
           <Paragraph className=" measure">
-          Organizations that are willing to benefit from the opportunities at hand need to be courageous and act.​ Fail fast, fail forward. In today’s world, your biggest advantage lies in being innovative and fast. Together we show you the way while supporting you along the execution.
+          Organizations that are willing to benefit from the opportunities at hand need to be courageous and act.​ Fail fast, fail forward. In today’s world, your biggest advantage lies in being innovative and fast. Going forward together, we show you the way while supporting you throughout the implementation process.
           </Paragraph>
         </div>
       </div>
@@ -98,10 +98,10 @@ const InvestmentPortfolio = ({ data }) => (
         <div className="pa4">
           <h3 className="lh-title">Innovation Culture</h3>
           <Paragraph className=" measure">
-          Business is people business. Digitization and business transformation requires courage at the management level to set the agenda, the targets, question the status quo and ultimately make certain hard decisions. 
+          Business is people business. Digitization and business transformation require courage at management level to set the agenda, the targets, question the status quo and ultimately make certain hard decisions. 
           </Paragraph>
           <Paragraph className=" measure">
-          However, in order to be successful in the future, your whole workforce needs to use their knowledge and experience for addressing the needs of the clients. Through the selection of the right tools like workshops or innovation challenges, we can support you throughout the entire process of changing your internal culture.  
+          However, in order to be successful in the future, your entire workforce needs to use their knowledge and experience in order to address the clients’ needs. With the selection of the right tools, like workshops or innovation challenges, we can support you throughout the entire process of changing your internal culture.  
           </Paragraph>
         </div>
       </div>
@@ -112,7 +112,7 @@ const InvestmentPortfolio = ({ data }) => (
         <div className="pa4">
           <h3 className="lh-title"> Others</h3>
           <Paragraph className="measure">
-          In addition to the services from above, we can support you with 
+          In addition to the services listed above, we can support you with
           </Paragraph>
           <ul className="lh-copy measure" style={{color: "#00486C"}}>
           <li>Events</li>
@@ -135,7 +135,7 @@ const InvestmentPortfolio = ({ data }) => (
       <div className="w-100 w-60-ns pl3-ns flex items-center justify-center">
         <div className="pa4">
           <Paragraph className="measure">
-          For each of the services described above, we have developed standardised programs, which we have tested multiple times with large clients. All collaborations start with a meeting where we will find out more about your organisation and your needs. Based on this, we will suggest the right services from our toolbox that fits 100% to your needs. 
+          For each of the services described above, we have developed standardized programs that we have tried and tested with large clients. Every collaboration starts with a meeting where we will find out more about your organization and your needs. Based on this, we will suggest the right services from our toolbox that fit your needs 100%. 
           </Paragraph>
         </div>
       </div>
@@ -143,7 +143,7 @@ const InvestmentPortfolio = ({ data }) => (
     <Wrapper>
       <div className="containerinvestors mv6">
         <h3 className="lh-copy center" style={{fontFamily:"roboto"}}>
-        Are you interested in finding out more on how your company can prepare itself for the digital transformation? 
+        Are you interested in finding out more about how your company can prepare itself for the digital transformation?
         </h3>
         <a href="mailto:chris.bargholz@ssuf.ch" className="button-blue">
         Get Insights

@@ -38,7 +38,7 @@ const InvestmentPortfolio = ({ data }) => (
       <div className="containertitle">
         <h2 className="lh-title">Pitching is not just a means to an end – it is how you communicate your story, share your passion and the way in which you constantly continue to better understand your business.</h2>
         <Paragraph>
-        You sell your product, your company and yourself all the time. The big question is: How aware are you of it and how effective is it? In our pitch training you will learn how to sell your idea and your company on pitch events and networking events in front of investors in an impressive way. 
+        You sell your product, your company and yourself all the time. The big question is: How aware are you of it and how effective is it? In our pitch training you will learn how to sell your idea and your company to investors at pitch events and networking events in an impressive way. 
         </Paragraph>
       </div>
     </Wrapper>
@@ -48,9 +48,9 @@ const InvestmentPortfolio = ({ data }) => (
       </div>
       <div className="w-100 w-60-ns pl3-ns flex items-center measure center">
         <div className="ph3 ph0-ns">
-            <Paragraph className="lh-copy white">We re-work your pitch, in line with our framework in our three stages-  create clarity, communicate the opportunity and demonstrate the validation.</Paragraph>
+            <Paragraph className="lh-copy white">We re-work your pitch in line with our framework in three stages - creating clarity, communicating the opportunity and demonstrating the validation.</Paragraph>
           <Paragraph className="lh-copy white">
-          For each slide, we make sure to explain why the content matters and what different stakeholders need to see. Our one-on-one pitch training is split into three separate workshops. Between each workshop we expect our participants to be re-working different elements of their pitch and their business in preparation for the next session.  
+          For each stage, we make sure to explain why the content matters and what different stakeholders need to see. Our one-on-one pitch training is split into three separate workshops. Between each workshop we expect our participants to re-work different elements of their pitch and their business in preparation for the next session.  
           </Paragraph>
           <a href="mailto:pitchtraining@ssuf.ch" className="button-blue" style={{boxShadow: "none"}}>
         Learn More

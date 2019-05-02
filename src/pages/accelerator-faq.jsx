@@ -15,54 +15,54 @@ const Faq = () => (
         <details>
           <summary >What is the SSUF?</summary>
           <div className="wrapper">
-          <p>The Swiss Startup Factory is a seed-stage accelerator program based in Zurich. Since 2016, we have launched more than 30 companies. From this year on, we select the top three startups from a huge pool of applicants to work with us. Our goal is: Find remarkable companies with founders we like to work with and spend very intense weeks with them. During the program, we work on everything from finding product market fit, defining a target market to build a solid foundation for future growth. We are also instrumental in helping companies prepare for fundraising and of course for investor meetings.</p>
+          <p>The Swiss Startup Factory is a seed-stage accelerator program based in Zurich. Since 2016, we have launched more than 30 companies. Starting this year, we select the top three startups from a huge pool of applicants to work with us. Our goal is to find remarkable companies with founders we like to work with and spend very intense weeks with. During the program, we work on everything from finding product-market fit, defining a target market to building a solid foundation for future growth. We are also instrumental in helping companies prepare for fundraising and of course for investor meetings.</p>
           </div>
         </details>
         <details>
           <summary >What is the goal of the program?</summary>
           <div className="wrapper">
-          <p>After you have completed the SSUF accelerator by passing all milestones, you have built a solid foundation for scaling up your company. Among others, you will have worked on a:</p>
+          <p>After you have completed the SSUF accelerator by passing all milestones, you have built a solid foundation for scaling up your company. Among others, you will have worked on:</p>
           <ul><li>
-                    <p>Compelling product-market-fit</p>
+                    <p>A compelling product-market fit</p>
                     </li>
                     <li>
-                    <p>HR and team role plan</p>
+                    <p>An HR and team role plan</p>
                     </li>
                     <li>
-                    <p>Marketing strategy</p>
+                    <p>A marketing strategy</p>
                     </li>
                     <li>
-                    <p>Growth Hacking game plan</p>
+                    <p>A growth hacking game plan</p>
                     </li>
                     <li>
-                    <p>Strong Brand Design</p>
+                    <p>A strong brand design</p>
                     </li>
                     <li>
-                    <p>Sales plan to convert clients to paying customers</p>
+                    <p>A sales plan to convert clients to paying customers</p>
                     </li>
                     <li>
-                    <p>Pitch Deck to approach investors</p>
+                    <p>A Pitch Deck to approach investors</p>
                     </li>
                     <li>
-                    <p>Solid legal structure</p>
+                    <p>A solid legal structure</p>
                     </li>
                     <li>
-                    <p>Skill of doing elevator, stage and investor pitches</p>
+                    <p>Doing elevator, stage and investor pitches</p>
                     </li>
                     <li>
-                    <p>Ability to answer the most common investor questions, during a due-diligence</p>
+                    <p>Your ability to answer the most common investor questions during a due diligence hearing</p>
                     </li>
                     <li>
-                    <p>6 months roadmap</p>
+                    <p>A six-months roadmap</p>
                     </li>
                 </ul>
           </div>
         </details>
         <details>
           <summary >What happens at the SSUF accelerator?</summary>
-            <div className="wrapper"><p>The 10 - 16 weeks are split in to threephases:</p>
+            <div className="wrapper"><p>The 10 to 16 weeks are divided into three phases::</p>
                     <ul><li>
-                        <p>Phase 1:Business Model Development</p>
+                        <p>Phase 1: Business Model Development</p>
                         </li>
                         <li>
                         <p>Phase 2: Market Traction</p>
@@ -71,7 +71,7 @@ const Faq = () => (
                         <p>Phase 3: Growth Hacking Strategy</p>
                         </li>
                     </ul>
-                    <p>You will work with the most relevant startup frameworks from our SSUF Company Building Playbook and validate your ideas in intense one-on-one sessions with our experienced team, excellent mentors and industry partners. The accelerator is focused on as many personal interactions with experienced personal as possible. They will question your assumptions and give you valuable feedback, based on their vast experience.</p>
+                    <p>You will work with the most relevant startup frameworks from our SSUF Company Building Playbook and validate your ideas in intense one-on-one sessions with our experienced team, excellent mentors and industry partners. The accelerator is focused on as many personal interactions with experienced personnel as possible. They will question your assumptions and give you valuable feedback based on their vast experience.</p>
         </div>
         </details>
     </div>
@@ -89,32 +89,32 @@ const Faq = () => (
                     <p>B: well done = CHF 40’000 convertible</p>
                     </li>
                     <li>
-                    <p>C: OK, but not more = 25’000 convertible</p>
+                    <p>C: OK, but not more = CHF 25’000 convertible</p>
                     </li>
                     <li>
-                    <p>D: poor job = 10’000 convertible</p>
+                    <p>D: poor job = CHF 10’000 convertible</p>
                     </li>
                 </ul><p>At the next financing round our convertible converts into equity with a cap of CHF 500’000. The exact mechanics are part in our term sheet.</p>
         </div>
         </details>
         <details>
           <summary id="faq-animals">Why does the SSUF want shares in my startup?</summary>
-          <div className="wrapper"><p>Like you, we are entrepreneurs and our focus is on business execution. We believe that the value of the learning, networking, and mentoring offered by the program is of extraordinary value. Our accelerator program will provide you an incredible start and greatly improve your chances for success and sustainability. Once we invest, we have skin in the game and are motivated to help you succeed by introducing you to people, assisting you with strategy, finding investors, and generally helping you win all along your entrepreneurial journey.</p>
+          <div className="wrapper"><p>Like you, we are entrepreneurs and our focus is on business execution. We believe that the value of input, networking, and mentoring offered by the program is of extraordinary value. Our accelerator program will provide you with an incredible basis to start out from, and greatly improve your chances for success and sustainability. Once we invest, we have skin in the game and are motivated to help you succeed by introducing you to people, assisting you with your strategy, finding investors, and generally helping you win all along your entrepreneurial journey.</p>
         </div>
         </details>
         <details>
           <summary id="faq-alcohol">Can I get kicked out the program? What are the milestones?</summary>
-          <div className="wrapper"><p>During the program, there are three milestones, which are customer-fit, market traction and investment suitability. If the jury determines that you will not pass the milestone, your startup needs to leave the accelerator. In this case, you can keep the cash contribution, which you have received until then and we do not take an equity stake in your company.</p>
+          <div className="wrapper"><p>During the program there are three milestones that are made to fit the customer, market traction and investment suitability. If the jury determines that you will not pass the milestone, your startup needs to leave the accelerator. In this case, you can keep the cash contribution that you have received so far and we will not take an equity stake in your company.</p>
         </div>
         </details>
         <details>
           <summary id="faq-change-driver">Who decides if the milestones are accomplished?</summary>
-          <div className="wrapper"><p>A pre-selected jury, composed of industry specialists, entrepreneurs and founding partners of SSUF, will conduct the milestone reviews. Defining the milestones will be a collaborative effort between the startup and the jury. The milestones are generally the same for everyone, but will be slightly adjusted to each startup’s specific situation and industry.</p>
+          <div className="wrapper"><p>A pre-selected jury, composed of industry specialists, entrepreneurs and founding partners of the SSUF, will conduct the milestone reviews. Defining the milestones will be a collaborative effort between the startup and the jury. The milestones are generally the same for everyone, but will be slightly adjusted to each startup’s specific situation and industry.</p>
         </div>
         </details>
         <details>
           <summary id="faq-food">How much do you invest?</summary>
-          <div className="wrapper"><p>We have a standard deal – we invest CHF 15’000 in cash. Together with the value of the program our package is worth more. You will receive the cash, per passed milestone.</p>
+          <div className="wrapper"><p>We have a standard deal – we invest CHF 15,000 in cash. In combination with the value of the program our package is worth more. You will receive the cash per passed milestone.</p>
                     <ul><li>
                         <p>Milestone 1: 5’000</p>
                         </li>
@@ -129,22 +129,22 @@ const Faq = () => (
         </details>
         <details>
           <summary id="faq-accident">How should the cash contribution be invested?</summary>
-          <div className="wrapper"><p>You are free to spend the cash amount to cover any business related cost.</p>
+          <div className="wrapper"><p>You are free to spend the cash to cover any business related costs..</p>
         </div>
         </details>
         <details>
           <summary id="faq-damage">Can we participate without moving to your coworking space in Zurich?</summary>
-          <div className="wrapper"><p>You do not have to be present all the time, but you will need to be here for the numerous mandatory meetings. (e.g. milestone meetings and some coaching sessions). This benefits you because you can take advantage of the various education sessions, networking and coaching that will be provided.</p>
+          <div className="wrapper"><p>You do not have to be present all the time, but you will need to be here for the numerous mandatory meetings. (e.g. milestone meetings and some coaching sessions). This benefits you because you can take advantage of various education sessions, as well as networking and coaching that will be provided.</p>
         </div>
         </details>
         <details>
           <summary id="faq-breakdown">Can I, or part of my team, participate part time?</summary>
-          <div className="wrapper"><p>Basically, we want you and your team to be dedicated full time to your startup. If you have any legacy projects, which you are involved in, please be upfront about them and we will find the best solution possible.</p>
+          <div className="wrapper"><p>Basically, we want you and your team to be dedicated to your startup full-time. If you have any legacy projects that you are involved in, please be upfront about them and we will find the best solution possible.</p>
         </div>
         </details>
         <details>
           <summary id="faq-empty">What else does the Swiss Startup Factory provide?</summary>
-          <div className="wrapper"><p>We provide working and meeting areas at WestHive, the best co-working space in Zurich. In regards to housing, we will support you with finding cheap lodging, close to our co-working space. We just want you to focus on creating a great product while you are here, and not have to worry about other stuff.</p>
+          <div className="wrapper"><p>We provide working and meeting areas at WestHive, the best co-working space in Zurich. With regards to housing, we will support you in finding cheap lodging close to our co-working space. We just want you to focus on creating a great product while you are here and not having to worry about other stuff.</p>
         </div>
         </details>
     </div>
@@ -152,23 +152,23 @@ const Faq = () => (
         <h3>Application</h3>
         <details>
           <summary id="faq-accident">What kind of companies do you fund?</summary>
-          <div className="wrapper"><p>The SSUF accelerator is industry agnostic and we accept startups from all industries. Typically, our startups are web-based or ICT companies, but we have successfully supported hardware projects as well.</p>
+          <div className="wrapper"><p>The SSUF accelerator is industry-agnostic and we accept startups from any industry. Typically, our startups are web-based or ICT companies, but we have successfully supported hardware projects as well.</p>
         </div>
         </details>
         <details>
           <summary id="faq-damage">Can I apply only with an idea?</summary>
-          <div className="wrapper"><p>The general requirement of getting accepted is that your company already has a proof-of-concept; However, there are always exceptions and if you have an outstanding team with a mind-blowing idea, you can try to convince our analyst team, by filling out the questionnaire form.</p>
+          <div className="wrapper"><p>The general requirement to get accepted is that your company already has a proof of concept; however, there are always exceptions and if you have an outstanding team with a mind-blowing idea, you can try to convince our analyst team by completing the questionnaire form.</p>
         </div>
         </details>
         <details>
           <summary id="faq-breakdown">Is my company “too far along” to apply to the SSUF accelerator?</summary>
           <div className="wrapper"><p>
-                Probably not! We supported companies even after some financing rounds with fully developed products. Our expertise is in business development as well as in scaling. With our help your startup will grow tremendously in Switzerland and the EU.  Furthermore, we help with introductions to potential partners and customers. Lastly, in terms of financing, we either connect you with VC funds and business angels or you have the chance in receiving financing through different startup financing vehicles we have available ourselves. In both cases, we can help even with very large financing rounds.</p>
+          Probably not! We supported companies even after some financing rounds with fully developed products were completed. Our expertise is in business development as well as in scaling. With our help, your startup will grow tremendously - in Switzerland and the EU. Furthermore, we help with introductions to potential partners and customers. Lastly, in terms of financing, we either connect you with VC funds and business angels or you have the chance to receive financing through different startup financing vehicles we have available ourselves. In both cases, we can help even with very large financing rounds.</p>
         </div>
         </details>
         <details>
           <summary id="faq-empty">How do you choose which companies to accept into the program and to fund?</summary>
-          <div className="wrapper"><p>After you have filled out the application form, our specialized startup analyst team screens your idea using our self-established startup-rating tool. This tool analyses the market, product, team and business model. To get accepted your startup should include:</p>
+          <div className="wrapper"><p>After you have completed the application form, our specialized startup analyst team screens your idea using our self-established startup rating tool. This tool analyzes the market, product, team and business model. To get accepted, your startup should include:</p>
                     <ul><li>
                         <p>An innovative and scalable business model based on an IP.</p>
                         </li>
@@ -183,7 +183,7 @@ const Faq = () => (
         </details>
         <details>
           <summary >What is the application process at the Swiss Startup Factory</summary>
-          <div className="wrapper"><p>You apply by filling out the application form. This answers are forwarded to our analyst team who will screen your idea. If they see potential in your startup, they contact you for a Skype call to ask you a few questions that came up during the analysis process. Then, we will schedule another call with you in which we will answer all your questions. Afterwards, you get invited for a pitch, in front of the SSUF team including the founders of the company. The pitch is followed by an intense Q&A session. If you pass all steps, you’ll get offered a place in the program with a standard term sheet.</p>
+          <div className="wrapper"><p>You apply by completing the application form. Your answers are forwarded to our analyst team, which will screen your idea. If they see potential in your startup, they contact you for a Skype call to ask you a few questions that came up during the analysis process. Then, we will schedule another call with you in which we will answer all your questions. Afterwards, you get invited for a pitch in front of the SSUF team, including the founders of the company. The pitch is followed by an intense Q&A session. If you pass all steps, you’ll get offered a place in the program with a standard term sheet.</p>
         </div>
         </details>
         <details>
@@ -193,7 +193,7 @@ const Faq = () => (
         </details>
         <details>
           <summary >Do I need to send in a business plan?</summary>
-          <div className="wrapper"><p>No. Just fill out the online application, send your CVs and maybe a Pitch Deck.</p>
+          <div className="wrapper"><p>No. Just complete the online application, send your CVs and maybe a pitch deck.</p>
         </div>
         </details>
         <details>
@@ -203,12 +203,12 @@ const Faq = () => (
         </details>
         <details>
           <summary >I’m a single founder. Can I get accepted to the Swiss Startup Factory Accelerator or do you only look for teams?</summary>
-          <div className="wrapper"><p>We look for great, balanced teams who have a full range of skills. We strongly advise you to look for co-founders who complement your skillset. You need to be able to convince your future clients and investor to either buy your product or invest in your company and therefore your first test is to convince other people to believe in your project. As a result, you should NOT apply as a single founder.</p>
+          <div className="wrapper"><p>We look for great, balanced teams that have a full range of skills. We strongly advise you to look for co-founders who complement your skill set. You need to be able to convince your future clients and investors to either buy your product or invest in your company and therefore your first test is to convince other people to believe in your project. As a result, you should NOT apply as a single founder.</p>
         </div>
         </details>
         <details>
           <summary >Should I be worried about the protection of my intellectual property?</summary>
-          <div className="wrapper"><p>We are not stealing or copying concepts, and we treat all submissions as confidential. Each year, we see hundreds of applications with comparable ideas. You do not have to disclose all detailed information about your product, if you’re not comfortable doing this. Therefore, we generally do not sign NDAs.</p>
+          <div className="wrapper"><p>We are not stealing or copying concepts, and we treat all submissions as confidential. Each year, we see hundreds of applications with comparable ideas. You do not have to disclose all detailed information about your product if you’re not comfortable doing so. Therefore, we generally do not sign NDAs.</p>
         </div>
         </details>
         <details>
@@ -218,7 +218,7 @@ const Faq = () => (
         </details>
         <details>
           <summary >Do you fund companies that are competitive with each other?</summary>
-          <div className="wrapper"><p>We do our best to avoid accepting competitive companies into the same batch. However, it is possible that there maybe was a competitive company in a previous batch. In this case, we work thoroughly to ensure there is no exchange of sensitive data.</p>
+          <div className="wrapper"><p>We do our best to avoid accepting competitive companies into the same batch. However, it is possible that there was a competitive company in a previous batch. In this case, we work thoroughly to ensure there is no exchange of sensitive data.</p>
         </div>
         </details>
         <details>
@@ -231,23 +231,23 @@ const Faq = () => (
         <h3>After the program</h3>
         <details>
           <summary >Do I have to stay in Zurich, after the accelerator?</summary>
-          <div className="wrapper"><p>No. It’s your company and you can choose where to live anywhere. Many firms decide to move to Zurich, because of the contacts they made during the program.</p>
+          <div className="wrapper"><p>No. It’s your company and you can choose where to live. Many companies decide to move to Zurich because of the contacts they made during the program.</p>
         </div>
         </details>
         <details>
           <summary id="faq-insurance">How can we get funded after the SSUF accelerator ends?</summary>
-          <div className="wrapper"><p>We provide you with funding during the program, so you can pay your basic expenses, but you may well need more funding to really make it. One ea year, we organise a Demo Day, where we invite the most renowned angel investors and venture capitalists in Switzerland. In the past about 250 people attended the event. In various pitch trainings and investor workshops, we coach you so you’re as successful as possible, and do everything we can do help get you follow on funding. However, we cannot guarantee that you will find an investor after the program. Within our Swiss Startup Factory ecosystem, we have seed and growth financing vehicles. If your startup develops impressively after the accelerator, your chances of receiving funding from our investment companies increases remarkably.</p>
+          <div className="wrapper"><p>We provide you with funding during the program so you can pay your basic expenses but you may well need more funding to really make it. Once a year we organise a Demo Day where we invite the most renowned angel investors and venture capitalists in Switzerland. In the past, about 250 people attended the event. In various pitch training sessions and investor workshops, we coach you to be as successful as possible, and do everything we can to help you get follow-on funding. However, we cannot guarantee that you will find an investor after the program. Within our Swiss Startup Factory ecosystem, we have seed and growth financing vehicles. If your startup develops impressively after the accelerator, your chances of receiving funding from our investment companies increases remarkably.</p>
         </div>
         </details>
         <details>
           <summary id="faq-penalty">What control am I giving up by granting shares to the SSUF?</summary>
-          <div className="wrapper"><p>We don’t want any special or controlling interests in your company. We won’t ask for a board seat or for any uncommon investor rights. You will still be in control. But of course, if you offer us a board seat, we will either fill it ourselves or will help you to connect with the right people. In order to support you as well as possible, there will be a reporting meeting every quarter, in which we will talk about your progress, difficulties and the outlook for the next quarter.</p>
+          <div className="wrapper"><p>We don’t want any special or controlling interests in your company. We won’t ask for a board seat or for any uncommon investor rights. You will still be in control. But of course, if you offer us a board seat, we will either fill it ourselves or will help you to connect with the right people. In order to support you as well as possible, there will be a reporting meeting every quarter in which we will talk about your progress, difficulties and the outlook for the next quarter.</p>
         </div>
         </details>
         <details>
           <summary id="faq-empty-phone">What services does the SSUF offer me after the program?</summary>
           <div className="wrapper">
-          <p>You will get lots from our graduate services, which are split into counsel and 360-degree service.</p>
+          <p>You will get lots of graduate services, which are split into counsel and 360-degree services.</p>
                 <p>Counsel services include:</p>
                 <ul><li>
                     <p>You can schedule strategic meetings with the SSUF founders</p>

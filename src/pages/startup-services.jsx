@@ -32,7 +32,7 @@ const InvestmentPortfolio = ({ data }) => (
       <div className="containertitle">
         <h2 className="lh-title">Founding a startup is difficult and you have enough work with winning clients, securing funding and improving your product.</h2>
         <Paragraph >
-        Check our 360 degree startup services from our service platform, so you can focus on the topics that matter the most.  
+        Check our 360-degree startup services from our service platform so you can focus on the topics that matter the most.  
         </Paragraph>
       </div>
     </Wrapper>
@@ -55,7 +55,7 @@ const InvestmentPortfolio = ({ data }) => (
          </div>
         <div className="fl tl w-100 w-50-ns pa3-s pa3-m pl4-l">
         <h3 className="lh-title">Product and Application Development</h3>
-        <Paragraph className=" mt3">We help startups create modern products. Whether you need a prototype or a complex application we build products that live up to your customers needs, by using latest software development techniques and working with local and remote team setups.
+        <Paragraph className=" mt3">We help startups create modern products. Whether you need a prototype or a complex application, we build products that live up to your customers’ needs by using latest software development techniques and working with local and remote team setups.
         </Paragraph>
         <a href="mailto:createyourproduct@ssuf.ch" className="button-blue">
                 Start now
@@ -73,7 +73,7 @@ const InvestmentPortfolio = ({ data }) => (
                 <li>Payroll Accounting</li>
                 <li>Human resources and controlling </li>
             </ul>
-            <p className="lh-copy mt3">Due to our years of experience in accounting and our customisation to startups, we are experts in the field of accounting services for young firms.</p>
+            <p className="lh-copy mt3">Due to years of experience in accounting and our customization to startups, we are experts in the field of accounting services for young firms.</p>
                 <a href="https://www.avaneo.ch" className="button-blue">
                 We support you
                 </a>

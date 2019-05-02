@@ -45,9 +45,9 @@ const InvestmentPortfolio = ({ data }) => (
     <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
       <Title>Corporate Acceleration</Title>
       <div className="containertitle">
-        <h2 className="lh-title">For corporates, an accelerator is a valuable innovation and business-building tool. </h2>
+        <h2 className="lh-title">For corporates, an accelerator is a valuable innovation and business building tool. </h2>
         <Paragraph>
-        Our program is agile and fast paced with the goal of executing internal projects or external startups. No matter if your internal startups have not been performing as expected or you would like to kickstart a new idea. Through our experience, we can eliminate internal hurdles and can also efficiently build ideas in to sustainable companies. 
+        Our program is agile and fast-paced with the goal of executing internal projects or external startups. No matter whether your internal startups have not been performing as expected or you would like to kickstart a new idea, thanks to our experience we can eliminate internal hurdles and efficiently develop ideas into sustainable companies. 
         </Paragraph>
         <Paragraph>
         Our corporate accelerator program is flexible and can be adjusted to every internal corporate structure.
@@ -62,13 +62,13 @@ const InvestmentPortfolio = ({ data }) => (
         <div className="pt4">
             <Paragraph className="lh-title white">We accept all of your internal early-stage startups in our accelerator program.</Paragraph>
           <Paragraph className="white">
-          Every startup and corporate is different and that is why we customise the accelerator program to your specific needs. 
+          Every startup and corporate is different and that is why we customize the accelerator program to your specific needs.
           </Paragraph>
           <Paragraph className="white">
-          In 12 – 16 weeks, we accelerate the startups with the objective that it could get its first external financing round.  
+          In 12 to 16 weeks, we accelerate a startup with the objective that it could get its first external financing round.  
           </Paragraph>
           <Paragraph className="white">
-          For that we have developed the Swiss Startup Factory acceleration framework, which we will use in numerous one-to-one sessions with our startup coaches.  
+          For that reason, we have developed the Swiss Startup Factory acceleration framework, which we use in numerous one-on-one sessions with our startup coaches.  
           </Paragraph>
           <Paragraph className="white">
           Another benefit from collaborating with us are our connections to the entire Swiss startup ecosystem, our mentors and our own portfolio startups, which we always leverage to test new products and to find synergies. 
@@ -83,7 +83,7 @@ const InvestmentPortfolio = ({ data }) => (
     <article class="mobileview cf mb6 mt3">
             <div class="fl w-100 w-50-ns tl pa3-s pa3-m ph4-l">
             <h3 className="lh-title">Phase 1 – Business Model</h3>
-            <Paragraph className="mt3 ">The goal is to develop a business model that works in theory, the focus is on creating a first solid investor pitch deck that can be presented at the milestone presentation. In addition, the functions of the product and the business case should be defined. In the first phase, the founder team will learn the mindset of an entrepreneur and understand their business/customer from the bottom up.
+            <Paragraph className="mt3 ">The goal is to develop a business model that works in theory; the focus is on creating a first solid investor pitch deck that can be presented at the milestone presentation. In addition, the functions of the product and the business case should be defined. In the first phase, the founder team will get to know the mindset of an entrepreneur and understand their business/customer from the bottom up.
             </Paragraph>
                         <h4 style={{fontFamily: "roboto"}}>Workshop Overview:</h4>
                         <ul style={{color: "#00486C"}}>
@@ -107,7 +107,7 @@ const InvestmentPortfolio = ({ data }) => (
          </div>
         <div className="fl tl w-100 w-50-ns pa3-s pa3-m pl4-l">
         <h3  className="lh-title">Phase 2 – Product Development & Testing</h3>
-         <Paragraph className="mt3">The goals are to review the MVP and business model based on customer feedback. The functions for the MVP and the development plan are clear after the tests and the backlog is set up. The customer profiles for the purchase and usage process are also clear by the tests and can be effectively implemented by marketing. The product is ready for going live. The team understands the process of agile product development and the importance of customer feedback. </Paragraph>
+         <Paragraph className="mt3">The goals are to review the MVP and business model based on customer feedback. The MVP and the development plan functions are clear after the tests, and the backlog is set up. The customer profiles for the purchase and usage process have also been clarified by the tests and can be effectively implemented by marketing. The product is ready for going live. The team understands the process of agile product development and the importance of customer feedback.</Paragraph>
                     <h4 style={{fontFamily: "roboto"}}>Workshop Overview:</h4>
                         <ul style={{color: "#00486C"}}>
                             <li>Product Development</li>
@@ -124,9 +124,9 @@ const InvestmentPortfolio = ({ data }) => (
         <article class="mobileview cf mv6">
             <div class="fl w-100 w-50-ns tl pa3-s pa3-m ph4-l">
             <h3 className="lh-title">Phase 3 – Go-to-market & roadmap</h3>
-            <p className="lh-copy mt3 ">The first goal is to define a cost-effective marketing strategy for the early adopters with whom the first sales were made. This includes a clear positioning and a CI/CD that is aligned with the company's market positioning and values. </p>
-            <p className="lh-copy"> The founding team understands the influence of storytelling and uses these elements in all facets of the company. The next goal is the satisfaction of the first customers with a low churn rate and a continuous improvement of the product.</p>            
-            <p className="lh-copy">Finally, an efficient growth hacking and scaling strategy is worked out, which gives an overview of the next phase.</p>
+            <p className="lh-copy mt3 ">The first goal is to define a cost-effective marketing strategy for early adopters with whom the first sales were made. This includes a clear positioning and a CI/CD that is aligned with the company's market positioning and values.</p>
+            <p className="lh-copy">The founding team understands the influence of storytelling and uses these elements in all facets of the company. The next goal is the satisfaction of the first customers with a low churn rate and continuous improvement of the product.</p>            
+            <p className="lh-copy">Finally, an efficient growth hacking and scaling strategy, which gives an overview of the next phase, is developed.</p>
                     <h4 style={{fontFamily: "roboto"}}>Workshop Overview:</h4>
                         <ul style={{color: "#00486C"}}>
                             <li>Go-to-market</li>
@@ -205,7 +205,7 @@ const InvestmentPortfolio = ({ data }) => (
                                 <div className="tc">
                                 <div class="hexagon"><span><img src={Row23} /></span></div>
                                 <p className="pt3 mb0 b">Expansion</p>
-                                <p className="pt3 mb0 fw3">The Swiss Startup Factory opens their global network for your global expansion</p>
+                                <p className="pt3 mb0 fw3">The Swiss Startup Factory offer access to a global network for your global expansion</p>
                                 </div>
                             </div>
                         </div>

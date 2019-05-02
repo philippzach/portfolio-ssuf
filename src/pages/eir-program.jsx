@@ -66,7 +66,7 @@ const Eir = ({data}) => (
       <div className="containertitle">
         <h2 className="lh-title">What is an Entrepreneur in Residence?</h2>
         <Paragraph>
-        In our EIR program, we look for talented CEOs of a startup. The idea for the startup can come from our corporate acceleration projects, company building cases or in-house cases that our business analysts select and that we think has lots of potential in Europe.   
+        Within our EIR program, we are looking for talented startup CEOs. The idea for the startup can come from our corporate acceleration projects, company building cases or in-house cases that our business analysts select and that we think has lots of potential in Europe.   
         </Paragraph>
       </div>
     </Wrapper>
@@ -78,7 +78,7 @@ const Eir = ({data}) => (
         <div className="pa4">
             <h3 className="lh-copy white" style={{fontWeight: "300"}}>What is the typical application process?</h3>
                 <Check>Send the COO of the Swiss Startup Factory Chris Bargholz your CV.</Check>
-                <Check>We screen your application and schedule a call 	with you.</Check>
+                <Check>We screen your application and schedule a call	with you.</Check>
                 <Check>If this goes well, we include you in our EIR database.</Check>
                 <Check>As soon as we have a project that fits your skill set, we will contact you.</Check>
         </div>
@@ -89,11 +89,11 @@ const Eir = ({data}) => (
         <Benefits>
             <ol>
                 <ListItem>You will get all information about the case.</ListItem>
-                <ListItem>You and other candidates will come in for a meeting, where you will get introduced to the involved parties (corporates, investors, sponsors, etc.)</ListItem>
-                <ListItem>If you can convince us that you are the right person for the startup, we will organise another meeting to talk about the terms (salary, equity share, milestones, contract).</ListItem>
-                <ListItem>During the first weeks you will build a business model using the lean canvas and other quick frameworks together with our business analysts and business development team.</ListItem>
-                <ListItem>With the support of the Swiss Startup Factory, our 360 degree services and the other involved parties you will build a prototype, which you will present to the involved parties.</ListItem>
-                <ListItem>If you can convince the jury you will continue and found a company, where a certain percentage of shares will be assigned to you.</ListItem>
+                <ListItem>You and other candidates will come in for a meeting to be introduced to the involved parties (corporates, investors, sponsors, etc.)</ListItem>
+                <ListItem>If you can convince us that you are the right person for the startup, we will organize another meeting to talk about the terms (salary, equity share, milestones, contract).</ListItem>
+                <ListItem>During the first weeks, you will build a business model using the Lean Canvas and other quick frameworks together with our business analysts and business development team.</ListItem>
+                <ListItem>With the support of the Swiss Startup Factory, our 360-degree services and the other involved parties you will build a prototype that you will present to the involved parties.</ListItem>
+                <ListItem>If you can convince the jury you will continue and found a company with a certain percentage of shares assigned to you.</ListItem>
                 <ListItem>Afterwards, you will continue to develop the product, build the business, fundraise money and scale the business.</ListItem>
             </ol>
         </Benefits>

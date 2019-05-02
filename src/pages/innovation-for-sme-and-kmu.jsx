@@ -31,11 +31,11 @@ const InvestmentPortfolio = ({ data }) => (
       <div className="containertitle">
         <h2 className="lh-title">SMEs are less likely to innovate than large enterprises.</h2>
         <Paragraph >
-        The high payback period combined with a lack of own resources constitute obstacles to innovation activities for SMEs. Nevertheless, innovations are regarded as an important success factor for small and medium-sized enterprises. Only through their flexibility and innovative strength can they compete against large enterprises.  
+        The high payback period combined with a lack of own resources constitute obstacles for SME innovation activities. Nevertheless, innovation is regarded as an important success factor for small and medium-sized enterprises. Only through their flexibility and innovative strength can they compete against large enterprises.  
         </Paragraph>
         <Paragraph >The Swiss Startup Factory helps your company to adapt its internal processes to the new technologies that suit it best. We advise you individually in order to enable an innovative and individual transformation.
         </Paragraph>
-        <Paragraph >Among other things, the brand and marketing strategy will be revised in order to optimally prepare them for the current and future market and to optimally reach their target group. Based on our own experience as an SME in the Swiss and foreign markets, we show you what is important and set the right focus.
+        <Paragraph >Among other things, the brand and marketing strategy will be revised in order to optimally prepare them for the current and future market and to have a maximum reach within their target group. Based on our own experience as an SME in the Swiss and foreign markets, we show you what is important and set the right focus.
         </Paragraph>
       </div>
     </Wrapper>
@@ -45,9 +45,9 @@ const InvestmentPortfolio = ({ data }) => (
       </div>
       <div className="w-100 w-60-ns pl3-ns flex items-center measure center">
         <div className="pv4">
-            <h3 className="lh-tile white">For SMEs we offer customized programs adapted to a standardized process, which we have tested multiple times with clients from all different branches.</h3>
-            <Paragraph className="white ">All collaborations start with a meeting where we will find out more about your organisation and your needs. Based on this, we will suggest a program that fits your needs.</Paragraph>
-            <Paragraph className="white">Through our Growth Services platform, our talented and diverse team and our experience working with various corporates, we can offer a great variety of communication and marketing services. </Paragraph>
+            <h3 className="lh-tile white">For SMEs, we offer customized programs adapted to a standardized process that we have tried and tested with clients from a variety of different industries.</h3>
+            <Paragraph className="white ">Every collaboration starts with a meeting where we will find out more about your organization and your needs. Based on this, we will suggest a program that fits your needs.</Paragraph>
+            <Paragraph className="white">Through our Growth Services platform, our talented and diverse team, and our experience in working with various corporates, we can offer a great variety of communication and marketing services.</Paragraph>
             <a href="mailto:chris.bargholz@ssuf.ch" className="button-blue" style={{boxShadow: "none"}}>
                 Contact us
                 </a>{/* <span className="white fw3">for more information</span> */}
@@ -75,7 +75,7 @@ const InvestmentPortfolio = ({ data }) => (
             <li>KPIs (Company, Team, Team member)</li>
             <li>Leadership (Team management, middle management)</li>
         </ul>
-        <p className="lh-copy b black">3. Develop strategy document</p>
+        <p className="lh-copy b black">3. Development of strategy document</p>
         <p className="lh-copy b black">4. Implementation with few resources and with focus on tracking</p>
           </div>
         </article>
@@ -84,7 +84,7 @@ const InvestmentPortfolio = ({ data }) => (
     <Wrapper>
       <div className="containerinvestors mv5">
         <h3 className="lh-copy center" style={{fontFamily:"roboto"}}>
-        <b>For any further information <br/>we are happy to help. </b>
+        <b>In case you require further information <br/>we are happy to help. </b>
         </h3>
         <a href="mailto:chris.bargholz@ssuf.ch" className="button-blue">
         Get in touch

@@ -70,7 +70,7 @@ const Innovators = ({data}) => (
       <div className="containertitle">
         <h2 className="lh-title">Swiss Innovators</h2>
         <Paragraph>
-        Become a part of our community of the most innovative people in Switzerland. This community is free, offers only benefits and you can be a part of Switzerland’s entrepreneurial competitiveness in the future.    
+        Become a part of our community of the most innovative people in Switzerland. This community is free, offers only benefits and you allows you to be part of Switzerland’s future entrepreneurial competitiveness.    
         </Paragraph>
       </div>
     </Wrapper>
@@ -81,10 +81,10 @@ const Innovators = ({data}) => (
       <div className="w-100 w-60-ns pl3-ns flex items-center measure center">
         <div className="pa4">
             <h3 className="lh-copy white" style={{fontWeight: "300"}}>Benefits</h3>
-                <Check>Get access to exclusive Swiss Startup Factory events for networking and to learn about the latest trends.</Check>
+                <Check>Get access to exclusive Swiss Startup Factory networking events to learn about the latest trends.</Check>
                 <Check>Get discounts to interesting industry events from our partners.</Check>
                 <Check>Join business and soft skill workshops with elite coaches. </Check>
-                <Check>Broaden your network to other future shapers of Switzerland and current industry leaders, startups and entrepreneurs.</Check>
+                <Check>Grow your network with other Swiss future shapers and current industry leaders, startups and entrepreneurs.</Check>
                 <Check>Get unique access to non-published job opportunities for innovation departments of large corporates, in the startup ecosystem or SMEs​</Check>
         </div>
       </div>

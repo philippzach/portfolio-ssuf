@@ -32,7 +32,7 @@ const Startup = ({ data }) => (
       <div className="containertitle">
         <h2 className="lh-title">Being close to startups is the core for the Swiss Startup Factory</h2>
         <p >
-        We constantly develop our frameworks and apply them to craft unique and successful startups.  
+        We constantly adapt our frameworks and apply them in order to develop unique and successful startups.  
         </p>
       </div>
       </Wrapper>
@@ -41,7 +41,7 @@ const Startup = ({ data }) => (
         <article class="mobileview cf mb6 mt3">
             <div class="fl w-100 w-50-ns tl pa3-s pa3-m ph4-l">
             <h3>Switzerland Accelerator</h3>
-            <p className=" mt3 ">Our intense customised accelerator program will prepare you and your team to achieve the maximum potential of your startup.</p>
+            <p className=" mt3 ">Our intense, customized accelerator program will prepare you and your team for achieving the maximum potential of your startup.</p>
                         <Link to="/startup-accelerator">
                         <div className="button-blue">Make your product happen</div>
                         </Link>
@@ -60,7 +60,7 @@ const Startup = ({ data }) => (
          </div>
         <div className="fl tl w-100 w-50-ns pa3-s pa3-m pl4-l">
         <h3>Pitch Training</h3>
-         <p className=" mt3">We do more than just help you improve your pitch. Our objective is to help you do this in a way that allows you to understand which areas of your business are important, and should be put in the spotlight to help you move your company forward as fast as possible.</p>
+         <p className=" mt3">We do more than just help you improve your pitch. Our objective is to help you do this in a way that allows you to understand which areas of your business are important and should be put in the spotlight in order to help you move your company forward as fast as possible.</p>
             <Link to="/pitch-training">
             <div className="button-blue">work hard, pitch harder</div>
             </Link>
@@ -69,7 +69,7 @@ const Startup = ({ data }) => (
         <article class="mobileview cf mv6">
             <div class="fl w-100 w-50-ns tl pa3-s pa3-m ph4-l">
             <h3>Startup Services</h3>
-            <p className=" mt3 ">Founding a startup is difficult and you have enough work with winning clients, closing investors and improving your product. Check our 360 degree startup services, so you can focus on the topics that matter the most.</p>
+            <p className=" mt3 ">Founding a startup is difficult and you have enough work with winning clients, closing investors and improving your product. Check our 360-degree startup services so you can focus on the topics that matter the most.</p>
                         <Link to="/startup-services">
                         <div className="button-blue">more insights</div>
                         </Link>
@@ -88,7 +88,7 @@ const Startup = ({ data }) => (
             </div>
             <div class="fl tl w-100 w-50-ns pa4-s pa3-m pl4-l">
             <h3>Investment</h3>
-            <p className=" mt3">No matter if you need money for your first prototype, for further product development or international expansion, we can support you. We look for scalable startups with a disruptive idea – just upload your pitch deck so our business analysts will analyse the potential of your company.</p>
+            <p className=" mt3">No matter whether you need money for your first prototype, for further product development or international expansion, we can support you. We look for scalable startups with a disruptive idea – just upload your pitch deck so our business analysts can analyze the potential of your company.</p>
             <Link to="/investment" target="_blank">
             <div className="button-blue">Find out more</div>
             </Link>

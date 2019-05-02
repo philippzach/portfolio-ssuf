@@ -77,9 +77,9 @@ const InvestmentPortfolio = ({ data }) => (
       <div className="containertitle mt5">
         <SubHead >Make your product happen!</SubHead>
         <Paragraph>
-        After three years of experience, we have designed a completely new customized accelerator program, based on our Swiss Startup Factory Company Building Playbook. We accelerate startups, which have already validated their business model and are ready for fast growth.   
+        After three years of experience, we have designed a completely new, customized accelerator program, based on our Swiss Startup Factory Company Building Playbook. We accelerate startups that have already validated their business model and are ready for fast growth.
         </Paragraph>
-        <Paragraph>Our intense customised accelerator focuses on business execution of three to four startups per year. 
+        <Paragraph>Our intense, customized accelerator focuses on business execution of three to four startups per year.
         </Paragraph>
       </div>
     </Wrapper>
@@ -89,8 +89,8 @@ const InvestmentPortfolio = ({ data }) => (
       </div>
       <div className="w-100 w-60-ns pl3-ns flex items-center measure center">
         <div className="pt4 pb5 ph3 ph0-ns">
-            <Paragraph className="white ">The program is divided in five different phases, where the length of each stage depends on the need of your startup and is defined at the beginning of the program. During the accelerator, you will follow our Swiss Startup Factory Company Building Playbook and work in numerous one-on-one sessions with our experienced team, excellent mentors and industry partners to validate all your hypotheses.</Paragraph>
-            <Paragraph className="white ">In 3 milestones, you need to convince an internal and external jury about the potential of your business, in order to continue the program. </Paragraph>
+            <Paragraph className="white ">The program is divided in five different phases where the length of each stage depends on the need of your startup and is defined at the beginning of the program. During the accelerator, you will follow our Swiss Startup Factory Company Building Playbook and work in numerous one-on-one sessions with our experienced team, excellent mentors and industry partners to validate all your hypotheses.</Paragraph>
+            <Paragraph className="white ">In order to continue the program, you need to convince an internal and external jury of the potential of your business in three milestones.</Paragraph>
             <Paragraph className="white b">Applications for the program are accepted on a rolling basis.</Paragraph>
             <Link to="/accelerator-faq">
             <div className="button-blue" style={{boxShadow: "none"}}>
@@ -111,7 +111,7 @@ const InvestmentPortfolio = ({ data }) => (
         <div className="pa4">
           <h3>Location: Zurich, Switzerland</h3>
           <ul>
-            <List>Program Length: 10 - 16 Weeks</List>
+            <List>Program duration: 10 - 16 Weeks</List>
             <List>Requirements: Proof-of-Concept Level</List>
             <List>All Industries welcome</List>
             <List>Contribution: 15k CHF</List>
@@ -127,7 +127,7 @@ const InvestmentPortfolio = ({ data }) => (
     <Wrapper>
     <article className="cf mb6 mt6 flex-ns items-center">
         <div className="fl tl w-100 w-50-ns pa3-s pa3-m pl4-l">
-          <Check className="lh-copy">Your team must be complementary with a mix of business and technical expertise and previous startup experience is a plus</Check>
+          <Check className="lh-copy">Your team must be offering a mix of business and technical expertise, and previous startup experience is a plus</Check>
         </div>
         <div className="fl w-100 w-50-ns tc flex justify-center">
             <div className="backgroundgrowth">
@@ -147,7 +147,7 @@ const InvestmentPortfolio = ({ data }) => (
         </article>
         <article className="cf mb6 mt6 flex-ns items-center">
         <div className="fl tl w-100 w-50-ns pa3-s pa3-m pl4-l">
-          <Check className="lh-copy">We look for startups with at least Proof-of-concept with a well-functioning MVP</Check>
+          <Check className="lh-copy">We look for startups with at least proof of concept with a well-functioning MVP</Check>
         </div>
         <div className="fl w-100 w-50-ns tc flex justify-center">
             <div className="backgroundgrowth">
