@@ -130,10 +130,7 @@ export const query = graphql`
     }
     ginie: file(relativePath: { eq: "images/ginie.jpg" }) {
         childImageSharp {
-          fixed(
-            width: 200
-            traceSVG: { background: "#fff", color: "lightgrey" }
-          ) {
+        fixed(width: 200, traceSVG: { background: "#fff", color: "lightgrey" }) {
             ...GatsbyImageSharpFixed_tracedSVG
           }
         }
