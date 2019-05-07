@@ -96,7 +96,7 @@ const CustomForm = ({ status, message, onValidated }) => {
   class Demo extends Component {
     render() {
       const url =
-        "https://ssuf.us13.list-manage.com/subscribe/post?u=fd499c5c6103d376d89973015&amp;id=694728baa0";
+        "https://ssuf.us13.list-manage.com/subscribe/post?u=fd499c5c6103d376d89973015&amp;id=a6f6f8173b";
       return (
           
           <Container>
