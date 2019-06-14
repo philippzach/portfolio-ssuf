@@ -52,7 +52,7 @@
         width: 100%;
         padding: 2em 1em;
     }
-    .box {
+    .box-column {
         flex-direction: column;
     }
     .boxTitle {

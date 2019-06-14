@@ -19,7 +19,7 @@ class Input extends Component {
         const { opened } = this.state;
         return (
           <div>
-            <div className="box" style={{ background: "rgba(0, 72, 108, 0.05)", margin: "2em auto"}}>
+            <div className="box box-column" style={{ background: "rgba(0, 72, 108, 0.05)", margin: "2em auto"}}>
                 <div className="boxUnits">
                 <div className="boxTitle" onClick={this.toggleBox}>
                     <span className="segmentation">I work at a innovative startup.</span>

@@ -6,7 +6,7 @@ import '../styles/pages/join-the-platform.css';
 import '../styles/input.css';
 import styled from 'react-emotion';
 import Input from '../components/jointheplatform-input';
-import Cindy from '../../static/cindyspelt.jpg';
+//import Cindy from '../../static/cindyspelt.jpg';
 import Seo from '../components/SEO/index';
 
 const Headline = styled.h1`
@@ -71,20 +71,15 @@ const Join = ({data}) => (
         </section>
         
         <Input >
-             <div className="box" style={{ margin: "2em auto"}}>
+            <h4 className="tc lh-copy mt4 mb4">Do you want to apply for an investment? Just complete the questionnaire and upload the necessary documents.</h4>
+            <div className="box justify-center">
+            <a href="https://ssuf.typeform.com/to/phJkVo">
+            <button className="button-blue">Apply here</button>
+            </a>
+            </div>
+            <h4 className="tc mt4 mb3">For all other additional questions:</h4>
+             <div className="box box-column" style={{ margin: "2em auto"}}>
              <form action="https://formspree.io/virginia.beljean@ssuf.ch" method="POST" style={{margin: "auto"}}>
-                    {/* <Box>
-                    <Label for="Info">Information for Startups</Label>
-                    <input className="option-input" type="checkbox" name="InfoStartup" value="Startup"/>
-                    </Box>
-                    <Box>
-                    <Label for="Info">Information for Corporations</Label>
-                    <input className="option-input" type="checkbox" name="InfoCorp" value="Corporation"/>
-                    </Box>
-                    <Box>
-                    <Label for="Info">Information about our Portfolio<br/> and Investment possibilities</Label>
-                    <input className="option-input" type="checkbox" name="InfoInvest" value="Investor"/>
-                    </Box> */}
                 <input style={{marginBottom: "1.5em"}} type="text" name="Full Name" className="emailinput" placeholder="Full Name" />    
                 <input type="text" name="company" className="emailinput" placeholder="Company Name" />    
                 <input style={{margin: "1.5em 0"}} className="emailinput" type="email" placeholder="Enter your Email" name="_replyto"/>
