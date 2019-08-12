@@ -7,7 +7,7 @@ import Img from 'gatsby-image';
 import '../styles/pages/index.css';
 import Logo from '../factory.svg';
 import Seo from '../components/SEO/index';
-import SocialBanner from '../../static/socialsharing.jpg'
+import SocialBanner from '../../static/socialsharing.jpg';
 import '../styles/pages/factory.css';
 import '../styles/pages/buttonblue.css';
 import '../styles/buttons/cta-button-lp.css';
