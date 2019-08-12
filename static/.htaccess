@@ -20,6 +20,8 @@ Redirect 301 /index.php/jobs/eir-program /eir-program
 Redirect 301 /about-us/faq /accelerator-faq
 Redirect 301 /corporates/company-building /company-building/
 Redirect 301 /corporates/innovation-consulting /corporate-innovation-service/
+Redirect 301 /corporates/corporate-acceleration /corporate-acceleration
+Redirect 301 /faq-accelerator-program /accelerator-faq
 Redirect 301 /startups/startup-services /startups
 Redirect 301 /index.php/jobs/swiss-innovators /swiss-innovators
 Redirect 301 /index.php/investors/international-investor-support /investment/
