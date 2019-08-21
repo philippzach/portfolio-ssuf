@@ -11,6 +11,7 @@ import Ginie from '../../images/ginie.jpg';
 import Larissa from '../../images/larissa.jpg';
 import Keith from '../../../static/teamssuf/keith.jpg';
 import Daniel from '../../../static/teamssuf/daniel.jpg';
+import Tamara from '../../../static/teamssuf/tamara.jpg';
 // import Jana from '../../../static/teamssuf/jana.jpg';
 
 import './arrow.css';
@@ -359,6 +360,44 @@ const pages = [
         </div>
       </div>
     </animated.div>
+  ),
+  style => (
+    <animated.div style={{ ...style }} className='flex flex-column flex-row-ns'>
+      <div className='pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center'>
+        <img src={Tamara} alt='' style={{ maxHeight: '600px' }} />
+      </div>
+      <div className='w-100 w-60-ns pl3-ns flex items-center justify-center'>
+        <div className='paddingfoundersabout'>
+          <h4 className='mb1 dimgray'>Head of Company Buildung</h4>
+          <h3>Tamara Savchuk</h3>
+          <div className='flex'>
+            <dl className='lh-title pr1-s pr2-m pr4-l mt0'>
+              <dt className='f6 b'>Overrated</dt>
+              <dd className='ml0 mb3'>Star Wars</dd>
+              <dt className='f6 b mt2'>Underrated</dt>
+              <dd className='ml0 mb3'>Self-care</dd>
+              <dt className='f6 b mt2'>I can do best</dt>
+              <dd className='ml0 mb3'>overthink</dd>
+              <dt className='f6 b mt2'>I’m not good at</dt>
+              <dd className='ml0 mb3'>waiting</dd>
+            </dl>
+            <dl className='lh-title mt0'>
+              <dt className='f6 b mt2'>I always wanted to</dt>
+              <dd className='ml0 mb3'>Be a professional tennis player</dd>
+              <dt className='f6 b mt2'>Favorite App</dt>
+              <dd className='ml0 mb3'>Uber</dd>
+              <dt className='f6 b mt2'>Passion</dt>
+              <dd className='ml0 mb3'>Startups, modern art and wine</dd>
+              <dt className='f6 b mt2'>Favorite Book</dt>
+              <dd className='ml0 mb3'>
+              The Art of Thinking Clearly, Rolf Dobelli
+              </dd>
+            </dl>
+          </div>
+          <span className='arrows' />
+        </div>
+      </div>
+    </animated.div>
   )
 ];
 
@@ -367,7 +406,7 @@ export default class PageTransition extends Component {
 
   toggle = e =>
     this.setState(state => ({
-      index: state.index === 8 ? 0 : state.index + 1
+      index: state.index === 9 ? 0 : state.index + 1
     }));
 
   render() {

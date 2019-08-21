@@ -125,6 +125,13 @@ const AboutUs = ({ data }) => (
                 <h4 className="f6 fw4 gray mt0">Head of <br/>Communications & Marketing</h4>
               </div>
             </article>
+            <article className="center pa3 pa4-ns">
+              <div className="tc">
+                <Img fluid={data.about11.childImageSharp.fluid} className="br-100 dib " style={Profile} title="" alt="" />
+                <h3 className="f5 mb2">Tamara Savchuk</h3>
+                <h4 className="f6 fw4 gray mt0">Head of Company Buildung</h4>
+              </div>
+            </article>
             </div>
             </div>
         </div>
@@ -250,6 +257,16 @@ about9: file(relativePath: { eq: "images/desiree.jpg" }) {
   }
 }
 about10: file(relativePath: { eq: "images/larissa.jpg" }) {
+  childImageSharp {
+    fluid(
+      maxWidth: 1500
+      traceSVG: { background: "#fff", color: "lightgrey" }
+    ) {
+      ...GatsbyImageSharpFluid_tracedSVG
+    }
+  }
+}
+about11: file(relativePath: { eq: "images/tamara.jpg" }) {
   childImageSharp {
     fluid(
       maxWidth: 1500
