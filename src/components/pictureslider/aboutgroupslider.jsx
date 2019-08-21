@@ -11,7 +11,7 @@ import Ginie from '../../images/ginie.jpg';
 import Larissa from '../../images/larissa.jpg';
 import Keith from '../../../static/teamssuf/keith.jpg';
 import Daniel from '../../../static/teamssuf/daniel.jpg';
-import Tamara from '../../../static/teamssuf/tamara.jpg';
+import Tamara from '../../../static/teamssuf/tamarasquare.jpg';
 // import Jana from '../../../static/teamssuf/jana.jpg';
 
 import './arrow.css';
