@@ -6,7 +6,7 @@ import Mike from '../../../static/teamssuf/mike_baur.jpg';
 import Oli from '../../../static/teamssuf/walzer_oliver.jpg';
 import Max from '../../../static/teamssuf/max_meister.jpg';
 import Chris from '../../../static/teamssuf/chris_bargholz.jpg';
-import Desiree from '../../images/desiree.jpg';
+import Desiree from '../../images/desireenew.jpg';
 import Ginie from '../../images/ginie.jpg';
 import Larissa from '../../images/larissa.jpg';
 import Keith from '../../../static/teamssuf/keith.jpg';
