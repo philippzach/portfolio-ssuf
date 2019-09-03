@@ -11,7 +11,7 @@ import Ginie from '../../images/ginie.jpg';
 import Larissa from '../../images/larissa.jpg';
 import Keith from '../../../static/teamssuf/keith.jpg';
 import Daniel from '../../../static/teamssuf/daniel.jpg';
-import Tamara from '../../../static/teamssuf/tamarasquare.jpg';
+import Tamara from '../../images/tamaranew.jpg';
 // import Jana from '../../../static/teamssuf/jana.jpg';
 
 import './arrow.css';
@@ -390,7 +390,7 @@ const pages = [
               <dd className='ml0 mb3'>Startups, modern art and wine</dd>
               <dt className='f6 b mt2'>Favorite Book</dt>
               <dd className='ml0 mb3'>
-              The Art of Thinking Clearly, Rolf Dobelli
+                The Art of Thinking Clearly, Rolf Dobelli
               </dd>
             </dl>
           </div>
