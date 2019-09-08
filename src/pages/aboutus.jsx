@@ -246,7 +246,7 @@ about8: file(relativePath: { eq: "images/daniel.jpg" }) {
     }
   }
 }
-about9: file(relativePath: { eq: "images/desireenew.jpg" }) {
+about9: file(relativePath: { eq: "images/desiree.jpg" }) {
   childImageSharp {
     fluid(
       maxWidth: 1500
