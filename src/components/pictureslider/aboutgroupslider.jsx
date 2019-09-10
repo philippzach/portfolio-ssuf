@@ -10,7 +10,7 @@ import Desiree from '../../images/desiree.jpg';
 import Ginie from '../../images/ginie.jpg';
 import Larissa from '../../images/larissa.jpg';
 import Keith from '../../../static/teamssuf/keith.jpg';
-import Daniel from '../../../static/teamssuf/daniel.jpg';
+// import Daniel from '../../../static/teamssuf/daniel.jpg';
 import Tamara from '../../images/tamaranew.jpg';
 // import Jana from '../../../static/teamssuf/jana.jpg';
 
@@ -298,42 +298,6 @@ const pages = [
               <dd className="ml0 mb3">I once had red, short hair</dd>
               <dt className="f6 b mt2">What's easy</dt>
               <dd className="ml0 mb3">to get up early</dd>
-            </dl>
-          </div>
-          <span className="arrows" />
-        </div>
-      </div>
-    </animated.div>
-  ),
-  style => (
-    <animated.div style={{ ...style }} className="flex flex-column flex-row-ns">
-      <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
-        <img src={Daniel} alt="" style={{ maxHeight: '600px' }} />
-      </div>
-      <div className="w-100 w-60-ns pl3-ns flex items-center justify-center">
-        <div className="paddingfoundersabout">
-          <h4 className="mb1 dimgray">Innovation Consultant</h4>
-          <h3>Daniel Perschy</h3>
-          <div className="flex">
-            <dl className="lh-title pr1-s pr2-m pr4-l mt0">
-              <dt className="f6 b">I do best</dt>
-              <dd className="ml0 mb3">While standing or walking around</dd>
-              <dt className="f6 b mt2">Never without</dt>
-              <dd className="ml0 mb3">My water bottle</dd>
-              <dt className="f6 b mt2">First thing in the morning</dt>
-              <dd className="ml0 mb3">Getting a cold shower</dd>
-              <dt className="f6 b mt2">Last thing in the evening</dt>
-              <dd className="ml0 mb3">Counting the hours of sleep ahead</dd>
-            </dl>
-            <dl className="lh-title mt0">
-              <dt className="f6 b mt2">I like</dt>
-              <dd className="ml0 mb3">Speciality coffee</dd>
-              <dt className="f6 b mt2">I always wanted to</dt>
-              <dd className="ml0 mb3">Explore Madagascar</dd>
-              <dt className="f6 b mt2">Secret Tip</dt>
-              <dd className="ml0 mb3">Port Sa’id in Tel Aviv</dd>
-              <dt className="f6 b mt2">A must for reading</dt>
-              <dd className="ml0 mb3">Exploration and Exploitation in Organizational Learning</dd>
             </dl>
           </div>
           <span className="arrows" />
