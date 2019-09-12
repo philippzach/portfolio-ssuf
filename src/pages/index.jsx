@@ -25,20 +25,24 @@ const HeroInner = styled.div`
     text-transform: uppercase;
     font-size: 3em;
     white-space: nowrap;
+    color: white;
+    text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.75);
   }
   @media (min-width: 1200px) {
     position: absolute;
-    top: 350px; /* position the top  edge of the element at the middle of the parent */
+    top: 400px; /* position the top  edge of the element at the middle of the parent */
     left: 50%; /* position the left edge of the element at the middle of the parent */
     text-align: center;
     transform: translate(-50%, -50%);
+    line-height: 65px;
   }
-  @media (min-width: 951px) and (max-width: 1199px) {
+  @media (min-width: 950px) and (max-width: 1200px) {
     position: absolute;
     top: 350px;
     left: 50%;
     text-align: center;
     transform: translate(-50%, -50%);
+    line-height: 65px;
   }
   @media (min-width: 700px) and (max-width: 950px) {
     position: absolute;
@@ -52,6 +56,8 @@ const HeroInner = styled.div`
     h1 {
       padding-top: 2rem;
       white-space: unset;
+      color: #333333;
+      text-shadow: 1px 1px 1px #666;
     }
   }
 `;
@@ -84,17 +90,6 @@ const HeroText = styled.div`
   }
 `;
 
-const HeaderSmall = styled.p`
-  color: white;
-  font-size: 1em;
-  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-  margin-bottom: 0.5em;
-  @media (max-width: 700px) {
-    color: black;
-    text-shadow: none;
-  }
-`;
-
 class Index extends Component {
   render() {
     const {
@@ -115,18 +110,14 @@ class Index extends Component {
           <Img fluid={index.childImageSharp.fluid} className="w-100" />
         </Test>
         <HeroInner>
-          <h1 className="headingcolorshadow">Swiss Startup Factory</h1>
+          <h1 className="headingcolorshadow">
+            Switzerland's #1 <br />
+            Venture Builder
+          </h1>
           <HeroText>
             We unleash the entrepreneurial potential
             <br /> to build startups and transform companies.
           </HeroText>
-          <div>
-            <HeaderSmall>Switzerland's #1 Venture Builder</HeaderSmall>
-
-            <Link to="/startup-accelerator">
-              <div className="cta-button-lp">APPLY TO OUR CUSTOMIZED ACCELERATOR PROGRAM</div>
-            </Link>
-          </div>
         </HeroInner>
         <div className="line" />
         <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
