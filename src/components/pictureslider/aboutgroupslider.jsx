@@ -348,7 +348,7 @@ export default class PageTransition extends Component {
 
   toggle = e =>
     this.setState(state => ({
-      index: state.index === 9 ? 0 : state.index + 1,
+      index: state.index === 8 ? 0 : state.index + 1,
     }));
 
   render() {
