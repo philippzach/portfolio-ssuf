@@ -115,7 +115,8 @@ class Index extends Component {
             Venture Builder
           </h1>
           <HeroText>
-            We unleash the entrepreneurial potential
+            A privately financed Swiss venture builder for corporates and startups. We unleash the entrepreneurial
+            potential
             <br /> to build startups and transform companies.
           </HeroText>
         </HeroInner>
