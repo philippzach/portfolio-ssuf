@@ -110,13 +110,16 @@ class Index extends Component {
           <Img fluid={index.childImageSharp.fluid} className="w-100" />
         </Test>
         <HeroInner>
-          <h1 className="headingcolorshadow">
+          <h1 className="headingcolorshadow" style={{ marginBottom: '.33em' }}>
             Switzerland's #1 <br />
             Venture Builder
           </h1>
           <HeroText>
-            A privately financed Swiss venture builder for corporates and startups. We unleash the entrepreneurial
-            potential
+            A privately financed Swiss venture builder
+            <br /> for corporates and startups.
+          </HeroText>
+          <HeroText style={{ fontWeight: '600' }}>
+            We unleash the entrepreneurial potential
             <br /> to build startups and transform companies.
           </HeroText>
         </HeroInner>
