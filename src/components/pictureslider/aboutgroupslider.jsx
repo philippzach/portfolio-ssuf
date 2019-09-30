@@ -9,7 +9,7 @@ import Chris from '../../../static/teamssuf/chris_bargholz.jpg';
 import Desiree from '../../images/desiree.jpg';
 import Ginie from '../../images/ginie.jpg';
 import Larissa from '../../images/larissa.jpg';
-import Keith from '../../../static/teamssuf/keith.jpg';
+// import Keith from '../../../static/teamssuf/keith.jpg';
 // import Daniel from '../../../static/teamssuf/daniel.jpg';
 import Tamara from '../../images/tamaranew.jpg';
 // import Jana from '../../../static/teamssuf/jana.jpg';
@@ -226,42 +226,6 @@ const pages = [
               <dd className="ml0 mb3">No simple answer to such a simple question</dd>
               <dt className="f6 b mt2">I live</dt>
               <dd className="ml0 mb3">Between forest and concrete jungle</dd>
-            </dl>
-          </div>
-          <span className="arrows" />
-        </div>
-      </div>
-    </animated.div>
-  ),
-  style => (
-    <animated.div style={{ ...style }} className="flex flex-column flex-row-ns">
-      <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
-        <img src={Keith} alt="" style={{ maxHeight: '600px' }} />
-      </div>
-      <div className="w-100 w-60-ns pl3-ns flex items-center justify-center">
-        <div className="paddingfoundersabout">
-          <h4 className="mb1 dimgray">Startup Coach</h4>
-          <h3>Keith Gunura</h3>
-          <div className="flex">
-            <dl className="lh-title pr1-s pr2-m pr4-l mt0">
-              <dt className="f6 b">No-Go</dt>
-              <dd className="ml0 mb3">Peer pressure</dd>
-              <dt className="f6 b mt2">Never without</dt>
-              <dd className="ml0 mb3">Hunger to learn</dd>
-              <dt className="f6 b mt2">My desktop</dt>
-              <dd className="ml0 mb3">Nothing there</dd>
-              <dt className="f6 b mt2">A must to read</dt>
-              <dd className="ml0 mb3">The Soldierson Trilogy by Robin Hobb</dd>
-            </dl>
-            <dl className="lh-title mt0">
-              <dt className="f6 b mt2">Summer Residence</dt>
-              <dd className="ml0 mb3">Zurich</dd>
-              <dt className="f6 b mt2">Winter residence</dt>
-              <dd className="ml0 mb3">Chinhoyi, Zimbabwe</dd>
-              <dt className="f6 b mt2">Unbelievable but true</dt>
-              <dd className="ml0 mb3">I am</dd>
-              <dt className="f6 b mt2">Take time off with</dt>
-              <dd className="ml0 mb3">Making or breaking stuff</dd>
             </dl>
           </div>
           <span className="arrows" />
