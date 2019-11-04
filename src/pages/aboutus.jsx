@@ -74,13 +74,6 @@ const AboutUs = ({ data }) => (
               <h4 className="f6 fw4 gray mt0">Co-Founder</h4>
             </div>
           </article>
-          <article className="center pa3 pa4-ns">
-            <div className="tc">
-              <Img fluid={data.about4.childImageSharp.fluid} className="br-100 dib " style={Profile} title="" alt="" />
-              <h3 className="f5 mb2">Chris Bargholz</h3>
-              <h4 className="f6 fw4 gray mt0">Head of Acceleration</h4>
-            </div>
-          </article>
         </div>
         <div className="tabrow">
           <article className="center pa3 pa4-ns">
@@ -92,31 +85,9 @@ const AboutUs = ({ data }) => (
           </article>
           <article className="center pa3 pa4-ns">
             <div className="tc">
-              <Img fluid={data.about10.childImageSharp.fluid} className="br-100 dib " style={Profile} title="" alt="" />
-              <h3 className="f5 mb2">Larissa Truffer</h3>
-              <h4 className="f6 fw4 gray mt0">
-                Marketing & Communication
-                <br /> Manager
-              </h4>
-            </div>
-          </article>
-          <article className="center pa3 pa4-ns">
-            <div className="tc">
-              <Img fluid={data.about12.childImageSharp.fluid} className="br-100 dib " style={Profile} title="" alt="" />
-              <h3 className="f5 mb2">Simon Koch</h3>
-              <h4 className="f6 fw4 gray mt0">COO</h4>
-            </div>
-          </article>
-        </div>
-        <div className="tabrow">
-          <article className="center pa3 pa4-ns">
-            <div className="tc">
-              <Img fluid={data.about5.childImageSharp.fluid} className="br-100 dib " style={Profile} title="" alt="" />
-              <h3 className="f5 mb2">Virginia Beljean</h3>
-              <h4 className="f6 fw4 gray mt0">
-                Head of <br />
-                Communications & Marketing
-              </h4>
+              <Img fluid={data.about4.childImageSharp.fluid} className="br-100 dib " style={Profile} title="" alt="" />
+              <h3 className="f5 mb2">Chris Bargholz</h3>
+              <h4 className="f6 fw4 gray mt0">Head of Acceleration</h4>
             </div>
           </article>
           <article className="center pa3 pa4-ns">
@@ -124,6 +95,35 @@ const AboutUs = ({ data }) => (
               <Img fluid={data.about11.childImageSharp.fluid} className="br-100 dib " style={Profile} title="" alt="" />
               <h3 className="f5 mb2">Tamara Savchuk</h3>
               <h4 className="f6 fw4 gray mt0">Head of Company Buildung</h4>
+            </div>
+          </article>
+         
+          <article className="center pa3 pa4-ns">
+            <div className="tc">
+              <Img fluid={data.about12.childImageSharp.fluid} className="br-100 dib " style={Profile} title="" alt="" />
+              <h3 className="f5 mb2">Simon Koch</h3>
+              <h4 className="f6 fw4 gray mt0">Head of Marketing</h4>
+            </div>
+          </article>
+        </div>
+        <div className="tabrow">
+          <article className="center pa3 pa4-ns">
+            <div className="tc">
+              <Img fluid={data.about5.childImageSharp.fluid} className="br-100 dib " style={Profile} title="" alt="" />
+              <h3 className="f5 mb2">Kirill Babich</h3>
+              <h4 className="f6 fw4 gray mt0">
+                Venture Builder
+              </h4>
+            </div>
+          </article>
+          <article className="center pa3 pa4-ns">
+            <div className="tc">
+              <Img fluid={data.about10.childImageSharp.fluid} className="br-100 dib " style={Profile} title="" alt="" />
+              <h3 className="f5 mb2">Larissa Truffer</h3>
+              <h4 className="f6 fw4 gray mt0">
+                Marketing & Communication
+                <br /> Manager
+              </h4>
             </div>
           </article>
           <article className="center pa3 pa4-ns">
@@ -192,7 +192,7 @@ export const query = graphql`
         }
       }
     }
-    about5: file(relativePath: { eq: "images/ginie.jpg" }) {
+    about5: file(relativePath: { eq: "images/kirill.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 1500, traceSVG: { background: "#fff", color: "lightgrey" }) {
           ...GatsbyImageSharpFluid_tracedSVG

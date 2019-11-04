@@ -200,42 +200,6 @@ const pages = [
   style => (
     <animated.div style={{ ...style }} className="flex flex-column flex-row-ns">
       <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
-        <img src={Ginie} alt="" style={{ maxHeight: '600px' }} />
-      </div>
-      <div className="w-100 w-60-ns pl3-ns flex items-center justify-center">
-        <div className="paddingfoundersabout">
-          <h4 className="mb1 dimgray">Head of Communications & Marketing</h4>
-          <h3>Virginia Beljean</h3>
-          <div className="flex">
-            <dl className="lh-title pr1-s pr2-m pr4-l mt0">
-              <dt className="f6 b">Rituals</dt>
-              <dd className="ml0 mb3">Coffee every morning</dd>
-              <dt className="f6 b mt2">I can do best</dt>
-              <dd className="ml0 mb3">Laugh and react to the situation in an appropriate way</dd>
-              <dt className="f6 b mt2">I’m not good at</dt>
-              <dd className="ml0 mb3">Being patient</dd>
-              <dt className="f6 b mt2">Overrated</dt>
-              <dd className="ml0 mb3">Truffles and being patient</dd>
-            </dl>
-            <dl className="lh-title mt0">
-              <dt className="f6 b mt2">Underrated</dt>
-              <dd className="ml0 mb3">Many young people</dd>
-              <dt className="f6 b mt2">Mountains or Beach</dt>
-              <dd className="ml0 mb3">Diversity is key!</dd>
-              <dt className="f6 b mt2">That’s what the table neighbor says</dt>
-              <dd className="ml0 mb3">No simple answer to such a simple question</dd>
-              <dt className="f6 b mt2">I live</dt>
-              <dd className="ml0 mb3">Between forest and concrete jungle</dd>
-            </dl>
-          </div>
-          <span className="arrows" />
-        </div>
-      </div>
-    </animated.div>
-  ),
-  style => (
-    <animated.div style={{ ...style }} className="flex flex-column flex-row-ns">
-      <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
         <img src={Larissa} alt="" style={{ maxHeight: '600px' }} />
       </div>
       <div className="w-100 w-60-ns pl3-ns flex items-center justify-center">
@@ -312,7 +276,7 @@ export default class PageTransition extends Component {
 
   toggle = e =>
     this.setState(state => ({
-      index: state.index === 8 ? 0 : state.index + 1,
+      index: state.index === 6 ? 0 : state.index + 1,
     }));
 
   render() {
