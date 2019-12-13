@@ -85,9 +85,9 @@ const AboutUs = ({ data }) => (
           </article>
           <article className="center pa3 pa4-ns">
             <div className="tc">
-              <Img fluid={data.about4.childImageSharp.fluid} className="br-100 dib " style={Profile} title="" alt="" />
-              <h3 className="f5 mb2">Chris Bargholz</h3>
-              <h4 className="f6 fw4 gray mt0">Head of Acceleration</h4>
+              <Img fluid={data.about14.childImageSharp.fluid} className="br-100 dib " style={Profile} title="" alt="" />
+              <h3 className="f5 mb2">Jeroen Hermans</h3>
+              <h4 className="f6 fw4 gray mt0">Head of Corporate Acceleration</h4>
             </div>
           </article>
           <article className="center pa3 pa4-ns">
@@ -97,7 +97,7 @@ const AboutUs = ({ data }) => (
               <h4 className="f6 fw4 gray mt0">Head of Company Buildung</h4>
             </div>
           </article>
-         
+
           <article className="center pa3 pa4-ns">
             <div className="tc">
               <Img fluid={data.about12.childImageSharp.fluid} className="br-100 dib " style={Profile} title="" alt="" />
@@ -111,9 +111,7 @@ const AboutUs = ({ data }) => (
             <div className="tc">
               <Img fluid={data.about5.childImageSharp.fluid} className="br-100 dib " style={Profile} title="" alt="" />
               <h3 className="f5 mb2">Kirill Babich</h3>
-              <h4 className="f6 fw4 gray mt0">
-                Venture Builder
-              </h4>
+              <h4 className="f6 fw4 gray mt0">Venture Builder</h4>
             </div>
           </article>
           <article className="center pa3 pa4-ns">
@@ -124,6 +122,13 @@ const AboutUs = ({ data }) => (
                 Marketing & Communication
                 <br /> Manager
               </h4>
+            </div>
+          </article>
+          <article className="center pa3 pa4-ns">
+            <div className="tc">
+              <Img fluid={data.about4.childImageSharp.fluid} className="br-100 dib " style={Profile} title="" alt="" />
+              <h3 className="f5 mb2">Chris Bargholz</h3>
+              <h4 className="f6 fw4 gray mt0">Acceleration Expert</h4>
             </div>
           </article>
           <article className="center pa3 pa4-ns">
@@ -235,6 +240,13 @@ export const query = graphql`
       }
     }
     about13: file(relativePath: { eq: "images/vuk.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 1500, traceSVG: { background: "#fff", color: "lightgrey" }) {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
+      }
+    }
+    about14: file(relativePath: { eq: "images/jeroen.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 1500, traceSVG: { background: "#fff", color: "lightgrey" }) {
           ...GatsbyImageSharpFluid_tracedSVG

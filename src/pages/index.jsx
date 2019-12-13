@@ -8,6 +8,7 @@ import '../styles/pages/index.css';
 import Logo from '../factory.svg';
 import Seo from '../components/SEO/index';
 import SocialBanner from '../../static/socialsharing.jpg';
+import LogoSlider from '../components/logoslider';
 import '../styles/pages/factory.css';
 import '../styles/pages/buttonblue.css';
 import '../styles/buttons/cta-button-lp.css';
@@ -332,7 +333,17 @@ class Index extends Component {
             </article>
           </div>
         </div>
-
+        <div style={{ backgroundColor: '#ebebeb', padding: '4em 0' }}>
+          <Wrapper>
+            <h3 className="tc pt4">Strategic Partners</h3>
+            <p className="lh-copy tc pb4">
+              We develop strategic partnerships with companies and organizations that share important core and strategic
+              startup goals and values. These partnerships comprise several areas expertise and execution, ultimately
+              aiming at creating value for our partners, the Swiss startup ecosystem as well as the Swiss Startup Group.
+            </p>
+            <LogoSlider />
+          </Wrapper>
+        </div>
         <Wrapper style={{ paddingTop: '5rem' }}>
           <Title style={{ marginTop: '4rem' }}>News & Trending Articles</Title>
         </Wrapper>
