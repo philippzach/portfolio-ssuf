@@ -333,7 +333,13 @@ class Index extends Component {
             </article>
           </div>
         </div>
-        <div style={{ backgroundColor: '#ebebeb', padding: '4em 0' }}>
+        <div
+          style={{
+            backgroundColor: '#ebebeb',
+            padding: '4em 0',
+            margin: '5em 0 0 0',
+          }}
+        >
           <Wrapper>
             <h3 className="tc pt4">Strategic Partners</h3>
             <p className="lh-copy tc pb4">
