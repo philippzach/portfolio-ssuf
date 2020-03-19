@@ -5,9 +5,9 @@ import '../../styles/pagetransitionabout.css';
 import Mike from '../../../static/teamssuf/mike_baur.jpg';
 import Oli from '../../../static/teamssuf/walzer_oliver.jpg';
 import Max from '../../../static/teamssuf/max_meister.jpg';
-import Chris from '../../../static/teamssuf/chris_bargholz.jpg';
+import Sandra from '../../images/sandra.jpg';
+import Sonam from '../../images/sonam.jpg';
 import Desiree from '../../images/desiree.jpg';
-import Ginie from '../../images/ginie.jpg';
 import Larissa from '../../images/larissa.jpg';
 import Jeroen from '../../images/jeroen_herman.jpg';
 import Kirill from '../../images/kirill_babich.jpg';
@@ -348,32 +348,74 @@ const pages = [
   style => (
     <animated.div style={{ ...style }} className='flex flex-column flex-row-ns'>
       <div className='pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center'>
-        <img src={Chris} alt='' style={{ maxHeight: '600px' }} />
+        <img src={Sandra} alt='' style={{ maxHeight: '600px' }} />
       </div>
       <div className='w-100 w-60-ns pl3-ns flex items-center justify-center'>
         <div className='paddingfoundersabout'>
-          <h4 className='mb1 dimgray'>Acceleration Expert</h4>
-          <h3>Chris Bargholz</h3>
+          <h4 className='mb1 dimgray'>Head of Marketing</h4>
+          <h3>Sandra Kobel</h3>
           <div className='flex'>
             <dl className='lh-title pr1-s pr2-m pr4-l mt0'>
-              <dt className='f6 b'>Never without</dt>
-              <dd className='ml0 mb3'>My Team</dd>
-              <dt className='f6 b mt2'>Rituals</dt>
-              <dd className='ml0 mb3'>Fridays Thai Box Sparring at the Dado</dd>
-              <dt className='f6 b mt2'>I’m not good at</dt>
-              <dd className='ml0 mb3'>Being patient</dd>
-              <dt className='f6 b mt2'>Favourite tool</dt>
-              <dd className='ml0 mb3'>My Skateboard</dd>
+              <dt className='f6 b'>I like</dt>
+              <dd className='ml0 mb3'>Deep talk and good laugther </dd>
+              <dt className='f6 b mt2'>Passion</dt>
+              <dd className='ml0 mb3'>explore something new and unknown</dd>
+              <dt className='f6 b mt2'>You didn't know that about me</dt>
+              <dd className='ml0 mb3'>
+                never played any kind of a muscial instrument
+              </dd>
+              <dt className='f6 b mt2'>Secret tip</dt>
+              <dd className='ml0 mb3'>Playa Junquillal in Costa Rica</dd>
             </dl>
             <dl className='lh-title mt0'>
-              <dt className='f6 b mt2'>Center of life</dt>
-              <dd className='ml0 mb3'>Una mujer muy especial</dd>
-              <dt className='f6 b mt2'>How I live</dt>
-              <dd className='ml0 mb3'>Above Zurich</dd>
-              <dt className='f6 b mt2'>What am I actually doing here</dt>
-              <dd className='ml0 mb3'>Setting up startups</dd>
-              <dt className='f6 b mt2'>Favorite Hero</dt>
-              <dd className='ml0 mb3'>Ragnar Lothbrok</dd>
+              <dt className='f6 b mt2'>My Charisma</dt>
+              <dd className='ml0 mb3'>Audrey Hepburn</dd>
+              <dt className='f6 b mt2'>No-Go</dt>
+              <dd className='ml0 mb3'>dishonest people</dd>
+              <dt className='f6 b mt2'>I've always wanted to</dt>
+              <dd className='ml0 mb3'>visit tibet</dd>
+              <dt className='f6 b mt2'>Take time off with</dt>
+              <dd className='ml0 mb3'>Sports, nights out, travel</dd>
+            </dl>
+          </div>
+          <span className='arrows' />
+        </div>
+      </div>
+    </animated.div>
+  ),
+  style => (
+    <animated.div style={{ ...style }} className='flex flex-column flex-row-ns'>
+      <div className='pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center'>
+        <img src={Sonam} alt='' style={{ maxHeight: '600px' }} />
+      </div>
+      <div className='w-100 w-60-ns pl3-ns flex items-center justify-center'>
+        <div className='paddingfoundersabout'>
+          <h4 className='mb1 dimgray'>Venture and Innovation Analyst</h4>
+          <h3>Sonam Bhuka</h3>
+          <div className='flex'>
+            <dl className='lh-title pr1-s pr2-m pr4-l mt0'>
+              <dt className='f6 b'>Where I'm from</dt>
+              <dd className='ml0 mb3'>Chur, GR</dd>
+              <dt className='f6 b mt2'>Still on my bucket list</dt>
+              <dd className='ml0 mb3'>
+                Tansania: Going on a safari and hiking up Kilimanjaro
+              </dd>
+              <dt className='f6 b mt2'>Favorite drink</dt>
+              <dd className='ml0 mb3'>Moscow Mule</dd>
+              <dt className='f6 b mt2'>One thing nobody knows about me </dt>
+              <dd className='ml0 mb3'>
+                Used to play the piano in a small theatre
+              </dd>
+            </dl>
+            <dl className='lh-title mt0'>
+              <dt className='f6 b mt2'>Favorite vacation spot</dt>
+              <dd className='ml0 mb3'>Anywhere up in the mountains</dd>
+              <dt className='f6 b mt2'>Never without</dt>
+              <dd className='ml0 mb3'>Laptop and charger</dd>
+              <dt className='f6 b mt2'>Overrated</dt>
+              <dd className='ml0 mb3'>Suits</dd>
+              <dt className='f6 b mt2'>Underrated</dt>
+              <dd className='ml0 mb3'>Fruits</dd>
             </dl>
           </div>
           <span className='arrows' />
@@ -388,7 +430,7 @@ export default class PageTransition extends Component {
 
   toggle = e =>
     this.setState(state => ({
-      index: state.index === 8 ? 0 : state.index + 1
+      index: state.index === 9 ? 0 : state.index + 1
     }));
 
   render() {
