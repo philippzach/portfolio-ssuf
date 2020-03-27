@@ -1,148 +1,176 @@
 import React from 'react';
 import styled from 'react-emotion';
 import { Layout, Wrapper, Navbar, Title } from 'components';
-//import '../styles/pages/eir.css';
-import Seo from '../components/SEO/index';
+// import '../styles/pages/eir.css';
 import { graphql } from 'gatsby';
 import Img from 'gatsby-image';
+import Seo from '../components/SEO/index';
 
 const Test = styled.div`
-    position: relative;
-    overflow: hidden;
-    vertical-align: middle;
-    max-height: 450px;
-`
+  position: relative;
+  overflow: hidden;
+  vertical-align: middle;
+  max-height: 450px;
+`;
 const Paragraph = styled.p`
-line-height: 35px;
-`
+  line-height: 35px;
+`;
 
 const Check = styled.h4`
-line-height: 35px;
-color: white;
-text-indent: -25px;
-font-family: roboto;
-font-weight: 300;
-::before {
-  content: "✔";
+  line-height: 35px;
   color: white;
-  padding-right: 10px;
-}
-`
+  text-indent: -25px;
+  font-family: roboto;
+  font-weight: 300;
+  ::before {
+    content: '✔';
+    color: white;
+    padding-right: 10px;
+  }
+`;
 const CheckBlue = styled.h4`
-line-height: 30px;
-margin-bottom: 1em;
-color: #00486C;
-text-indent: -25px;
-font-family: roboto;
-font-weight: 300;
-::before {
-  content: "✔";
-  color: #00486C;
-  padding-right: 10px;
-}
-`
+  line-height: 30px;
+  margin-bottom: 1em;
+  color: #00486c;
+  text-indent: -25px;
+  font-family: roboto;
+  font-weight: 300;
+  ::before {
+    content: '✔';
+    color: #00486c;
+    padding-right: 10px;
+  }
+`;
 const ListItem = styled.li`
-line-height: 35px;
-color: #00486C;
-font-family: roboto;
-`
+  line-height: 35px;
+  color: #00486c;
+  font-family: roboto;
+`;
 
 const Benefits = styled.div`
-background-color: #F6F6F6;
-box-shadow: 0 2px 4px rgba(0,0,0,0.11);
-margin-bottom: 4em;
-padding: 4em 2em;
-`
+  background-color: #f6f6f6;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.11);
+  margin-bottom: 4em;
+  padding: 4em 2em;
+`;
 const BenefitsInside = styled.div`
-    max-width: 22em;
-    margin: 0 auto;
-`
+  max-width: 22em;
+  margin: 0 auto;
+`;
 
-const Innovators = ({data}) => (
-    <Layout>
-  <Seo title="SWISS STARTUP FACTORY - Swiss Innovator Program" desc="Join our Swiss Innovator Program and work with the most prosmising Startups in Switzerland" />
-      <Navbar />
-      <Test> 
-          <Img fluid={data.innovators.childImageSharp.fluid} className="w-100" />
-      </Test>
+const Innovators = ({ data }) => (
+  <Layout>
+    <Seo
+      title='SWISS STARTUP FACTORY - Swiss Innovator Program'
+      desc='Join our Swiss Innovator Program and work with the most prosmising Startups in Switzerland'
+    />
+    <Navbar />
+    <Test>
+      <Img fluid={data.innovators.childImageSharp.fluid} className='w-100' />
+    </Test>
     <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
       <Title>Innovator Program</Title>
-      <div className="containertitle">
-        <h2 className="lh-title">Swiss Innovators</h2>
+      <div className='containertitle'>
+        <h2 className='lh-title'>Swiss Innovators</h2>
         <Paragraph>
-        Become a part of our community of the most innovative people in Switzerland. This community is free, offers only benefits and you allows you to be part of Switzerland’s future entrepreneurial competitiveness.    
+          Become a part of our community of the most innovative people in
+          Switzerland. This community is free, offers only benefits and you
+          allows you to be part of Switzerland’s future entrepreneurial
+          competitiveness.
         </Paragraph>
       </div>
     </Wrapper>
-    <div className="flex flex-column flex-row-ns mv4 background" style={{backgroundColor: "#00486C"}}>
-      <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-      <Img fluid={data.innovators2.childImageSharp.fluid} className="w-100" />
+    <div
+      className='flex flex-column flex-row-ns mv4 background'
+      style={{ backgroundColor: '#00486C' }}
+    >
+      <div className='pr3-ns mb4 mb0-ns w-100 w-40-ns'>
+        <Img fluid={data.innovators2.childImageSharp.fluid} className='w-100' />
       </div>
-      <div className="w-100 w-60-ns pl3-ns flex items-center measure center">
-        <div className="pa4">
-            <h3 className="lh-copy white" style={{fontWeight: "300"}}>Benefits</h3>
-                <Check>Get access to exclusive Swiss Startup Factory networking events to learn about the latest trends.</Check>
-                <Check>Get discounts to interesting industry events from our partners.</Check>
-                <Check>Join business and soft skill workshops with elite coaches. </Check>
-                <Check>Grow your network with other Swiss future shapers and current industry leaders, startups and entrepreneurs.</Check>
-                <Check>Get unique access to non-published job opportunities for innovation departments of large corporates, in the startup ecosystem or SMEs​</Check>
+      <div className='w-100 w-60-ns pl3-ns flex items-center measure center'>
+        <div className='pa4'>
+          <h3 className='lh-copy white' style={{ fontWeight: '300' }}>
+            Benefits
+          </h3>
+          <Check>
+            Get access to exclusive Swiss Startup Factory networking events to
+            learn about the latest trends.
+          </Check>
+          <Check>
+            Get discounts to interesting industry events from our partners.
+          </Check>
+          <Check>
+            Join business and soft skill workshops with elite coaches.{' '}
+          </Check>
+          <Check>
+            Grow your network with other Swiss future shapers and current
+            industry leaders, startups and entrepreneurs.
+          </Check>
+          <Check>
+            Get unique access to non-published job opportunities for innovation
+            departments of large corporates, in the startup ecosystem or SMEs​
+          </Check>
         </div>
       </div>
     </div>
     <Wrapper>
-        <h3 className="tc mv5">Admission Criteria</h3>
-        <Benefits>
+      <h3 className='tc mv5'>Admission Criteria</h3>
+      <Benefits>
         <BenefitsInside>
-        <CheckBlue>At least Bachelor's Degree</CheckBlue>
-        <CheckBlue>3 - 15 years working experience</CheckBlue>
-        <CheckBlue>Swiss work permit</CheckBlue>
-        <CheckBlue>Business Development Knowledge either through working for a startup or experience in project management</CheckBlue>
-        <CheckBlue>Technical knowledge in one of the following areas:</CheckBlue>
-            <ul>
-                <ListItem>AI & Machine Learning</ListItem>
-                <ListItem>AR / VR</ListItem>
-                <ListItem>FinTech</ListItem>
-                <ListItem>Blockchain & ICO Experts</ListItem>
-            </ul>
+          <CheckBlue>At least Bachelor's Degree</CheckBlue>
+          <CheckBlue>3 - 15 years working experience</CheckBlue>
+          <CheckBlue>Swiss work permit</CheckBlue>
+          <CheckBlue>
+            Business Development Knowledge either through working for a startup
+            or experience in project management
+          </CheckBlue>
+          <CheckBlue>
+            Technical knowledge in one of the following areas:
+          </CheckBlue>
+          <ul>
+            <ListItem>AI & Machine Learning</ListItem>
+            <ListItem>AR / VR</ListItem>
+            <ListItem>FinTech</ListItem>
+            <ListItem>Blockchain & ICO Experts</ListItem>
+          </ul>
         </BenefitsInside>
-        </Benefits>
+      </Benefits>
     </Wrapper>
-    
-    <div className="tc mv6">
-        <h3 className="lh-copy center measure" style={{fontFamily: "roboto"}}>
+
+    <div className='tc mv6'>
+      <h3 className='lh-copy center measure' style={{ fontFamily: 'roboto' }}>
         Do you have what it takes to become a future shaper of Switzerland?
-        </h3>
-        <a href="mailto:hr@ssuf.ch" className="button-blue">
+      </h3>
+      <a href='mailto:info@ssuf.ch' className='button-blue'>
         Apply now
-        </a>
-      </div>
-    </Layout>
-)
+      </a>
+    </div>
+  </Layout>
+);
 
 export default Innovators;
 
 export const query = graphql`
   query {
     innovators: file(relativePath: { eq: "images/innovators.jpg" }) {
-        childImageSharp {
-          fluid(
-            maxWidth: 1500
-            traceSVG: { background: "#fff", color: "lightgrey" }
-          ) {
-            ...GatsbyImageSharpFluid_tracedSVG
-          }
+      childImageSharp {
+        fluid(
+          maxWidth: 1500
+          traceSVG: { background: "#fff", color: "lightgrey" }
+        ) {
+          ...GatsbyImageSharpFluid_tracedSVG
         }
+      }
     }
     innovators2: file(relativePath: { eq: "images/innovators-2.jpg" }) {
-        childImageSharp {
-          fluid(
-            maxWidth: 1500
-            traceSVG: { background: "#fff", color: "lightgrey" }
-          ) {
-            ...GatsbyImageSharpFluid_tracedSVG
-          }
+      childImageSharp {
+        fluid(
+          maxWidth: 1500
+          traceSVG: { background: "#fff", color: "lightgrey" }
+        ) {
+          ...GatsbyImageSharpFluid_tracedSVG
         }
+      }
     }
-    
-    
-  }`
+  }
+`;
