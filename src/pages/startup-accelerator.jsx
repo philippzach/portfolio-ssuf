@@ -49,7 +49,8 @@ const Check = styled.h4`
   }
 `;
 const BackgroundTimeline = styled.div`
-  background: linear-gradient(rgba(0, 71, 107, 0.58), rgba(0, 71, 107, 0.88)), url(${Background}) center;
+  background: linear-gradient(rgba(0, 71, 107, 0.58), rgba(0, 71, 107, 0.88)),
+    url(${Background}) center;
   background-size: cover;
   padding: 2em 0;
   margin: 5em 0;
@@ -72,21 +73,25 @@ const HeaderSmall = styled.p`
 const InvestmentPortfolio = ({ data }) => (
   <Layout>
     <Seo
-      title="SWISS STARTUP FACTORY - Startup Accelerator"
-      desc="Our intense customised accelerator program focuses on business execution of startups. From incubation to acceleration."
+      title='SWISS STARTUP FACTORY - Startup Accelerator'
+      desc='Our intense customised accelerator program focuses on business execution of startups. From incubation to acceleration.'
     />
     <Navbar />
     <Test>
-      <Img fluid={data.portfolio.childImageSharp.fluid} className="w-100" />
+      <Img fluid={data.portfolio.childImageSharp.fluid} className='w-100' />
     </Test>
-    <div style={{ backgroundColor: '#00486C', padding: '3em 0', maring: '3em 0' }}>
-      <div className="tc">
-        <Head className="pa1">Swiss Startup Factory - Startup Accelerator</Head>
+    <div
+      style={{ backgroundColor: '#00486C', padding: '3em 0', maring: '3em 0' }}
+    >
+      <div className='tc'>
+        <Head className='pa1'>Swiss Startup Factory - Startup Accelerator</Head>
         <div>
           <HeaderSmall>Upload your pitch deck now</HeaderSmall>
 
-          <a href="https://ssuf.typeform.com/to/BPDGQ9">
-            <div className="cta-button-lp">APPLY TO OUR CUSTOMIZED ACCELERATOR PROGRAM</div>
+          <a href='https://ssuf.typeform.com/to/BPDGQ9'>
+            <div className='cta-button-lp'>
+              APPLY TO OUR CUSTOMIZED ACCELERATOR PROGRAM
+            </div>
           </a>
         </div>
         {/*           <a href="https://ssuf.typeform.com/to/BPDGQ9"><div className="button-blue" style={{boxShadow: "none"}}>Apply now</div></a>
@@ -94,37 +99,47 @@ const InvestmentPortfolio = ({ data }) => (
       </div>
     </div>
     <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
-      <div className="containertitle mt5">
+      <div className='containertitle mt5'>
         <SubHead>Make your product happen!</SubHead>
         <Paragraph>
-          After three years of experience, we have designed a completely new, customized accelerator program, based on
-          our Swiss Startup Factory Company Building Playbook. We accelerate startups that have already validated their
-          business model and are ready for fast growth.
+          After three years of experience, we have designed a completely new,
+          customized accelerator program, based on our Swiss Startup Factory
+          Company Building Playbook. We accelerate startups that have already
+          validated their business model and are ready for fast growth.
         </Paragraph>
         <Paragraph>
-          Our intense, customized accelerator focuses on business execution of three to four startups per year.
+          Our intense, customized accelerator focuses on business execution of
+          three to four startups per year.
         </Paragraph>
       </div>
     </Wrapper>
-    <div className="flex flex-column flex-row-ns mt4 mb6 background" style={{ backgroundColor: '#00486C' }}>
-      <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-        <Img fluid={data.innovation1.childImageSharp.fluid} className="w-100" />
+    <div
+      className='flex flex-column flex-row-ns mt4 mb6 background'
+      style={{ backgroundColor: '#00486C' }}
+    >
+      <div className='pr3-ns mb4 mb0-ns w-100 w-40-ns'>
+        <Img fluid={data.innovation1.childImageSharp.fluid} className='w-100' />
       </div>
-      <div className="w-100 w-60-ns pl3-ns flex items-center measure center">
-        <div className="pt4 pb5 ph3 ph0-ns">
-          <Paragraph className="white ">
-            The program is divided in five different phases where the length of each stage depends on the need of your
-            startup and is defined at the beginning of the program. During the accelerator, you will follow our Swiss
-            Startup Factory Company Building Playbook and work in numerous one-on-one sessions with our experienced
-            team, excellent mentors and industry partners to validate all your hypotheses.
+      <div className='w-100 w-60-ns pl3-ns flex items-center measure center'>
+        <div className='pt4 pb5 ph3 ph0-ns'>
+          <Paragraph className='white '>
+            The program is divided in five different phases where the length of
+            each stage depends on the need of your startup and is defined at the
+            beginning of the program. During the accelerator, you will follow
+            our Swiss Startup Factory Company Building Playbook and work in
+            numerous one-on-one sessions with our experienced team, excellent
+            mentors and industry partners to validate all your hypotheses.
           </Paragraph>
-          <Paragraph className="white ">
-            In order to continue the program, you need to convince an internal and external jury of the potential of
-            your business in three milestones.
+          <Paragraph className='white '>
+            In order to continue the program, you need to convince an internal
+            and external jury of the potential of your business in three
+            milestones.
           </Paragraph>
-          <Paragraph className="white b">Applications for the program are accepted on a rolling basis.</Paragraph>
-          <Link to="/accelerator-faq">
-            <div className="button-blue" style={{ boxShadow: 'none' }}>
+          <Paragraph className='white b'>
+            Applications for the program are accepted on a rolling basis.
+          </Paragraph>
+          <Link to='/accelerator-faq'>
+            <div className='button-blue' style={{ boxShadow: 'none' }}>
               Accelerator FAQ's
             </div>
           </Link>
@@ -134,12 +149,12 @@ const InvestmentPortfolio = ({ data }) => (
     <Wrapper>
       <Title>Key Facts</Title>
     </Wrapper>
-    <div className="flex flex-column flex-row-ns mt5 mb6">
-      <div className="mb4 mb0-ns w-100 w-40-ns">
-        <Img fluid={data.innovation2.childImageSharp.fluid} className="w-100" />
+    <div className='flex flex-column flex-row-ns mt5 mb6'>
+      <div className='mb4 mb0-ns w-100 w-40-ns'>
+        <Img fluid={data.innovation2.childImageSharp.fluid} className='w-100' />
       </div>
-      <div className="w-100 w-60-ns pl3-ns flex justify-center">
-        <div className="pa4">
+      <div className='w-100 w-60-ns pl3-ns flex justify-center'>
+        <div className='pa4'>
           <h3>Location: Zurich, Switzerland</h3>
           <ul>
             <List>Program duration: 10 - 16 Weeks</List>
@@ -147,7 +162,10 @@ const InvestmentPortfolio = ({ data }) => (
             <List>All Industries welcome</List>
             <List>Contribution: 15k CHF</List>
             <List>Equity: Based on your assessment of the program</List>
-            <List>3 Milestones: Customer Fit, Market Traction & Investment Suitability</List>
+            <List>
+              3 Milestones: Customer Fit, Market Traction & Investment
+              Suitability
+            </List>
           </ul>
         </div>
       </div>
@@ -156,40 +174,42 @@ const InvestmentPortfolio = ({ data }) => (
       <Title>Requirements</Title>
     </Wrapper>
     <Wrapper>
-      <article className="cf mb6 mt6 flex-ns items-center">
-        <div className="fl tl w-100 w-50-ns pa3-s pa3-m pl4-l">
-          <Check className="lh-copy">
-            Your team must be offering a mix of business and technical expertise, and previous startup experience is a
-            plus
+      <article className='cf mb6 mt6 flex-ns items-center'>
+        <div className='fl tl w-100 w-50-ns pa3-s pa3-m pl4-l'>
+          <Check className='lh-copy'>
+            Your team must be offering a mix of business and technical
+            expertise, and previous startup experience is a plus
           </Check>
         </div>
-        <div className="fl w-100 w-50-ns tc flex justify-center">
-          <div className="backgroundgrowth">
-            <img src={Startup1} alt="" title="" />
+        <div className='fl w-100 w-50-ns tc flex justify-center'>
+          <div className='backgroundgrowth'>
+            <img src={Startup1} alt='' title='' />
           </div>
         </div>
       </article>
-      <article className="cf mb6 mt6 flex flex-column-reverse flex-row-ns items-center">
-        <div className="fl w-100 w-50-ns tc flex justify-center">
-          <div className="backgroundgrowth">
-            <img src={Startup2} alt="" title="" />
+      <article className='cf mb6 mt6 flex flex-column-reverse flex-row-ns items-center'>
+        <div className='fl w-100 w-50-ns tc flex justify-center'>
+          <div className='backgroundgrowth'>
+            <img src={Startup2} alt='' title='' />
           </div>
         </div>
-        <div className="fl tl w-100 w-50-ns pa3-s pa3-m pl4-l">
-          <Check className="lh-copy">
-            The business model must be scalable and the product should have some sort of intellectual property
+        <div className='fl tl w-100 w-50-ns pa3-s pa3-m pl4-l'>
+          <Check className='lh-copy'>
+            The business model must be scalable and the product should have some
+            sort of intellectual property
           </Check>
         </div>
       </article>
-      <article className="cf mb6 mt6 flex-ns items-center">
-        <div className="fl tl w-100 w-50-ns pa3-s pa3-m pl4-l">
-          <Check className="lh-copy">
-            We look for startups with at least proof of concept with a well-functioning MVP
+      <article className='cf mb6 mt6 flex-ns items-center'>
+        <div className='fl tl w-100 w-50-ns pa3-s pa3-m pl4-l'>
+          <Check className='lh-copy'>
+            We look for startups with at least proof of concept with a
+            well-functioning MVP
           </Check>
         </div>
-        <div className="fl w-100 w-50-ns tc flex justify-center">
-          <div className="backgroundgrowth">
-            <img src={Startup3} alt="" title="" />
+        <div className='fl w-100 w-50-ns tc flex justify-center'>
+          <div className='backgroundgrowth'>
+            <img src={Startup3} alt='' title='' />
           </div>
         </div>
       </article>
@@ -211,40 +231,55 @@ const InvestmentPortfolio = ({ data }) => (
     </Wrapper>
     <Slider />
     <Wrapper>
-      <div className="tabrow mv5">
-        <article className="center pa3 pa4-ns">
-          <div className="tc">
-            <Img fluid={data.stories1.childImageSharp.fluid} className="br-100 h4 w4 dib pa2" title="" alt="" />
-            <h3 className="f5 mv3">IDUN Technologies</h3>
-            <a href="https://iduntechnologies.ch" target="_blank">
+      <div className='tabrow mv5'>
+        <article className='center pa3 pa4-ns'>
+          <div className='tc'>
+            <Img
+              fluid={data.stories1.childImageSharp.fluid}
+              className='br-100 h4 w4 dib pa2'
+              title=''
+              alt=''
+            />
+            <h3 className='f5 mv3'>IDUN Technologies</h3>
+            <a href='https://iduntechnologies.ch' target='_blank'>
               <h4>iduntechnologies.ch</h4>
             </a>
           </div>
         </article>
-        <article className="center pa3 pa4-ns">
-          <div className="tc">
-            <Img fluid={data.stories2.childImageSharp.fluid} className="br-100 h4 w4 dib pa2" title="" alt="" />
-            <h3 className="f5 mv3">Martin from Snowcookie</h3>
-            <a href="https://snowcookie.eu" target="_blank">
+        <article className='center pa3 pa4-ns'>
+          <div className='tc'>
+            <Img
+              fluid={data.stories2.childImageSharp.fluid}
+              className='br-100 h4 w4 dib pa2'
+              title=''
+              alt=''
+            />
+            <h3 className='f5 mv3'>Martin from Snowcookie</h3>
+            <a href='https://snowcookie.eu' target='_blank'>
               <h4>snowcookie.eu</h4>
             </a>
           </div>
         </article>
-        <article className="center pa3 pa4-ns">
-          <div className="tc">
-            <Img fluid={data.stories3.childImageSharp.fluid} className="br-100 h4 w4 dib pa2" title="" alt="" />
-            <h3 className="f5 mv3">Flurin from StruckD</h3>
-            <a href="https://strukd.com" target="_blank">
+        <article className='center pa3 pa4-ns'>
+          <div className='tc'>
+            <Img
+              fluid={data.stories3.childImageSharp.fluid}
+              className='br-100 h4 w4 dib pa2'
+              title=''
+              alt=''
+            />
+            <h3 className='f5 mv3'>Flurin from StruckD</h3>
+            <a href='https://strukd.com' target='_blank'>
               <h4>struckd.com</h4>
             </a>
           </div>
         </article>
       </div>
       <Form />
-      <div className="containerinvestors mv6">
+      <div className='containerinvestors mv6'>
         <Contact>Specific Questions?</Contact>
-        <a href="mailto:chris.bargholz@ssuf.ch">
-          <div className="button-blue">Contact us!</div>
+        <a href='mailto:info@ssuf.ch'>
+          <div className='button-blue'>Contact us!</div>
         </a>
       </div>
     </Wrapper>
@@ -257,49 +292,76 @@ export const query = graphql`
   query {
     portfolio: file(relativePath: { eq: "images/startup-accelerator.jpg" }) {
       childImageSharp {
-        fluid(maxWidth: 1500, traceSVG: { background: "#fff", color: "lightgrey" }) {
+        fluid(
+          maxWidth: 1500
+          traceSVG: { background: "#fff", color: "lightgrey" }
+        ) {
           ...GatsbyImageSharpFluid_tracedSVG
         }
       }
     }
-    innovation1: file(relativePath: { eq: "images/startup-accelerator-1.jpg" }) {
+    innovation1: file(
+      relativePath: { eq: "images/startup-accelerator-1.jpg" }
+    ) {
       childImageSharp {
-        fluid(maxWidth: 1500, traceSVG: { background: "#fff", color: "lightgrey" }) {
+        fluid(
+          maxWidth: 1500
+          traceSVG: { background: "#fff", color: "lightgrey" }
+        ) {
           ...GatsbyImageSharpFluid_tracedSVG
         }
       }
     }
-    innovation2: file(relativePath: { eq: "images/startup-accelerator-2.jpg" }) {
+    innovation2: file(
+      relativePath: { eq: "images/startup-accelerator-2.jpg" }
+    ) {
       childImageSharp {
-        fluid(maxWidth: 1500, traceSVG: { background: "#fff", color: "lightgrey" }) {
+        fluid(
+          maxWidth: 1500
+          traceSVG: { background: "#fff", color: "lightgrey" }
+        ) {
           ...GatsbyImageSharpFluid_tracedSVG
         }
       }
     }
-    background: file(relativePath: { eq: "images/startup-accelerator-background.jpg" }) {
+    background: file(
+      relativePath: { eq: "images/startup-accelerator-background.jpg" }
+    ) {
       childImageSharp {
-        fluid(maxWidth: 1500, traceSVG: { background: "#fff", color: "lightgrey" }) {
+        fluid(
+          maxWidth: 1500
+          traceSVG: { background: "#fff", color: "lightgrey" }
+        ) {
           ...GatsbyImageSharpFluid_tracedSVG
         }
       }
     }
     stories1: file(relativePath: { eq: "images/idun.jpg" }) {
       childImageSharp {
-        fluid(maxWidth: 500, traceSVG: { background: "#fff", color: "lightgrey" }) {
+        fluid(
+          maxWidth: 500
+          traceSVG: { background: "#fff", color: "lightgrey" }
+        ) {
           ...GatsbyImageSharpFluid_tracedSVG
         }
       }
     }
     stories2: file(relativePath: { eq: "images/snowcookie.jpg" }) {
       childImageSharp {
-        fluid(maxWidth: 500, traceSVG: { background: "#fff", color: "lightgrey" }) {
+        fluid(
+          maxWidth: 500
+          traceSVG: { background: "#fff", color: "lightgrey" }
+        ) {
           ...GatsbyImageSharpFluid_tracedSVG
         }
       }
     }
     stories3: file(relativePath: { eq: "images/struckd.jpg" }) {
       childImageSharp {
-        fluid(maxWidth: 500, traceSVG: { background: "#fff", color: "lightgrey" }) {
+        fluid(
+          maxWidth: 500
+          traceSVG: { background: "#fff", color: "lightgrey" }
+        ) {
           ...GatsbyImageSharpFluid_tracedSVG
         }
       }
