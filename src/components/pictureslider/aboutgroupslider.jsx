@@ -5,12 +5,10 @@ import '../../styles/pagetransitionabout.css';
 import Mike from '../../../static/teamssuf/mike_baur.jpg';
 import Oli from '../../../static/teamssuf/walzer_oliver.jpg';
 import Max from '../../../static/teamssuf/max_meister.jpg';
-import Sandra from '../../images/sandra.jpg';
 import Sonam from '../../images/sonam.jpg';
 import Desiree from '../../images/desiree.jpg';
 import Larissa from '../../images/larissa.jpg';
 import Jeroen from '../../images/jeroen_herman.jpg';
-import Kirill from '../../images/kirill_babich.jpg';
 // import Emanuele from '../../images/emanuele.jpg';
 // import Keith from '../../../static/teamssuf/keith.jpg';
 // import Daniel from '../../../static/teamssuf/daniel.jpg';
@@ -258,57 +256,7 @@ const pages = [
       </div>
     </animated.div>
   ),
-
-  style => (
-    <animated.div style={{ ...style }} className='flex flex-column flex-row-ns'>
-      <div className='pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center'>
-        <img src={Kirill} alt='' style={{ maxHeight: '600px' }} />
-      </div>
-      <div className='w-100 w-60-ns pl3-ns flex items-center justify-center'>
-        <div className='paddingfoundersabout'>
-          <h4 className='mb1 dimgray'>Venture Builder</h4>
-          <h3>Kirill Babich</h3>
-          <div className='flex'>
-            <dl className='lh-title pr1-s pr2-m pr4-l mt0'>
-              <dt className='f6 b'>Always goes</dt>
-              <dd className='ml0 mb3'>
-                Investing time and money into innovative ideas
-              </dd>
-              <dt className='f6 b mt2'>Never without</dt>
-              <dd className='ml0 mb3'>Confidence and faith</dd>
-              <dt className='f6 b mt2'>As a child, I wanted to be</dt>
-              <dd className='ml0 mb3'>Investment banker</dd>
-              <dt className='f6 b mt2'>Secret tip</dt>
-              <dd className='ml0 mb3'>
-                Never give up, never give in. Everything is possible, the
-                impossible simply takes more time.
-              </dd>
-            </dl>
-            <dl className='lh-title mt0'>
-              <dt className='f6 b mt2'>I can do best</dt>
-              <dd className='ml0 mb3'>
-                Exceeding the limits of what is possible in order to achieve the
-                impossible
-              </dd>
-              <dt className='f6 b mt2'>I’m not good at</dt>
-              <dd className='ml0 mb3'>
-                Losing or giving up on something important to me
-              </dd>
-              <dt className='f6 b mt2'>Unbelievable but true</dt>
-              <dd className='ml0 mb3'>
-                Started my first business at age of 15
-              </dd>
-              <dt className='f6 b mt2'>I like</dt>
-              <dd className='ml0 mb3'>
-                Disruptive innovations and new technology
-              </dd>
-            </dl>
-          </div>
-          <span className='arrows' />
-        </div>
-      </div>
-    </animated.div>
-  ),
+  
   style => (
     <animated.div style={{ ...style }} className='flex flex-column flex-row-ns'>
       <div className='pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center'>
@@ -345,44 +293,7 @@ const pages = [
       </div>
     </animated.div>
   ),
-  style => (
-    <animated.div style={{ ...style }} className='flex flex-column flex-row-ns'>
-      <div className='pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center'>
-        <img src={Sandra} alt='' style={{ maxHeight: '600px' }} />
-      </div>
-      <div className='w-100 w-60-ns pl3-ns flex items-center justify-center'>
-        <div className='paddingfoundersabout'>
-          <h4 className='mb1 dimgray'>Head of Marketing</h4>
-          <h3>Sandra Kobel</h3>
-          <div className='flex'>
-            <dl className='lh-title pr1-s pr2-m pr4-l mt0'>
-              <dt className='f6 b'>I like</dt>
-              <dd className='ml0 mb3'>Deep talk and good laugther </dd>
-              <dt className='f6 b mt2'>Passion</dt>
-              <dd className='ml0 mb3'>explore something new and unknown</dd>
-              <dt className='f6 b mt2'>You didn't know that about me</dt>
-              <dd className='ml0 mb3'>
-                never played any kind of a muscial instrument
-              </dd>
-              <dt className='f6 b mt2'>Secret tip</dt>
-              <dd className='ml0 mb3'>Playa Junquillal in Costa Rica</dd>
-            </dl>
-            <dl className='lh-title mt0'>
-              <dt className='f6 b mt2'>My Charisma</dt>
-              <dd className='ml0 mb3'>Audrey Hepburn</dd>
-              <dt className='f6 b mt2'>No-Go</dt>
-              <dd className='ml0 mb3'>dishonest people</dd>
-              <dt className='f6 b mt2'>I've always wanted to</dt>
-              <dd className='ml0 mb3'>visit tibet</dd>
-              <dt className='f6 b mt2'>Take time off with</dt>
-              <dd className='ml0 mb3'>Sports, nights out, travel</dd>
-            </dl>
-          </div>
-          <span className='arrows' />
-        </div>
-      </div>
-    </animated.div>
-  ),
+  
   style => (
     <animated.div style={{ ...style }} className='flex flex-column flex-row-ns'>
       <div className='pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center'>
