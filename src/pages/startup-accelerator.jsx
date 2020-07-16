@@ -85,7 +85,7 @@ const InvestmentPortfolio = ({ data }) => (
     >
       <div className='tc'>
         <Head className='pa1'>Swiss Startup Factory - Startup Accelerator</Head>
-        <div>
+        {/*  <div>
           <HeaderSmall>Upload your pitch deck now</HeaderSmall>
 
           <a href='https://ssuf.typeform.com/to/BPDGQ9'>
@@ -93,7 +93,7 @@ const InvestmentPortfolio = ({ data }) => (
               APPLY TO OUR CUSTOMIZED ACCELERATOR PROGRAM
             </div>
           </a>
-        </div>
+        </div> */}
         {/*           <a href="https://ssuf.typeform.com/to/BPDGQ9"><div className="button-blue" style={{boxShadow: "none"}}>Apply now</div></a>
          */}{' '}
       </div>

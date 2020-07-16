@@ -46,7 +46,8 @@ const Button = styled.button`
 `;
 
 const CustomForm = ({ status, message, onValidated }) => {
-  let email; let name;
+  let email;
+  let name;
   const submit = () =>
     email &&
     name &&
@@ -58,12 +59,20 @@ const CustomForm = ({ status, message, onValidated }) => {
 
   return (
     <div>
-      {status === 'sending' && <div style={{ color: 'blue', paddingRight: '15px' }}>sending...</div>}
+      {status === 'sending' && (
+        <div style={{ color: 'blue', paddingRight: '15px' }}>sending...</div>
+      )}
       {status === 'error' && (
-        <div style={{ color: 'red', paddingRight: '15px' }} dangerouslySetInnerHTML={{ __html: message }} />
+        <div
+          style={{ color: 'red', paddingRight: '15px' }}
+          dangerouslySetInnerHTML={{ __html: message }}
+        />
       )}
       {status === 'success' && (
-        <div style={{ color: 'green', paddingRight: '15px' }} dangerouslySetInnerHTML={{ __html: message }} />
+        <div
+          style={{ color: 'green', paddingRight: '15px' }}
+          dangerouslySetInnerHTML={{ __html: message }}
+        />
       )}
       <Form>
         <input
@@ -74,9 +83,9 @@ const CustomForm = ({ status, message, onValidated }) => {
             backgroundColor: 'rgba(26, 27, 31, .15)',
             borderStyle: 'none',
           }}
-          ref={node => (name = node)}
-          type="text"
-          placeholder="Name"
+          ref={(node) => (name = node)}
+          type='text'
+          placeholder='Name'
         />
         <br />
         <input
@@ -87,12 +96,17 @@ const CustomForm = ({ status, message, onValidated }) => {
             backgroundColor: 'rgba(26, 27, 31, .15)',
             borderStyle: 'none',
           }}
-          ref={node => (email = node)}
-          type="email"
-          placeholder="Email Address"
+          ref={(node) => (email = node)}
+          type='email'
+          placeholder='Email Address'
         />
         <br />
-        <Button id="cta-subscribe-submit" onClick={submit} className="button-blue" style={{ padding: '0' }}>
+        <Button
+          id='cta-subscribe-submit'
+          onClick={submit}
+          className='button-blue'
+          style={{ padding: '0' }}
+        >
           Subscribe Now
         </Button>
       </Form>
@@ -107,14 +121,15 @@ class Demo extends Component {
         <Container>
           <Top>Stay up to date!</Top>
           <Bottom>
-            <Span href="/">Subscribe</Span> to our exclusive list.
+            <Span style={{ textDecoration: 'underline' }}>Subscribe</Span> to
+            our exclusive list.
           </Bottom>
           <div>
             <HubspotForm
-              portalId="6396166"
-              formId="dbefc438-68b1-4e4b-9101-b629c92494c6"
+              portalId='6396166'
+              formId='dbefc438-68b1-4e4b-9101-b629c92494c6'
               onSubmit={() => console.log('Submit!')}
-              onReady={form => console.log('Form ready!')}
+              onReady={(form) => console.log('Form ready!')}
               loading={<div>Loading...</div>}
             />
           </div>

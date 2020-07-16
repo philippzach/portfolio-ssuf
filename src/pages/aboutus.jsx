@@ -6,6 +6,7 @@ import Img from 'gatsby-image';
 import '../styles/pages/about.css';
 import FounderSlider from '../components/pictureslider/aboutgroupslider';
 import AdvisorSlider from '../components/pictureslider/aboutadvisorslider';
+import AdvisorGroup from '../components/pictureslider/aboutadvisorslidergroup';
 import Seo from '../components/SEO/index';
 import Partners from '../components/Partners';
 import FlipCards from '../components/Values/index';
@@ -19,7 +20,7 @@ const Test = styled.div`
 `;
 const Profile = {
   height: '9em',
-  width: '9em'
+  width: '9em',
 };
 
 const AboutUs = ({ data }) => (
@@ -95,7 +96,7 @@ const AboutUs = ({ data }) => (
           </article>
         </div>
         <div className='tabrow'>
-          <article className='center pa3 pa4-ns'>
+          {/*  <article className='center pa3 pa4-ns'>
             <div className='tc'>
               <Img
                 fluid={data.about9.childImageSharp.fluid}
@@ -136,6 +137,8 @@ const AboutUs = ({ data }) => (
               <h4 className='f6 fw4 gray mt0'>Head of Company Building</h4>
             </div>
           </article>
+        </div>
+        <div className='tabrow'>
           <article className='center pa3 pa4-ns'>
             <div className='tc'>
               <Img
@@ -149,8 +152,6 @@ const AboutUs = ({ data }) => (
               <h4 className='f6 fw4 gray mt0'>Head of Marketing</h4>
             </div>
           </article>
-        </div>
-        <div className='tabrow'>
           <article className='center pa3 pa4-ns'>
             <div className='tc'>
               <Img
@@ -179,8 +180,35 @@ const AboutUs = ({ data }) => (
                 <br /> Manager
               </h4>
             </div>
+          </article> */}
+        </div>
+        <div className='tabrow'>
+          <article className='center pa3 pa4-ns'>
+            <div className='tc'>
+              <Img
+                fluid={data.about12.childImageSharp.fluid}
+                className='br-100 dib '
+                style={Profile}
+                title=''
+                alt=''
+              />
+              <h3 className='f5 mb2'>Simon Koch</h3>
+              <h4 className='f6 fw4 gray mt0'>CEO</h4>
+            </div>
           </article>
-
+          <article className='center pa3 pa4-ns'>
+            <div className='tc'>
+              <Img
+                fluid={data.tech.childImageSharp.fluid}
+                className='br-100 dib '
+                style={Profile}
+                title=''
+                alt=''
+              />
+              <h3 className='f5 mb2'>Edgar Kussberg</h3>
+              <h4 className='f6 fw4 gray mt0'>CPO</h4>
+            </div>
+          </article>
           <article className='center pa3 pa4-ns'>
             <div className='tc'>
               <Img
@@ -197,22 +225,23 @@ const AboutUs = ({ data }) => (
               </h4>
             </div>
           </article>
-          <article className='center pa3 pa4-ns'>
-            <div className='tc'>
-              <Img
-                fluid={data.about12.childImageSharp.fluid}
-                className='br-100 dib '
-                style={Profile}
-                title=''
-                alt=''
-              />
-              <h3 className='f5 mb2'>Simon Koch</h3>
-              <h4 className='f6 fw4 gray mt0'>Growth Hacking</h4>
-            </div>
-          </article>
         </div>
       </div>
     </div>
+    <Wrapper style={{ paddingTop: '5em', paddingBottom: '3em' }}>
+      <Title>Advisory Board</Title>
+      {/* <div className='containertitleabout mv6'>
+        <h2 className='lh-title'>World Class Advisors</h2>
+        <p className='lh-copy'>
+          Our advisors team consists of experts from all fields with diverse
+          backgrounds. Get to know them:
+        </p>
+      </div> */}
+    </Wrapper>
+    <AdvisorGroup />
+    <Wrapper>
+      <Partners />
+    </Wrapper>
     <Wrapper style={{ paddingTop: '5em', paddingBottom: '3em' }}>
       <Title>Mentors</Title>
       <div className='containertitleabout mv6'>
@@ -225,9 +254,6 @@ const AboutUs = ({ data }) => (
     </Wrapper>
     <AdvisorSlider />
     <Mentors data={data} />
-    <Wrapper>
-      <Partners />
-    </Wrapper>
   </Layout>
 );
 
@@ -385,6 +411,27 @@ export const query = graphql`
         }
       }
     }
+    about17: file(relativePath: { eq: "images/vuk.jpg" }) {
+      childImageSharp {
+        fluid(
+          maxWidth: 1500
+          traceSVG: { background: "#fff", color: "lightgrey" }
+        ) {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
+      }
+    }
+    tech: file(relativePath: { eq: "images/edgar.jpg" }) {
+      childImageSharp {
+        fluid(
+          maxWidth: 1500
+          traceSVG: { background: "#fff", color: "lightgrey" }
+        ) {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
+      }
+    }
+
     mentor1: file(relativePath: { eq: "images/mentors-sm/mentor-sm-1.jpg" }) {
       childImageSharp {
         fluid(
